@@ -1,0 +1,128 @@
+
+PLSLiveInfoBase > #contentBorder > #content #platformNameLabel {
+	min-height:/*hdpi*/ 27px;
+	max-height:/*hdpi*/ 27px;
+	font-size:/*hdpi*/ 20px;
+	color:white;
+	font-weight:bold;
+}
+
+PLSLiveInfoBase > #contentBorder > #content #labelOpen,
+PLSLiveInfoBase > #contentBorder > #content #labelTitle, 
+PLSLiveInfoBase > #contentBorder > #content #gameLabel
+{
+	min-height:/*hdpi*/ 18px;
+	max-height:/*hdpi*/ 18px;
+	min-width:/*hdpi*/ 116px;
+	max-width:/*hdpi*/ 116px;
+	font-size:/*hdpi*/ 14px;
+	color:#bababa;
+	font-weight:bold;
+}
+
+PLSLiveInfoBase > #contentBorder > #content #labelDescription {
+	min-height:/*hdpi*/ 120px;
+	max-height:/*hdpi*/ 120px;
+	min-width:/*hdpi*/ 116px;
+	max-width:/*hdpi*/ 116px;
+	font-size:/*hdpi*/ 14px;
+	color:#bababa;
+	font-weight:bold;
+}
+
+PLSLiveInfoFacebook #shareFirstObject,
+PLSLiveInfoFacebook #shareSecondObject {
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	min-width:/*hdpi*/	272px;
+	max-width:/*hdpi*/	272px;
+}
+
+PLSLiveInfoBase > #contentBorder > #content #titleField {
+	min-height: /*hdpi*/40px;
+	max-height: /*hdpi*/40px;
+	font-size:/*hdpi*/14px;
+	color:white;
+	background-color:#1e1e1e;
+}
+
+PLSLiveInfoFacebook #gameLineEdit {
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	font-size:/*hdpi*/14px;
+	background-color:#1e1e1e;
+	padding-right:/*hdpi*/65px;
+	color:white;
+}
+
+PLSLiveInfoFacebook #gameLineEdit #clearButton {
+	image: url(:/images/ic-scene-delete-normal.svg);
+	min-width:/*hdpi*/22px;
+	max-width:/*hdpi*/22px;
+	min-height:/*hdpi*/22px;
+	max-height:/*hdpi*/22px;
+	background-color:transparent;
+}
+
+PLSLiveInfoFacebook #gameLineEdit #searchButton {
+	image: url(:/images/btn-search-normal.svg);
+	min-width:/*hdpi*/22px;
+	max-width:/*hdpi*/22px;
+	min-height:/*hdpi*/22px;
+	max-height:/*hdpi*/22px;
+	background-color:transparent;
+}
+
+PLSLiveInfoFacebook #descriptionTitle {
+	min-height:/*hdpi*/ 120px;
+	max-height:/*hdpi*/ 120px;
+	font-size:/*hdpi*/14px;
+	border-radius:/*hdpi*/ 3px;
+	background-color:#1e1e1e;
+}
+
+PLSLiveInfoFacebook #descriptionTitle:focus {
+	border:/*hdpi*/ 1px solid #effc35;
+}
+
+PLSLiveInfoFacebook #lineView {
+	min-height:/*hdpi*/1px;
+	max-height:/*hdpi*/1px;
+	background-color:#151515;
+}
+
+PLSLiveInfoFacebook #gameListWidget {
+	border-width: /*hdpi*/1px;
+	border-style:solid;
+	border-color:#111111;
+	border-radius:/*hdpi*/ 3px;
+	background-color:#2d2d2d;
+    padding:/*hdpi*/1px;
+}
+
+PLSLiveInfoFacebook #gameListWidget::item {
+	background-color:transparent;
+	color:white;
+	font:/*hdpi*/14px;
+	padding:/*hdpi*/10px;
+	border-radius:/*hdpi*/ 0px;
+}
+
+PLSLiveInfoFacebook #gameListWidget::item:hover {
+    background-color: #444444;
+}
+
+PLSLiveInfoFacebook #gameListWidget::item:selected:hover {
+    background-color: #444444;
+}
+
+PLSLiveInfoFacebook #gameListWidget::item:selected {
+    background-color: #373737;
+	color:#effc35;
+}
+
+PLSLiveInfoFacebook #gameListWidget:focus {
+    outline:none;
+}
+
+

@@ -1,0 +1,218 @@
+
+
+PLSChannelsArea {
+	border-bottom: /*hdpi*/ 1px solid #111111;
+	border-top: /*hdpi*/ none;
+	background-color: #272727;
+	padding: /*hdpi*/ 0px;
+	margin: /*hdpi*/ 0px;
+	qproperty-maximumSize: /*hdpi*/ 9999999px /*hdpi*/ 70px;
+	qproperty-minimumSize: /*hdpi*/ 400px /*hdpi*/ 70px;
+}
+
+	PLSChannelsArea #HeaderFrame {
+		background-color: #272727;
+		margin: /*hdpi*/ 0px;
+		padding: /*hdpi*/ 0px;
+		padding-left: /*hdpi*/ 20px;
+		padding-right: /*hdpi*/ 4px;
+		border-right: /*hdpi*/ 1px solid #111111;
+		qproperty-maximumSize: /*hdpi*/ 142px /*hdpi*/ 68px;
+		qproperty-minimumSize: /*hdpi*/ 142px /*hdpi*/ 68px;
+	}
+
+	PLSChannelsArea #MyChannelsTxtBtn {
+		margin: /*hdpi*/ 0px;
+		padding: /*hdpi*/ 0px;
+		border: /*hdpi*/ 1px solid transparent;
+		background-color: transparent;
+		image: none;
+		min-height: /*hdpi*/ 30px;
+		max-height: /*hdpi*/ 30px;
+		font-size: /*hdpi*/ 14px;
+		font-weight: bold;
+		font-style: normal;
+		text-align: center right;
+		color: #ffffff;
+	}
+
+		PLSChannelsArea #MyChannelsTxtBtn:disabled {
+			color: #666666;
+		}
+
+	PLSChannelsArea #MyChannelsIconBtn {
+		margin: /*hdpi*/ 3px /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px;
+		padding: /*hdpi*/ 0px;
+		border: /*hdpi*/ 1px solid transparent;
+		background-color: transparent;
+		color: transparent;
+		min-height: /*hdpi*/ 30px;
+		max-height: /*hdpi*/ 30px;
+		min-width: /*hdpi*/ 22px;
+		image-position: center center;
+		image: url(":/images/icon-more-default.svg");
+	}
+
+
+		PLSChannelsArea #MyChannelsIconBtn:hover {
+			image: url(":/images/icon-more-over.svg");
+		}
+
+		PLSChannelsArea #MyChannelsIconBtn:pressed {
+			image: url(":/images/icon-more-click.svg");
+		}
+
+		PLSChannelsArea #MyChannelsIconBtn:disabled {
+			image: url(":/images/icon-more-disable.svg");
+		}
+
+	PLSChannelsArea #MidFrame {
+		border: /*hdpi*/ none;
+		padding: /*hdpi*/ 0px;
+		margin: /*hdpi*/ 0px;
+		background-color: #272727;
+		border-right: /*hdpi*/ 1px solid #111111;
+	}
+
+		PLSChannelsArea #MidFrame:disabled {
+			background-color: #272727;
+			qproperty-windowOpacity: /*hdpi*/ 0.4px;
+		}
+
+	PLSChannelsArea #ChannelScrollArea {
+		border: /*hdpi*/ none;
+		background-color: transparent;
+	}
+
+	PLSChannelsArea #scrollAreaWidgetContents {
+		background-color: transparent;
+		border: /*hdpi*/ none;
+	}
+
+	PLSChannelsArea #AddFrame {
+		border: /*hdpi*/ none;
+		background: transparent;
+		padding: /*hdpi*/ 0px;
+		margin: /*hdpi*/ 0px;
+	}
+
+	PLSChannelsArea #LeftButton {
+		min-width: /*hdpi*/ 8px;
+		max-width: /*hdpi*/ 15px;
+		min-height: /*hdpi*/ 15px;
+		max-height: /*hdpi*/ 15px;
+		margin: /*hdpi*/ 10px;
+		padding: /*hdpi*/ 0px;
+		image: url(":/images/ic-ch-pre-normal.svg");
+		background-color: transparent;
+		border: /*hdpi*/ none;
+	}
+
+		PLSChannelsArea #LeftButton:hover {
+			image: url(":/images/ic-ch-pre-over.svg");
+		}
+
+		PLSChannelsArea #LeftButton:pressed {
+			image: url(":/images/ic-ch-pre-click.svg");
+		}
+
+		PLSChannelsArea #LeftButton:disabled {
+			image: url(":/images/ic-ch-pre-disable.svg");
+		}
+
+	PLSChannelsArea #RightButton {
+		min-width: /*hdpi*/ 8px;
+		max-width: /*hdpi*/ 15px;
+		min-height: /*hdpi*/ 15px;
+		max-height: /*hdpi*/ 15px;
+		margin: /*hdpi*/ 10px;
+		padding: /*hdpi*/ 0px;
+		image: url(":/images/ic-ch-next-normal.svg");
+		background-color: transparent;
+		border: /*hdpi*/ none;
+	}
+
+		PLSChannelsArea #RightButton:hover {
+			image: url(":/images/ic-ch-next-over.svg");
+		}
+
+		PLSChannelsArea #RightButton:pressed {
+			image: url(":/images/ic-ch-next-click.svg");
+		}
+
+		PLSChannelsArea #RightButton:disabled {
+			image: url(":/images/ic-ch-next-disable.svg");
+		}
+
+
+	PLSChannelsArea PLSAddingFrame {
+		border-radius: /*hdpi*/ 3px;
+		border: /*hdpi*/ 1px solid rgba(255, 255, 255, 0.1);
+		background-color: rgba(39, 39, 39, 0.90);
+		padding: /*hdpi*/ 15px;
+	}
+
+		PLSChannelsArea PLSAddingFrame #PixLabel {
+			qproperty-maximumSize: /*hdpi*/ 24px /*hdpi*/ 24px;
+			qproperty-minimumSize: /*hdpi*/ 24px /*hdpi*/ 24px;
+		}
+
+		PLSChannelsArea PLSAddingFrame #TextLabel {
+			qproperty-maximumSize: /*hdpi*/ 122px /*hdpi*/ 24px;
+			font-size: /*hdpi*/ 14px;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+	PLSChannelsArea QToolTip {
+		margin: /*hdpi*/ 2px;
+		min-height: /*hdpi*/ 25px;
+	}
+
+	PLSChannelsArea #GotoAddWinButton {
+		padding-left: /*hdpi*/5px;
+		padding-right: /*hdpi*/5px;
+		min-width: /*hdpi*/ 180px;
+		min-height: /*hdpi*/ 22px;
+		font-size: /*hdpi*/ 15px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		color: #a8a8a8;
+		background-color: transparent;
+		border: none;
+	}
+
+		PLSChannelsArea #GotoAddWinButton:hover {
+			color: white;
+		}
+
+		PLSChannelsArea #GotoAddWinButton:pressed {
+			color: #666666;
+		}
+
+		PLSChannelsArea #GotoAddWinButton:disabled {
+			color: #666666;
+		}
+
+		PLSChannelsArea #GotoAddWinButton::indicator {
+			min-width: /*hdpi*/ 22px;
+			min-height: /*hdpi*/ 22px;
+			max-width: /*hdpi*/ 22px;
+			max-height: /*hdpi*/ 22px;
+			image: url(":/images/ChannelsSource/icon-addsource-default.svg");
+			background-color: transparent;
+			border: none;
+		}
+
+			PLSChannelsArea #GotoAddWinButton::indicator:hover {
+				image: url(":/images/ChannelsSource/icon-addsource-over.svg");
+			}
+
+			PLSChannelsArea #GotoAddWinButton::indicator:pressed {
+				image: url(":/images/ChannelsSource/icon-addsource-default.svg");
+			}
+
+			PLSChannelsArea #GotoAddWinButton::indicator:disabled {
+				image: url(":/images/ChannelsSource/icon-addsource-default.svg");
+			}

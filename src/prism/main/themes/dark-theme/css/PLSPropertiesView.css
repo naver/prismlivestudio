@@ -1,0 +1,1069 @@
+PLSPropertiesView QLabel {
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+}
+
+PLSPropertiesView #noPropertiesLabel {
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	color: #bababa;
+}
+
+PLSPropertiesView #content {
+	background-color: #272727;
+}
+
+PLSPropertiesView #lineedit {
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	background-color: #1e1e1e;
+	border-radius: /*hdpi*/ 3px;
+}
+
+PLSPropertiesView #checkbox{
+	min-height:/*hdpi*/ 20px;
+	max-height:/*hdpi*/ 20px;
+	font-size:/*hdpi*/ 14px;
+	color: #e1e1e1;
+	background-color: #272727;
+}
+
+PLSPropertiesView #browse {
+	padding: /*hdpi*/ 0px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	min-width: /*hdpi*/ 136px;
+	max-width: /*hdpi*/ 136px;
+}
+
+PLSPropertiesView #editableList {
+	border-radius: /*hdpi*/ 3px;
+	min-height: /*hdpi*/ 138px;
+	max-height: /*hdpi*/ 138px;
+	background-color: #1e1e1e;
+}
+
+PLSPropertiesView #propertyFileListContrl {
+	min-width: /*hdpi*/ 40px;
+	max-width: /*hdpi*/ 40px;
+	min-height: /*hdpi*/ 138px;
+	max-height: /*hdpi*/ 138px;
+	background-color: #1e1e1e;
+}
+
+PLSPropertiesView #editableList QPushButton {
+	background-color: #222222;
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+}
+
+PLSPropertiesView #fontLabel {
+	min-height: /*hdpi*/ 38px;
+	max-height: /*hdpi*/ 38px;
+	font-size: /*hdpi*/ 14px;
+        border-radius: /*hdpi*/ 3px;
+}
+
+PLSPropertiesView #baseColorLabel {
+	border-radius: /*hdpi*/ 3px;
+}
+
+PLSPropertiesView #spaceLabel {
+	background-color: #272727;
+}
+
+PLSPropertiesView #button {
+	padding-left: /*hdpi*/ 50px;
+	padding-right: /*hdpi*/ 50px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+}
+
+PLSPropertiesView QPushButton {
+	font-weight: normal;
+}
+
+PLSPropertiesView #spinBox{
+	background-color: #1e1e1e;
+}
+
+PLSPropertiesView #plainTextEdit {
+	background-color: #1e1e1e;
+	min-height: /*hdpi*/ 79px;
+	max-height: /*hdpi*/ 79px;
+}
+
+PLSPropertiesView #spinBox {
+	min-width: /*hdpi*/ 49px;
+}
+
+PLSPropertiesView #button1 {
+	padding: /*hdpi*/ 0px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	max-width: /*hdpi*/ 150px;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSPropertiesView #button2 {
+	padding: /*hdpi*/ 0px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	max-width: /*hdpi*/ 169px;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSPropertiesView #button3 {
+	padding: /*hdpi*/ 0px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	max-width: /*hdpi*/ 183px;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSPropertiesView #formLabel {
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	color: #bababa;
+	background-color: #272727;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+}
+
+PLSPropertiesView QListWidget {
+	background-color: #1e1e1e;
+	border: /*hdpi*/ none;
+	outline: none;
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSPropertiesView QListWidget::item {
+	border: none;
+	height: /*hdpi*/ 40px;
+	margin-top: /*hdpi*/ 1px;
+	margin-bottom: /*hdpi*/ 1px;
+	font-weight: normal;
+	color: #ffffff;
+	padding-right: /*hdpi*/ 12px;
+	padding-left: /*hdpi*/ 12px;
+}
+
+PLSPropertiesView QListWidget::item:selected {
+	background-color: #545454;
+	font-weight: bold;
+	color: #effc35;
+}
+
+PLSPropertiesView QListWidget::item:hover {
+	background-color: #444444;
+}
+
+PLSPropertiesView QListWidget::item:selected:hover {
+	background-color: #545454;
+}
+
+PLSPropertiesView QPushButton#propertyButtonAdd {
+	qproperty-minimumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	qproperty-maximumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	background-color: transparent;
+	image: url(":/images/icon-addsource-default.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonAdd:hover {
+	image: url(":/images/icon-addsource-over.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonAdd:pressed {
+	image: url(":/images/icon-addsource-click.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonAdd:disabled {
+	image: url(":/images/icon-addsource-disable.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonRemove {
+	qproperty-minimumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	qproperty-maximumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	background-color: transparent;
+	image: url(":/images/ic-delete-default.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonRemove:hover {
+	image: url(":/images/ic-delete-over.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonRemove:pressed {
+	image: url(":/images/ic-delete-click.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonRemove:disabled {
+	image: url(":/images/ic-delete-disable.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonConfige {
+	qproperty-minimumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	qproperty-maximumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	background-color: transparent;
+	image: url(":/images/ic-setting-s-normal.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonConfige:hover {
+	image: url(":/images/ic-setting-s-over.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonConfige:pressed {
+	image: url(":/images/ic-setting-s-click.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonConfige:disabled {
+	image: url(":/images/ic-setting-s-disable.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonMoveUp {
+	qproperty-minimumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	qproperty-maximumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	background-color: transparent;
+	image: url(":/images/ic-top-normal.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonMoveUp:hover {
+	image: url(":/images/ic-top-over.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonMoveUp:pressed {
+	image: url(":/images/ic-top-click.svg");
+}
+
+QPushButton#propertyButtonMoveUp:disabled {
+	image: url(":/images/ic-top-disable.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonMoveDown {
+	qproperty-minimumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	qproperty-maximumSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+	background-color: transparent;
+	image: url(":/images/ic-down-normal.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonMoveDown:hover {
+	image: url(":/images/ic-down-over.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonMoveDown:pressed {
+	image: url(":/images/ic-down-click.svg");
+}
+
+PLSPropertiesView QPushButton#propertyButtonMoveDown:disabled {
+	image: url(":/images/ic-down-disable.svg");
+}
+
+PLSPropertiesView #songCountLabel {
+	font-size: /*hdpi*/ 14px;
+	color: #bababa;
+	font-weight: bold;
+	min-height: /*hdpi*/ 18px;
+	max-height: /*hdpi*/ 18px;
+}
+
+PLSPropertiesView #songTipsLabel {
+	font-size: /*hdpi*/ 12px;
+	color: #666666;
+}
+
+PLSPropertiesView PLSPropertyMusicItem {
+	background-color: #1e1e1e;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+}
+
+PLSPropertiesView PLSPropertyMusicItem #additionalLabel{
+    background: transparent;
+	color: #ffffff;
+    font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+
+}
+
+PLSPropertiesView PLSPropertyMusicItem #producerLabel {
+	background: transparent;
+	color: #ffffff;
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+}
+
+PLSPropertiesView PLSPropertyMusicItem #durationLabel,
+PLSPropertiesView PLSPropertyMusicItem #orderLabel {
+	background: transparent;
+	color: #ffffff;
+    font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+}
+
+PLSPropertiesView PLSPropertyMusicItem #titleLabel[selected=true], PLSPropertiesView PLSPropertyMusicItem #durationLabel[selected=true],
+PLSPropertiesView PLSPropertyMusicItem #orderLabel[selected=true] {
+	color: #effc35;
+}
+
+PLSPropertiesView PLSPropertyMusicItem #titleLabel[selected=false], PLSPropertiesView PLSPropertyMusicItem #durationLabel[selected=false],
+PLSPropertiesView PLSPropertyMusicItem #orderLabel[selected=false] {
+	color: #ffffff;
+}
+
+PLSPropertiesView PLSPropertyMusicItem #titleLabel[pressed=true], PLSPropertiesView PLSPropertyMusicItem #durationLabel[pressed=true],
+PLSPropertiesView PLSPropertyMusicItem #orderLabel[pressed=true] {
+	font-weight: bold;
+}
+
+PLSPropertiesView PLSPropertyMusicItem #titleLabel[pressed=false], PLSPropertiesView PLSPropertyMusicItem #durationLabel[pressed=false],
+PLSPropertiesView PLSPropertyMusicItem #orderLabel[pressed=false] {
+	font-weight: normal;
+}
+
+PLSPropertiesView #frameContianer{
+	border-radius: /*hdpi*/ 3px;
+	min-height: /*hdpi*/ 120px;
+	max-height: /*hdpi*/ 120px;
+	background-color: #1e1e1e;
+	border: /*hdpi*/ none;
+}
+
+PLSPropertiesView #propertyMusicList {
+	background-color: #1e1e1e;
+	border: /*hdpi*/ none;
+}
+
+PLSPropertiesView #propertyMusicList::item {
+	background-color: #1e1e1e;
+	color: #ffffff;
+	padding-right: /*hdpi*/ 0px;
+	padding-left: /*hdpi*/ 0px;
+	margin-top: /*hdpi*/ 0px;
+	margin-bottom: /*hdpi*/ 0px;
+	border: 0px;
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSPropertiesView #propertyMusicList::item:selected {
+	background-color: transparent;
+	font-weight: bold;
+}
+
+PLSPropertiesView #propertyMusicList::item:hover {
+	background-color: transparent;
+}
+
+PLSPropertyMusicItem #playBtn {
+	min-height: /*hdpi*/ 16px;
+	max-height: /*hdpi*/ 16px;
+	min-width: /*hdpi*/ 16px;
+	max-width: /*hdpi*/ 16px;
+	border-radius: none;
+	background: transparent;
+}
+
+PLSPropertyMusicItem[status=hover] {
+	background-color: #444444;
+}
+
+PLSPropertyMusicItem[status=pressed] {
+	background-color: #222222;
+}
+
+PLSPropertyMusicItem[status=normal] {
+	background-color: #1e1e1f;
+}
+
+PLSPropertyMusicItem[status=normal] {
+	background-color: #1e1e1f;
+}
+
+PLSPropertyMusicItem #selectedBtn {
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22x;
+	background: transparent;
+	border-radius: none;
+	image: url(":/images/bgm/btn-add-playlist-done-normal.svg");
+}
+
+PLSPropertyMusicItem #selectedBtn:hover {
+	image: url(":/images/bgm/btn-add-playlist-done-over.svg");
+}
+
+PLSPropertyMusicItem #selectedBtn:pressed {
+	image: url(":/images/bgm/btn-add-playlist-done-click.svg");
+}
+
+PLSPropertyMusicItem #selectedBtn:!enable {
+	image: url(":/images/bgm/btn-add-playlist-done-disable.svg");
+}
+
+PLSPropertiesView PLSComboBox QLabel#itemLabel {
+	font-weight: normal;
+}
+
+PLSPropertiesView #chatTemplateList {
+	min-height: /*hdpi*/ 194px;
+	max-height: /*hdpi*/ 194px;
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_nameLabel {
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	color: #bababa;
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_descLabel {
+	font-size: /*hdpi*/ 12px;
+	font-weight: normal;
+	color: #666666;
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template {
+	min-width: /*hdpi*/ 158px;
+	max-width: /*hdpi*/ 158px;
+	min-height: /*hdpi*/ 158px;
+	max-height: /*hdpi*/ 158px;
+	border-radius: /*hdpi*/ 3px;
+	background: transparent;
+	border: none;
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template > #icon {
+	border-top-left-radius: /*hdpi*/ 3px;
+	border-top-right-radius: /*hdpi*/ 3px;
+	min-width: /*hdpi*/ 158px;
+	max-width: /*hdpi*/ 158px;
+	min-height: /*hdpi*/ 118px;
+	max-height: /*hdpi*/ 118px;
+	border: none;
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="1"] > #icon {
+	border-image: url(":/images/chat-source/img-style-1-normal.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="2"] > #icon {
+	border-image: url(":/images/chat-source/img-style-2-normal.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="3"] > #icon {
+	border-image: url(":/images/chat-source/img-style-3-normal.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="4"] > #icon {
+	border-image: url(":/images/chat-source/img-style-4-normal.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="1"] > #icon {
+	border-image: url(":/images/chat-source/img-style-1-en-normal.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="2"] > #icon {
+	border-image: url(":/images/chat-source/img-style-2-en-normal.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="3"] > #icon {
+	border-image: url(":/images/chat-source/img-style-3-en-normal.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="4"] > #icon {
+	border-image: url(":/images/chat-source/img-style-4-en-normal.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="1"][hovered="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-1-over.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="2"][hovered="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-2-over.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="3"][hovered="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-3-over.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="4"][hovered="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-4-over.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="1"][hovered="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-1-en-over.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="2"][hovered="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-2-en-over.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="3"][hovered="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-3-en-over.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="4"][hovered="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-4-en-over.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="1"][pressed="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-1-click.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="2"][pressed="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-2-click.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="3"][pressed="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-3-click.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="4"][pressed="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-4-click.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="1"][pressed="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-1-en-click.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="2"][pressed="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-2-en-click.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="3"][pressed="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-3-en-click.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="4"][pressed="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-4-en-click.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="1"][checked="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-1-select.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="2"][checked="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-2-select.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="3"][checked="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-3-select.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="ko-KR"][style="4"][checked="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-4-select.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="1"][checked="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-1-en-select.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="2"][checked="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-2-en-select.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="3"][checked="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-3-en-select.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[lang="en-US"][style="4"][checked="true"] > #icon {
+	border-image: url(":/images/chat-source/img-style-4-en-select.png");
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template > #text {
+	border-bottom-left-radius: /*hdpi*/ 3px;
+	border-bottom-right-radius: /*hdpi*/ 3px;
+	border: /*hdpi*/ 1px solid #353535;
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	color: #bababa;
+	padding-left: /*hdpi*/ 12px;
+	background: #2e2e2e;
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[hovered="true"] > #text {
+	border: /*hdpi*/ 1px solid #353535;
+	background: #444444;
+	color: white;
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[pressed="true"] > #text {
+	border: /*hdpi*/ 1px solid #353535;
+	background: #1e1e1e;
+	color: white;
+}
+
+PLSPropertiesView #chatTemplateList > #chatTemplateList_template[checked="true"] > #text {
+	border: /*hdpi*/ 1px solid #effc35;
+	background: #effc35;
+	color: black;
+}
+
+PLSPropertiesView #chatFontSize > #label {
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	color: #bababa;
+	background: transparent;
+}
+
+PLSPropertiesView #chatFontSize > #spinBox {
+	min-width: /*hdpi*/ 84px;
+	max-width: /*hdpi*/ 84px;
+}
+
+/*****text motion properties ****/
+
+PLSPropertiesView QWidget > #horiLine {
+	background-color: #12ffffff;
+	min-height: /*hdpi*/ 1px;
+	max-height: /*hdpi*/ 1px;
+}
+
+PLSPropertiesView #TMTabFrame {
+	border-bottom: /*hdpi*/ 1px solid #12ffffff;
+	min-height: /*hdpi*/ 48px;
+	max-height: /*hdpi*/ 48px;
+}
+
+PLSPropertiesView #TMTabButton {
+	border-radius: /*hdpi*/ 0px;
+	border: none;
+	background-color: transparent;
+	color: #bababa;
+	font-weight: normal;
+	font-size: /*hdpi*/ 14px;
+	qproperty-maximumSize: /*hdpi*/ 150px /*hdpi*/ 48px;
+	qproperty-minimumSize: /*hdpi*/ 150px /*hdpi*/ 48px;
+}
+
+PLSPropertiesView #propertyMusicList QScrollBar:vertical {
+	background-color: #1e1e1e;
+	min-width: /*hdpi*/ 10px;
+	max-width: /*hdpi*/ 10px;
+	margin: 0px;
+}
+
+PLSPropertiesView #propertyMusicList::item {
+	background-color: #1e1e1e;
+	color: #ffffff;
+	height:/*hdpi*/ 28px;
+	padding-right: /*hdpi*/ 0px;
+	padding-left: /*hdpi*/ 10px;
+	margin-top: /*hdpi*/ 0px;
+	margin-bottom: /*hdpi*/ 0px;
+	border: 0px;
+	font-weight: bold;
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSPropertiesView #propertyMusicList::item:hover {
+	background-color: #1e1e1e;
+}
+
+PLSPropertiesView PLSComboBox QLabel#itemLabel {
+	font-weight: normal;
+}
+
+PLSPropertiesView #TMTabButton:checked {
+	color: #effc35;
+	font-weight: bold;
+	border-bottom: /*hdpi*/ 2px solid #effc35;
+}
+
+PLSPropertiesView #TMTabTemplistFrame {
+	border: none;
+	min-height: /*hdpi*/ 35px;
+	max-height: /*hdpi*/ 35px;
+}
+
+PLSPropertiesView #TMTabTemplistBtn {
+	border: none;
+	background-color: transparent;
+	font-weight: bold;
+	qproperty-maximumSize: /*hdpi*/ 95px /*hdpi*/ 35px;
+	qproperty-minimumSize: /*hdpi*/ 95px /*hdpi*/ 35px;
+}
+
+PLSPropertiesView #TMTabTemplistBtn:checked {
+	color: #effc35;
+	border-radius: /*hdpi*/ 17px;
+	background-color: #444444;
+}
+
+PLSPropertiesView #tmLabel {
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	color: #ffffff;
+	height: /*hdpi*/ 18px;
+}
+PLSPropertiesView #subLabel {
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	color: #bababa;
+	min-width: /*hdpi*/ 128px;
+}
+PLSPropertiesView #sliderLabel, PLSPropertiesView #bk_outlineLabel {
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	color: #bababa;
+}
+PLSPropertiesView #sliderLabel:disabled {
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	color: #666666;
+}
+PLSPropertiesView #colorFrame, PLSPropertiesView #outLineFrame {
+	min-width: /*hdpi*/ 128px;
+}
+PLSPropertiesView #Label_TMHLButton, PLSPropertiesView #Label_TMHCButton, PLSPropertiesView #Label_TMHRButton {
+	background-color: transparent;
+	qproperty-maximumSize: /*hdpi*/ 13px /*hdpi*/ 13px;
+	qproperty-minimumSize: /*hdpi*/ 13px /*hdpi*/ 13px;
+}
+
+PLSPropertiesView #Label_TMHLButton[checked="true"] {
+	image: url(":/images/text-template/txt-source-align-left-on-default.svg");
+}
+PLSPropertiesView #Label_TMHLButton[checked="false"] {
+	image: url(":/images/text-template/txt-source-align-left-off-default.svg");
+}
+PLSPropertiesView #Label_TMHLButton[checked="true"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-align-left-on-over.svg");
+}
+PLSPropertiesView #Label_TMHLButton[checked="false"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-align-left-off-over.svg");
+}
+PLSPropertiesView #Label_TMHLButton[checked="true"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-align-on-click.svg");
+}
+PLSPropertiesView #Label_TMHLButton[checked="false"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-align-left-off-click.svg");
+}
+PLSPropertiesView #Label_TMHLButton[checked="false"][enabled="false"] {
+	image: url(":/images/text-template/txt-source-align-left-off-disable.svg");
+}
+
+
+PLSPropertiesView #Label_TMHCButton[checked="true"] {
+	image: url(":/images/text-template/txt-source-align-center-on-default.svg");
+}
+
+PLSPropertiesView #Label_TMHCButton[checked="false"] {
+	image: url(":/images/text-template/txt-source-align-center-off-default.svg");
+}
+
+PLSPropertiesView #Label_TMHCButton[checked="true"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-align-center-on-over.svg");
+}
+
+PLSPropertiesView #Label_TMHCButton[checked="false"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-align-center-off-over.svg");
+}
+
+PLSPropertiesView #Label_TMHCButton[checked="true"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-align-center-on-click.svg");
+}
+
+PLSPropertiesView #Label_TMHCButton[checked="false"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-align-center-off-click.svg");
+}
+
+PLSPropertiesView #Label_TMHCButton[checked="false"][enabled="false"] {
+	image: url(":/images/text-template/txt-source-align-center-off-disable.svg");
+}
+
+
+
+PLSPropertiesView #Label_TMHRButton[checked="true"] {
+	image: url(":/images/text-template/txt-source-align-right-on-default.svg");
+}
+
+PLSPropertiesView #Label_TMHRButton[checked="false"] {
+	image: url(":/images/text-template/txt-source-align-right-off-default.svg");
+}
+
+PLSPropertiesView #Label_TMHRButton[checked="true"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-align-right-on-over.svg");
+}
+
+PLSPropertiesView #Label_TMHRButton[checked="false"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-align-right-off-over.svg");
+}
+
+PLSPropertiesView #Label_TMHRButton[checked="true"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-align-right-on-click.svg");
+}
+
+PLSPropertiesView #Label_TMHRButton[checked="false"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-align-right-off-click.svg");
+}
+
+PLSPropertiesView #Label_TMHRButton[checked="false"][enabled="false"] {
+	image: url(":/images/text-template/txt-source-align-right-off-disable.svg");
+}
+
+PLSPropertiesView #AA, PLSPropertiesView #aa, PLSPropertiesView #TMHLButton, PLSPropertiesView #TMHRButton, PLSPropertiesView #TMHCButton {
+	border: none;
+	border-radius: 0px;
+	font-size: /*hdpi*/ 16px;
+	font-weight: 600;
+	color: #bababa;
+	background-color: #444444;
+}
+
+PLSPropertiesView #AA, PLSPropertiesView #TMHLButton {
+	border-bottom-left-radius: /*hdpi*/ 3px;
+	border-top-left-radius: /*hdpi*/ 3px;
+}
+
+PLSPropertiesView #aa, PLSPropertiesView #TMHRButton {
+	border-bottom-right-radius: /*hdpi*/ 3px;
+	border-top-right-radius: /*hdpi*/ 3px;
+}
+PLSPropertiesView #TMHCButton {
+	border-radius:0px;
+}
+
+PLSPropertiesView #Label_AA {
+	background-color: transparent;
+	qproperty-maximumSize: /*hdpi*/ 22px /*hdpi*/ 12px;
+	qproperty-minimumSize: /*hdpi*/ 22px /*hdpi*/ 12px;
+}
+
+
+PLSPropertiesView #Label_AA[checked="true"] {
+	image: url(":/images/text-template/txt-source-AA-on-normal.svg");
+}
+
+PLSPropertiesView #Label_AA[checked="false"] {
+	image: url(":/images/text-template/txt-source-AA-off-normal.svg");
+}
+
+PLSPropertiesView #Label_AA[checked="true"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-AA-on-over.svg");
+}
+
+PLSPropertiesView #Label_AA[checked="false"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-AA-off-over.svg");
+}
+
+PLSPropertiesView #Label_AA[checked="true"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-AA-on-click.svg");
+}
+
+PLSPropertiesView #Label_AA[checked="false"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-AA-off-click.svg");
+}
+
+PLSPropertiesView #Label_AA[enable="false"] {
+	image: url(":/images/text-template/txt-source-AA-off-disable.svg");
+}
+
+PLSPropertiesView #Label_aa {
+	background-color:transparent;
+	qproperty-maximumSize: /*hdpi*/ 19px /*hdpi*/ 12px;
+	qproperty-minimumSize: /*hdpi*/ 19px /*hdpi*/ 12px;
+}
+PLSPropertiesView #Label_aa[checked="true"] {
+	image: url(":/images/text-template/txt-source-aaa-on-normal.svg");
+}
+
+PLSPropertiesView #Label_aa[checked="false"]{
+	image: url(":/images/text-template/txt-source-aaa-off-normal.svg");
+}
+
+PLSPropertiesView #Label_aa[checked="true"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-aaa-on-over.svg");
+}
+
+ PLSPropertiesView #Label_aa[checked="false"][hovered="true"] {
+	image: url(":/images/text-template/txt-source-aaa-off-over.svg");
+}
+
+PLSPropertiesView #Label_aa[checked="true"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-aaa-on-click.svg");
+}
+
+PLSPropertiesView #Label_aa[checked="false"][pressed="true"] {
+	image: url(":/images/text-template/txt-source-aaa-off-click.svg");
+}
+
+PLSPropertiesView #Label_aa[enable="false"] {
+	image: url(":/images/text-template/txt-source-aaa-off-disable.svg");
+}
+
+PLSPropertiesView #leftSliderIcon {
+	qproperty-maximumSize: /*hdpi*/ 25px /*hdpi*/ 15px;
+	qproperty-minimumSize: /*hdpi*/ 25px /*hdpi*/ 15px;
+	image: url(":/images/text-template/speed-low.svg");
+}
+
+PLSPropertiesView #rightSliderIcon {
+	qproperty-maximumSize: /*hdpi*/ 25px /*hdpi*/ 15px;
+	qproperty-minimumSize: /*hdpi*/ 25px /*hdpi*/ 15px;
+	image: url(":/images/text-template/speed-hign.svg");
+}
+
+PLSPropertiesView #colorLabel {
+	min-width: /*hdpi*/ 85px;
+	max-width: /*hdpi*/ 85px;
+	border-bottom-left-radius: /*hdpi*/ 3px;
+	border-top-left-radius: /*hdpi*/ 3px;
+}
+
+PLSPropertiesView #textColorBtn {
+	border-bottom-left-radius: /*hdpi*/ 0px;
+	border-top-left-radius: /*hdpi*/ 0px;
+	border-bottom-right-radius: /*hdpi*/ 3px;
+	border-top-right-radius: /*hdpi*/ 3px;
+
+	min-height: /*hdpi*/ 22px;
+	min-width: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	padding:/*hdpi*/9px;
+	image: url(":/images/text-template/ic-setting-s-normal.svg");
+}
+PLSPropertiesView #textColorBtn:hover
+{
+	image: url(":/images/text-template/ic-setting-s-over.svg");
+}
+PLSPropertiesView #textColorBtn:pressed{
+	image: url(":/images/text-template/ic-setting-s-click.svg");
+}
+PLSPropertiesView #textColorBtn:disabled{
+	image: url(":/images/text-template/ic-setting-s-disable.svg");
+}
+TextMotionTemplateButton#TextMotionTemplateButton {
+	border: /*hdpi*/ 1px solid #1e1e1f;
+	background-color: #1e1e1f;
+	qproperty-maximumSize: /*hdpi*/ 157px /*hdpi*/ 157px;
+	qproperty-minimumSize: /*hdpi*/ 157px /*hdpi*/ 157px;
+}
+TextMotionTemplateButton #templateGifLabel {
+	qproperty-maximumSize: /*hdpi*/ 151px /*hdpi*/ 151px;
+	qproperty-minimumSize: /*hdpi*/ 151px /*hdpi*/ 151px;
+}
+TextMotionTemplateButton#TextMotionTemplateButton:checked {
+	border: /*hdpi*/ 1px solid #effc35;
+	border-radius: /*hdpi*/ 3px;
+}
+
+TextMotionTemplateButton#TextMotionTemplateButton:unchecked {
+	border: /*hdpi*/ 1px solid #1e1e1f;
+}
+
+PLSPropertiesView #plainTextEdit_1, PLSPropertiesView #plainTextEdit_2 {
+	min-height: /*hdpi*/ 50px;
+	max-height: /*hdpi*/ 50px;
+	background-color:#1e1e1f;
+}
+
+PLSPropertiesView QPushButton#open_button {
+	min-width: 0;
+	max-width: 1000000px;
+}
+PLSPropertiesView #slider::groove:horizontal {
+	background-color: #1e1e1f;
+	height: /*hdpi*/ 4px;
+	border: /*hdpi*/ none;
+}
+PLSPropertiesView #slider {
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	margin-left: /*hdpi*/ 2px;
+}
+PLSPropertiesView #slider::handle:horizontal {
+	image:url(":/images/img-handle-normal.svg");
+	height:/*hdpi*/ 14px;
+	width:/*hdpi*/ 14px;
+	margin:/*hdpi*/-5px/*hdpi*/0px/*hdpi*/-5px/*hdpi*/-2px;
+}
+
+PLSPropertiesView #slider::handle:horizontal[handle="false"],
+PLSPropertiesView #slider::handle:horizontal[handle="false"][enter="false"],
+PLSPropertiesView #slider::handle:horizontal[handle="false"][enter="true"]{
+	width:/*hdpi*/ 0px;
+}
+/* ok button */
+PLSPropertiesView PLSRegionCapture #frameMenu > #cancelBtn
+{
+    border: none;
+	background: transparent;
+    image:url(":/images/btn-close-normal.svg");
+}
+
+PLSPropertiesView PLSRegionCapture #frameMenu > #cancelBtn:hover {
+	image:url(":/images/btn-close-over.svg");
+}
+PLSPropertiesView PLSRegionCapture #frameMenu > #cancelBtn:pressed {
+	image:url(":/images/btn-close-click.svg");
+}
+PLSPropertiesView PLSRegionCapture #frameMenu > #cancelBtn:disabled {
+	image:url(":/images/btn-close-disable.svg");
+}
+
+/* cancel button */
+PLSPropertiesView PLSRegionCapture #frameMenu > #confirmBtn
+{
+    border: none;
+	background: transparent;
+    image:url(":/images/bgm/btn-add-playlist-done-normal.svg");
+}
+
+PLSPropertiesView PLSRegionCapture #frameMenu > #confirmBtn:hover {
+	image:url(":/images/bgm/btn-add-playlist-done-over.svg");
+}
+PLSPropertiesView PLSRegionCapture #frameMenu > #confirmBtn:pressed {
+	image:url(":/images/bgm/btn-add-playlist-done-click.svg");
+}
+PLSPropertiesView PLSRegionCapture #frameMenu > #confirmBtn:disabled {
+	image:url(":/images/bgm/btn-add-playlist-done-disable.svg");
+}
+
+PLSPropertiesView #selectCaptureRegionTip{
+	background-color: transparent;
+	color: #666666;
+	font-size: /*hdpi*/12px;
+}
+
+PLSPropertiesView #selectRegionBtn{
+	font-size: /*hdpi*/14px;
+	font-weight: bold;
+	color: white;
+}
+
+PLSPropertiesView #slider::handle:horizontal[enter="false"],
+PLSPropertiesView #slider::handle:horizontal[enter="false"][handle="true"] {
+	image:url(":/images/img-handle-normal.svg");
+	height:/*hdpi*/ 14px;
+	width:/*hdpi*/ 14px;
+	margin:/*hdpi*/-5px/*hdpi*/0px/*hdpi*/-5px/*hdpi*/-2px;
+}
+
+PLSPropertiesView #slider::handle:horizontal[enter="true"],
+PLSPropertiesView #slider::handle:horizontal[enter="true"][handle="true"] {
+	image:url(":/images/img-handle-over.svg");
+	height:/*hdpi*/ 18px;
+	width:/*hdpi*/ 18px;
+	margin:/*hdpi*/-7px/*hdpi*/0px/*hdpi*/-7px/*hdpi*/-2px;
+}
+
+PLSPropertiesView #slider::sub-page:horizontal {
+	background-color: #effc35;
+}
+PLSPropertiesView #slider::sub-page:horizontal:disabled {
+	background-color: #131314;
+}
+PLSPropertiesView #slider::add-page:horizontal:disabled {
+	background-color: #131314;
+}
+PLSPropertiesView #slider::handle:horizontal:disabled {
+	image:none;
+}

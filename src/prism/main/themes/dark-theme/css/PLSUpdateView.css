@@ -1,0 +1,74 @@
+
+PLSUpdateView {
+	qproperty-hasHLine:/*hdpi*/true;
+	qproperty-hasMinButton:/*hdpi*/false;
+	qproperty-hasCloseButton:/*hdpi*/false;
+	qproperty-isMoveInContent:/*hdpi*/true;
+	qproperty-hasBorder:/*hdpi*/true;
+	qproperty-hasCaption:/*hdpi*/false;
+}
+PLSUpdateView #middleWidget
+{
+	min-height:/*hdpi*/233px;
+	max-height:/*hdpi*/233px;
+}
+PLSUpdateView, PLSUpdateView QWidget {
+	background-color: #111111;
+}
+
+PLSUpdateView #middleWidget QWidget {
+	background-color:#1e1e1e;
+}
+
+PLSUpdateView #lineView {
+	background-color: #151515;
+	min-height: /*hdpi*/ 1px;
+	max-height: /*hdpi*/ 1px;
+}
+
+PLSUpdateView #updateTopDescription {
+	color:#effc35;
+	font-size:/*hdpi*/20px;
+	font-weight: bold;
+	min-height:/*hdpi*/60px;
+	max-height:/*hdpi*/60px;
+}
+
+PLSUpdateView #nextUpdateBtn {
+	qproperty-minimumSize: /*hdpi*/ 170px /*hdpi*/ 40px;
+	qproperty-maximumSize: /*hdpi*/ 170px /*hdpi*/ 40px;
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	border-radius: /*hdpi*/ 3px;
+	padding: /*hdpi*/ 0px;
+	color: white;
+	background-color: #444444;
+
+}
+
+PLSUpdateView #nextUpdateBtn:hover {
+	background-color:#555555;
+}
+
+PLSUpdateView #nextUpdateBtn:pressed {
+	background-color:#1e1e1f;
+}
+
+PLSUpdateView #nowUpdateBtn {
+	qproperty-minimumSize: /*hdpi*/ 170px /*hdpi*/ 40px;
+	qproperty-maximumSize: /*hdpi*/ 170px /*hdpi*/ 40px;
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	border-radius: /*hdpi*/ 3px;
+	padding: /*hdpi*/ 0px;
+	color: white;
+	background-color: #444444;
+}
+
+PLSUpdateView #nowUpdateBtn:hover {
+	background-color:#555555;
+}
+
+PLSUpdateView #nowUpdateBtn:pressed {
+	background-color:#1e1e1f;
+}

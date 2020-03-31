@@ -1,0 +1,26 @@
+IDI_ICON1 ICON DISCARDABLE "../cmake/winrc/PRISMLiveStudio.ico"
+
+1 VERSIONINFO
+FILEVERSION ${UI_VERSION_MAJOR},${UI_VERSION_MINOR},${UI_VERSION_PATCH},0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "Naver"
+      VALUE "FileDescription", "PRISMLiveStudio"
+      VALUE "FileVersion", "${PLS_VERSION}"
+      VALUE "InternalName", "pls"
+      VALUE "OriginalFilename", "pls"
+      VALUE "ProductName", "PRISMLiveStudio"
+      VALUE "ProductVersion", "${PLS_VERSION}"
+      VALUE "Comments", "Free and open source software for video recording and live streaming"
+      VALUE "LegalCopyright", "(C) Naver"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 0x04B0
+  END
+END

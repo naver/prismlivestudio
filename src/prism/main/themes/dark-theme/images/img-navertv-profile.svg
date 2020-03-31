@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="prefix__c" x1="49.876%" x2="49.876%" y1="77.089%" y2="12.7%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".7"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="81.157%" x2="62.396%" y1="-1.717%" y2="29.395%">
+            <stop offset="0%" stop-color="#040000"/>
+            <stop offset="100%" stop-color="#040000" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="prefix__e" x1="64.938%" x2="56.968%" y1="86.265%" y2="66.928%">
+            <stop offset="0%" stop-color="#040000"/>
+            <stop offset="100%" stop-color="#040000" stop-opacity="0"/>
+        </linearGradient>
+        <path id="prefix__a" d="M17 34c9.389 0 17-7.611 17-17S26.389 0 17 0 0 7.611 0 17s7.611 17 17 17z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__b" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <use fill="transparent" xlink:href="#prefix__a"/>
+        <g mask="url(#prefix__b)">
+            <g >
+                <circle cx="18" cy="18" r="18" fill="#06DB78"/>
+                <g>
+                    <path fill="url(#prefix__c)" fill-rule="nonzero" d="M0.037 2.242L4.521 2.242 4.521 14.123 0.037 14.123z" transform="translate(12.791 9.791)"/>
+                    <path fill="#FFF" fill-rule="nonzero" d="M13.675 6.987c-.673-1.046-2.055-1.383-3.101-.71l-9.49 5.94C.037 12.89-.3 14.274.374 15.32c.672 1.046 2.055 1.382 3.1.71l9.491-5.94c1.046-.673 1.383-2.056.71-3.102z" transform="translate(12.791 9.791)"/>
+                    <path fill="#FFF" fill-rule="nonzero" d="M12.965 6.277L3.475.337C2.429-.3 1.046 0 .374 1.046c-.673 1.045-.337 2.428.71 3.1l9.527 5.941c1.046.673 2.429.336 3.101-.71.673-1.046.3-2.428-.747-3.101z" transform="translate(12.791 9.791)"/>
+                    <path d="M10.611 10.088L7.547 8.183z" transform="translate(12.791 9.791)"/>
+                    <path fill="url(#prefix__d)" fill-rule="nonzero" d="M10.611 10.088L7.585 8.183l-6.501 4.035c-1.047.672-1.383 2.055-.71 3.1.672 1.047 2.055 1.383 3.1.71l8.295-5.193-1.158-.747z" opacity=".1" transform="translate(12.791 9.791)"/>
+                    <path fill="url(#prefix__e)" fill-rule="nonzero" d="M4.521 2.242L0.037 2.242 0.037 12.89 4.521 10.088z" opacity=".1" transform="translate(12.791 9.791)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

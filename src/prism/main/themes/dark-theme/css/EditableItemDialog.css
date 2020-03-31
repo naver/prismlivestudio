@@ -1,0 +1,23 @@
+QLineEdit#propertyEditItemEdit {
+	background-color: #222222;
+}
+
+QPushButton#propertyEditItemBrowser {
+	background-color: #444444;
+	padding-left: /*hdpi*/ 10px;
+	padding-right: /*hdpi*/ 10px;
+}
+
+QPushButton#propertyEditItemBrowser:hover {
+	background-color: #555555;
+}
+
+QPushButton#propertyEditItemBrowser:pressed {
+	background-color: #2d2d2d;
+}
+
+QPushButton#propertyEditItemButtonBoxCancel {
+	margin: 0px /*hdpi*/ 5px;
+	min-width: /*hdpi*/ 128px;
+	max-width: /*hdpi*/ 128px;
+}

@@ -1,0 +1,194 @@
+PLSChatDialog {
+        min-height:/*hdpi*/400px;
+        min-width:/*hdpi*/300px;
+}
+
+PLSChatDialog #labelToast {
+        border-radius:/*hdpi*/3px;
+        border:/*hdpi*/1px solid rgba(255, 255, 255, 0.1);
+        background-color: #1e1e1f;
+        padding-left:/*hdpi*/10px;
+        padding-right:/*hdpi*/26px;
+        font-size:/*hdpi*/12px;
+        color: #bababa;
+}
+
+PLSChatDialog #titleWidget {
+        border:/*hdpi*/none;
+        background-color: transparent;
+        min-height:/*hdpi*/51px;
+        max-height:/*hdpi*/51px;
+}
+
+PLSChatDialog #scrollArea {
+        border:/*hdpi*/none;
+        background-color: transparent;
+        min-height:/*hdpi*/50px;
+        max-height:/*hdpi*/50px;
+}
+
+
+PLSChatDialog #scrollAreaWidgetContents {
+        border:/*hdpi*/none;
+        background-color: transparent;
+}
+
+PLSChatDialog #lineView {
+        min-height:/*hdpi*/1px;
+        max-height:/*hdpi*/1px;
+        background-color: #343435;
+}
+PLSChatDialog #scrollAreaWidgetContents #leftPlaceholder {
+        max-width:/*hdpi*/ 5px;
+        min-width:/*hdpi*/ 5px;
+        margin: 0px;  
+        background-color: transparent;
+}
+PLSChatDialog #scrollAreaWidgetContents>QPushButton {
+        min-height:/*hdpi*/40px;
+        max-height:/*hdpi*/40px;
+        max-width:/*hdpi*/ 40px;
+        min-width:/*hdpi*/ 40px;
+        margin:/*hdpi*/5px/*hdpi*/5px/*hdpi*/5px/*hdpi*/5px;
+        /*background-color: rgba(0,0,255,0.3);*/
+        background-color: transparent;
+        color: #bababa;
+        font-weight: bold;
+        border-radius:/*hdpi*/0px;
+        font-size:/*hdpi*/14px;
+}
+
+PLSChatDialog #scrollAreaWidgetContents>.QPushButton:disabled {
+        color: #666666;
+}
+
+PLSChatDialog #scrollAreaWidgetContents>.QPushButton[status="select"] {
+        color: #effc35;
+}
+
+PLSChatDialog #scrollAreaWidgetContents>.QPushButton[status="select"]:hover {
+        color: #f1fa75;
+}
+
+PLSChatDialog #scrollAreaWidgetContents>.QPushButton[status="select"]:pressed {
+        color: #7a7f34;
+}
+
+PLSChatDialog #scrollAreaWidgetContents>.QPushButton[status="nomarl"]:hover {
+        color: #ffffff;
+}
+
+PLSChatDialog #scrollAreaWidgetContents>.QPushButton[status="nomarl"]:pressed {
+        color: #444444;
+}
+
+PLSChatDialog #scrollAreaWidgetContents>.QPushButton[status="onlyOne"],
+PLSChatDialog #scrollAreaWidgetContents>.QPushButton[status="onlyOne"]:hover,
+PLSChatDialog #scrollAreaWidgetContents>.QPushButton[status="onlyOne"]:pressed {
+        color: #ffffff;
+        text-align: left;
+}
+
+PLSChatDialog #rtmpWidget {
+        background-color: #1E1E1F;
+}
+
+PLSChatDialog #chatPlaceImageLabel {
+        min-height:/*hdpi*/90px;
+        max-height:/*hdpi*/90px;
+        background-color: transparent;
+        image: url(":/images/ic-chat-zero.svg");
+}
+
+PLSChatDialog #rtmpPlaceTextLabel {
+        background-color: transparent;
+        margin:/*hdpi*/20px/*hdpi*/20px/*hdpi*/20px/*hdpi*/20px;
+        font-size:/*hdpi*/14px;
+        font-weight: normal;
+        color: #666666;
+}
+
+PLSChatDialog #pushButtonClear {
+        min-width:/*hdpi*/16px;
+        max-width:/*hdpi*/16px;
+        min-height:/*hdpi*/16px;
+        max-height:/*hdpi*/16px;
+        border-style: none;
+        background-color: transparent;
+        image: url(":/images/btn-close-normal.svg");
+}
+
+PLSChatDialog #pushButtonClear:hover {
+        image: url(":/images/btn-close-over.svg");
+}
+
+PLSChatDialog #pushButtonClear:pressed {
+        image: url(":/images/btn-close-click.svg");
+}
+
+PLSChatDialog #pushButtonClear: !enabled {
+        image: url(":/images/btn-close-disable.svg");
+}
+
+PLSChatDialog #chatSourceButton {
+	min-height: /*hdpi*/ 27px;
+	max-height: /*hdpi*/ 27px;
+	background: transparent;
+	border: /*hdpi*/ 1px solid #3d3d3d;
+	border-radius: /*hdpi*/ 3px;
+}
+
+PLSChatDialog #chatSourceButton[hovered="true"],
+PLSChatDialog #chatSourceButton[pressed="true"][hovered="false"] {
+	border: /*hdpi*/ 1px solid #a2a2a2;
+}
+
+PLSChatDialog #chatSourceButton[pressed="true"][hovered="true"] {
+	border: /*hdpi*/ 1px solid #333333;
+}
+
+PLSChatDialog #chatSourceButton[enabled="false"] {
+	border: /*hdpi*/ 1px solid #3d3d3d;
+}
+
+PLSChatDialog #chatSourceButton > #chatSourceButtonIcon {
+	min-width: /*hdpi*/ 15px;
+	max-width: /*hdpi*/ 15px;
+	min-height: /*hdpi*/ 15px;
+	max-height: /*hdpi*/ 15px;
+	background: transparent;
+	image: url(":/images/chat/ic-prismchat-normal.svg");
+}
+
+PLSChatDialog #chatSourceButton[hovered="true"] > #chatSourceButtonIcon,
+PLSChatDialog #chatSourceButton[pressed="true"][hovered="false"] > #chatSourceButtonIcon {
+	image: url(":/images/chat/ic-prismchat-over.svg");
+}
+
+PLSChatDialog #chatSourceButton[pressed="true"][hovered="true"] > #chatSourceButtonIcon {
+	image: url(":/images/chat/ic-prismchat-click.svg");
+}
+
+PLSChatDialog #chatSourceButton[enabled="false"] > #chatSourceButtonIcon {
+	image: url(":/images/chat/ic-prismchat-disable.svg");
+}
+
+PLSChatDialog #chatSourceButton > #chatSourceButtonText {
+	font-size: /*hdpi*/ 12px;
+	font-weight: bold;
+	color: #bababa;
+	background: transparent;
+}
+
+PLSChatDialog #chatSourceButton[hovered="true"] > #chatSourceButtonText,
+PLSChatDialog #chatSourceButton[pressed="true"][hovered="false"] > #chatSourceButtonText {
+	color: white;
+}
+
+PLSChatDialog #chatSourceButton[pressed="true"][hovered="true"] > #chatSourceButtonText {
+	color: #333333;
+}
+
+PLSChatDialog #chatSourceButton[enabled="false"] > #chatSourceButtonText {
+	color: #666666;
+}

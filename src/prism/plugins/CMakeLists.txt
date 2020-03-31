@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.1.0)
+
+file(GLOB plugins prism-*)
+foreach(plugin ${plugins})
+    if(IS_DIRECTORY ${plugin})
+        file(RELATIVE_PATH plugin_name ${CMAKE_CURRENT_SOURCE_DIR} ${plugin})
+        set(PLUGIN_NAME ${plugin_name})
+        add_subdirectory(${plugin})
+    endif()
+endforeach()

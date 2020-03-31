@@ -1,0 +1,64 @@
+@import "./animate.css";
+
+.animate-slide-out-up {
+    animation-name: slideOutUp;
+}
+
+.animate-slide-out-down {
+    animation-name: slideOutDown;
+}
+
+.animate-slide-in-down {
+    animation-name: slideInDown;
+}
+
+.animate-slide-in-up {
+    animation-name: slideInUp;
+}
+
+.animate-fade-in {
+    animation-name: fadeIn;
+}
+
+
+.animate-fade-out {
+    animation-name: fadeOut;
+}
+
+.animate {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.wrap-center {
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+    word-break: break-word;
+}
+
+.wrap-style {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.pre-wrap {
+    white-space: pre-wrap;
+}
+
+.min-height-row {
+    min-height: 12px;
+}
+
+.bg-content {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.min-line {
+    min-height: 12px;
+}
+
+body {
+    font-family: Malgun Gothic, Segoe UI;
+}

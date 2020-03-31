@@ -1,0 +1,50 @@
+DefaultPlatformsAddList {
+	border: /*hdpi*/ none;
+	padding: /*hdpi*/ 0px;
+	margin: /*hdpi*/ 0px;
+
+}
+
+	DefaultPlatformsAddList QToolButton {
+		margin: /*hdpi*/ 0px;
+		padding: /*hdpi*/ 0px;
+		background-color: transparent;
+		border: /*hdpi*/ none;
+		border-image: none;
+		min-width: /*hdpi*/ 100px;
+		min-height: /*hdpi*/ 33px;
+		max-width: /*hdpi*/ 100px;
+		max-height: /*hdpi*/ 33px;
+		qproperty-iconSize: /*hdpi*/ 100px /*hdpi*/ 33px;
+	}
+
+
+
+	DefaultPlatformsAddList #hoverBtn {
+		margin: /*hdpi*/ 0px;
+		padding: /*hdpi*/ 0px;
+		background-color: transparent;
+		border: /*hdpi*/ none;
+		border-image: url(":/images/DefaultChannels/btn-mych-addch-mauseover-normal.svg");
+		min-width: /*hdpi*/ 100px;
+		min-height: /*hdpi*/ 33px;
+		max-width: /*hdpi*/ 100px;
+		max-height: /*hdpi*/ 33px;
+	}
+		DefaultPlatformsAddList #hoverBtn:pressed {
+			border-image: url(":/images/DefaultChannels/btn-mych-addch-mauseover-click.svg");
+		}
+
+
+	DefaultPlatformsAddList #spaceLabel {
+		margin: /*hdpi*/ 0px;
+		padding: /*hdpi*/ 0px;
+		background-color: transparent;
+		color: transparent;
+		min-height: /*hdpi*/ 33px;
+		min-width: /*hdpi*/ 10px;
+		max-width: /*hdpi*/ 10px;
+		max-height: /*hdpi*/ 10px;
+	}
+
+		

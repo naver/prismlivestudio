@@ -1,0 +1,17 @@
+/* PLSAlertView */
+
+PLSAlertView #message, PLSAlertView #nameLabel {
+	font-size: /*hdpi*/ 14px;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	min-width: /*hdpi*/ 360px;
+	max-width: /*hdpi*/ 360px;
+}
+
+PLSAlertView #widget > #buttonBox {
+	min-height: 0;
+	max-height: 99999px;
+	margin: 0;
+	padding: 0;
+}

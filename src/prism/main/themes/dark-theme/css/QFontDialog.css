@@ -1,0 +1,24 @@
+QFontDialog QFontListView {
+	show-decoration-selected: 1;
+	background-color: #222222;
+	font-size:/*hdpi*/ 14px;
+	color: #ffffff;
+	border:/*hdpi*/ 1px solid #111111;
+	border-radius:/*hdpi*/ 3px;
+}
+QFontDialog QGroupBox {
+	border:/*hdpi*/ 1px solid #111111;
+	padding-top:/*hdpi*/ 20px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+QFontDialog QGroupBox::title {
+	subcontrol-origin: margin;
+	left:/*hdpi*/ 4px;
+	top:/*hdpi*/ 2px;
+}
+QFontDialog QGroupBox QLineEdit {
+	max-width:/*hdpi*/ 10000px;
+	max-height:/*hdpi*/ 10000px;
+}

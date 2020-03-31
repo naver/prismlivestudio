@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F9D66956-7A1C-4601-86FE-7711F4DD4F31</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0525_Release-_Image-Resource" transform="translate(-738.000000, -407.000000)">
+            <g id="ic_share_normal" transform="translate(738.000000, 407.000000)">
+                <line x1="3.5" y1="10.5" x2="14.5" y2="3.5" id="Path-3" stroke="#BABABA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="3.5" y1="17.5" x2="14.5" y2="10.5" id="Path-3" stroke="#BABABA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(9.000000, 14.000000) scale(1, -1) translate(-9.000000, -14.000000) "></line>
+                <circle id="Oval" fill="#BABABA" cx="15" cy="3.5" r="3"></circle>
+                <circle id="Oval" fill="#BABABA" cx="15" cy="17.5" r="3"></circle>
+                <circle id="Oval" fill="#BABABA" cx="4" cy="10.5" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

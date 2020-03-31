@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="/res">
+    <file>images/media-pause.svg</file>
+    <file>images/mute.svg</file>
+    <file>images/refresh.svg</file>
+    <file>images/no_sources.svg</file>
+    <file>images/minus.svg</file>
+    <file>images/plus.svg</file>
+    <file>images/down.svg</file>
+    <file>images/up.svg</file>
+    <file>images/obs.png</file>
+    <file>images/tray_active.png</file>
+    <file>images/expand.svg</file>
+    <file>images/unlocked.svg</file>
+    <file>images/locked.svg</file>
+    <file>images/invisible.svg</file>
+    <file>images/visible.svg</file>
+    <file>images/trash.svg</file>
+    <file>images/revert.svg</file>
+  </qresource>
+  <qresource prefix="/settings">
+    <file>images/settings/output.svg</file>
+    <file>images/settings/stream.svg</file>
+    <file>images/settings/advanced.svg</file>
+    <file>images/settings/video.svg</file>
+    <file>images/settings/audio.svg</file>
+    <file>images/settings/general.svg</file>
+    <file>images/settings/hotkeys.svg</file>
+  </qresource>
+</RCC>

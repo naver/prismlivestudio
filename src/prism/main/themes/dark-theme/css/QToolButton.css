@@ -1,0 +1,32 @@
+QToolButton[For="SelectPath"] {
+	border-image:url(":/images/browser-normal.svg");
+	min-width:/*hdpi*/ 40px;
+	max-width:/*hdpi*/ 40px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	border-radius:/*hdpi*/ 3px;
+}
+QToolButton[For="SelectPath"]:hover {
+	border-image:url(":/images/browser-over.svg");
+}
+QToolButton[For="SelectPath"]:pressed {
+	border-image:url(":/images/browser-clicked.svg");
+}
+QToolButton[For="SelectPath"]:disabled {
+	border-image:url(":/images/browser-disable.svg");
+}
+
+QToolButton[For="SelectPathClear"] {
+    background-color: #444444;
+	min-width:/*hdpi*/ 40px;
+	max-width:/*hdpi*/ 40px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	border:/*hdpi*/ none;
+}
+QToolButton[For="SelectPathClear"]:hover {
+    background-color: #222222;
+}
+QToolButton[For="SelectPathClear"]:pressed {
+    background-color: #111111;
+}

@@ -1,0 +1,174 @@
+
+PLSLiveInfoBase > #contentBorder > #content #labelCaption {
+	font-size:/*hdpi*/ 20px;
+	font-weight: bold;
+	color: white;
+	background-color: transparent;
+}
+
+PLSLiveInfoBase > #contentBorder > #content > QLabel {
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+
+	color: #bababa;
+	background-color: transparent;
+}
+
+PLSLiveInfoBase > #contentBorder > #content QLineEdit {
+	background-color: #1e1e1e;
+}
+
+PLSLiveInfoBase > #contentBorder > #content QLineEdit:focus {
+	border:/*hdpi*/ 1px solid #effc35;
+}
+
+
+PLSLiveInfoBase > #contentBorder > #content QTextEdit {
+	background-color: #1e1e1e;
+}
+
+PLSLiveInfoBase > #contentBorder > #content QTextEdit:focus {
+	border:/*hdpi*/ 1px solid #effc35;
+}
+
+PLSLiveInfoBase QPushButton[useFor="Ok"][prepareLive=true] {
+	background-color: #effc35;
+    color: black;
+}
+
+PLSLiveInfoBase QPushButton[useFor="Ok"][prepareLive=true]:hover {
+	background-color: #f1fa75;
+}
+
+PLSLiveInfoBase QPushButton[useFor="Ok"][prepareLive=true]:pressed {
+	background-color: #7a7f34;
+}
+
+PLSLiveInfoBase QPushButton[useFor="Ok"][prepareLive=true]:disabled {
+	background-color: #444444;
+	color: #666666;
+}
+
+PLSLiveInfoBase QPushButton[useFor="Rehearsal"] {
+	border-radius:/*hdpi*/ 3px;
+	border:/*hdpi*/  1px solid #f1fa75;
+  background-color: #272727;
+	font-size:/*hdpi*/ 14px;
+  font-weight: bold;
+  color: #effc35;
+}
+
+PLSLiveInfoBase QPushButton[useFor="Rehearsal"]:hover {
+	border-radius:/*hdpi*/ 3px;
+	border:/*hdpi*/  1px solid #effc35;
+  background-color: #272727;
+  color: #f1fa75;
+}
+
+PLSLiveInfoBase QPushButton[useFor="Rehearsal"]:pressed {
+	border-radius:/*hdpi*/ 3px;
+	border:/*hdpi*/ 1px solid #7a7f34;
+  background-color: #272727;
+  color: #7a7f34;
+}
+
+PLSLiveInfoBase QPushButton[useFor="Rehearsal"]:disabled {
+	border-radius:/*hdpi*/ 3px;
+	border:/*hdpi*/ 1px solid #444444;
+  background-color: #272727;
+  color: #444444;
+}
+
+PLSLiveInfoBase QLineEdit {
+	font-size:/*hdpi*/ 14px;
+}
+
+PLSLiveInfoBase QListWidget {
+	background: #2d2d2d;
+	border:/*hdpi*/ 1px solid #111111;
+	border-radius:/*hdpi*/ 3px;
+    outline: none;
+
+	font-size:/*hdpi*/ 14px;
+    color: white;
+}
+
+PLSLiveInfoBase QListWidget::item {
+    background-color: #2d2d2d;
+	height:/*hdpi*/ 56px;
+}
+
+PLSLiveInfoBase QListWidget::item:selected {
+    color: white;
+    background-color: #373737;
+}
+
+PLSLiveInfoBase QListWidget::item:hover {
+    background-color: #373737;
+}
+
+PLSLiveInfoBase QListWidget .QWidget {
+    background-color: #2d2d2d;
+	height:/*hdpi*/ 56px;
+}
+
+PLSLiveInfoBase QListWidget .QWidget:selected {
+    color: white;
+    background-color: #373737;
+}
+
+PLSLiveInfoBase QListWidget .QWidget:hover {
+    background-color: #373737;
+}
+
+PLSLiveInfoBase QListWidget .QWidget QLabel {
+    background-color: transparent;
+}
+
+PLSLiveInfoBase QListWidget .QWidget #categoryLabel {
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSLiveInfoBase #lineEditCategory {
+	padding-right:/*hdpi*/ 60px;
+}
+
+PLSLiveInfoBase #pushButtonSearch {
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	border-style: none;
+	background-color: transparent;
+	image: url(":/images/btn-search-normal.svg");
+}
+
+PLSLiveInfoBase #pushButtonClear {
+	min-width: /*hdpi*/ 16px;
+	max-width: /*hdpi*/ 16px;
+	min-height: /*hdpi*/ 16px;
+	max-height: /*hdpi*/ 16px;
+	border-style: none;
+	background-color: transparent;
+	image: url(":/images/ic-liveInfo-delete-normal.svg");
+}
+
+PLSLiveInfoBase #pushButtonClear:hover {
+	image:url(":/images/ic-liveInfo-delete-over.svg");
+}
+
+PLSLiveInfoBase #pushButtonClear:pressed {
+	image:url(":/images/ic-liveInfo-delete-click.svg");
+}
+
+PLSLiveInfoBase #pushButtonClear:disabled{
+	image:url(":/images/ic-liveInfo-delete-disable.svg");
+}
+
+PLSLiveInfoBase #loadingBG{
+    background-color:rgba(39, 39, 39, 0.8);
+}
+
+PLSLiveInfoBase #loadingBtn{
+    background-color: transparent;
+}

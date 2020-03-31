@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OutputTimer</class>
+ <widget class="QWidget" name="OutputTimer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>758</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>OutputTimer</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="horizontalSpacing">
+      <number>20</number>
+     </property>
+     <property name="verticalSpacing">
+      <number>10</number>
+     </property>
+     <property name="leftMargin">
+      <number>25</number>
+     </property>
+     <property name="topMargin">
+      <number>25</number>
+     </property>
+     <property name="rightMargin">
+      <number>30</number>
+     </property>
+     <property name="bottomMargin">
+      <number>30</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="streamingLabel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>144</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>144</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>OutputTimer.Stream</string>
+       </property>
+       <property name="useFor" stdset="0">
+        <string notr="true">FormLabelRole</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>5</number>
+       </property>
+       <item>
+        <widget class="PLSSpinBox" name="streamingTimerHours">
+         <property name="minimumSize">
+          <size>
+           <width>84</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>24</number>
+         </property>
+         <property name="value">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="hoursLabel">
+         <property name="text">
+          <string>Hours</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="PLSSpinBox" name="streamingTimerMinutes">
+         <property name="minimumSize">
+          <size>
+           <width>84</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximum">
+          <number>59</number>
+         </property>
+         <property name="value">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="minutesLabel">
+         <property name="text">
+          <string>Minutes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="PLSSpinBox" name="streamingTimerSeconds">
+         <property name="minimumSize">
+          <size>
+           <width>84</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>59</number>
+         </property>
+         <property name="value">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="secondsLabel">
+         <property name="text">
+          <string>Seconds</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="outputTimerStream">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Start</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="autoStartStreamTimer">
+       <property name="text">
+        <string>OutputTimer.Stream.EnableEverytime</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>15</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="streamStoppingIn">
+         <property name="text">
+          <string>OutputTimer.Stream.StoppingIn</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="streamTime">
+         <property name="text">
+          <string>00:00:00</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="recordingLabel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>144</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>144</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>OutputTimer.Record</string>
+       </property>
+       <property name="useFor" stdset="0">
+        <string notr="true">FormLabelRole</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>5</number>
+       </property>
+       <property name="bottomMargin">
+        <number>5</number>
+       </property>
+       <item>
+        <widget class="PLSSpinBox" name="recordingTimerHours">
+         <property name="minimumSize">
+          <size>
+           <width>84</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>24</number>
+         </property>
+         <property name="value">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="hoursLabel_2">
+         <property name="text">
+          <string>Hours</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="PLSSpinBox" name="recordingTimerMinutes">
+         <property name="minimumSize">
+          <size>
+           <width>84</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>59</number>
+         </property>
+         <property name="value">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="minutesLabel_2">
+         <property name="text">
+          <string>Minutes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="PLSSpinBox" name="recordingTimerSeconds">
+         <property name="minimumSize">
+          <size>
+           <width>84</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>59</number>
+         </property>
+         <property name="value">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="secondsLabel_2">
+         <property name="text">
+          <string>Seconds</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="outputTimerRecord">
+         <property name="minimumSize">
+          <size>
+           <width>109</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Start</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="4" column="1">
+      <widget class="QCheckBox" name="autoStartRecordTimer">
+       <property name="text">
+        <string>OutputTimer.Record.EnableEverytime</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QCheckBox" name="pauseRecordTimer">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>OutputTimer.Record.PauseTimer</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="recordStoppingIn">
+         <property name="text">
+          <string>OutputTimer.Record.StoppingIn</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="recordTime">
+         <property name="text">
+          <string>00:00:00</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>79</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="borders" stdset="0">
+      <string notr="true">top-only</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,0">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>30</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="close">
+        <property name="text">
+         <string>Close</string>
+        </property>
+        <property name="useFor" stdset="0">
+         <string notr="true">Close</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PLSSpinBox</class>
+   <extends>QSpinBox</extends>
+   <header>../../spinbox.hpp</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

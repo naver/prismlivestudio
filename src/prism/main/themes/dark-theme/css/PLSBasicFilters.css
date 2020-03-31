@@ -1,0 +1,377 @@
+PLSBasicFilters {
+	qproperty-minimumSize: /*hdpi*/ 667px /*hdpi*/ 435px;
+	qproperty-maximumSize: /*hdpi*/ 910px /*hdpi*/ 700px;
+	border: /*hdpi*/ 1px solid #111111;
+	background-color: #272727;
+}
+
+PLSBasicFilters > #close{
+	background: transparent;
+}
+
+PLSBasicFilters #content{
+	background-color: #272727;
+}
+
+PLSBasicFilters #hSeperatorLabel{
+	background-color: #111111;
+	min-width: /*hdpi*/1px;
+	max-width: /*hdpi*/1px;
+}
+
+PLSBasicFilters #vSeperatorLabel{
+	background-color: #111111;
+	min-height: /*hdpi*/1px;
+	max-height: /*hdpi*/1px;
+}
+
+PLSBasicFilters #buttonBox{
+	min-height: /*hdpi*/78px;
+	max-height: /*hdpi*/78px;
+	background-color: #272727;
+}
+
+PLSBasicFilters #buttonBox QPushButton{
+	padding: 0px;
+	min-height: /*hdpi*/40px;
+	max-height: /*hdpi*/40px;
+}
+
+PLSBasicFilters #buttonBox QPushButton[useFor="Reset"]{
+	min-width: /*hdpi*/142px;
+	max-width: /*hdpi*/142px;
+}
+
+PLSBasicFilters #buttonBox QPushButton[useFor="Close"]{
+	min-width: /*hdpi*/128px;
+	max-width: /*hdpi*/128px;
+}
+
+PLSBasicFilters QListWidget{
+	background-color: #272727;
+	border: none;
+	font-size: /*hdpi*/14px;
+}
+
+PLSBasicFilters QListWidget::item{
+	height: /*hdpi*/40px;
+	margin-top: /*hdpi*/1px;
+	margin-bottom: /*hdpi*/1px;
+	font-weight: normal;
+	color : #ffffff;
+}
+PLSBasicFilters QListWidget::item:selected {
+	background-color: #545454;
+	font-weight: bold;
+	color : #effc35;
+}
+PLSBasicFilters QListWidget::item:selected:!active {
+	background-color: #545454;
+}
+PLSBasicFilters QListWidget::item:hover {
+	background-color: #444444;
+}
+PLSBasicFilters QListWidget::item:selected:hover {
+	background-color: #545454;
+}
+
+PLSBasicFilters QListWidget:focus {
+	outline: none;
+}
+
+PLSBasicFilters #asyncLabel{
+	font-size: /*hdpi*/14px;
+	font-weight: bold;
+}
+
+PLSBasicFilters #titleWidget, #asyncLabel{
+	qproperty-minimumSize: /*hdpi*/190px /*hdpi*/50px;
+	qproperty-maximumSize: /*hdpi*/190px /*hdpi*/50px;
+}
+
+PLSBasicFilters #titleWidget, PLSBasicFilters #asyncLabel, PLSBasicFilters #addFilterButton{
+	background-color: #272727;
+}
+
+PLSBasicFilters #emptyDesLabel{
+	background-color: #272727;
+	font-size: /*hdpi*/14px;
+	color: #666666;
+}
+
+PLSBasicFilters #preview{
+	qproperty-minimumSize: /*hdpi*/448px /*hdpi*/150px;
+	qproperty-maximumSize: /*hdpi*/690px /*hdpi*/319px;
+}
+
+PLSBasicFilters #addFilterButton{
+	qproperty-minimumSize: /*hdpi*/22px /*hdpi*/22px;
+	qproperty-maximumSize: /*hdpi*/22px /*hdpi*/22px;
+	border-style: none;
+	image:url(":/images/icon-addsource-default.svg");
+}
+
+PLSBasicFilters #addFilterButton:hover{
+	image:url(":/images/icon-addsource-over.svg");
+}
+
+PLSBasicFilters #addFilterButton:pressed{
+	image:url(":/images/icon-addsource-click.svg");
+}
+
+PLSBasicFilters #addFilterButton:!enabled{
+	image:url(":/images/icon-addsource-disable.svg");
+}
+
+PLSBasicFilters NameDialog{
+	min-width: /*hdpi*/410px;
+	max-width: /*hdpi*/410px;
+	min-height: /*hdpi*/243px;
+	max-height: /*hdpi*/243px;
+}
+
+PLSBasicFilters NameDialog #content{
+	min-height: /*hdpi*/203px;
+	max-height: /*hdpi*/203px;
+}
+
+PLSBasicFilters NameDialog #titleLabel{
+	background: transparent;
+	font-size: /*hdpi*/14px;
+	color: #ffffff;
+	min-height: /*hdpi*/20px;
+	max-height: /*hdpi*/20px;
+}
+
+PLSBasicFilters NameDialog #buttonBox{
+	min-height: /*hdpi*/40px;
+	max-height: /*hdpi*/40px;
+}
+
+PLSBasicFilters NameDialog #userText{
+	background-color: #1e1e1f;
+	border-radius: /*hdpi*/3px;
+	min-height: /*hdpi*/40px;
+	max-height: /*hdpi*/40px;
+}
+
+PLSBasicFilters NameDialog #buttonBox QPushButton{
+	min-width: /*hdpi*/140px;
+	max-width: /*hdpi*/140px;
+	min-height: /*hdpi*/40px;
+	max-height: /*hdpi*/40px;
+	border-radius: /*hdpi*/3px;
+	background-color: #444444;
+	padding: 0px;
+}
+
+PLSBasicFilters NameDialog{
+	qproperty-hasCloseButton: false;
+}
+
+PLSBasicFilters NameDialog #close{
+	background: transparent;
+}
+
+PLSBasicFilters NameDialog #buttonBox QPushButton:hover {
+	background-color: #555555;
+}
+
+PLSBasicFilters NameDialog #buttonBox QPushButton:pressed {
+	background-color: #2d2d2d;
+}
+PLSBasicFilters NameDialog #buttonBox QPushButton:disabled {
+	background-color: #444444;
+	color: #777777;
+}
+
+PLSBasicFilters PLSPopupMenu#basicFilterMenu{
+	min-width: /*hdpi*/180px;
+	max-width: /*hdpi*/180px;
+}
+
+PLSBasicFilters PLSPopupMenu#basicFilterMenu PLSPopupMenu{
+	min-width: /*hdpi*/260px;
+	max-width: /*hdpi*/260px;
+}
+
+PLSBasicFilters PLSPopupMenu#basicFilterMenu QLabel{
+	background-color: transparent;
+}
+
+PLSBasicFilters PLSPopupMenu#basicFilterMenu PLSPopupMenuItem[selected="true"] {
+	background-color: #444444;
+}
+
+PLSBasicFilters #rightScrollBtn, PLSBasicFilters #leftScrollBtn{
+	min-width: /*hdpi*/50px;
+	max-width: /*hdpi*/50px;
+	min-height: /*hdpi*/50px;
+	max-height: /*hdpi*/50px;
+	background: transparent;
+	padding: 0px;
+}
+
+PLSBasicFilters #rightScrollBtn:hover, PLSBasicFilters #leftScrollBtn:hover{
+	background: transparent;
+}
+
+PLSBasicFilters #leftScrollBtn{
+	image:url(":/images/btn-pre-normal.svg");
+}
+
+PLSBasicFilters #leftScrollBtn:hover{
+	image:url(":/images/btn-pre-over.svg");
+}
+
+PLSBasicFilters #leftScrollBtn:pressed{
+	image:url(":/images/btn-pre-click.svg");
+}
+
+PLSBasicFilters #leftScrollBtn:!enable{
+	image:url(":/images/btn-pre-disable.svg");
+}
+
+PLSBasicFilters #rightScrollBtn{
+	image:url(":/images/btn-next-normal.svg");
+}
+
+PLSBasicFilters #rightScrollBtn:hover{
+	image:url(":/images/btn-next-over.svg");
+}
+
+PLSBasicFilters #rightScrollBtn:pressed{
+	image:url(":/images/btn-next-click.svg");
+}
+
+PLSBasicFilters #rightScrollBtn:!enable{
+	image:url(":/images/btn-next-disable.svg");
+}
+
+PLSBasicFilters #preview{
+	padding: /*hdpi*/15px /*hdpi*/15px /*hdpi*/15px 0;
+}
+
+PLSBasicFilters #widget_container{
+	min-height: /*hdpi*/100px;
+}
+
+PLSFiltersItemView {
+	background-color: #272727;
+	min-width: /*hdpi*/ 190px;
+	max-width: /*hdpi*/ 190px;
+}
+
+PLSFiltersItemView,PLSFiltersItemView[status="normal"] {
+	background-color: #272727;
+}
+
+PLSFiltersItemView[status="hover"] {
+	background-color: #444444;
+}
+
+PLSFiltersItemView[status="pressed"] {
+	background-color: #2d2d2d;
+}
+
+PLSFiltersItemView #nameLabel {
+	background: transparent;
+	font-size: /*hdpi*/ 14px;
+	color: #ffffff;
+}
+
+PLSFiltersItemView #nameLabel[status="visible.unselected"]{
+	color: #ffffff;
+	font-weight: normal;
+}
+
+PLSFiltersItemView #nameLabel[status="invisible.unselected"]{
+	color: #666666;
+	font-weight: normal;
+}
+
+PLSFiltersItemView #nameLabel[status="invisible.selected"]{
+	color: #7a7f34;
+	font-weight: bold;
+}
+
+PLSFiltersItemView #nameLabel[status="visible.selected"]{
+	color: #effc35;
+	font-weight: bold;
+}
+
+PLSFiltersItemView #advButton, PLSFiltersItemView #visibleButton {
+	padding: 0px;
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	background: transparent;
+}
+
+PLSFiltersItemView #advButton {
+	image: url(:/images/icon-more-default.svg);
+}
+
+PLSFiltersItemView #advButton:hover{
+	image:url(":/images/icon-more-over.svg");
+}
+
+PLSFiltersItemView #advButton:pressed{
+	image:url(":/images/icon-more-click.svg");
+}
+
+PLSFiltersItemView #advButton:!enabled{
+	image:url(":/images/icon-more-disable.svg");
+}
+
+PLSFiltersItemView PLSPopupMenu#filterItemMenu {
+	min-width: /*hdpi*/ 180px;
+	max-width: /*hdpi*/ 180px;
+}
+
+PLSFiltersItemView PLSPopupMenu#filterItemMenu QLabel{
+	background-color: transparent;
+}
+
+PLSFiltersItemView PLSPopupMenu#filterItemMenu PLSPopupMenuItem[selected="true"] {
+	background-color: #444444;
+}
+
+PLSFiltersItemView QLineEdit {
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSColorFilterView {
+	min-height: /*hdpi*/ 70px;
+	max-height: /*hdpi*/ 70px;
+}
+
+PLSColorFilterImage {
+	min-width: /*hdpi*/ 60px;
+	max-width: /*hdpi*/ 60px;
+	min-height: /*hdpi*/ 60px;
+	max-height: /*hdpi*/ 60px;
+	background: transparent;
+	border-radius: /*hdpi*/ 3px;
+}
+
+PLSColorFilterImage:hover {
+	background: transparent;
+}
+
+PLSColorFilterImage[clicked=true] {
+	min-width: /*hdpi*/ 56px;
+	max-width: /*hdpi*/ 56px;
+	min-height: /*hdpi*/ 56px;
+	max-height: /*hdpi*/ 56px;
+	border: /*hdpi*/ 2px solid #effc35;
+}
+
+PLSColorFilterImage[clicked=false] {
+	border: none;
+}
+
+#content {
+    background-color: red;
+}

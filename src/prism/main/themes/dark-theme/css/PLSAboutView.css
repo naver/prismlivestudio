@@ -1,0 +1,59 @@
+
+PLSAboutView {
+	qproperty-hasHLine:/*hdpi*/false;
+	qproperty-hasMinButton:/*hdpi*/false;
+	qproperty-isMoveInContent:/*hdpi*/false;
+	qproperty-hasBorder:/*hdpi*/true;
+}
+
+PLSAboutView, PLSAboutView QWidget {
+	background-color: #272727;
+}
+
+PLSAboutView #logoLabel {
+	qproperty-minimumSize: /*hdpi*/175px /*hdpi*/123px;
+	qproperty-maximumSize: /*hdpi*/175px /*hdpi*/123px;
+
+	image:url(":/images/login-logo.svg");
+	background-color:transparent;
+}
+
+PLSAboutView #logoInfoLabel {
+	qproperty-minimumSize: /*hdpi*/ 175px /*hdpi*/ 15px;
+	qproperty-maximumSize: /*hdpi*/ 175px /*hdpi*/ 15px;
+	image: url(":/images/about-logo-info.svg");
+	background-color: transparent;
+}
+
+PLSAboutView #versionLabel {
+	color:#bababa;
+	font-size:/*hdpi*/12px;
+	min-height: /*hdpi*/16px;
+	max-height: /*hdpi*/16px;
+}
+
+PLSAboutView #checkUpdateButton {
+	qproperty-minimumSize: /*hdpi*/ 150px /*hdpi*/ 40px;
+	qproperty-maximumSize: /*hdpi*/ 150px /*hdpi*/ 40px;
+	padding: /*hdpi*/ 0px;
+	color: #000000;
+	border-radius: /*hdpi*/ 3px;
+	background-color: #effc35;
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSAboutView #checkUpdateButton:disabled {
+	background-color:#7a7f34;
+}
+
+PLSAboutView #rightLabel {
+	color:#666666;
+	font-size:/*hdpi*/11px;
+	min-height: /*hdpi*/20px;
+	max-height: /*hdpi*/20px;
+}
+PLSAboutView #lineView {
+	background-color:#111111;
+	min-height: /*hdpi*/1px;
+	max-height: /*hdpi*/1px;
+}

@@ -1,0 +1,53 @@
+#PLSLiveInfoNaverTV {
+	min-width:/*hdpi*/ 720px;
+	max-width:/*hdpi*/ 720px;
+	min-height:/*hdpi*/ 550px;
+	max-height:/*hdpi*/ 550px;
+}
+
+#PLSLiveInfoNaverTV #nvtTitleWidget {
+	min-height: /*hdpi*/ 195px;
+	max-height: /*hdpi*/ 195px;
+}
+
+#PLSLiveInfoNaverTV #nvtTitleWidget #nvtTitleLabel {
+	color: #ffffff;
+	font-size: /*hdpi*/ 20px;
+	font-weight: bold;
+	qproperty-geometry: rect( /*hdpi*/ 25 /*hdpi*/ 30 /*hdpi*/ 181 /*hdpi*/ 81);
+}
+
+#PLSLiveInfoNaverTV #nvtTitleWidget #thumbnailButton {
+	min-width: /*hdpi*/ 214px;
+	max-width: /*hdpi*/ 214px;
+	min-height: /*hdpi*/ 120px;
+	max-height: /*hdpi*/ 120px;
+}
+
+#PLSLiveInfoNaverTV #nvtTitleWidget #nvtGuidelabel {
+	color: #666666;
+	font-size:/*hdpi*/ 12px;
+	font-weight: normal;
+}
+
+#PLSLiveInfoNaverTV #midwidget #scheduleLabel, #PLSLiveInfoNaverTV #midwidget #liveTitleLabel {
+	color: #bababa;
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	min-width: /*hdpi*/ 96px;
+	max-width: /*hdpi*/ 96px;
+}
+
+#PLSLiveInfoNaverTV #bottomFrame {
+	border:/*hdpi*/ none;
+	border-top:/*hdpi*/ 1px solid #151515;
+	min-height:/*hdpi*/ 78px;
+	max-height:/*hdpi*/ 78px;
+}
+
+#PLSLiveInfoNaverTV #bottomFrame QPushButton {
+	min-width:/*hdpi*/ 128px;
+	max-width:/*hdpi*/ 128px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}

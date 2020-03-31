@@ -1,0 +1,41 @@
+PLSFanshipWidget {
+        margin:/*hdpi*/ 0px/*hdpi*/ 0px/*hdpi*/ 0px/*hdpi*/ 0px;
+        background-color: transparent;
+}
+
+PLSFanshipWidget>#detailLabel {
+        font-size:/*hdpi*/ 12px;
+        margin-top:/*hdpi*/ 8px;
+        color: #666666;
+}
+
+PLSFanshipWidgetItem {
+        margin:/*hdpi*/ 0px/*hdpi*/ 0px/*hdpi*/ 0px/*hdpi*/ 0px;
+        min-height:/*hdpi*/ 28px;
+        max-height:/*hdpi*/ 28px;
+        background-color: transparent;
+}
+
+PLSFanshipWidgetItem #titleBox {
+        spacing: 10px;
+        margin:/*hdpi*/ 0px/*hdpi*/ 0px/*hdpi*/ 0px/*hdpi*/ 0px;
+        font-size:/*hdpi*/ 14px;
+        font-weight: normal;
+        background-color: transparent;
+}
+
+PLSFanshipWidgetItem #badgeLabel {
+        min-height:/*hdpi*/ 20px;
+        max-height:/*hdpi*/ 20px;
+        font-size:/*hdpi*/ 11px;
+        font-weight: bold;
+        border-radius:/*hdpi*/ 2px;
+        color: #ffffff;
+        padding-right:/*hdpi*/ 5px;
+        padding-left:/*hdpi*/ 5px;
+        background-color: #4e4e4e;
+}
+
+PLSFanshipWidgetItem #badgeLabel:disabled {
+        color: #777777;
+}

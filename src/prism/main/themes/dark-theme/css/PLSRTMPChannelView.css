@@ -1,0 +1,379 @@
+
+PLSRtmpChannelView {
+	background-color: #272727;
+	qproperty-minimumSize:/*hdpi*/719px/*hdpi*/550px;
+	qproperty-maximumSize:/*hdpi*/719px/*hdpi*/550px;
+	border: /*hdpi*/1px solid #111111;
+}
+
+PLSRtmpChannelView * {
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+}
+
+PLSRtmpChannelView #MenuFrame {
+	max-height: /*hdpi*/ 40px;
+	min-height: /*hdpi*/ 40px;
+	margin: /*hdpi*/ 0px;
+	padding: /*hdpi*/ 0px;
+	border:/*hdpi*/1px solid #111111;
+}
+
+PLSRtmpChannelView #TitleLabel {
+	margin-left:/*hdpi*/ 17px;
+	max-height:/*hdpi*/ 16px;
+	font-size:/*hdpi*/ 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+}
+
+PLSRtmpChannelView #CloseBtn {
+	margin:/*hdpi*/0px;
+	padding:/*hdpi*/5px;
+	border:/*hdpi*/ none;
+	image:url(":/images/close-btn.svg");
+	background-color: transparent;
+	color: transparent;
+	qproperty-minimumSize:/*hdpi*/40px/*hdpi*/40px;
+	qproperty-maximumSize:/*hdpi*/40px/*hdpi*/40px;
+}
+
+PLSRtmpChannelView #CloseBtn:hover {
+	image:url(":/images/close-btn-over.svg");
+}
+
+PLSRtmpChannelView #CloseBtn:pressed {
+	image:url(":/images/close-btn-click.svg");
+}
+
+PLSRtmpChannelView #CategoryFrame {
+	margin:/*hdpi*/30px/*hdpi*/30px/*hdpi*/20px/*hdpi*/25px;
+	padding:/*hdpi*/0px;
+}
+
+PLSRtmpChannelView #CategoryLabel {
+	max-width:/*hdpi*/ 136px;
+	max-height:/*hdpi*/ 27px;
+	font-size:/*hdpi*/ 20px;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+	border:/*hdpi*/ none;
+}
+
+PLSRtmpChannelView #EditAreaFrame {
+	margin:/*hdpi*/0px/*hdpi*/30px/*hdpi*/0px/*hdpi*/25px;
+	padding:/*hdpi*/0px;
+	border:/*hdpi*/ none;
+}
+
+PLSRtmpChannelView #LeftFrame {
+	margin:/*hdpi*/0px;
+	margin-right:/*hdpi*/ 5px;
+	padding:/*hdpi*/0px;
+	max-width:/*hdpi*/ 146px;
+	max-height:/*hdpi*/ 290px;
+	min-width:/*hdpi*/ 146px;
+	min-height:/*hdpi*/ 290px;
+	background-color: transparent;
+	border:/*hdpi*/ none;
+}
+
+PLSRtmpChannelView #RightFrame {
+	margin:/*hdpi*/0px;
+	padding:/*hdpi*/0px;
+	max-width:/*hdpi*/ 499px;
+	max-height:/*hdpi*/ 290px;
+	min-width:/*hdpi*/ 499px;
+	min-height:/*hdpi*/ 290px;
+	background-color: transparent;
+	border:/*hdpi*/ none;
+}
+
+PLSRtmpChannelView #EditAreaFrame QLabel {
+	max-width:/*hdpi*/ 166px;
+	min-width:/*hdpi*/ 0px;
+	margin:/*hdpi*/0px;
+	padding:/*hdpi*/0px;
+	border:/*hdpi*/ none;
+}
+
+PLSRtmpChannelView #LeftFrame QFrame{
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	qproperty-minimumSize:/*hdpi*/0px/*hdpi*/40px;
+	qproperty-maximumSize:/*hdpi*/146px/*hdpi*/40px;
+	border:/*hdpi*/ none;
+	background-color: transparent;
+	margin:/*hdpi*/0px;
+	padding:/*hdpi*/0px;
+	border:/*hdpi*/ none;
+}
+
+PLSRtmpChannelView QLineEdit, #StreamKeyComplexEditor, #PasswordComplexEditor {
+	margin:/*hdpi*/0px;
+	padding:/*hdpi*/0px;
+	padding-left:/*hdpi*/ 10px;
+	background-color: #222222;
+	border:/*hdpi*/ none;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	max-width:/*hdpi*/ 499px;
+	min-width:/*hdpi*/ 499px;
+	qproperty-minimumSize:/*hdpi*/499px/*hdpi*/40px;
+	qproperty-maximumSize:/*hdpi*/499px/*hdpi*/40px;
+	border:/*hdpi*/ 1px solid transparent;
+}
+
+PLSRtmpChannelView #PlatformCombbox {
+	background-color: #444444;
+	border:/*hdpi*/ none;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	min-width:/*hdpi*/ 499px;
+	max-width:/*hdpi*/ 499px;
+	padding:/*hdpi*/0px;
+	margin:/*hdpi*/0px;
+	qproperty-minimumSize:/*hdpi*/499px/*hdpi*/40px;
+	qproperty-maximumSize:/*hdpi*/499px/*hdpi*/40px;
+	border-radius:/*hdpi*/ 3px;
+	padding-left:/*hdpi*/ 12px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+}
+
+PLSRtmpChannelView #PlatformCombbox:hover {
+	background-color: #555555;
+}
+
+PLSRtmpChannelView #PlatformCombbox:on {
+	background-color: #222222;
+}
+
+PLSRtmpChannelView #PlatformCombbox:disabled {
+	background-color: #373737;
+	color: #666666;
+}
+
+PLSRtmpChannelView #PlatformCombbox QAbstractItemView {
+	selection-background-color: #2d2d2d;
+	background-color: transparent;
+	show-decoration-selected: 1;
+	border:/*hdpi*/ 1px solid #111111;
+	border-radius:/*hdpi*/ 3px;
+	padding:/*hdpi*/0px;
+	margin:/*hdpi*/0px;
+}
+
+PLSRtmpChannelView #PlatformCombbox QAbstractItemView:focus {
+	outline: none;
+}
+
+PLSRtmpChannelView #PlatformCombbox QAbstractItemView::item {
+	min-height:/*hdpi*/ 40px;
+	height:/*hdpi*/ 40px;
+	border:/*hdpi*/ none;
+	color: #ffffff;
+	background-color: #2d2d2d;
+}
+
+
+PLSRtmpChannelView #PlatformCombbox QAbstractItemView::item:hover {
+	background-color: #373737;
+	color: #ffffff;
+}
+
+PLSRtmpChannelView #PlatformCombbox QAbstractItemView::item:selected:active {
+	color: #effc35;
+}
+
+PLSRtmpChannelView #PlatformCombbox QAbstractItemView::item:selected:!active {
+	color: #ffffff;
+}
+
+
+PLSRtmpChannelView #PlatformCombbox::drop-down {
+	subcontrol-origin: padding;
+	subcontrol-position: center right;
+	width:/*hdpi*/ 30px;
+	height:/*hdpi*/ 30px;
+	border:/*hdpi*/ none;
+}
+
+PLSRtmpChannelView #PlatformCombbox::down-arrow {
+	image:url(":/images/txt-dropbox-open-normal.svg");
+}
+
+PLSRtmpChannelView #PlatformCombbox::down-arrow:on {
+	image:url(":/images/txt-dropbox-open-click.svg");
+}
+
+PLSRtmpChannelView #NameLabel, PLSRtmpChannelView #StreamKeyLabel, PLSRtmpChannelView #UserIDLabel, PLSRtmpChannelView #UserPasswordLabel, PLSRtmpChannelView #PlatformLabel {
+	background-color: transparent;
+	max-width:/*hdpi*/ 136px;
+	min-height:/*hdpi*/ 18px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	font-style: normal;
+	color: #bababa;
+}
+
+PLSRtmpChannelView #MustBeLabel, PLSRtmpChannelView #MustBeLabelStreamKey, PLSRtmpChannelView #NameMustbeLabel {
+	background-color: transparent;
+	max-width:/*hdpi*/ 136px;
+	min-height:/*hdpi*/ 18px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	font-style: normal;
+	color: #c34151;
+}
+
+PLSRtmpChannelView #PasswordComplexEditor, PLSRtmpChannelView #StreamKeyComplexEditor {
+	background-color: #222222;
+	border:/*hdpi*/ 0px;
+	padding:/*hdpi*/0px;
+	margin:/*hdpi*/0px;
+	border-radius:/*hdpi*/ 3px;
+}
+
+
+PLSRtmpChannelView #OpenLink {
+	padding:/*hdpi*/0px;
+	margin:/*hdpi*/0px;
+	margin-left:/*hdpi*/ 3px;
+	background-color: transparent;
+	border-image: none;
+	border:/*hdpi*/ none;
+	color: lightblue;
+	min-width:/*hdpi*/ 28px;
+	min-height:/*hdpi*/ 18px;
+	max-height:/*hdpi*/ 18px;
+	max-width:/*hdpi*/ 58px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #0091ff;
+	qproperty-minimumSize:/*hdpi*/28px/*hdpi*/18px;
+	qproperty-maximumSize:/*hdpi*/56px/*hdpi*/18px;
+}
+
+PLSRtmpChannelView #OpenLink:hover {
+	color: white;
+}
+
+PLSRtmpChannelView #OpenLink:disabled {
+	color: transparent;
+}
+
+PLSRtmpChannelView #RTMPUrlEdit:disabled {
+	color: #666666;
+}
+
+PLSRtmpChannelView #StreamKeyEdit, PLSRtmpChannelView #UserPasswordEdit {
+	margin:/*hdpi*/1px;
+	padding:/*hdpi*/0px;
+	padding-left:/*hdpi*/ 10px;
+	qproperty-minimumSize:/*hdpi*/400px/*hdpi*/36px;
+	qproperty-maximumSize:/*hdpi*/469px/*hdpi*/36px;
+}
+
+PLSRtmpChannelView #UserPasswordEdit, PLSRtmpChannelView #UserIDEdit {
+	color: #666666;
+}
+
+PLSRtmpChannelView #StreamKeyVisible, PLSRtmpChannelView #PasswordVisible {
+	qproperty-minimumSize:/*hdpi*/40px/*hdpi*/40px;
+	qproperty-maximumSize:/*hdpi*/40px/*hdpi*/40px;
+	padding:/*hdpi*/9px;
+	background-color: transparent;
+	color: transparent;
+	border-image: none;
+}
+
+PLSRtmpChannelView #StreamKeyVisible:checked, PLSRtmpChannelView #PasswordVisible:checked {
+	image:url(":/images/icon-source-view-off-normal.svg");
+}
+
+PLSRtmpChannelView #StreamKeyVisible:checked:hover, PLSRtmpChannelView #PasswordVisible:checked:hover {
+	image:url(":/images/icon-source-view-off-over.svg");
+}
+
+PLSRtmpChannelView #StreamKeyVisible:checked:pressed, PLSRtmpChannelView #PasswordVisible:checked:pressed {
+	image:url(":/images/icon-source-view-off-click.svg");
+}
+
+PLSRtmpChannelView #StreamKeyVisible:!checked, PLSRtmpChannelView #PasswordVisible:!checked {
+	image:url(":/images/ic-source-view-normal.svg");
+}
+
+PLSRtmpChannelView #StreamKeyVisible:!checked:hover, PLSRtmpChannelView #PasswordVisible:!checked:hover {
+	image:url(":/images/ic-source-view-over.svg");
+}
+
+
+PLSRtmpChannelView #StreamKeyVisible:!checked:pressed, PLSRtmpChannelView #PasswordVisible:!checked:pressed {
+	image:url(":/images/ic-source-view-click.svg");
+}
+
+PLSRtmpChannelView #ButtonsFrame {
+	padding:/*hdpi*/20px/*hdpi*/30px/*hdpi*/20px/*hdpi*/25px;
+	max-height:/*hdpi*/ 80px;
+	border-top:/*hdpi*/ 1px solid #111111;
+	qproperty-minimumSize:/*hdpi*/720px/*hdpi*/80px;
+	qproperty-maximumSize:/*hdpi*/720px/*hdpi*/80px;
+}
+
+PLSRtmpChannelView #SaveBtn, PLSRtmpChannelView #CancelBtn {
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	min-width:/*hdpi*/ 128px;
+	max-width:/*hdpi*/ 128px;
+	font-size:/*hdpi*/ 14px;
+	margin:/*hdpi*/0px;
+	margin-left:/*hdpi*/ 10px;
+	padding:/*hdpi*/0px;
+	qproperty-minimumSize:/*hdpi*/128px/*hdpi*/40px;
+	qproperty-maximumSize:/*hdpi*/128px/*hdpi*/40px;
+	border-radius:/*hdpi*/ 3px;
+	color: #ffffff;
+	border:/*hdpi*/ none;
+	background-color: #444444;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+PLSRtmpChannelView #SaveBtn:hover, PLSRtmpChannelView #CancelBtn:hover {
+	background-color: #555555;
+	color: #ffffff;
+}
+
+PLSRtmpChannelView #SaveBtn:pressed, PLSRtmpChannelView #CancelBtn:pressed {
+	background-color: #2d2d2d;
+	color: #ffffff;
+}
+
+PLSRtmpChannelView #SaveBtn:disabled, PLSRtmpChannelView #CancelBtn:disabled {
+	color: #777777;
+	background-color: #444444;
+}
+
+PLSRtmpChannelView #RTMPUrlEdit:focus, PLSRtmpChannelView #NameEdit:focus, PLSRtmpChannelView #UserIDEdit:focus, PLSRtmpChannelView #StreamKeyComplexEditor:isFocus, PLSRtmpChannelView #PasswordComplexEditor:isFocus {
+	border:/*hdpi*/ 1px solid #effc35;
+}
+
+PLSRtmpChannelView #StreamKeyComplexEditor[isFocus="true"], PLSRtmpChannelView #PasswordComplexEditor[isFocus="true"] {
+	border:/*hdpi*/ 1px solid #effc35;
+}
+
+PLSRtmpChannelView #EditAreaFrame QLabel#itemLabel {
+	max-width:/*hdpi*/ 10000px;
+	min-width:/*hdpi*/ 0px;
+    	padding-left: /*hdpi*/ 12px;
+}

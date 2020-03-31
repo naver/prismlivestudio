@@ -1,0 +1,56 @@
+/**  PLSLiveInfoAfreecaTV  */
+PLSLiveInfoAfreecaTV {
+        min-width: /*hdpi*/720px;
+        max-width: /*hdpi*/720px;
+        min-height: /*hdpi*/550px;
+        max-height: /*hdpi*/550px;
+}
+
+PLSLiveInfoAfreecaTV #titleWidget {
+        margin: /*hdpi*/0px;
+        min-height: /*hdpi*/76px;
+        max-height: /*hdpi*/76px;
+        background-color: transparent;
+}
+
+PLSLiveInfoAfreecaTV #titleWidget>#titleLabel {
+        margin: /*hdpi*/28px /*hdpi*/0px /*hdpi*/0px /*hdpi*/0px;
+        padding-bottom: /*hdpi*/20px;
+        font-size: /*hdpi*/20px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: transparent;
+}
+
+PLSLiveInfoAfreecaTV #midwidget>.QLabel {
+        min-width: /*hdpi*/96px;
+        max-width: /*hdpi*/96px;
+        font-size: /*hdpi*/14px;
+        font-weight: bold;
+        color: #bababa;
+        background-color: transparent;
+}
+
+PLSLiveInfoAfreecaTV #midwidget>#tipLabel {
+        margin-top: /*hdpi*/5px;
+        font-size: /*hdpi*/12px;
+        font-weight: normal;
+        max-width: /*hdpi*/2000px;
+        color: #666666;
+}
+
+PLSLiveInfoAfreecaTV #bottomWidget {
+        min-height: /*hdpi*/79px;
+        max-height: /*hdpi*/79px;
+}
+
+PLSLiveInfoAfreecaTV #lineView {
+        min-height: /*hdpi*/1px;
+        max-height: /*hdpi*/1px;
+        background-color: #151515;
+        margin-bottom: /*hdpi*/2px;
+}
+
+PLSLiveInfoAfreecaTV #bottomButtonFrame {
+        padding-right: /*hdpi*/30px;
+}

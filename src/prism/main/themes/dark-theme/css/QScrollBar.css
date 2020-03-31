@@ -1,0 +1,57 @@
+
+::corner {
+    background-color: #272727;
+	border:/*hdpi*/ none;
+}
+
+QScrollBar:vertical {
+    background-color: #272727;
+	width:/*hdpi*/ 10px;
+    margin:/*hdpi*/0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #444444;
+	min-height:/*hdpi*/ 20px;
+	border-radius:/*hdpi*/ 3px;
+	border:/*hdpi*/ none;
+    margin:/*hdpi*/0 2px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+	border:/*hdpi*/ none;
+    background: none;
+	height:/*hdpi*/ 0px;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+	border:/*hdpi*/ none;
+	background: none;
+	color: none;
+}
+
+QScrollBar:horizontal {
+    background-color: #272727;
+	height:/*hdpi*/ 10px;
+    margin:/*hdpi*/0px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #444444;
+	min-width:/*hdpi*/ 20px;
+	border-radius:/*hdpi*/ 3px;
+	border:/*hdpi*/ none;
+    margin:/*hdpi*/2px 0;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+	border:/*hdpi*/ none;
+    background: none;
+	width:/*hdpi*/ 0px;
+}
+
+QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal, QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+	border:/*hdpi*/ none;
+    background: none;
+    color: none;
+}

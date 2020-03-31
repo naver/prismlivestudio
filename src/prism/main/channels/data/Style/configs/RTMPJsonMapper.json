@@ -1,0 +1,13 @@
+{
+	"streamName":"display_name",
+	"rtmpUrl":"rtmp_url",
+	"streamKey":"stream_key",
+	"username":"user_id",
+	"description":"other_info",
+	"resolution":"resolution",
+	"bitrate":"bitrate",
+	"framerate":"framerate",
+	"interval":"interval",
+	"rtmpSeq":"rtmpSeq",
+	"publishService":"channel_name"
+}

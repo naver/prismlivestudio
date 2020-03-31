@@ -1,0 +1,61 @@
+
+PLSLoadingComboxMenu {
+	border: 1px solid #111111;
+    background: #2d2d2d;
+	border-width: /*hdpi*/1px;
+	border-style:solid;
+	border-color:#111111;
+    padding:0px;
+	border-radius:/*hdpi*/ 3px;
+}
+
+PLSLoadingComboxMenu #loadingListWidget {
+    border:none;
+    background-color:transparent;
+	padding:/*hdpi*/1px;
+}
+
+PLSLoadingComboxMenu PLSLoadingTitleItem #loadingLabel{
+	min-width:/*hdpi*/24px;
+	max-width:/*hdpi*/24px;
+	min-height:/*hdpi*/24px;
+	max-height:/*hdpi*/24px;
+}
+
+PLSLoadingComboxMenu PLSLoadingTitleItem #labelDetailTitle{
+	min-height:/*hdpi*/18px;
+	max-height:/*hdpi*/18px;
+	font-size:/*hdpi*/14px;
+	color:white;
+}
+
+PLSLoadingComboxMenu PLSLoadingMenuItem #loadingMenuTitleLabel
+{
+	min-height:/*hdpi*/38px;
+	max-height:/*hdpi*/38px;
+	font-size:/*hdpi*/14px;
+	color:white;
+	background-color:transparent;
+	padding-left:/*hdpi*/10px;
+	padding-right:/*hdpi*/10px;
+}
+
+PLSLoadingComboxMenu PLSLoadingMenuItem #loadingMenuTitleLabel[selected="true"] {
+	color:#effc35;
+}
+
+PLSLoadingComboxMenu #loadingListWidget::item:hover {
+    background-color: #444444;
+}
+
+PLSLoadingComboxMenu #loadingListWidget::item:selected:hover {
+    background-color: #444444;
+}
+
+PLSLoadingComboxMenu #loadingListWidget::item:selected {
+    background-color: #373737;
+}
+
+PLSLoadingComboxMenu #loadingListWidget:focus {
+    outline:none;
+}

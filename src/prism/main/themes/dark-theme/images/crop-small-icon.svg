@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3209F9D8-71CB-4E7E-B6CF-ABEE377D29DA</title>
+    <defs>
+        <polygon id="path-1" points="8.13151629e-21 0.140292 8.13151629e-21 7.140292 11.66298 7.140292 11.66298 0.140292 0 0.140292"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0525_Release-_Image-Resource" transform="translate(-950.000000, -726.000000)">
+            <g id="Crop_Small_icon_ㅜㅐㅡ미" transform="translate(950.000000, 726.000000)">
+                <g id="Group" transform="translate(7.000000, 4.000000)">
+                    <path d="M0,11 L12,11 L12,0 L0,0 L0,11 Z M0.9,10.1749794 L11.1,10.1749794 L11.1,0.825020626 L0.9,0.825020626 L0.9,10.1749794 Z" id="Fill-1" fill="#FFFFFF"></path>
+                    <g id="Group-7" transform="translate(0.000000, 2.000000)">
+                        <path d="M9.2748,0.87283821 C9.2748,1.28741862 8.9397,1.622688 8.526,1.622688 C8.1126,1.622688 7.7772,1.28741862 7.7772,0.87283821 C7.7772,0.459159059 8.1126,0.122688 8.526,0.122688 C8.9397,0.122688 9.2748,0.459159059 9.2748,0.87283821" id="Fill-2" fill="#FFFFFF"></path>
+                        <g id="Group-6" transform="translate(0.000000, 1.890000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <polygon id="Fill-4" fill="#FFFFFF" mask="url(#mask-2)" points="9.38538 1.25817456 7.25958 3.46466922 4.05738 0.140292 0.40248 3.93455357 0.26958 3.94171549 -0.000120000001 4.56885072 -0.000120000001 7.140292 11.66298 7.140292 11.66298 3.62192011"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

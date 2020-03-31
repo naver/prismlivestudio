@@ -1,0 +1,24 @@
+PLSCompleterPopupList {
+	background-color: #2d2d2d;
+	border: /*hdpi*/ 1px solid #111111;
+	border-radius: /*hdpi*/ 3px;
+}
+PLSCompleterPopupList QScrollArea, PLSCompleterPopupList QScrollArea #scrollAreaWidget {
+	border-radius: /*hdpi*/ 3px;
+	background-color: #2d2d2d;
+}
+PLSCompleterPopupList QLabel {
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	padding-left: /*hdpi*/ 12px;
+	background-color: #2d2d2d;
+	font-size: /*hdpi*/ 14px;
+	color: #ffffff;
+}
+PLSCompleterPopupList QLabel[state="selected"] {
+	color: #effc35;
+	background-color: #373737;
+}
+PLSCompleterPopupList QLabel[state="hover"] {
+	background-color: #555555;
+}

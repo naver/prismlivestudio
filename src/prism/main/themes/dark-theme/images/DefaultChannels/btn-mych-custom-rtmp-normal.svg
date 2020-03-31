@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="40" viewBox="0 0 115 40">
+    <g fill="none" fill-rule="evenodd">
+        <text x="19" y="25" fill="#A8A8A8" font-family="Malgun Gothic" font-size="14" font-weight="bold">
+            <tspan>Custom RTMP</tspan>
+        </text>
+        <g fill="#BABABA" transform="translate(1 14)">
+            <rect width="2" height="12" x="5" rx="1"/>
+            <rect width="12" height="2" y="5" rx="1"/>
+        </g>
+    </g>
+</svg>

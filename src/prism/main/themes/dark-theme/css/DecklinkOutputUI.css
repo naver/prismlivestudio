@@ -1,0 +1,34 @@
+DecklinkOutputUI#Output * {
+    color: #ffffff;
+	font-size:/*hdpi*/ 14px;
+}
+
+DecklinkOutputUI#Output QLabel {
+    color: #bababa;
+	font-size:/*hdpi*/ 14px;
+}
+
+DecklinkOutputUI#Output QLabel[useFor="FormLabelRole"] {
+    font-weight: bold;
+}
+DecklinkOutputUI#Output #label, DecklinkOutputUI#Output #label_2 {
+    font-weight: bold;
+    color: #ffffff;
+	font-size:/*hdpi*/ 14px;
+}
+DecklinkOutputUI#Output #keyerLabel {
+    font-weight: normal;
+    color: #bababa;
+	font-size:/*hdpi*/ 12px;
+}
+DecklinkOutputUI#Output PLSPropertiesView #noPropertiesLabel {
+    color: #ffffff;
+	font-size:/*hdpi*/ 14px;
+}
+DecklinkOutputUI #outputButton,DecklinkOutputUI #previewOutputButton
+{
+	min-width:/*hdpi*/ 130px;
+	max-width:/*hdpi*/ 130px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}

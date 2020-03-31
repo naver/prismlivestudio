@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5631860D-C93A-499F-B9CE-E372597AE300</title>
+    <defs>
+        <circle id="path-1" cx="9" cy="9" r="9"></circle>
+        <linearGradient x1="49.8758333%" y1="77.0893082%" x2="49.8758333%" y2="12.7%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="81.1571429%" y1="-1.71711728%" x2="62.3960494%" y2="29.394577%" id="linearGradient-4">
+            <stop stop-color="#040000" offset="0%"></stop>
+            <stop stop-color="#040000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="64.9383564%" y1="86.2652632%" x2="56.9677562%" y2="66.9280702%" id="linearGradient-5">
+            <stop stop-color="#040000" offset="0%"></stop>
+            <stop stop-color="#040000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0525_Release-_Image-Resource" transform="translate(-212.000000, -246.000000)">
+            <g id="stremsetting_navertv_s" transform="translate(212.000000, 246.000000)">
+                <g id="Group">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Oval" fill="#06DB78" xlink:href="#path-1"></use>
+                    <circle id="Oval-1" fill="#06DB78" mask="url(#mask-2)" cx="9" cy="9" r="18"></circle>
+                    <g mask="url(#mask-2)">
+                        <g transform="translate(5.500000, 4.000000)">
+                            <polygon id="Rectangle-path" fill="url(#linearGradient-3)" fill-rule="nonzero" points="0.022417975 1.3450785 2.71257497 1.3450785 2.71257497 8.47399453 0.022417975 8.47399453"></polygon>
+                            <path d="M8.20497883,4.19216132 C7.80145528,3.56445802 6.97199021,3.36269624 6.34428691,3.76621979 L0.650121274,7.33067781 C0.022417975,7.73420136 -0.1793438,8.56366643 0.22417975,9.19136973 C0.627703299,9.81907303 1.45716837,10.0208348 2.08487167,9.61731126 L7.77903731,6.05285324 C8.40674061,5.64932969 8.60850238,4.81986462 8.20497883,4.19216132 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <path d="M7.77903731,3.76621979 L2.08487167,0.201761775 C1.45716837,-0.1793438 0.627703299,2.29702542e-13 0.22417975,0.627703299 C-0.1793438,1.2554066 0.022417975,2.08487167 0.650121274,2.48839522 L6.36670489,6.05285324 C6.99440819,6.45637679 7.82387326,6.25461501 8.22739681,5.62691171 C8.63092036,4.99920841 8.40674061,4.16974334 7.77903731,3.76621979 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <polygon id="Shape" fill="none" points="6.36670489 6.05285324 4.52843094 4.90953651"></polygon>
+                            <path d="M6.36670489,6.05285324 L4.55084892,4.90953651 L0.650121274,7.33067781 C0.022417975,7.73420136 -0.1793438,8.56366643 0.22417975,9.19136973 C0.627703299,9.81907303 1.45716837,10.0208348 2.08487167,9.61731126 L7.06166211,6.50121274 L6.36670489,6.05285324 L6.36670489,6.05285324 Z" id="Shape" fill="url(#linearGradient-4)" fill-rule="nonzero" opacity="0.5"></path>
+                            <polygon id="Shape" fill="url(#linearGradient-5)" fill-rule="nonzero" opacity="0.2" points="2.71257497 1.3450785 0.022417975 1.3450785 0.022417975 7.73420136 2.71257497 6.05285324"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

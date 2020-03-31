@@ -1,0 +1,603 @@
+
+PLSBeautyFilterView{
+	min-width:/*hdpi*/298px;
+	min-height:/*hdpi*/ 616px;
+	background-color: #1e1e1f;
+	border:/*hdpi*/ 1px solid #111111;
+	qproperty-captionHeight:/*hdpi*/50;
+}
+
+#PLSBeautyFilterView > #contentBorder > #content {
+    background-color: #1e1e1f;
+}
+
+PLSBeautyFilterView PLSComboBox {
+    background-color: #444444;
+	border-radius:/*hdpi*/ 3px;
+	padding-left:/*hdpi*/ 12px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	font-size:/*hdpi*/ 14px;
+    color: #ffffff;
+}
+PLSBeautyFilterView PLSComboBox:hover {
+    background-color: #555555;
+}
+PLSBeautyFilterView PLSComboBox:disabled {
+    background-color: #373737;
+    color: #666666;
+}
+PLSBeautyFilterView PLSComboBox::drop-down {
+	border:/*hdpi*/ none;
+	width:/*hdpi*/ 30px;
+}
+PLSBeautyFilterView PLSComboBox::down-arrow {
+	image:url(":/images/txt-dropbox-open-normal.svg");
+	width:/*hdpi*/ 100%;
+	margin-right:/*hdpi*/ 12px;
+}
+PLSBeautyFilterView PLSComboBox::down-arrow:hover {
+	image:url(":/images/txt-dropbox-open-over.svg");
+}
+PLSBeautyFilterView PLSComboBox::down-arrow:disabled {
+	image:url(":/images/txt-dropbox-open-disable.svg");
+}
+PLSBeautyFilterView PLSComboBox::down-arrow:on {
+	image:url(":/images/txt-dropbox-open-click.svg");
+}
+PLSBeautyFilterView PLSComboBox:on, 
+PLSBeautyFilterView PLSComboBox:editable {
+    background-color: #222222;
+}
+
+PLSBeautyFilterView PLSComboBoxListView {
+    show-decoration-selected: 1;
+    background-color: #2d2d2d;
+	font-size:/*hdpi*/ 14px;
+    color: #ffffff;
+	border:/*hdpi*/ 1px solid #111111;
+	margin-top:/*hdpi*/ 0px;
+	border-radius:/*hdpi*/ 3px;
+}
+
+PLSBeautyFilterView PLSComboBoxListView:focus {
+    outline: none;
+}
+
+PLSBeautyFilterView PLSComboBoxListView::item {
+	height:/*hdpi*/ 40px;
+	padding-left:/*hdpi*/ 12px;
+    background-color: #2d2d2d;
+}
+
+PLSBeautyFilterView PLSComboBoxListView::item:selected {
+    color: #effc35;
+    background-color: #373737;
+}
+
+PLSBeautyFilterView PLSComboBoxListView::item:hover {
+    background-color: #373737;
+}
+
+PLSBeautyFilterView #titleBar{
+	min-height:/*hdpi*/38px;
+	max-height:/*hdpi*/38px;
+}
+
+PLSBeautyFilterView #sourceWidget{
+	min-height:/*hdpi*/104px;
+	max-height:/*hdpi*/104px;
+	background-color:#272727;
+	border-bottom:/*hdpi*/1px solid #343435;
+}
+
+PLSBeautyFilterView #seperatorWidget{
+	background:transparent;
+	max-height:/*hdpi*/99px;
+}
+
+PLSBeautyFilterView #sourceWidget > #sourceListComboBox{
+	min-height:/*hdpi*/40px;
+	max-height:/*hdpi*/40px;
+}
+
+PLSBeautyFilterView #sourceWidget > #sourceLabel{
+	font-size:/*hdpi*/14px;
+    font-weight:bold;
+    color:#ffffff;
+	background: transparent;
+}
+
+PLSBeautyFilterView #sourceWidget > #sourceLabel:disabled{
+	font-size:/*hdpi*/14px;
+    font-weight:bold;
+    color:#666666;
+	background: transparent;
+}
+
+PLSBeautyFilterView #scrollArea {
+	border: none;
+	min-height: /*hdpi*/ 133px;
+	background-color: #1e1e1f;
+}
+
+PLSBeautyFilterView #scrollAreaFace {
+	border: none;
+	min-height: /*hdpi*/ 218px;
+	max-height: /*hdpi*/ 395px;
+	background-color: #1e1e1f;
+}
+
+PLSBeautyFilterView QScrollBar:vertical {
+    background-color: transparent;
+	min-width:/*hdpi*/10px;
+	max-width:/*hdpi*/10px;
+    margin:/*hdpi*/0px;
+}
+
+PLSBeautyFilterView QSlider::groove:horizontal {
+	border-radius:/*hdpi*/2px;
+	height:/*hdpi*/ 4px;
+      background-color: #404040;
+      margin:/*hdpi*/2px 0;
+}
+
+PLSBeautyFilterView QSlider::sub-page:horizontal {
+	border-radius:/*hdpi*/2px;
+    background-color: #effc35;
+	margin:/*hdpi*/2px 0;
+}
+
+PLSBeautyFilterView QSlider::sub-page:horizontal:disabled {
+	border-radius:/*hdpi*/2px;
+    background-color: #404040;
+	margin:/*hdpi*/2px 0;
+}
+
+PLSBeautyFilterView QSlider::handle:horizontal[enter="false"], QSlider::handle:horizontal[enter="false"][handle="true"]{
+	height:/*hdpi*/ 0px;
+	width:/*hdpi*/4px;
+	image:none;
+	margin:/*hdpi*/-4px/*hdpi*/0px/*hdpi*/-4px/*hdpi*/0px;
+}
+
+PLSBeautyFilterView QSlider::handle:horizontal[enter="true"] {
+	image:url(":/images/img-handle-normal.svg");
+	width:/*hdpi*/ 12px;
+    margin:/*hdpi*/-4px/*hdpi*/0px/*hdpi*/-4px/*hdpi*/0px;
+}
+
+PLSBeautyFilterView #thumbnailWidget{
+	background-color:#1e1e1f;
+    border:none;
+}
+
+PLSBeautyFilterView #filterScrollWidget{
+	background-color:#1e1e1f;
+    border:none;
+}
+
+PLSBeautyFilterView #page_normal,#page_noSource{
+	background-color:#1e1e1f;
+}
+
+PLSBeautyFilterView #titleWidget > #close {
+    background: transparent;
+	min-width:/*hdpi*/ 16px;
+	max-width:/*hdpi*/ 16px;
+	min-height:/*hdpi*/ 16px;
+	max-height:/*hdpi*/ 16px;
+	image:url(":/images/btn-close-normal.svg");
+}
+
+PLSBeautyFilterView #titleWidget > #close:hover {
+	image:url(":/images/btn-close-over.svg");
+}
+
+PLSBeautyFilterView #titleWidget > #close:pressed {
+	image:url(":/images/btn-close-click.svg");
+}
+
+PLSBeautyFilterView #titleWidget > #close:disabled {
+	image:url(":/images/btn-close-disable.svg");
+}
+
+PLSBeautyFilterView #skinTitleWidget{
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	background:transparent;
+}
+
+PLSBeautyFilterView #skinContentWidget{
+	min-height:/*hdpi*/ 55px;
+	max-height:/*hdpi*/ 55px;
+	background:transparent;
+}
+
+PLSBeautyFilterView #faceTitleWidget{
+	min-height:/*hdpi*/ 49px;
+	max-height:/*hdpi*/ 49px;
+	border-bottom:/*hdpi*/1px solid #343435;
+	background-color:#272727;
+}
+
+PLSBeautyFilterView #skinTitleWidget > #skinLabel{
+	min-height:/*hdpi*/50px;
+	max-height:/*hdpi*/50px;
+}
+
+PLSBeautyFilterView #faceTitleWidget > #faceLabel,
+PLSBeautyFilterView #skinTitleWidget > #skinLabel{
+	font-size:/*hdpi*/14px;
+    font-weight:bold;
+    color:#ffffff;
+	background: transparent;
+}
+
+PLSBeautyFilterView #faceTitleWidget > #faceLabel:disabled,
+PLSBeautyFilterView #skinTitleWidget > #skinLabel:disabled{
+	color: #666666;
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #filterNameLabel{
+	color: #ffffff;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	min-height:/*hdpi*/44px;
+	max-height:/*hdpi*/44px;
+	min-width:/*hdpi*/ 100px;
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #filterNameLabel:disabled{
+	color: #666666;
+}
+
+PLSBeautyFilterView #faceTitleWidget > #faceStatusCheckbox::indicator{
+	width:/*hdpi*/ 28px;
+	height:/*hdpi*/ 17px;
+}
+
+PLSBeautyFilterView #faceTitleWidget #faceStatusCheckbox::indicator:unchecked{
+	image:url(":/images/slider-off-default.svg");
+}
+
+PLSBeautyFilterView #faceTitleWidget #faceStatusCheckbox::indicator:unchecked:hover{
+	image:url(":/images/slider-off-over.svg");
+}
+
+PLSBeautyFilterView #faceTitleWidget #faceStatusCheckbox::indicator:unchecked:pressed{
+	image:url(":/images/slider-off-click.svg");
+}
+
+PLSBeautyFilterView #faceTitleWidget #faceStatusCheckbox::indicator:unchecked:disabled{
+	image:url(":/images/slider-off-disable.svg");
+}
+
+PLSBeautyFilterView #faceTitleWidget #faceStatusCheckbox::indicator:checked{
+	image:url(":/images/slider-on.svg");
+}
+
+PLSBeautyFilterView #faceTitleWidget #faceStatusCheckbox::indicator:checked:hover{
+	image:url(":/images/slider-on-over.svg");
+}
+
+PLSBeautyFilterView #faceTitleWidget #faceStatusCheckbox::indicator:checked:pressed{
+	image:url(":/images/slider-on-click.svg");
+}
+
+PLSBeautyFilterView #faceTitleWidget #faceStatusCheckbox::indicator:checked:disabled{
+	image:url(":/images/slider-on-disable.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget{
+	min-height:/*hdpi*/ 217px;
+	max-height:/*hdpi*/217px;
+	background-color:#1e1e1f;
+}
+
+PLSBeautyFilterView #faceWidget{
+	background:transparent;
+}
+
+PLSBeautyFilterView #skinWidget{
+	min-height:/*hdpi*/ 80px;
+	max-height:/*hdpi*/80px;
+	background:transparent;
+}
+
+PLSBeautyFilterView #seperatorLabel{
+	max-height:/*hdpi*/90px;
+	background:transparent;
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget{
+	border:none;
+	background:transparent;
+}
+
+PLSBeautyFilterView #label_line{
+	min-height: 1px;
+	max-height: 1px;
+	background-color:#343435;
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > QLabel,
+PLSBeautyFilterView #skinWidget #skinContentWidget > QLabel{
+	background: transparent;
+	min-width:/*hdpi*/ 28px;
+	max-width:/*hdpi*/ 28px;
+	min-height:/*hdpi*/ 26px;
+	max-height:/*hdpi*/ 26px;
+}
+
+PLSBeautyFilterView #buttonWidget > #resetBtn{
+	background-color: #444444;
+	color:#ffffff;
+	border-radius:/*hdpi*/ 2px;
+	min-width:/*hdpi*/ 80px;
+	max-width:/*hdpi*/ 80px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	font-size:/*hdpi*/ 14px;
+}
+
+PLSBeautyFilterView #buttonWidget > #resetBtn:disabled{
+	color:#666666;
+}
+
+PLSBeautyFilterView #buttonWidget > #resetBtn:hover{
+	color: #ffffff;
+	background-color:#555555;
+}
+
+PLSBeautyFilterView #buttonWidget > #resetBtn:pressed{
+	background-color:#2d2d2d;
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > QLineEdit,#skinWidget #skinContentWidget > QLineEdit{
+	min-width:/*hdpi*/ 38px;
+	max-width:/*hdpi*/ 38px;
+	min-height:/*hdpi*/ 26px;
+	max-height:/*hdpi*/ 26px;
+	padding:/*hdpi*/0px;
+	border-radius:/*hdpi*/2px;
+	background-color:#131313;
+	border:/*hdpi*/1px solid #323232;
+	font-size:/*hdpi*/12px;
+	color:#ffffff;
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > QLineEdit:disabled{
+	color:#131313;
+}
+
+PLSBeautyFilterView #skinWidget #skinContentWidget > QLineEdit:disabled{
+	color:#131313;
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #chinLabel,
+PLSBeautyFilterView #faceContentWidget #filterWidget > #cheekboneLabel,
+PLSBeautyFilterView #faceContentWidget #filterWidget > #eyeLabel,
+PLSBeautyFilterView #faceContentWidget #filterWidget > #noseLabel,
+PLSBeautyFilterView #faceContentWidget #filterWidget > #skinIconLabel{
+	min-width:/*hdpi*/28px;
+	max-width:/*hdpi*/28px;
+	min-height:/*hdpi*/26px;
+	max-height:/*hdpi*/26px;
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #chinLabel{
+	image:url(":/images/beauty-icon-face-1-on.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #cheekLabel{
+	image:url(":/images/beauty-icon-face-2-on.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #cheekboneLabel{
+	image:url(":/images/beauty-icon-eye-1-on.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #eyeLabel{
+	image:url(":/images/beauty-icon-eye-2-on.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #noseLabel{
+	image:url(":/images/beauty-icon-nose-on.svg");
+}
+
+PLSBeautyFilterView #skinWidget #skinContentWidget > #skinIconLabel{
+	image:url(":/images/beauty-icon-skin-on.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #chinLabel:disabled{
+	image:url(":/images/beauty-icon-face-1-off.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #cheekLabel:disabled{
+	image:url(":/images/beauty-icon-face-2-off.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #cheekboneLabel:disabled{
+	image:url(":/images/beauty-icon-eye-1-off.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #eyeLabel:disabled{
+	image:url(":/images/beauty-icon-eye-2-off.svg");
+}
+
+PLSBeautyFilterView #faceContentWidget #filterWidget > #noseLabel:disabled{
+	image:url(":/images/beauty-icon-nose-off.svg");
+}
+
+PLSBeautyFilterView #skinWidget #skinContentWidget > #skinIconLabel:disabled{
+	image:url(":/images/beauty-icon-skin-off.svg");
+}
+
+
+PLSBeautyFilterView #buttonWidget > #deleteBtn,
+PLSBeautyFilterView #buttonWidget > #saveBtn{
+	background-color: #effc35;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+PLSBeautyFilterView #buttonWidget > #deleteBtn:hover,
+PLSBeautyFilterView #buttonWidget > #saveBtn:hover{
+	background-color: #f1fa75;
+}
+
+PLSBeautyFilterView #buttonWidget > #deleteBtn:pressed,
+PLSBeautyFilterView #buttonWidget > #saveBtn:pressed{
+	background-color: #7A7F34;
+}
+
+PLSBeautyFilterView #buttonWidget > #deleteBtn:disabled,
+PLSBeautyFilterView #buttonWidget > #saveBtn:disabled{
+	background-color: #444444;
+	color: #666666;
+}
+
+PLSBeautyFilterView #noticeIconLabel{
+	background:transparent;
+	min-width:/*hdpi*/90px;
+	max-width:/*hdpi*/90px;
+	min-height:/*hdpi*/90px;
+	max-height:/*hdpi*/90px;
+	image:url(":/images/ic-beautyeffect.svg");
+}
+
+PLSBeautyFilterView #noticeLabel{
+	color: #666666;
+	font-size:/*hdpi*/ 14px;
+	background: transparent;
+}
+
+PLSBeautyFilterView #buttonWidget{
+	border-top:/*hdpi*/1px solid #343435;
+	background:#1e1e1f;
+	max-height:/*hdpi*/65px;
+}
+
+
+PLSBeautyFaceItemView{
+	font-weight:bold;
+	font-size:/*hdpi*/11px;
+	min-width:/*hdpi*/ 80px;
+	max-width:/*hdpi*/ 80px;
+	min-height:/*hdpi*/ 106px;
+	max-height:/*hdpi*/ 106px;
+	border-radius:/*hdpi*/3px;
+	background:transparent;
+	border:/*hdpi*/none;
+}
+
+PLSBeautyFaceItemView #iconFace{
+	background:transparent;
+	border:/*hdpi*/none;
+	border-radius:/*hdpi*/ 3px;
+}
+
+PLSBeautyFaceItemView #editFrame{
+	background:transparent;
+	min-height: /*hdpi*/ 20px;
+	max-height: /*hdpi*/ 20px;
+}
+
+PLSBeautyFaceItemView #faceIconLabel{
+	min-width: /*hdpi*/0px;
+	min-height: /*hdpi*/0px;
+	max-width: /*hdpi*/76px;
+	max-height: /*hdpi*/76px;
+	background: transparent;
+	border-radius:/*hdpi*/ 3px;
+	border: /*hdpi*/2px solid transparent;
+}
+
+PLSBeautyFaceItemView #faceIconLabel[clicked=true]{
+	border: /*hdpi*/2px solid #effc35;
+}
+
+PLSBeautyFaceItemView #faceIconLabel[clicked=false]{
+	border: /*hdpi*/2px solid #444444;
+}
+
+PLSBeautyFaceItemView #faceIconLabel:disabled{
+	border:/*hdpi*/ none;
+}
+
+PLSBeautyFaceItemView #filterId{
+	background:transparent;
+	color:#effc35;
+	font-size:/*hdpi*/11px;
+}
+
+PLSBeautyFaceItemView #filterId:!enabled{
+	color:#666666;
+	font-weight:normal;
+}
+
+PLSBeautyFaceItemView #filterId:enabled[clicked=true]{
+	color:#effc35;
+	font-weight:bold;
+}
+
+PLSBeautyFaceItemView #filterId:enabled[clicked=false]{
+	color:#bababa;
+	font-weight:normal;
+}
+
+PLSBeautyFaceItemView #customFlagIcon{
+	background: transparent;
+	min-width:/*hdpi*/ 11px;
+	max-width:/*hdpi*/ 11px;
+	min-height:/*hdpi*/ 13px;
+	max-height:/*hdpi*/ 13px;
+	image:url(":/images/img-beauty-custom.svg");
+}
+
+PLSBeautyFaceItemView #customFlagIcon:disabled{
+	image:url(":/images/img-beauty-custom-off.svg");
+}
+
+PLSBeautyFaceItemView #modifyBtn {
+	background: transparent;
+	min-width: /*hdpi*/ 11px;
+	max-width: /*hdpi*/ 11px;
+	min-height: /*hdpi*/ 13px;
+	max-height: /*hdpi*/ 13px;
+	image: url(":/images/ic-scene-rename-normal.svg");
+}
+
+PLSBeautyFaceItemView #modifyBtn:hover{
+	background:transparent;
+	min-width:/*hdpi*/ 11px;
+	max-width:/*hdpi*/ 11px;
+	min-height:/*hdpi*/ 13px;
+	max-height:/*hdpi*/ 13px;
+	image:url(":/images/ic-scene-rename-over.svg");
+}
+
+PLSBeautyFaceItemView #modifyBtn:pressed{
+	background:transparent;
+	min-width:/*hdpi*/ 11px;
+	max-width:/*hdpi*/ 11px;
+	min-height:/*hdpi*/ 13px;
+	max-height:/*hdpi*/ 13px;
+	image:url(":/images/ic-scene-rename-clicked.svg");
+}
+
+PLSBeautyFaceItemView #nameLineEdit{
+	min-height:/*hdpi*/ 20px;
+	max-height:/*hdpi*/ 20px;
+	background-color: #1e1e1e;
+	margin:/*hdpi*/0;
+	padding:/*hdpi*/0;
+	padding-left:/*hdpi*/ 5px;
+	padding-right:/*hdpi*/ 5px;
+}
+
+
+ 
+

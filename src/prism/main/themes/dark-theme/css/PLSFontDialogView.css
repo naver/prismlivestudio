@@ -1,0 +1,92 @@
+PLSFontDialogView QFontDialog QDialogButtonBox {
+	min-height: /*hdpi*/ 78px;
+	max-height: /*hdpi*/ 78px;
+}
+
+PLSFontDialogView QFontDialog QDialogButtonBox QPushButton[useFor="Ok"],
+PLSFontDialogView QFontDialog QDialogButtonBox QPushButton[useFor="Cancel"] {
+	font-weight: bold;
+	font-size: /*hdpi*/ 14px;
+	color: #FFFFFF;
+	min-width: /*hdpi*/ 128px;
+	max-width: /*hdpi*/ 128px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+}
+
+PLSFontDialogView {
+	min-height:/*hdpi*/ 425px;
+	max-height:/*hdpi*/ 875px;
+	min-width:/*hdpi*/ 478px;
+	max-width:/*hdpi*/ 720px;
+	background-color: #111111;
+}
+
+PLSFontDialogView QLabel {
+	alignment: left;
+	height:/*hdpi*/ 40px;
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	color: #bababa;
+}
+
+PLSFontDialogView QCheckBox{
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	color: #e1e1e1;
+}
+
+PLSFontDialogView QListWidget,
+PLSFontDialogView QListView {
+	border:/*hdpi*/ none;
+	outline: none;
+	border-radius:/*hdpi*/ 0;
+	background-color: #1e1e1f;
+}
+
+PLSFontDialogView QListWidget::item,
+PLSFontDialogView QListView::item{
+	border:/*hdpi*/ none;
+	outline: none;
+	height:/*hdpi*/ 40px;
+	padding-right:/*hdpi*/ 12px;
+	padding-left:/*hdpi*/ 12px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	background-color: #1e1e1f;
+	color: #ffffff;
+}
+
+PLSFontDialogView QListWidget::item:selected,
+PLSFontDialogView QListView::item:selected {
+	color : #effc35;
+}
+
+PLSFontDialogView QListWidget::item:hover,
+PLSFontDialogView QListView::item:hover{
+	background-color: #373737;
+}
+
+PLSFontDialogView QSpinBox, 
+PLSFontDialogView QDoubleSpinBox{
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	background-color: #1e1e1e;
+	color: #ffffff;
+	border-radius:/*hdpi*/ 2px;
+}
+
+PLSFontDialogView QLineEdit {
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	background-color: transparent;
+	color: #bababa;
+	border-radius:/*hdpi*/ 2px;
+}
+
+PLSFontDialogView QGroupBox::title{
+	background-color: transparent;
+	color: #bababa;
+}

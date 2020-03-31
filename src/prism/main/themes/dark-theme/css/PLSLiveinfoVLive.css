@@ -1,0 +1,92 @@
+	PLSLiveInfoVLive {
+	min-width: /*hdpi*/ 720px;
+	max-width: /*hdpi*/ 720px;
+	min-height: /*hdpi*/ 550px;
+	max-height: /*hdpi*/ 550px;
+	}
+
+	PLSLiveInfoVLive #titleWidget {
+	margin: /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px;
+	min-height: /*hdpi*/ 195px;
+	max-height: /*hdpi*/ 195px;
+	background-color: transparent;
+	}
+
+	PLSLiveInfoVLive #titleWidget > #titleLabel {
+	margin: /*hdpi*/ 28px /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px;
+	font-size: /*hdpi*/ 20px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: transparent;
+	}
+
+	PLSLiveInfoVLive #titleWidget #thumWidget {
+	margin: /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px;
+	min-width: /*hdpi*/ 400px;
+	max-width: /*hdpi*/ 400px;
+	background-color: transparent;
+	}
+
+	PLSLiveInfoVLive #titleWidget #thumWidget #thumTopPlaceLabel {
+	margin: /*hdpi*/ 0px;
+	min-height: /*hdpi*/ 34px;
+	max-height: /*hdpi*/ 34px;
+	}
+
+	PLSLiveInfoVLive #titleWidget #thumWidget #thumbnailButton {
+	margin: /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 5px /*hdpi*/ 0px;
+	min-width: /*hdpi*/ 214px;
+	max-width: /*hdpi*/ 241px;
+	min-height: /*hdpi*/ 120px;
+	max-height: /*hdpi*/ 120px;
+	}
+
+	PLSLiveInfoVLive #titleWidget #thumWidget #thumDetailLabel {
+	font-size: /*hdpi*/ 12px;
+	font-weight: normal;
+	color: #666666;
+	}
+
+	PLSLiveInfoVLive #titleWidget #label_placehoder {
+	margin: /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px;
+	min-width: /*hdpi*/ 160px;
+	max-width: /*hdpi*/ 160px;
+	background-color: transparent;
+	}
+
+
+	PLSLiveInfoVLive #midwidget > .QLabel {
+	min-width: /*hdpi*/ 96px;
+	max-width: /*hdpi*/ 96px;
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	color: #bababa;
+	background-color: transparent;
+	}
+
+	PLSLiveInfoVLive #bottomWidget {
+	min-height: /*hdpi*/ 79px;
+	max-height: /*hdpi*/ 79px;
+	}
+
+	PLSLiveInfoVLive #lineView {
+	min-height: /*hdpi*/ 1px;
+	max-height: /*hdpi*/ 1px;
+	background-color: #151515;
+	margin-bottom: /*hdpi*/ 2px;
+	}
+
+	PLSLiveInfoVLive #textEditDescribe,
+	PLSLiveInfoVLive #lineEditTitle {
+	font-size: /*hdpi*/ 14px;
+	border-radius: /*hdpi*/ 3px;
+	}
+
+	PLSLiveInfoVLive .QTextEdit {
+	border: /*hdpi*/ none;
+	background-color: #1e1e1e;
+	}
+
+	PLSLiveInfoVLive #bottomButtonFrame {
+	padding-right: /*hdpi*/ 30px;
+	}

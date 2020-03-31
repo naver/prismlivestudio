@@ -1,0 +1,91 @@
+PLSShareDialog {
+	border-radius:/*hdpi*/ 6px;
+	border:/*hdpi*/ solid 10px #111111;
+	background-color: #2c2c2c;
+	min-height:/*hdpi*/ 369px;
+	max-height:/*hdpi*/ 369px;
+	min-width:/*hdpi*/ 480px;
+	max-width:/*hdpi*/ 480px;
+}
+
+	PLSShareDialog #scrollArea {
+		background-color: transparent;
+		color: #2c2c2c;
+	border:/*hdpi*/ none;
+		margin:/*hdpi*/15px/*hdpi*/25px/*hdpi*/15px/*hdpi*/25px;
+	}
+
+	PLSShareDialog #scrollAreaWidgetContents {
+		background-color: transparent;
+	}
+
+	PLSShareDialog QLabel, PLSShareDialog QPushButton {
+		color: white;
+	border:/*hdpi*/ none;
+		background: transparent;
+	}
+
+		PLSShareDialog QPushButton[buttonFlag ="1"] {
+	min-width:/*hdpi*/ 213px;
+	min-height:/*hdpi*/ 60px;
+	max-width:/*hdpi*/ 213px;
+	max-height:/*hdpi*/ 60px;
+	border-radius:/*hdpi*/ 2px;
+			background-color: #363636;
+			
+	font-size:/*hdpi*/ 12px;
+			font-weight: bold;
+			color: rgba(255, 255, 255, 0.9);
+		}
+
+			PLSShareDialog QPushButton[buttonFlag ="1"]:hover {
+	min-width:/*hdpi*/ 213px;
+	min-height:/*hdpi*/ 60px;
+	max-width:/*hdpi*/ 213px;
+	max-height:/*hdpi*/ 60px;
+	border-radius:/*hdpi*/ 2px;
+				background-color: #55666666;
+				
+	font-size:/*hdpi*/ 12px;
+				font-weight: bold;
+				color: rgba(255, 255, 255, 0.9);
+			}
+
+
+	PLSShareDialog #titleLabel {
+	min-width:/*hdpi*/ 137.9px;
+	min-height:/*hdpi*/ 19px;
+	max-width:/*hdpi*/ 137.9px;
+	max-height:/*hdpi*/ 19px;
+		
+	font-size:/*hdpi*/ 16px;
+		font-weight: bold;
+		font-style: normal;
+		line-height: normal;
+		text-align: center;
+		color: #effc35;
+		margin:/*hdpi*/25px/*hdpi*/181px/*hdpi*/0px/*hdpi*/161px;
+		background-color: transparent;
+	}
+
+	PLSShareDialog #tipLabel {
+	min-width:/*hdpi*/ 200px;
+	min-height:/*hdpi*/ 23px;
+	max-width:/*hdpi*/ 200px;
+	max-height:/*hdpi*/ 23px;
+		
+	font-size:/*hdpi*/ 11px;
+		font-weight: normal;
+		color: rgba(153, 153, 153, 0.9);
+		margin:/*hdpi*/0px/*hdpi*/255px/*hdpi*/25px/*hdpi*/25px;
+		background-color: transparent;
+	}
+
+	PLSShareDialog QToolTip {
+		background-color: #2c2c2c;
+		
+	font-size:/*hdpi*/ 12px;
+		color: #ffffff;
+	border:/*hdpi*/ 1px solid #2c2c2c;
+	border-radius:/*hdpi*/ 1px;
+	}

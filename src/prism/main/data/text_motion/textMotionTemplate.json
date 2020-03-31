@@ -1,0 +1,2072 @@
+{
+    "version": 101564,
+    "categoryId": "template",
+    "items": null,
+    "group": [
+        {
+            "groupId": "Title",
+                        "items": [
+                {
+                    "itemId": "TEMPLATE_2520",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Title_A1",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 0,
+                                "textSize": 30,
+                                "subTextLeading": 0,
+                                "sort": "Center",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "簡潔標題",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "심플한 제목",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "シンプルなタイトル",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "Simple Title",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "简洁标题",
+                                                                "iOSFontInfo": "Default"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2561",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Title_A2",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 10,
+                                "textSize": 30,
+                                "subTextLeading": 10,
+                                "sort": "Center",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 10,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "簡潔標題",
+                                "textInfo1": "兩行",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": "심플한 제목",
+                                "textInfo1": "두줄의",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI "
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "シンプルなタイトル",
+                                "textInfo1": "2行の",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": "On Two Lines",
+                                "textInfo1": "Simple Title",
+                                                                "iOSFontInfo": "BoldGothic"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "简洁标题",
+                                "textInfo1": "两行",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2562",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Title_A3",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 5,
+                                "textSize": 25,
+                                "subTextLeading": 0,
+                                "sort": "Center",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "NotoserifCJKTW",
+                                "textInfo2": null,
+                                "textInfo1": "優雅標題",
+                                                                "iOSFontInfo": "NotoserifCJKTW"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "NanumMyeongjo",
+                                "textInfo2": null,
+                                "textInfo1": "우아한 제목",
+                                                                "iOSFontInfo": "NanumMyeongjo"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": true,
+                                    "backgroundColor": "#ffffff",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic "
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#000000",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "NotoSerifCJKJA",
+                                "textInfo2": null,
+                                "textInfo1": "エレガントなタイトル",
+                                                                "iOSFontInfo": "BoldMyongjo"
+                                                            },
+                            "en": {
+                                "andFontInfo": "NotoSerifEN",
+                                "textInfo2": null,
+                                "textInfo1": "Elegant Title",
+                                                                "iOSFontInfo": "BoldMyongjo"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "NotoserifCJKCN",
+                                "textInfo2": null,
+                                "textInfo1": "优雅标题",
+                                                                "iOSFontInfo": "NotoserifCJKCN"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2563",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Title_A4",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 10,
+                                "textSize": 50,
+                                "subTextLeading": 0,
+                                "sort": "Center",
+                                "kerning2": 3,
+                                "spaceBetweenBox": 10,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 0.26
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "GenJyuu",
+                                "textInfo2": "EPISODE #3",
+                                "textInfo1": "大\n標題",
+                                                                "iOSFontInfo": "GenJyuu"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Jalnan",
+                                "textInfo2": "EPISODE #3",
+                                "textInfo1": "큰\n제목",
+                                                                "iOSFontInfo": "Jalnan"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 36,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "RoundedX",
+                                "textInfo2": "EPISODE #3",
+                                "textInfo1": "大きな\nタイトル",
+                                                                "iOSFontInfo": "RoundedX"
+                                                            },
+                            "en": {
+                                "andFontInfo": "ChunkFive",
+                                "textInfo2": "EPISODE #3",
+                                "textInfo1": "Big\nTitle",
+                                                                "iOSFontInfo": "ChunkFive"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Tensentype",
+                                "textInfo2": "EPISODE #3",
+                                "textInfo1": "大\n标题",
+                                                                "iOSFontInfo": "Tensentype"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2564",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Title_B1",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 10,
+                                "textSize": 32,
+                                "subTextLeading": 0,
+                                "sort": "Center",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "GenJyuu",
+                                "textInfo2": null,
+                                "textInfo1": "飛入的標題",
+                                                                "iOSFontInfo": "GenJyuu"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "BMJua",
+                                "textInfo2": null,
+                                "textInfo1": "날아오는 제목",
+                                                                "iOSFontInfo": "BMJua"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": null,
+                                    "backgroundColor": null,
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": null,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": null,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "RoundedX",
+                                "textInfo2": null,
+                                "textInfo1": "スライドタイトル",
+                                                                "iOSFontInfo": "RoundedX"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Nunito",
+                                "textInfo2": null,
+                                "textInfo1": "A Sliding Title",
+                                                                "iOSFontInfo": "Nunito"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Tensentype",
+                                "textInfo2": null,
+                                "textInfo1": "飞入的标题",
+                                                                "iOSFontInfo": "Tensentype"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2565",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Title_B2",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 10,
+                                "textSize": 32,
+                                "subTextLeading": 0,
+                                "sort": "Center",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 5,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "NotoserifCJKTW",
+                                "textInfo2": null,
+                                "textInfo1": "影片標題",
+                                                                "iOSFontInfo": "NotoserifCJKTW"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Bombaram",
+                                "textInfo2": null,
+                                "textInfo1": "무비 타이틀",
+                                                                "iOSFontInfo": "Bombaram"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI "
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": " #ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "NotoSerifCJKJA",
+                                "textInfo2": null,
+                                "textInfo1": "映画のタイトル",
+                                                                "iOSFontInfo": "BoldMyongjo"
+                                                            },
+                            "en": {
+                                "andFontInfo": "LeagueGothic",
+                                "textInfo2": null,
+                                "textInfo1": "A MOVIE TITLE",
+                                                                "iOSFontInfo": "LeagueGothic"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "NotoserifCJKCN",
+                                "textInfo2": null,
+                                "textInfo1": "视频标题",
+                                                                "iOSFontInfo": "NotoserifCJKCN"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2566",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Title_B3",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 5,
+                                "textSize": 40,
+                                "subTextLeading": 0,
+                                "sort": "Center",
+                                "kerning2": 5,
+                                "spaceBetweenBox": 10,
+                                "kerning1": 10,
+                                "subTextSizeRatio": 0.3
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "在11月的上海街頭",
+                                "textInfo1": "影像部落格",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Bombaram",
+                                "textInfo2": "봄바람이불던 그날",
+                                "textInfo1": "브이로그",
+                                                                "iOSFontInfo": "Bombaram"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": true,
+                                    "backgroundColor": "#ffffff",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 36,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "11月、渋谷の道端で",
+                                "textInfo1": "Vログ",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": "CALIFORNIA",
+                                "textInfo1": "VLOG",
+                                                                "iOSFontInfo": "BoldGothic"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "在11月的上海街头",
+                                "textInfo1": "视频播客",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2567",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Title_B4",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 6,
+                                "textSize": 32,
+                                "subTextLeading": 0,
+                                "sort": "Center",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Setofont",
+                                "textInfo2": null,
+                                "textInfo1": "晃動的標題",
+                                                                "iOSFontInfo": "Setofont"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "NanumBarunPen",
+                                "textInfo2": null,
+                                "textInfo1": "흔들리는 제목",
+                                                                "iOSFontInfo": "NanumBarunPen"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "HuiFontP",
+                                "textInfo2": null,
+                                "textInfo1": "揺れるタイトル",
+                                                                "iOSFontInfo": "HuiFontP"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Caveat",
+                                "textInfo2": null,
+                                "textInfo1": "Shaking Titles",
+                                                                "iOSFontInfo": "Caveat"                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Ehonya",
+                                "textInfo2": null,
+                                "textInfo1": "晃动的标题",
+                                                                "iOSFontInfo": "Ehonya"
+                                                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "groupId": "Social",
+                        "items": [
+                {
+                    "itemId": "TEMPLATE_2548",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Social_1",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 0,
+                                "textSize": 20,
+                                "subTextLeading": 0,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": null,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2568",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Social_2",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 0,
+                                "textSize": 20,
+                                "subTextLeading": 0,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": null,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2569",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Social_3",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 0,
+                                "textSize": 20,
+                                "subTextLeading": 0,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": null,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2570",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Social_4",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 0,
+                                "textSize": 20,
+                                "subTextLeading": 0,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold ",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": null,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2571",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Social_5",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 0,
+                                "textSize": 20,
+                                "subTextLeading": 0,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": null,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2572",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Social_6",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 0,
+                                "textSize": 20,
+                                "subTextLeading": 0,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": null,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2573",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Social_7",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 0,
+                                "textSize": 20,
+                                "subTextLeading": 0,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Default"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": null,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "PRISM Live",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "groupId": "Caption",
+                        "items": [
+                {
+                    "itemId": "TEMPLATE_2574",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Lower_Third_1",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 5,
+                                "textSize": 24,
+                                "subTextLeading": 7,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 10,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 0.583333333
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "請輸入附加資訊",
+                                "textInfo1": "副標題",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": "부가정보를 입력해 주세요",
+                                "textInfo1": "로어서드",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": null,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "追加情報はここに入力",
+                                "textInfo1": "ローワーサード",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": "Displayed with a side line",
+                                "textInfo1": "Lower Third",
+                                                                "iOSFontInfo": "BoldGothic"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "请输入附加信息",
+                                "textInfo1": "小标题",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2575",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Lower_Third_2",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 5,
+                                "textSize": 24,
+                                "subTextLeading": 7,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 0.583333333
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "輸入附加資訊",
+                                "textInfo1": "簡潔副標題",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Default",
+                                "textInfo2": "부가정보 입력",
+                                "textInfo1": "미니멀 로어서드",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": true,
+                                    "backgroundColor": "#ffffff",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#000000",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "追加情報を入力",
+                                "textInfo1": "小ローワーサード",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": "ON TWO LINES",
+                                "textInfo1": "LOWER THIRD",
+                                                                "iOSFontInfo": "BoldGothic"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "输入附加信息",
+                                "textInfo1": "简洁小标题",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2549",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Caption_1",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 8,
+                                "textSize": 24,
+                                "subTextLeading": 0,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "NotoserifCJKTW",
+                                "textInfo2": null,
+                                "textInfo1": "請嘗試活用\n帶動畫效果的\n說明文句以提升\n觀眾對影片的理解。",
+                                                                "iOSFontInfo": "NotoserifCJKTW"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "NanumMyeongjo",
+                                "textInfo2": null,
+                                "textInfo1": "모션이 포함된\n설명 캡션 문구를\n활용하여 영상에 대한\n이해도를 높여보세요.",
+                                                                "iOSFontInfo": "NanumMyeongjo"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": false,
+                                    "backgroundColor": "",
+                                    "ko": {
+                                        "fontStyle": "Bold ",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "NotoSerifCJKJA",
+                                "textInfo2": null,
+                                "textInfo1": "モーションを含む \n説明文(キャプション)を \n活用して、動画を \n理解しやすくしましょう。",
+                                                                "iOSFontInfo": "BoldMyongjo"
+                                                            },
+                            "en": {
+                                "andFontInfo": "NotoSerifEN",
+                                "textInfo2": null,
+                                "textInfo1": "A descriptive caption\nthat displays on several\nlines with elegant\ntext effect.",
+                                                                "iOSFontInfo": "BoldMyongjo"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "NotoserifCJKCN",
+                                "textInfo2": null,
+                                "textInfo1": "请尝试充分利用\n带动画效果的\n说明词句\n帮助观众\n更好地理解视频。",
+                                                                "iOSFontInfo": "NotoserifCJKCN"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2576",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Caption_2",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 5,
+                                "textSize": 25,
+                                "subTextLeading": 5,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 10,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "重要部分標色",
+                                "textInfo1": "請嘗試活用說明文字\n提升觀眾\n對影片的理解度，\n並將文字中的",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "NanumSquare",
+                                "textInfo2": "하이라이팅 해보세요",
+                                "textInfo1": "캡션을 활용하여\n영상의 이해도를 높이고\n중요한 텍스트 문구에",
+                                                                "iOSFontInfo": "NanumSquare"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": true,
+                                    "backgroundColor": "#AA00E0",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "ハイライトで強調",
+                                "textInfo1": "キャプションで \n動画の理解を助け、 \n重要なテキストは",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": "highlighted",
+                                "textInfo1": "A simple caption\nsome words of\nwhich are",
+                                                                "iOSFontInfo": "BoldGothic"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": "设置为高亮显示",
+                                "textInfo1": "请尝试充分利用\n说明文字\n令视频更易理解，\n将文本中的重要词句",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2577",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Caption_3",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 5,
+                                "textSize": 25,
+                                "subTextLeading": 0,
+                                "sort": "Left",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "請嘗試\n利用標色說明\n提高觀眾對影片中\n重要主題的\n關注程度",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "NanumSquare",
+                                "textInfo2": null,
+                                "textInfo1": "하이라이팅 캡션을\n이용하여 영상 내\n중요한 주제에 대해서\n집중도를 높여보세요",
+                                                                "iOSFontInfo": "NanumSquare"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": true,
+                                    "backgroundColor": "#ffffff",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Left",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#000000",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "キャプションを \nハイライトで飾って \n動画の重要なテーマに \n耳目を集めましょう",
+                                                                "iOSFontInfo": "Bold"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Default",
+                                "textInfo2": null,
+                                "textInfo1": "A simple caption\nof text that displays\nclearly on several\nhighlighted lines",
+                                                                "iOSFontInfo": "BoldGothic"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Impact",
+                                "textInfo2": null,
+                                "textInfo1": "请尝试\n利用高亮显示\n提高观众对视频中\n重要主题的关注度",
+                                                                "iOSFontInfo": "Bold"
+                                                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "groupId": "Element",
+                        "items": [
+                {
+                    "itemId": "TEMPLATE_2557",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Element_1",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 0,
+                                "textSize": 22,
+                                "subTextLeading": 0,
+                                "sort": "Center",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 0,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "GenJyuu",
+                                "textInfo2": null,
+                                "textInfo1": "缺貨",
+                                                                "iOSFontInfo": "GenJyuu"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Jalnan",
+                                "textInfo2": null,
+                                "textInfo1": "품절",
+                                                                "iOSFontInfo": "Jalnan"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": true,
+                                    "backgroundColor": "#FF4D4D",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": null,
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": false,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 20,
+                                    "fontColor": "#FFFFFF",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "RoundedX",
+                                "textInfo2": null,
+                                "textInfo1": "品切れ",
+                                                                "iOSFontInfo": "RoundedX"
+                                                            },
+                            "en": {
+                                "andFontInfo": "ChunkFive",
+                                "textInfo2": null,
+                                "textInfo1": "Sold Out",
+                                                                "iOSFontInfo": "ChunkFive"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Tensentype",
+                                "textInfo2": null,
+                                "textInfo1": "断货",
+                                                                "iOSFontInfo": "Tensentype"
+                                                            }
+                        }
+                    }
+                },
+                {
+                    "itemId": "TEMPLATE_2558",
+                    "version": 1,
+                    "itemOption": null,
+                    "title": "Element_2",
+                    "shortTitle": null,
+                    "producer": null,
+                    "type": null,
+                    "resourceUrl": "No Resource",
+                                                                                "fontInfo": null,
+                    "previewUrl": null,
+                    "checksum": null,
+                    "duration": null,
+                    "opacity": null,
+                    "recommendFlag": false,
+                    "testFlag": false,
+                    "unsupport1080pFlag": false,
+                    "coverageCode": "ALL",
+                    "serviceList": [
+                        "prism"
+                    ],
+                    "properties": {
+                        "template": {
+                            "baseInfo": {
+                                "mainTextLeading": 10,
+                                "textSize": 40,
+                                "subTextLeading": 0,
+                                "sort": "Center",
+                                "kerning2": 0,
+                                "spaceBetweenBox": 0,
+                                "kerning1": 10,
+                                "subTextSizeRatio": 1
+                            },
+                            "zh_tw": {
+                                "andFontInfo": "GenJyuu",
+                                "textInfo2": null,
+                                "textInfo1": "神智不清",
+                                                                "iOSFontInfo": "GenJyuu"
+                                                            },
+                            "ko": {
+                                "andFontInfo": "Jalnan",
+                                "textInfo2": null,
+                                "textInfo1": "정신혼미",
+                                                                "iOSFontInfo": "Jalnan"
+                                                            },
+                            "baseInfoPC": {
+                                "adjustableAttribute": {
+                                    "fontColorAlpha": 100,
+                                    "isBackgroundOn": true,
+                                    "backgroundColor": "#50E3C2",
+                                    "ko": {
+                                        "fontStyle": "Bold",
+                                        "font": "Malgun Gothic"
+                                                                            },
+                                    "isHorizontalAlignment": true,
+                                    "en": {
+                                        "fontStyle": "Bold",
+                                        "font": "Segoe UI"
+                                                                            },
+                                    "outLineColor": "#000000",
+                                    "outLineSize": "2",
+                                    "horizontalAlignment": "Center",
+                                    "isOutlineColor": true,
+                                    "motionSpeed": 50,
+                                    "isBackgroundColor": true,
+                                    "isAgain": true,
+                                    "backgroundColorAlpha": 100,
+                                    "fontSize": 36,
+                                    "fontColor": "#ffffff",
+                                    "fontUpperCase": "None"
+                                }
+                            },
+                            "ja": {
+                                "andFontInfo": "RoundedX",
+                                "textInfo2": null,
+                                "textInfo1": "わわっ",
+                                                                "iOSFontInfo": "RoundedX"
+                                                            },
+                            "en": {
+                                "andFontInfo": "Jalnan",
+                                "textInfo2": null,
+                                "textInfo1": "OMG!",
+                                                                "iOSFontInfo": "Jalnan"
+                                                            },
+                            "zh_cn": {
+                                "andFontInfo": "Tensentype",
+                                "textInfo2": null,
+                                "textInfo1": "晕倒",
+                                                                "iOSFontInfo": "Tensentype"
+                                                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

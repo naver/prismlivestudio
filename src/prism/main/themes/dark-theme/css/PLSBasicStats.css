@@ -1,0 +1,53 @@
+
+PLSBasicStats #renderingFramedropState, PLSBasicStats #encodingFramedropState, PLSBasicStats #networkFramedropState {
+	min-width: /*hdpi*/ 8px;
+	max-width: /*hdpi*/ 8px;
+	min-height: /*hdpi*/ 8px;
+	max-height: /*hdpi*/ 8px;
+	border-radius: /*hdpi*/ 4px;
+	background-color: #01cb06;
+	margin-right: /*hdpi*/ 10px;
+}
+
+PLSBasicStats #resourcesHdr, PLSBasicStats #frameHdr, PLSBasicStats #bitrateHdr {
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	color: #eeeeee;
+}
+
+PLSBasicStats #cpuUsageLabel, PLSBasicStats #diskAvailableLabel, PLSBasicStats #memoryUsageLabel,
+PLSBasicStats #renderingFramedropLabel, PLSBasicStats #encodingFramedropLabel, PLSBasicStats #networkFramedropLabel,
+PLSBasicStats #streamBitrateLabel, PLSBasicStats #recordingBitrateLabel {
+	font-size: /*hdpi*/ 14px;
+	color: #eeeeee;
+}
+
+PLSBasicStats #cpuUsage, PLSBasicStats #diskAvailable, PLSBasicStats #memoryUsage,
+PLSBasicStats #renderingFramedrop, PLSBasicStats #encodingFramedrop, PLSBasicStats #networkFramedrop,
+PLSBasicStats #streamBitrate, PLSBasicStats #recordingBitrate {
+	font-size: /*hdpi*/ 14px;
+	color: #bababa;
+}
+
+PLSBasicStats #networkFramedropLabel[active="false"], PLSBasicStats #streamBitrateLabel[active="false"], PLSBasicStats #recordingBitrateLabel[active="false"],
+PLSBasicStats #networkFramedrop[active="false"], PLSBasicStats #streamBitrate[active="false"], PLSBasicStats #recordingBitrate[active="false"] {
+	color: #666666;
+}
+
+PLSBasicStats #renderingFramedropState[state="error"],
+PLSBasicStats #encodingFramedropState[state="error"],
+PLSBasicStats #networkFramedropState[state="error"] {
+	background-color: #c34151;
+}
+
+PLSBasicStats #renderingFramedropState[state="warning"],
+PLSBasicStats #encodingFramedropState[state="warning"],
+PLSBasicStats #networkFramedropState[state="warning"] {
+	background-color: #effc35;
+}
+
+PLSBasicStats #renderingFramedropState[state="disabled"],
+PLSBasicStats #encodingFramedropState[state="disabled"],
+PLSBasicStats #networkFramedropState[state="disabled"] {
+	background-color: #147916;
+}

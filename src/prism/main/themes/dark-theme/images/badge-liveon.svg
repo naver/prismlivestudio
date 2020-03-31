@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BE4A1868-26A9-4248-8632-62AF2278111D</title>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#F8FE65" offset="0%"></stop>
+            <stop stop-color="#4DFA73" offset="49.4826858%"></stop>
+            <stop stop-color="#3571FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0525_Release-_Image-Resource" transform="translate(-98.000000, -158.000000)" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="badge_liveon" transform="translate(98.000000, 158.000000)">
+                <circle id="Oval" transform="translate(21.000000, 21.000000) rotate(-180.000000) translate(-21.000000, -21.000000) " cx="21" cy="21" r="20"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

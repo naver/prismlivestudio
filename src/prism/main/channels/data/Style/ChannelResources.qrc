@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/configs">
+        <file>configs/RTMPJsonMapper.json</file>
+        <file>configs/RTMPJsonModel.json</file>
+        <file>configs/twitch.json</file>
+        <file>configs/youtube.json</file>
+    </qresource>
+</RCC>

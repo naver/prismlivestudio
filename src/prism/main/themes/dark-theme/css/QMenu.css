@@ -1,0 +1,94 @@
+QMenu {
+	font-size:/*hdpi*/ 14px; 
+	border:/*hdpi*/ 1px solid #111111;
+	background: #2d2d2d;
+	padding-top:/*hdpi*/ 8px;
+	padding-bottom:/*hdpi*/ 8px;
+	padding-left:/*hdpi*/ 0px;
+	padding-right:/*hdpi*/ 0px;
+}
+QMenu::right-arrow {
+	padding:/*hdpi*/0px/*hdpi*/14px/*hdpi*/0px/*hdpi*/0px;
+	width: /*hdpi*/9px;
+	height: /*hdpi*/13px;
+	image: url(":/images/ic-menu-next-normal.svg");
+}
+
+QMenu::icon {
+	padding-left:/*hdpi*/ 10px;
+	min-width:/*hdpi*/ 50px;
+	max-width:/*hdpi*/ 50px;
+	min-height:/*hdpi*/ 30px;
+	max-height:/*hdpi*/ 30px;
+}
+QMenu::item {
+	font-size:/*hdpi*/ 14px;
+    padding:/*hdpi*/0px/*hdpi*/20px/*hdpi*/0px/*hdpi*/20px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	min-width:/*hdpi*/ 190px;
+    color: #ffffff;
+    background: #2d2d2d;
+}
+QMenu::item:selected {
+    background: #373737;
+}
+QMenu::item:checked{
+    color: #effc35;
+}
+QMenu::item::!enabled{
+	color: #666666;
+}
+QMenu::separator {
+	height:/*hdpi*/ 1px;
+    background: #111111;
+}
+QMenu::indicator{
+	border:/*hdpi*/none;
+}
+
+QMenu #sourcePopupMenuCustomWidget {
+	margin: 0;
+	padding: 0;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	min-width: /*hdpi*/ 0px;
+	max-width: /*hdpi*/ 100000px;
+	background: #2d2d2d;
+	border-radius: 0;
+}
+QMenu #sourcePopupMenuCustomWidget:hover {
+	background: #373737;
+}
+QMenu #sourcePopupMenuCustomWidget > #icon {
+	margin-left: /*hdpi*/ 10px;
+	min-width: /*hdpi*/ 30px;
+	max-width: /*hdpi*/ 30px;
+	min-height: /*hdpi*/ 30px;
+	max-height: /*hdpi*/ 30px;
+	background: transparent;
+}
+QMenu #sourcePopupMenuCustomWidget > #text {
+	qproperty-indent: 0;
+	padding: 0;
+	margin-left: /*hdpi*/ 4px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	background: transparent;
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	color: white;
+}
+QMenu #sourcePopupMenuCustomWidget > #badge {
+	margin-left: /*hdpi*/ 6px;
+	margin-right: /*hdpi*/ 20px;
+	min-width: /*hdpi*/ 38px;
+	max-width: /*hdpi*/ 38px;
+	min-height: /*hdpi*/ 18px;
+	max-height: /*hdpi*/ 18px;
+	background: transparent;
+	image: url(":/images/img-sourcelist-badge.svg");
+}
+QMenu #sourcePopupMenuCustomWidget[hasBadge="false"] > #text {
+	margin-right: /*hdpi*/ 20px;
+}

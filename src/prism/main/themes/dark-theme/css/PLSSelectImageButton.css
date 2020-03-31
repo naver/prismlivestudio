@@ -1,0 +1,56 @@
+PLSSelectImageButton {
+	background-color: #444444;
+	border-radius:/*hdpi*/ 3px;
+}
+PLSSelectImageButton > #icon {
+	background-color: transparent;
+	min-width:/*hdpi*/ 69px;
+	max-width:/*hdpi*/ 69px;
+	min-height:/*hdpi*/ 66px;
+	max-height:/*hdpi*/ 66px;
+}
+PLSSelectImageButton > #icon[enabled="true"] {
+	image: url(":/images/icon-cover-camera.svg");
+}
+PLSSelectImageButton > #icon[enabled="false"] {
+	image: url(":/images/icon-cover-camera-disable.svg");
+}
+PLSSelectImageButton > #takeButton {
+	border-top-left-radius:/*hdpi*/ 3px;
+	border-top-right-radius:/*hdpi*/ 3px;
+	border-bottom-left-radius:/*hdpi*/ 0;
+	border-bottom-right-radius:/*hdpi*/ 0;
+}
+PLSSelectImageButton > #selectButton {
+	border-top-left-radius:/*hdpi*/ 0;
+	border-top-right-radius:/*hdpi*/ 0;
+	border-bottom-left-radius:/*hdpi*/ 3px;
+	border-bottom-right-radius:/*hdpi*/ 3px;
+}
+PLSSelectImageButton > #takeButton, PLSSelectImageButton > #selectButton {
+	min-width:/*hdpi*/ 0;
+	max-width:/*hdpi*/ 99999px;
+	min-height:/*hdpi*/ 0;
+	max-height:/*hdpi*/ 99999px;
+}
+PLSSelectImageButton > #takeButton > #icon, PLSSelectImageButton > #selectButton > #icon {
+	margin-left:/*hdpi*/ 15px;
+	min-width:/*hdpi*/ 38px;
+	max-width:/*hdpi*/ 38px;
+	min-height:/*hdpi*/ 36px;
+	max-height:/*hdpi*/ 36px;
+	background-color: transparent;
+}
+PLSSelectImageButton > #takeButton > #icon {
+	image: url(":/images/icon-cover-camera-small.svg");
+}
+PLSSelectImageButton > #selectButton > #icon {
+	image: url(":/images/icon-cover-add.svg");
+}
+PLSSelectImageButton > #takeButton > #text, PLSSelectImageButton > #selectButton > #text {
+	margin-left:/*hdpi*/ 10px;
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	color: white;
+}

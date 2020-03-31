@@ -1,0 +1,39 @@
+#PLSScheLiveNotice {
+	min-width:/*hdpi*/ 410px;
+	max-width:/*hdpi*/ 410px;
+	min-height:/*hdpi*/ 297px;
+	max-height:/*hdpi*/ 297px;
+}
+
+#PLSScheLiveNotice #messageLabel {
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+#PLSScheLiveNotice #infoFrame {
+	background-color: #1e1e1e;
+	border-radius:/*hdpi*/ 3px;
+}
+
+#PLSScheLiveNotice #infoFrame #scheLiveTitleLabel {
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	color: #effc35;
+}
+
+#PLSScheLiveNotice #infoFrame #scheLiveStartTimeLabel {
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+#PLSScheLiveNotice #okButton, #PLSScheLiveNotice #cancelButton {
+	min-width:/*hdpi*/ 140px;
+	max-width:/*hdpi*/ 140px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}

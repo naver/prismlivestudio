@@ -1,0 +1,94 @@
+PLSPopupMenu {
+	border:/*hdpi*/ 1px solid #111111;
+	background-color: #2d2d2d;
+	qproperty-marginLeft:/*hdpi*/0;
+	qproperty-marginTop:/*hdpi*/7;
+	qproperty-marginRight:/*hdpi*/0;
+	qproperty-marginBottom:/*hdpi*/7;
+}
+
+PLSPopupMenu PLSPopupMenuItem {
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	border:/*hdpi*/ none;
+	padding-left:/*hdpi*/ 20px;
+}
+
+PLSPopupMenu PLSPopupMenuItem[selected="true"] {
+	background-color: #444444;
+}
+
+PLSPopupMenu PLSPopupMenuItemAction {
+	color: #ffffff;
+	font-size:/*hdpi*/ 14px;
+}
+
+PLSPopupMenu PLSPopupMenuItem QLabel {
+	background-color: transparent;
+}
+
+PLSPopupMenu PLSPopupMenuItem QLabel[menuItemRole="text"] {
+	color: #ffffff;
+	font-size:/*hdpi*/ 14px;
+}
+
+PLSPopupMenu PLSPopupMenuItem QLabel[menuItemRole="disabled-text"] {
+	color: #666666;
+	font-size:/*hdpi*/ 14px;
+}
+
+PLSPopupMenu PLSPopupMenuItem[checked="false"] QLabel[menuItemRole="text"] {
+	color: #ffffff;
+}
+
+PLSPopupMenu PLSPopupMenuItem[checked="true"] QLabel[menuItemRole="text"] {
+	color: #effc35;
+}
+
+PLSPopupMenu PLSPopupMenuItem QLabel[menuItemRole="shortcut"] {
+	margin-right:/*hdpi*/ 20px;
+	color: #666666;
+	font-size:/*hdpi*/ 14px;
+}
+
+PLSPopupMenu PLSPopupMenuItem QLabel[menuItemRole="arrow-normal"] {
+	image: url(":/images/ic-menu-next-normal.svg");
+	margin-right:/*hdpi*/ 14px;
+	min-width:/*hdpi*/ 9px;
+	max-width:/*hdpi*/ 9px;
+	min-height:/*hdpi*/ 13px;
+	max-height:/*hdpi*/ 13px;
+}
+
+PLSPopupMenu PLSPopupMenuItem QLabel[menuItemRole="arrow-over"] {
+	image: url(":/images/ic-menu-next-over.svg");
+	margin-right: /*hdpi*/ 14px;
+	min-width:/*hdpi*/ 9px;
+	max-width:/*hdpi*/ 9px;
+	min-height:/*hdpi*/ 13px;
+	max-height:/*hdpi*/ 13px;
+}
+
+PLSPopupMenu PLSPopupMenuItem QLabel[menuItemRole="arrow-click"] {
+	image: url(":/images/ic-menu-next-click.svg");
+	margin-right: /*hdpi*/ 14px;
+	min-width:/*hdpi*/ 9px;
+	max-width:/*hdpi*/ 9px;
+	min-height:/*hdpi*/ 13px;
+	max-height:/*hdpi*/ 13px;
+}
+
+PLSPopupMenu PLSPopupMenuItem QLabel[menuItemRole="arrow-disable"] {
+	image: url(":/images/ic-menu-next-disable.svg");
+	margin-right: /*hdpi*/ 15px;
+	min-width: /*hdpi*/ 8px;
+	max-width: /*hdpi*/ 8px;
+	min-height: /*hdpi*/ 13px;
+	max-height: /*hdpi*/ 13px;
+}
+
+PLSPopupMenu PLSPopupMenuItemSeparator {
+	min-height:/*hdpi*/ 1px;
+	max-height:/*hdpi*/ 1px;
+	background-color: #1e1e1e;
+}

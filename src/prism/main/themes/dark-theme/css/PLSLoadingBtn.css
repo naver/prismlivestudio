@@ -1,0 +1,36 @@
+#loadingBtn {
+    background-color: #1e1e1f;
+    qproperty-maximumSize:/*hdpi*/24px/*hdpi*/24px;
+    qproperty-minimumSize:/*hdpi*/24px/*hdpi*/24px;
+	image:url(":/images/loading-1.svg");
+}
+
+#loadingBtn[status="1"] {
+	image:url(":/images/loading-1.svg");
+}
+
+#loadingBtn[status="2"] {
+	image:url(":/images/loading-2.svg");
+}
+
+#loadingBtn[status="3"] {
+	image:url(":/images/loading-3.svg");
+}
+
+#loadingBtn[status="4"] {
+	image:url(":/images/loading-4.svg");
+}
+
+#loadingBtn[status="5"] {
+	image:url(":/images/loading-5.svg");
+}
+
+#loadingBtn[status="6"] {
+	image:url(":/images/loading-6.svg");
+}
+#loadingBtn[status="7"] {
+	image:url(":/images/loading-7.svg");
+}
+#loadingBtn[status="8"] {
+	image:url(":/images/loading-8.svg");
+}

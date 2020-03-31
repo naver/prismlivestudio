@@ -1,0 +1,126 @@
+
+ChannelsAddWin {
+	border:/*hdpi*/ 1px solid #111111;
+	min-width:/*hdpi*/ 626px;
+	max-width:/*hdpi*/ 626px;
+	min-height:/*hdpi*/ 369px;
+	max-height:/*hdpi*/ 369px;
+	background-color: #272727;
+	image: none;
+	margin:/*hdpi*/0px;
+	padding:/*hdpi*/0px;
+}
+
+	ChannelsAddWin #TitleFrame{
+		min-height: /*hdpi*/ 40px;
+		max-height: /*hdpi*/ 40px;
+		margin: /*hdpi*/ 0px;
+		padding: /*hdpi*/ 0px;
+		border: /*hdpi*/ none;
+	}
+
+	ChannelsAddWin #ClosePtn {
+		margin: /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px;
+		padding: /*hdpi*/ 10px /*hdpi*/ 10px /*hdpi*/ 8px /*hdpi*/ 8px;
+		min-height: /*hdpi*/ 22px;
+		min-width: /*hdpi*/ 22px;
+		max-width: /*hdpi*/ 40px;
+		max-height: /*hdpi*/ 40px;
+		image: url(":/images/btn-close-normal.svg");
+		color: transparent;
+		background-color: transparent;
+		border: /*hdpi*/ none;
+	}
+
+ChannelsAddWin #ClosePtn:hover {
+	image:url(":/images/btn-close-over.svg");
+}
+
+ChannelsAddWin #ClosePtn:pressed {
+	image:url(":/images/btn-close-click.svg");
+}
+
+	ChannelsAddWin #ContentFrame {
+		background-color: #272727;
+		padding: /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 40px /*hdpi*/ 0px;
+		margin: /*hdpi*/ 0px;
+		border: /*hdpi*/ none;
+	}
+
+	ChannelsAddWin #TitleLable {
+		margin: /*hdpi*/ 0px;
+		padding: /*hdpi*/ 0px;
+		min-height: /*hdpi*/ 24px;
+		max-height: /*hdpi*/ 26px;
+		min-width: /*hdpi*/ 80px;
+		background-color: transparent;
+		font-size: /*hdpi*/ 20px;
+		font-weight: bold;
+		font-style: normal;
+		text-align: center;
+		color: #effc35;
+		border:none;
+	}
+
+	ChannelsAddWin #PrismNoteLabel {
+		margin: /*hdpi*/ 0px;
+		padding: /*hdpi*/ 10px /*hdpi*/ 0px /*hdpi*/ 30px /*hdpi*/ 0px;
+		min-width: /*hdpi*/ 340px;
+		min-height: /*hdpi*/ 15px;
+		max-height: /*hdpi*/ 16px;
+		font-size: /*hdpi*/ 12px;
+		font-weight: normal;
+		font-style: normal;
+		text-align: center;
+		color: #a3a3a3;
+		border: none;
+	}
+
+	ChannelsAddWin #ChannelsListWid {
+		background-color: transparent;
+		border: /*hdpi*/ none;
+		margin: /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px /*hdpi*/ 0px;
+		padding: /*hdpi*/ 0px;
+		min-height: /*hdpi*/ 236px; 
+	}
+
+#ChannelsListWid #scrollAreaWidgetContents {
+	margin:/*hdpi*/0px;
+	padding:/*hdpi*/0px;
+}
+
+ChannelsAddWin QToolButton {
+	margin: /*hdpi*/ 0;
+	padding: /*hdpi*/ 18px /*hdpi*/ 12px /*hdpi*/ 17px /*hdpi*/ 12px;
+	image: none;
+	background-color: #1e1e1e;
+	qproperty-iconSize: /*hdpi*/ 115px /*hdpi*/ 40px;
+	
+	qproperty-minimumSize: /*hdpi*/ 139px /*hdpi*/ 98px;
+	qproperty-maximumSize: /*hdpi*/ 139px /*hdpi*/ 98px;
+	border-radius: /*hdpi*/ 3px;
+	border: none;
+	font-size: /*hdpi*/ 12px;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	color: #bababa;
+}
+
+ChannelsAddWin #hoverBtn {
+	margin: /*hdpi*/ 0px;
+	padding: /*hdpi*/ 0px;
+	min-width: /*hdpi*/ 139px;
+	max-width: /*hdpi*/ 139px;
+	min-height: /*hdpi*/ 98px;
+	max-height: /*hdpi*/ 98px;
+	image: url(":/images/btn-addch-large-mauseover-normal.svg");
+	background-color: transparent;
+	color: transparent;
+	qproperty-iconSize: /*hdpi*/ 115px /*hdpi*/ 40px;
+	border: none;
+}
+
+ChannelsAddWin #hoverBtn:pressed {
+	image:url(":/images/btn-addch-large-mauseover-click.svg");
+}

@@ -1,0 +1,70 @@
+#PLSTakeCameraSnapshot {
+	min-width:/*hdpi*/ 510px;
+	max-width:/*hdpi*/ 510px;
+	min-height:/*hdpi*/ 521px;
+	max-height:/*hdpi*/ 521px;
+}
+#PLSTakeCameraSnapshot #descriptionLabel {
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	color: white;
+}
+#PLSTakeCameraSnapshot #cameraUninitMask {
+	background-color: black;
+}
+#PLSTakeCameraSnapshot #cameraUninitMask #cameraUninitMaskIcon {
+	background-color: transparent;
+	image: url(":/images/ic-cover-camera-large.svg");
+	min-width:/*hdpi*/ 73px;
+	max-width:/*hdpi*/ 73px;
+	min-height:/*hdpi*/ 64px;
+	max-height:/*hdpi*/ 64px;
+}
+#PLSTakeCameraSnapshot #cameraUninitMask #cameraUninitMaskText {
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	color: rgba(255, 255, 255, 0.5);
+}
+#PLSTakeCameraSnapshot #cameraSettingButton {
+	min-width:/*hdpi*/ 40px;
+	max-width:/*hdpi*/ 40px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}
+#PLSTakeCameraSnapshot #cameraSettingButton #cameraSettingButtonIcon {
+	background-color: transparent;
+	image: url(":/images/ic-setting-s-normal.svg");
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+}
+#PLSTakeCameraSnapshot #okButton, #PLSTakeCameraSnapshot #cancelButton {
+	min-width:/*hdpi*/ 140px;
+	max-width:/*hdpi*/ 140px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}
+#PLSTakeCameraSnapshot #okButton {
+	background-color: #effc35;
+	color: black;
+}
+#PLSTakeCameraSnapshot #okButton:disabled {
+	background-color: #444444;
+	color: #666666;
+}
+
+#PLSTakeCameraSnapshot #PLSTakeCameraSnapshotTakeTimerMask QLabel#maskLabel {
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: Averta;
+	font-size:/*hdpi*/ 95px;
+	font-weight: bold;
+}
+#PLSTakeCameraSnapshot #lineWidget {
+	min-height:/*hdpi*/ 1px;
+	max-height:/*hdpi*/ 1px;
+	background-color: #151515;
+}

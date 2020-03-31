@@ -1,0 +1,157 @@
+
+ChannelCapsule {
+	background-color: transparent;
+	image: none;
+	qproperty-minimumSize: /*hdpi*/ 200px /*hdpi*/ 55px;
+	qproperty-maximumSize: /*hdpi*/ 200px /*hdpi*/ 55px;
+	margin: /*hdpi*/ 0px;
+	border: /*hdpi*/ none;
+	padding: /*hdpi*/ 0px;
+	border-radius: /*hdpi*/ 3px;
+}
+
+ChannelCapsule * {
+	margin: /*hdpi*/ 0px;
+	padding: /*hdpi*/ 0px;
+	border: /*hdpi*/ none;
+}
+
+ChannelCapsule #HeaderPart {
+	margin: /*hdpi*/ 0px;
+	margin-left: /*hdpi*/ 6px;
+	padding: /*hdpi*/ 0px;
+}
+
+ChannelCapsule ComplexHeaderIcon {
+	margin: /*hdpi*/ 0px;
+	padding: /*hdpi*/ 2px;
+	qproperty-minimumSize: /*hdpi*/ 46px /*hdpi*/ 46px;
+	qproperty-maximumSize: /*hdpi*/ 46px /*hdpi*/ 46px;
+	background-color: transparent;
+	image: url(":/images/badge-liveon.svg");
+	color: transparent;
+}
+
+ChannelCapsule ComplexHeaderIcon[Active="true"] {
+	image: url(":/images/badge-liveon.svg");
+}
+
+ChannelCapsule ComplexHeaderIcon[Active="false"] {
+	image: none;
+}
+
+ChannelCapsule #InfoPart {
+	padding: /*hdpi*/ 0px;
+	margin: /*hdpi*/ 0px;
+	margin-left: /*hdpi*/ 6px;
+	margin-right: /*hdpi*/ 12px;
+	background-color: transparent;
+	image: none;
+}
+
+ChannelCapsule #UserName {
+	max-height: /*hdpi*/ 16px;
+	min-height: /*hdpi*/ 16px;
+	color: #ffffff;
+	padding: /*hdpi*/ 0px;
+	margin: /*hdpi*/ 0px;
+	font-size: /*hdpi*/ 12px;
+	font-weight: bold;
+	font-style: normal;
+	qproperty-baseSize: /*hdpi*/ 86px /*hdpi*/ 16px;
+}
+
+ChannelCapsule #UserName:disabled {
+	color: #666666;
+}
+
+ChannelCapsule #CatogeryName {
+	min-height: /*hdpi*/ 16px;
+	max-height: /*hdpi*/ 16px;
+	color: #bababa;
+	padding: /*hdpi*/ 0px;
+	margin: /*hdpi*/ 0px;
+	font-size: /*hdpi*/ 12px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+ChannelCapsule #CatogeryName:disabled {
+	color: #666666;
+}
+
+ChannelCapsule #ErrorLabel {
+	max-width: /*hdpi*/ 130px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	color: #bababa;
+	padding: /*hdpi*/ 0px;
+	margin: /*hdpi*/ 0px;
+	font-size: /*hdpi*/ 12px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+ChannelCapsule #ChannelInfo {
+	min-height: /*hdpi*/ 16px;
+	max-height: /*hdpi*/ 16px;
+}
+
+ChannelCapsule #ChannelInfo:disabled {
+	color: #666666;
+}
+
+ChannelCapsule #ViewerPicLabel, ChannelCapsule #ViewerNumberLabel, ChannelCapsule #LikePicLabel, ChannelCapsule #LikeNumberLabel {
+	color: #bababa;
+	font-size: /*hdpi*/ 12px;
+	font-weight: normal;
+	font-style: normal;
+	padding: /*hdpi*/ 1px;
+	margin: /*hdpi*/ 0px;
+	min-height: /*hdpi*/ 16px;
+	max-height: /*hdpi*/ 16px;
+	max-width: /*hdpi*/ 42px;
+	border: /*hdpi*/ none;
+	margin: /*hdpi*/ 0px;
+	padding: /*hdpi*/ 0px;
+}
+
+ChannelCapsule #ViewerNumberLabel:disabled, ChannelCapsule #LikeNumberLabel:disabled {
+	color: #666666;
+}
+
+ChannelCapsule #ViewerPicLabel {
+	image: url(":/images/ic-liveend-view.svg");
+	max-height: /*hdpi*/ 15px;
+	min-height: /*hdpi*/ 15px;
+	max-width: /*hdpi*/ 15px;
+	min-width: /*hdpi*/ 15px;
+	color: transparent;
+}
+
+ChannelCapsule #LikePicLabel {
+	image: url(":/images/ic-liveend-like.svg");
+	max-height: /*hdpi*/ 15px;
+	min-height: /*hdpi*/ 15px;
+	max-width: /*hdpi*/ 15px;
+	min-width: /*hdpi*/ 15px;
+	color: transparent;
+}
+
+ChannelCapsule #StateActive {
+	margin: /*hdpi*/ 0px;
+	margin-left: /*hdpi*/ 5px;
+	padding: /*hdpi*/ 0px;
+	min-height: /*hdpi*/ 15px;
+	max-height: /*hdpi*/ 15px;
+	min-width: /*hdpi*/ 37px;
+	max-width: /*hdpi*/ 37px;
+	background-color: transparent;
+	image: url(":/images/badge-channel-on.svg");
+	color: transparent;
+	background-color: transparent;
+}
+
+ChannelCapsule #StateActive[Checked="false"] {
+	image: url(":/images/badge-channel-off.svg");
+}

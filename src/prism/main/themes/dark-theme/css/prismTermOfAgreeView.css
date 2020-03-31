@@ -1,0 +1,106 @@
+
+#TermsOfAgreeView {
+	max-width:/*hdpi*/730px;
+	max-height:/*hdpi*/544px;
+	min-width:/*hdpi*/730px;
+	min-height:/*hdpi*/544px;
+    qproperty-hasHLine:/*hdpi*/false;
+    qproperty-hasMinButton:/*hdpi*/true;
+    qproperty-isMoveInContent:/*hdpi*/true;
+    qproperty-captionButtonMargin:/*hdpi*/10;
+    qproperty-captionBkgColor: #1e1e1f;
+    qproperty-contentBkgColor: #1e1e1f;
+}
+#TermsOfAgreeView > #titleBar, #TermsOfAgreeView > #titleBar > #titleLabel  {
+    color: #1e1e1f;
+    background-color: #1e1e1f;
+}
+#TermsOfAgreeView > #label, #TermsOfAgreeView > #titleBar > #min, #TermsOfAgreeView > #titleBar > #close {
+    background-color: #1e1e1f;
+}
+#TermsOfAgreeView, #TermsOfAgreeView QWidget {
+    background-color: #1e1e1f;
+}
+#TermsOfAgreeView PLSBrowserView > #close, #TermsOfAgreeView PLSBrowserView QWidget {
+    background-color: #333333;
+}
+
+#TermsOfAgreeView #titleLabel
+{
+	min-width:/*hdpi*/155px;
+	font-size:/*hdpi*/20px;
+    font-weight:bold;
+    color:#fff1fd56;
+    background-color:#1e1e1f;
+}
+#TermsOfAgreeView QTextEdit
+{
+	border:/*hdpi*/ none;
+	background-color:#111111;
+}
+#TermsOfAgreeView #backButton
+{
+	border:/*hdpi*/none;
+	min-width:/*hdpi*/42px;
+	min-height:/*hdpi*/14px;
+	max-width:/*hdpi*/42px;
+	max-height:/*hdpi*/14px;
+	font-size:/*hdpi*/14px;
+    font-weight:bold;
+    color:#ffeffc35;
+	border-image:none;
+}
+#TermsOfAgreeView #backButton:hover
+{
+	border-image:none;
+}
+#TermsOfAgreeView #backButton:pressed
+{
+	border-image:none;
+    color:#ff7C7F43;
+}
+
+#TermsOfAgreeView #agreeButton:hover[status="enable"]
+{
+	border-image:none;
+    background:#ffF1FA75;
+}
+
+#TermsOfAgreeView #agreeButton:pressed[status="enable"]
+{
+	border-image:none;
+    background:#ff7A7F34;
+}
+
+#TermsOfAgreeView #agreeButton[status="enable"]
+{
+    qproperty-minimumSize:/*hdpi*/630px/*hdpi*/48px;
+    qproperty-maximumSize:/*hdpi*/630px/*hdpi*/48px;
+	border-radius:/*hdpi*/ 3px;
+    background:#ffeffc35;
+	font-size:/*hdpi*/14px;
+	font-weight:bold;
+    color:#ff000000;
+	border-image:none;
+
+}
+#TermsOfAgreeView #agreeButton[status="disable"]
+{
+    qproperty-minimumSize:/*hdpi*/630px/*hdpi*/48px;
+    qproperty-maximumSize:/*hdpi*/630px/*hdpi*/48px;
+	border-radius:/*hdpi*/ 3px;
+    background:#ff363636;
+	font-size:/*hdpi*/14px;
+	font-weight:bold;
+    color:#777777;
+	border-image:none;
+
+}
+#TermsOfAgreeView #termOfUserCheckBox
+{
+	font-size:/*hdpi*/14px;
+}
+#TermsOfAgreeView #InfoCheckBox
+{
+	font-size:/*hdpi*/14px;
+}

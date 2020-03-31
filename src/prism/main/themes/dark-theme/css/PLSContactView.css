@@ -1,0 +1,247 @@
+
+PLSContactView {
+    background-color: #333333;
+    qproperty-hasHLine:/*hdpi*/true;
+    qproperty-hasMinButton:/*hdpi*/false;
+    qproperty-hasCloseButton:/*hdpi*/false;
+    qproperty-isMoveInContent:/*hdpi*/true;
+    qproperty-hasBorder:/*hdpi*/false;
+    qproperty-hasCaption:/*hdpi*/false;
+}
+
+PLSContactView #titleLabel {
+    color: #f1fd56;
+	font-size:/*hdpi*/ 16px;
+    font-weight: bold;
+	min-height:/*hdpi*/ 20px;
+	max-height:/*hdpi*/ 20px;
+}
+
+PLSContactView #emailLabel {
+    color: white;
+	font-size:/*hdpi*/ 13px;
+	min-height:/*hdpi*/ 17px;
+	max-height:/*hdpi*/ 17px;
+    font-weight: bold;
+}
+
+PLSContactView #identificationLabel {
+    color: white;
+	font-size:/*hdpi*/ 12px;
+	padding-top:/*hdpi*/ 2px;
+	min-height:/*hdpi*/ 15px;
+	max-height:/*hdpi*/ 15px;
+}
+
+PLSContactView #emailLineEdit{
+    background-color: #222222;
+    color: white;
+	font-size:/*hdpi*/ 12px;
+	min-height:/*hdpi*/ 32px;
+	max-height:/*hdpi*/ 32px;
+	padding-left:/*hdpi*/ 15px;
+	padding-right:/*hdpi*/ 15px;
+	border:/*hdpi*/none;
+}
+
+
+PLSContactView #emailLineEdit:focus {
+	border:/*hdpi*/none;
+}
+
+PLSContactView #emailTipLabel {
+    color:#d32f2f;
+	font-size:/*hdpi*/11px;
+	min-height:/*hdpi*/ 13px;
+	max-height:/*hdpi*/ 13px;
+    background-color:transparent;
+}
+
+PLSContactView #inquiryLabel {
+    background-color:transparent;
+    color:white;
+	min-height:/*hdpi*/ 20px;
+	max-height:/*hdpi*/ 20px;
+	font-size:/*hdpi*/13px;
+    font-weight:bold;
+}
+
+PLSContactView #fileButton {
+    background-color:transparent;
+	min-width:/*hdpi*/40px;
+	max-width:/*hdpi*/40px;
+	min-height:/*hdpi*/ 16px;
+	max-height:/*hdpi*/ 16px;
+}
+
+PLSContactView #fileButton #fileTitleLabel {
+    color:#a3a3a3;
+	font-size:/*hdpi*/12px;
+}
+
+PLSContactView #fileButton[status="normal"] #fileTitleLabel {
+    color:#a3a3a3;
+}
+
+PLSContactView #fileButton[status="hover"] #fileTitleLabel {
+    color:white;
+}
+
+PLSContactView #fileButton[status="clicked"] #fileTitleLabel {
+    color:#effc35;
+}
+
+PLSContactView #fileButton[status="disable"] #fileTitleLabel {
+    color:#6a6a6a;
+}
+
+
+PLSContactView #fileButton #fileIconLabel {
+	image:url(":/images/ic-fileupload-normal.svg");
+}
+PLSContactView #fileIconLabel 
+{
+		min-width:/*hdpi*/16px;
+	max-width:/*hdpi*/16px;
+	min-height:/*hdpi*/ 16px;
+	max-height:/*hdpi*/ 16px;
+}
+PLSContactView #fileButton[status="normal"] #fileIconLabel {
+	image:url(":/images/ic-fileupload-normal.svg");
+}
+
+PLSContactView #fileButton[status="hover"] #fileIconLabel {
+	image:url(":/images/ic-fileupload-over.svg");
+}
+
+PLSContactView #fileButton[status="clicked"] #fileIconLabel {
+	image:url(":/images/ic-fileupload-click.svg");
+}
+
+PLSContactView #fileButton[status="disable"] #fileIconLabel {
+	image:url(":/images/ic-fileupload-disable.svg");
+}
+
+PLSContactView #textEdit {
+    background-color:#222222;
+	min-height:/*hdpi*/ 100px;
+	max-height:/*hdpi*/ 100px;
+    color:white;
+	font-size:/*hdpi*/12px;
+	border:/*hdpi*/none;
+}
+
+PLSContactView #textEdit:focus {
+	border:/*hdpi*/none;
+}
+PLSContactView #QListView{
+	qproperty-spacing:/*hdpi*/ 7px;
+
+}
+PLSContactView #tagListWidget {
+	border-radius:/*hdpi*/ 1px;
+    border-color:transparent;
+    background-color: #222222;
+	min-height:/*hdpi*/ 73px;
+	max-height:/*hdpi*/ 73px;	
+}
+
+PLSContactView #tagTextEdit {
+    background-color:#222222;
+	font-size:/*hdpi*/12px;
+	border:/*hdpi*/none;
+	min-height:/*hdpi*/ 73px;
+	max-height:/*hdpi*/ 73px;
+}
+
+PLSContactView #inquryTipLabel {
+    color:#d32f2f;
+	font-size:/*hdpi*/11px;
+	min-height:/*hdpi*/ 13px;
+	max-height:/*hdpi*/ 13px;
+}
+
+PLSContactView #sendButton {
+    padding:/*hdpi*/0px;
+    color:white;
+	border-radius:/*hdpi*/1px;
+    background-color:#444444;
+	font-size:/*hdpi*/14px;
+	min-height:/*hdpi*/ 34px;
+	max-height:/*hdpi*/ 34px;
+	min-width:/*hdpi*/110px;
+	max-width:/*hdpi*/110px;
+}
+
+PLSContactView #sendButton:disabled {
+    color:#888888;
+    background-color:#222222;
+}
+
+PLSContactView #sendButton:hover {
+    background-color:#545454;
+}
+
+PLSContactView #sendButton:pressed {
+    background-color:#111111;
+}
+
+PLSContactView #cancelButton {
+    padding:/*hdpi*/0px;
+    color:white;
+	border-radius:/*hdpi*/1px;
+    background-color:#444444;
+	font-size:/*hdpi*/14px;
+	min-height:/*hdpi*/ 34px;
+	max-height:/*hdpi*/ 34px;
+	min-width:/*hdpi*/110px;
+	max-width:/*hdpi*/110px;
+}
+
+PLSContactView #cancelButton:hover {
+    background-color:#545454;
+}
+
+PLSContactView #cancelButton:pressed {
+    background-color:#111111;
+}
+
+PLSFileItemView {
+    background-color:#444444;
+}
+
+PLSFileItemView #fileNameLabel {
+	font-size:/*hdpi*/12px;
+    color:white;
+    background-color:transparent;
+}
+
+PLSFileItemView #deleteIcon {
+    padding:/*hdpi*/0px;
+	image:url(":/images/effect-close-normal.svg");
+    background-color:transparent;
+	border-radius:/*hdpi*/0px;
+	min-height:/*hdpi*/ 12px;
+	max-height:/*hdpi*/ 12px;
+	min-width:/*hdpi*/ 12px;
+	max-width:/*hdpi*/ 12px;
+}
+
+PLSFileItemView #deleteIcon[status="normal"] {
+	image:url(":/images/effect-close-normal.svg");
+}
+
+
+PLSFileItemView #deleteIcon[status="hover"] {
+	image:url(":/images/effect-close-over.svg");
+}
+
+PLSContactView #loadingBG{
+    background-color:rgba(39, 39, 39, 0.8);
+}
+
+PLSContactView #loadingBtn{
+    background-color: transparent;
+}
+
+

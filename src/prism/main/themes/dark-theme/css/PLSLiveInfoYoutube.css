@@ -1,0 +1,82 @@
+PLSLiveInfoYoutube {
+	min-width:/*hdpi*/ 720px;
+	max-width:/*hdpi*/ 720px;
+	min-height:/*hdpi*/ 550px;
+	max-height:/*hdpi*/ 550px;
+}
+
+
+PLSLiveInfoYoutube #titleWidget {
+	margin-top:/*hdpi*/ 23px;
+	margin-bottom:/*hdpi*/ 15px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+    background-color: transparent;
+}
+
+PLSLiveInfoYoutube #titleWidget #titleLabel {
+    margin:/*hdpi*/0px/*hdpi*/0px/*hdpi*/0px/*hdpi*/0px;
+	font-size:/*hdpi*/ 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+PLSLiveInfoYoutube #midwidget > .QLabel {
+	min-width:/*hdpi*/ 96px;
+	
+
+	font-size:/*hdpi*/ 14px;
+    font-weight: bold;
+    color: #bababa;
+    background-color: transparent;
+}
+
+PLSLiveInfoYoutube #textEditDescribe {
+	min-height:/*hdpi*/ 80px;
+	max-height:/*hdpi*/ 80px;
+}
+
+PLSLiveInfoYoutube #bottomWidget {
+	min-height:/*hdpi*/ 79px;
+	max-height:/*hdpi*/ 79px;
+}
+
+PLSLiveInfoYoutube #lineView {
+	min-height:/*hdpi*/ 1px;
+	max-height:/*hdpi*/ 1px;
+    background-color: #151515;
+	margin-bottom:/*hdpi*/ 2px;
+}
+
+PLSLiveInfoYoutube #textEditDescribe,
+PLSLiveInfoYoutube #lineEditTitle {
+	font-size:/*hdpi*/ 14px;
+	border-radius:/*hdpi*/ 3px;
+}
+
+PLSLiveInfoYoutube #sPushButton .QLabel {
+      background-color: transparent;
+}
+
+PLSLiveInfoYoutube .QTextEdit {
+	border:/*hdpi*/ none;
+    background-color: #1e1e1e;
+}
+
+PLSLiveInfoYoutube #bottomButtonWidget {
+	padding-right:/*hdpi*/ 30px;
+}
+
+PLSLiveInfoYoutube #radioWidget > .QRadioButton {
+	font-size:/*hdpi*/ 14px;
+	spacing: /*hdpi*/ 10px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+PLSLiveInfoYoutube #radioWidget > .QRadioButton::indicator {
+	width: /*hdpi*/ 17px;
+	height: /*hdpi*/ 17px;
+}

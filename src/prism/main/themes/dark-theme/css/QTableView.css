@@ -1,0 +1,11 @@
+
+QTableView {
+    gridline-color: rgb(88,87,88); 
+}
+
+QHeaderView::section {
+    background-color: #333333;
+    color: rgb(225,224,225); 
+	border:/*hdpi*/ 1px solid rgb(31,30,31); 
+	border-radius:/*hdpi*/ 5px;
+}

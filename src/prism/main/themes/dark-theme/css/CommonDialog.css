@@ -1,0 +1,454 @@
+* {
+	color: #ffffff;
+	font-size: /*hdpi*/ 14px;
+}
+
+QListWidget {
+	background-color: #1e1e1f;
+	border: none;
+	font-size: /*hdpi*/ 14px;
+	color: #ffffff;
+}
+QListWidget::item {
+	border: none;
+	padding-left: /*hdpi*/ 8px;
+	height: /*hdpi*/ 40px;
+}
+QListWidget::item:selected {
+	background-color: #444444;
+	color: #ffffff;
+}
+QListWidget::item:selected:!active {
+	background-color: #444444;
+	color: #ffffff;
+}
+QListWidget::item:hover {
+	background-color: #1e1e1f;
+	color: #ffffff;
+}
+QListWidget::item:selected:hover {
+	background-color: #444444;
+	color: #ffffff;
+}
+QListWidget:focus {
+	outline: none;
+}
+
+QTreeWidget {
+	background-color: #1e1e1f;
+	border: none;
+	font-size: /*hdpi*/ 14px;
+	color: #ffffff;
+	show-decoration-selected: 1;
+	qproperty-iconSize: /*hdpi*/ 22px /*hdpi*/ 22px;
+}
+QTreeWidget::item,
+QTreeWidget::branch {
+	border: none;
+	padding-left: /*hdpi*/ 8px;
+	height: /*hdpi*/ 40px;
+	border-image: none;
+	background-color: #1e1e1f;
+}
+
+QTreeWidget::branch:has-siblings:adjoins-item,
+QTreeWidget::branch:has-siblings:!adjoins-item,
+QTreeWidget::branch:!has-children:!has-siblings:adjoins-item {
+	border-image: none;
+}
+
+QTreeWidget::branch:open:has-children:!has-siblings,
+QTreeWidget::branch:open:has-children:has-siblings {
+	border-image: none;
+	image: url(":/images/ic-delete-default.svg");
+}
+
+QTreeWidget::branch:has-children:!has-siblings:closed,
+QTreeWidget::branch:closed:has-children:has-siblings {
+	border-image: none;
+	image: url(":/images/icon-addsource-default.svg");
+}
+
+QTreeWidget::item:selected,
+QTreeWidget::branch:selected {
+	background-color: #444444;
+	color: #ffffff;
+}
+
+QTreeWidget:focus {
+	outline: none;
+}
+
+QPushButton {
+	min-width: 0;
+	max-width: /*hdpi*/ 100000px;
+	padding-left: /*hdpi*/ 20px;
+	padding-right: /*hdpi*/ 20px;
+	margin: 0;
+}
+
+QPushButton[useFor="Ok"],
+QPushButton[useFor="Save"],
+QPushButton[useFor="SaveAll"],
+QPushButton[useFor="Open"],
+QPushButton[useFor="Yes"],
+QPushButton[useFor="YesToAll"],
+QPushButton[useFor="No"],
+QPushButton[useFor="NoToAll"],
+QPushButton[useFor="Abort"],
+QPushButton[useFor="Retry"],
+QPushButton[useFor="Ignore"],
+QPushButton[useFor="Close"],
+QPushButton[useFor="Cancel"],
+QPushButton[useFor="Discard"],
+QPushButton[useFor="Help"],
+QPushButton[useFor="Apply"],
+QPushButton[useFor="Reset"],
+QPushButton[useFor="RestoreDefaults"],
+QPushButton[useFor="Rehearsal"],
+PLSDialogButtonBox > QPushButton[useFor="Ok"],
+PLSDialogButtonBox > QPushButton[useFor="Save"],
+PLSDialogButtonBox > QPushButton[useFor="SaveAll"],
+PLSDialogButtonBox > QPushButton[useFor="Open"],
+PLSDialogButtonBox > QPushButton[useFor="Yes"],
+PLSDialogButtonBox > QPushButton[useFor="YesToAll"],
+PLSDialogButtonBox > QPushButton[useFor="No"],
+PLSDialogButtonBox > QPushButton[useFor="NoToAll"],
+PLSDialogButtonBox > QPushButton[useFor="Abort"],
+PLSDialogButtonBox > QPushButton[useFor="Retry"],
+PLSDialogButtonBox > QPushButton[useFor="Ignore"],
+PLSDialogButtonBox > QPushButton[useFor="Close"],
+PLSDialogButtonBox > QPushButton[useFor="Cancel"],
+PLSDialogButtonBox > QPushButton[useFor="Discard"],
+PLSDialogButtonBox > QPushButton[useFor="Help"],
+PLSDialogButtonBox > QPushButton[useFor="Apply"],
+PLSDialogButtonBox > QPushButton[useFor="Reset"],
+PLSDialogButtonBox > QPushButton[useFor="RestoreDefaults"],
+PLSDialogButtonBox > QPushButton[useFor="Rehearsal"],
+QDialogButtonBox > QPushButton[useFor="Ok"],
+QDialogButtonBox > QPushButton[useFor="Save"],
+QDialogButtonBox > QPushButton[useFor="SaveAll"],
+QDialogButtonBox > QPushButton[useFor="Open"],
+QDialogButtonBox > QPushButton[useFor="Yes"],
+QDialogButtonBox > QPushButton[useFor="YesToAll"],
+QDialogButtonBox > QPushButton[useFor="No"],
+QDialogButtonBox > QPushButton[useFor="NoToAll"],
+QDialogButtonBox > QPushButton[useFor="Abort"],
+QDialogButtonBox > QPushButton[useFor="Retry"],
+QDialogButtonBox > QPushButton[useFor="Ignore"],
+QDialogButtonBox > QPushButton[useFor="Close"],
+QDialogButtonBox > QPushButton[useFor="Cancel"],
+QDialogButtonBox > QPushButton[useFor="Discard"],
+QDialogButtonBox > QPushButton[useFor="Help"],
+QDialogButtonBox > QPushButton[useFor="Apply"],
+QDialogButtonBox > QPushButton[useFor="Reset"],
+QDialogButtonBox > QPushButton[useFor="RestoreDefaults"],
+QDialogButtonBox > QPushButton[useFor="Rehearsal"]{
+	min-width: /*hdpi*/ 128px;
+	max-width: /*hdpi*/ 128px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	padding: 0;
+	margin: 0;
+}
+
+
+QLabel {
+	font-size: /*hdpi*/ 14px;
+	color: #ffffff;
+	min-width: 0;
+	max-width: /*hdpi*/ 100000px;
+}
+
+QTabWidget::pane {
+	border-top: /*hdpi*/ 1px solid #111111;
+}
+
+QTimeEdit {
+	background-color: #222222;
+	border: /*hdpi*/ none;
+	border-radius: /*hdpi*/ 3px;
+	padding-left: /*hdpi*/ 12px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	font-size: /*hdpi*/ 14px;
+	color: #ffffff;
+	min-width: /*hdpi*/ 80px;
+}
+QTimeEdit::up-button {
+	subcontrol-origin: margin;
+	subcontrol-position: top right;
+	background-color: #444444;
+	width: /*hdpi*/ 25px;
+	border-top-right-radius: /*hdpi*/ 3px;
+}
+QTimeEdit::up-arrow {
+	image: url(":/images/txt-dropbox-close-normal.svg");
+	width: /*hdpi*/ 11px;
+	height: /*hdpi*/ 6px;
+}
+QTimeEdit::up-button:hover {
+	background-color: #555555;
+}
+QTimeEdit::up-arrow:hover {
+	image: url(":/images/txt-dropbox-close-over.svg");
+	width: /*hdpi*/ 11px;
+	height: /*hdpi*/ 6px;
+}
+QTimeEdit::up-button:pressed {
+	background-color: #2d2d2d;
+}
+QTimeEdit::up-arrow:pressed {
+	image: url(":/images/txt-dropbox-close-click.svg");
+}
+QTimeEdit::up-arrow:disabled {
+	image: url(":/images/txt-dropbox-close-disable.svg");
+}
+QTimeEdit::down-button {
+	subcontrol-origin: margin;
+	subcontrol-position: bottom right;
+	background-color: #444444;
+	width: /*hdpi*/ 25px;
+	border-bottom-right-radius: /*hdpi*/ 3px;
+}
+QTimeEdit::down-arrow {
+	image: url(":/images/txt-dropbox-open-normal.svg");
+	width: /*hdpi*/ 11px;
+	height: /*hdpi*/ 6px;
+}
+QTimeEdit::down-button:hover {
+	background-color: #555555;
+}
+QTimeEdit::down-arrow:hover {
+	image: url(":/images/txt-dropbox-open-over.svg");
+	width: /*hdpi*/ 11px;
+	height: /*hdpi*/ 6px;
+}
+QTimeEdit::down-button:pressed {
+	background-color: #2d2d2d;
+}
+QTimeEdit::down-arrow:pressed {
+	image: url(":/images/txt-dropbox-open-click.svg");
+}
+QTimeEdit::down-arrow:disabled {
+	image: url(":/images/txt-dropbox-open-disable.svg");
+}
+
+QGroupBox {
+	border: none;
+	padding-top: /*hdpi*/ 27px;
+	font-weight: bold;
+	color: #ffffff;
+}
+QGroupBox::title {
+	subcontrol-origin: margin;
+	left: /*hdpi*/ 3px;
+	top: /*hdpi*/ 1px;
+}
+QGroupBox::indicator {
+	width: /*hdpi*/ 15px;
+	height: /*hdpi*/ 15px;
+	padding-left: 10px;
+}
+QGroupBox::indicator:checked {
+	image: url(":/images/txt-chekedbox-normal.svg");
+}
+QGroupBox::indicator:checked:hover {
+	image: url(":/images/txt-chekedbox-over.svg");
+}
+QGroupBox::indicator:checked:pressed {
+	image: url(":/images/txt-chekedbox-clicked.svg");
+}
+QGroupBox::indicator:checked:disabled {
+	image: url(":/images/txt-chekedbox-disable.svg");
+}
+QGroupBox::indicator:unchecked {
+	image: url(":/images/txt-unchekedbox-normal.svg");
+}
+QGroupBox::indicator:unchecked:hover {
+	image: url(":/images/txt-unchekedbox-over.svg");
+}
+QGroupBox::indicator:unchecked:pressed {
+	image: none;
+}
+QGroupBox::indicator:unchecked:disabled {
+	image: url(":/images/txt-unchekedbox-disable.svg");
+}
+
+
+QLineEdit {
+	border: /*hdpi*/ 1px solid #222222;
+}
+QLineEdit:focus {
+	border: /*hdpi*/ 1px solid #effc35;
+}
+
+
+* [themeID="addIconSmall"] {
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	image: url(":/images/icon-addsource-default.svg");
+	background-color: transparent;
+}
+* [themeID="addIconSmall"]:hover {
+	image: url(":/images/icon-addsource-over.svg");
+	background-color: transparent;
+}
+* [themeID="addIconSmall"]:pressed {
+	image: url(":/images/icon-addsource-click.svg");
+	background-color: transparent;
+}
+* [themeID="addIconSmall"]:disabled {
+	image: url(":/images/icon-addsource-disable.svg");
+	background-color: transparent;
+}
+
+QFrame[frameShape="4"] {
+	border: none;
+	background: #111111;
+	min-width: /*hdpi*/ 0px;
+	max-width: /*hdpi*/ 100000px;
+	min-height: /*hdpi*/ 1px;
+	max-height: /*hdpi*/ 1px;
+}
+
+QFrame[frameShape="5"] {
+	border: none;
+	background: #111111;
+	min-width: /*hdpi*/ 1px;
+	max-width: /*hdpi*/ 1px;
+	min-height: /*hdpi*/ 0px;
+	max-height: /*hdpi*/ 100000px;
+}
+
+* [themeID="removeIconSmall"] {
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	image: url(":/images/ic-delete-default.svg");
+	background-color: transparent;
+}
+
+* [themeID="removeIconSmall"]:hover {
+	image: url(":/images/ic-delete-over.svg");
+	background-color: transparent;
+}
+* [themeID="removeIconSmall"]:pressed {
+	image: url(":/images/ic-delete-click.svg");
+	background-color: transparent;
+}
+* [themeID="removeIconSmall"]:disabled {
+	image: url(":/images/ic-delete-disable.svg");
+	background-color: transparent;
+}
+
+
+* [themeID="upArrowIconSmall"] {
+	min-width: /*hdpi*/ 11px;
+	min-height: /*hdpi*/ 6px;
+	max-width: /*hdpi*/ 11px;
+	max-height: /*hdpi*/ 6px;
+	padding: 0;
+	margin: /*hdpi*/ 8px /*hdpi*/ 5.5px /*hdpi*/ 8px /*hdpi*/ 5.5px;
+	border: none;
+	image: url(":/images/txt-dropbox-close-normal.svg");
+	background-color: transparent;
+}
+* [themeID="upArrowIconSmall"]:hover {
+	image: url(":/images/txt-dropbox-close-over.svg");
+	background-color: transparent;
+}
+* [themeID="upArrowIconSmall"]:pressed {
+	image: url(":/images/txt-dropbox-close-click.svg");
+	background-color: transparent;
+}
+* [themeID="upArrowIconSmall"]:disabled {
+	image: url(":/images/txt-dropbox-close-disable.svg");
+	background-color: transparent;
+}
+
+
+* [themeID="downArrowIconSmall"] {
+	min-width: /*hdpi*/ 11px;
+	min-height: /*hdpi*/ 6px;
+	max-width: /*hdpi*/ 11px;
+	max-height: /*hdpi*/ 6px;
+	padding: 0;
+	margin: /*hdpi*/ 8px /*hdpi*/ 5.5px /*hdpi*/ 8px /*hdpi*/ 5.5px;
+	border: none;
+	image: url(":/images/txt-dropbox-open-normal.svg");
+	background-color: transparent;
+}
+* [themeID="downArrowIconSmall"]:hover {
+	image: url(":/images/txt-dropbox-open-over.svg");
+	background-color: transparent;
+}
+
+* [themeID="downArrowIconSmall"]:pressed {
+	image: url(":/images/txt-dropbox-open-click.svg");
+	background-color: transparent;
+}
+
+* [themeID="downArrowIconSmall"]:disabled {
+	image: url(":/images/txt-dropbox-open-disable.svg");
+	background-color: transparent;
+}
+
+
+* [themeID="refreshIconSmall"] {
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	image: url(":/images/ic-reroad-large-normal.svg");
+	background-color: transparent;
+}
+* [themeID="refreshIconSmall"]:hover {
+	image: url(":/images/ic-reroad-large-over.svg");
+	background-color: transparent;
+}
+* [themeID="refreshIconSmall"]:pressed {
+	image: url(":/images/ic-reroad-large-click.svg");
+	background-color: transparent;
+}
+* [themeID="refreshIconSmall"]:disabled {
+	image: url(":/images/ic-reroad-large-disable.svg");
+	background-color: transparent;
+}
+
+
+* [themeID="configIconSmall"] {
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	image: url(":/images/ic-setting-s-normal.svg");
+	background-color: transparent;
+}
+* [themeID="configIconSmall"]:disabled {
+	image: url(":/images/ic-setting-s-disable.svg");
+	background-color: transparent;
+}
+* [themeID="configIconSmall"]:hover {
+	image: url(":/images/ic-setting-s-over.svg");
+	background-color: transparent;
+}
+* [themeID="configIconSmall"]:pressed {
+	image: url(":/images/ic-setting-s-click.svg");
+	background-color: transparent;
+}

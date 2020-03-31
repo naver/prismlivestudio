@@ -1,0 +1,6 @@
+#ifndef PRISMSTICKERSOURCE_HPP
+#define PRISMSTICKERSOURCE_HPP
+
+#include <obs-module.h>
+
+#endif // PRISMSTICKERSOURCE_HPP

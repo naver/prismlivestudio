@@ -1,0 +1,26 @@
+PLSQTDisplay {
+	qproperty-displayBackgroundColor: #151515;
+}
+
+PLSQTDisplay QLabel#displaySourceInvalid {
+	background-color: #1e1e1f;
+	color: #666666;
+	font-size: /*hdpi*/ 20px;
+	font-weight: bold;
+}
+
+PLSQTDisplay QLabel#displayResizeScreen {
+	background-color: #151515;
+}
+
+PLSQTDisplay QLabel#displayResizeCenter {
+	background-color: #000000;
+}
+
+PLSQTDisplay QLabel#displayText {
+	background-color: #1e1e1f;
+	color: #666666;
+	font-size: /*hdpi*/ 20px;
+	font-weight: bold;
+}
+

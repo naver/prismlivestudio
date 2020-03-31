@@ -1,0 +1,107 @@
+PLSDockTitle {
+	qproperty-captionHeight: /*hdpi*/ 40;
+	qproperty-marginLeft: /*hdpi*/ 50;
+	qproperty-marginRight: /*hdpi*/ 14;
+	qproperty-contentSpacing: /*hdpi*/ 2;
+	background-color: #272727;
+	border-top-left-radius: /*hdpi*/ 3px;
+	border-top-right-radius: /*hdpi*/ 3px;
+}
+
+PLSDockTitle #titleLabel {
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+PLSDockTitle #advButton {
+	background: transparent;
+	image:url(":/images/icon-more-default.svg");
+}
+
+PLSDockTitle #advButton:hover {
+	image:url(":/images/icon-more-over.svg");
+}
+
+PLSDockTitle #advButton:pressed {
+	image:url(":/images/icon-more-click.svg");
+}
+
+PLSDockTitle #advButton:!enabled {
+	image:url(":/images/icon-more-disable.svg");
+}
+
+PLSDockTitle QToolButton {
+	border:/*hdpi*/ none;
+	border-image: none;
+	background-color: #272727;
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+}
+
+PLSDock {
+	border: /*hdpi*/ 1px solid #111111;
+	background-color: #1e1e1f;
+}
+
+PLSDock #content {
+	border-bottom-left-radius: /*hdpi*/ 3px;
+	border-bottom-right-radius: /*hdpi*/ 3px;
+}
+
+PLSDock .QWidget,
+PLSDock .QToolBar,
+PLSDock .QScrollArea,
+PLSDock .QFrame,
+PLSDock .QLabel,
+PLSDock QListWidget,
+PLSDock QListView,
+PLSDock QToolBar .QToolButton {
+	background-color: #272727;
+	border:/*hdpi*/ none;
+	border-radius:/*hdpi*/ 0;
+}
+
+PLSDock QToolButton {
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+}
+
+
+
+PLSDock[moving="true"] PLSDockTitle {
+	border-left: /*hdpi*/ 1px solid #effc35;
+	border-top: /*hdpi*/ 1px solid #effc35;
+	border-right: /*hdpi*/ 1px solid #effc35;
+}
+
+PLSDock[moving="true"] #content {
+	border-left: /*hdpi*/ 1px solid #effc35;
+	border-right: /*hdpi*/ 1px solid #effc35;
+	border-bottom: /*hdpi*/ 1px solid #effc35;
+}
+
+PLSDock[movingAndFloating="true"] {
+	border: /*hdpi*/ 1px solid #effc35;
+}
+
+PLSDock[movingAndFloating="true"] PLSDockTitle, PLSDock[movingAndFloating="true"] #content {
+	border:/*hdpi*/ none;
+}
+
+PLSDock[floating="true"] {
+	background-color: #272727;
+}
+
+PLSDock QFrame[frameShape="1"],
+PLSDock QFrame[frameShape="2"],
+PLSDock QFrame[frameShape="3"],
+PLSDock QFrame[frameShape="4"],
+PLSDock QFrame[frameShape="5"],
+PLSDock QFrame[frameShape="6"] {
+	border:/*hdpi*/ none;
+}

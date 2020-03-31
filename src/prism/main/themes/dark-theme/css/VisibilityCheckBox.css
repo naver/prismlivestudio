@@ -1,0 +1,44 @@
+
+VisibilityCheckBox {
+	outline: none;
+	background: transparent;
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+}
+VisibilityCheckBox::indicator
+{
+    	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+}
+VisibilityCheckBox::indicator:unchecked {
+	image: url(":/images/icon-source-view-off-normal.svg");
+}
+
+VisibilityCheckBox::indicator:unchecked:hover
+{
+	image:url(":/images/icon-source-view-off-over.svg");
+}
+
+VisibilityCheckBox::indicator:unchecked:pressed
+{
+	image:url(":/images/icon-source-view-off-click.svg");
+}
+
+VisibilityCheckBox::indicator:checked
+{
+	image:url(":/images/ic-source-view-normal.svg");
+}
+
+VisibilityCheckBox::indicator:checked:hover
+{
+	image:url(":/images/ic-source-view-over.svg");
+}
+
+VisibilityCheckBox::indicator:checked:pressed
+{
+	image:url(":/images/ic-source-view-click.svg");
+}

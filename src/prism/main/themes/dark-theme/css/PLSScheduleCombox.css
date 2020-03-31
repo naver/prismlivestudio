@@ -1,0 +1,135 @@
+PLSScheduleCombox,
+PLSScheduleCombox[type="Ty_Normal"] {
+	 background-color: #444444;
+}
+PLSScheduleCombox[type="Ty_Hover"] {
+	background-color: #555555;
+}
+PLSScheduleCombox[type="Ty_On"] {
+	background-color: #222222;
+}
+PLSScheduleCombox[type="Ty_Disabled"] {
+	background-color: #373737;
+}
+
+PLSScheduleCombox QLabel {
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: transparent;
+}
+
+PLSScheduleCombox[type="Ty_Normal"] > .QLabel {
+	color: #ffffff;
+}
+PLSScheduleCombox[type="Ty_Hover"] > .QLabel {
+	color: #ffffff;
+}
+PLSScheduleCombox[type="Ty_On"] > .QLabel {
+	color: #ffffff;
+}
+PLSScheduleCombox[type="Ty_Disabled"] > .QLabel {
+	color: #666666;
+}
+
+PLSScheduleCombox #scheduletTitleLabel {
+	padding-left:/*hdpi*/ 10px;
+	background-color: transparent;
+}
+
+PLSScheduleCombox #dropLabel {
+	min-width: /*hdpi*/ 11px;
+    	max-width: /*hdpi*/ 11px;
+
+	min-height: /*hdpi*/ 6px;
+    	max-height: /*hdpi*/ 6px;
+
+	padding-right:/*hdpi*/ 15px;
+	background-color: transparent;
+}
+
+PLSScheduleCombox #dropLabel,
+PLSScheduleCombox[type="Ty_Normal"] #dropLabel {
+	image:url(":/images/txt-dropbox-open-normal.svg");
+}
+PLSScheduleCombox[type="Ty_Hover"] #dropLabel {
+	image:url(":/images/txt-dropbox-open-over.svg");
+}
+PLSScheduleCombox[type="Ty_On"] #dropLabel {
+	image:url(":/images/txt-dropbox-open-click.svg");
+}
+PLSScheduleCombox[type="Ty_Disabled"] #dropLabel {
+	image:url(":/images/txt-dropbox-open-disable.svg");
+}
+
+PLSScheduleCombox #scheduleListWidget {
+	background-color: #2d2d2d;
+}
+
+PLSScheduleCombox #scheduleListWidget::item {
+	padding-left:/*hdpi*/ 10px;
+	min-height:/*hdpi*/ 70px;
+	max-height:/*hdpi*/ 70px;
+}
+
+PLSScheduleCombox QMenu {
+	background-color: #111111;
+	border:/*hdpi*/ none;
+	min-width:/*hdpi*/ 10px;
+	max-width:/*hdpi*/ 999999px;
+	padding:/*hdpi*/0px;
+	background: transparent;
+}
+
+PLSScheduleCombox QMenu::item {
+	background-color: transparent;
+	padding:/*hdpi*/0px;
+	min-height:/*hdpi*/ 10px;
+	max-height:/*hdpi*/ 4000px;
+	font-size:/*hdpi*/ 14px;
+	color: #ffffff;
+	border:/*hdpi*/ none;
+}
+
+PLSScheduleComboxItem #loadingTitleLabel {
+	min-width: /*hdpi*/ 24px;
+	max-width: /*hdpi*/ 24px;
+	min-height: /*hdpi*/ 24px;
+	max-height: /*hdpi*/ 24px;
+}
+
+PLSScheduleComboxItem #titleLabel,
+PLSScheduleComboxItem #loadingTitleLabel,
+PLSScheduleComboxItem #loadingDetailLabel {
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: transparent;
+}
+
+PLSScheduleComboxItem #detailLabel {
+	font-size:/*hdpi*/ 12px;
+	font-weight: normal;
+	color: #777777;
+	background-color: transparent;
+}
+
+PLSScheduleCombox #scheduleListWidget::item:hover {
+	background-color: #373737;
+}
+
+PLSScheduleCombox #scheduleListWidget::item:selected {
+	background-color: #373737;
+}
+
+PLSScheduleCombox #scheduleListWidget::item:selected: !active {
+	background-color: #transparent;
+}
+
+PLSScheduleCombox #scheduleListWidget:focus {
+	outline: none;
+}
+
+PLSScheduleCombox #scheduleListWidget .QLabel {
+	background-color: transparent;
+}

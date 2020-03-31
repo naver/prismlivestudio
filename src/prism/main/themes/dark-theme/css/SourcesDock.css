@@ -1,0 +1,58 @@
+PLSDock#sourcesDock {
+	min-width: /*hdpi*/ 186px;
+	min-height: /*hdpi*/ 218px;
+	qproperty-contentMarginLeft: /*hdpi*/ 1;
+	qproperty-contentMarginRight: /*hdpi*/ 1;
+	qproperty-contentMarginBottom: /*hdpi*/ 1;
+	background-color: #272727;
+}
+
+PLSDock#sourcesDock QListView:focus{
+	outline: none;
+}
+
+PLSDock#sourcesDock PLSDockTitle{
+	qproperty-marginLeft:/*hdpi*/18;
+	qproperty-marginRight:/*hdpi*/5;
+	qproperty-contentSpacing:/*hdpi*/10;
+	qproperty-captionHeight:/*hdpi*/50;
+}
+
+PLSDock#sourcesDock #addSourceBtn{
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+	border-style: none;
+	image:url(":/images/icon-addsource-default.svg");
+}
+
+PLSDock#sourcesDock #addSourceBtn:hover{
+	background-color: #272727;
+	background:transparent;
+	image:url(":/images/icon-addsource-over.svg");
+}
+
+PLSDock#sourcesDock #addSourceBtn:pressed{
+	image:url(":/images/icon-addsource-click.svg");
+}
+
+PLSDock#sourcesDock #addSourceBtn:!enabled{
+	image:url(":/images/icon-addsource-disable.svg");
+}
+
+PLSDock#sourcesDock #seperateSourceBtn{
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+	border-style: none;
+}
+
+PLSDock#sourcesDock PLSPopupMenu PLSPopupMenuItem QLabel {
+	background-color: transparent;
+}
+PLSDock#sourcesDock PLSPopupMenu {
+	min-width:/*hdpi*/ 180px;
+	max-width:/*hdpi*/ 180px;
+}

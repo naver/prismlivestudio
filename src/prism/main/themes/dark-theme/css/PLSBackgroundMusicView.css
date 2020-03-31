@@ -1,0 +1,1042 @@
+PLSBackgroundMusicView{
+	min-width:/*hdpi*/298px;
+	min-height: /*hdpi*/ 698px;
+	max-width: /*hdpi*/ 798px;
+	border:/*hdpi*/1px solid #111111;
+	background-color: #1e1e1f;
+}
+
+PLSBackgroundMusicView #content{
+    background-color: #1e1e1f;
+}
+
+PLSBackgroundMusicView #playingSlider[enter="false"]:handle:horizontal {
+    height: /*hdpi*/0px;
+    width: /*hdpi*/0px;
+    image: none;
+    margin-top: /*hdpi*/0px;
+    margin-left: -1px;
+    margin-bottom: /*hdpi*/0px;
+    margin-right: 1px;
+}
+
+PLSBackgroundMusicView #playingSlider::handle:horizontal[enter="true"] {
+	border-image:url(":/images/img-handle-over.svg");
+	width:/*hdpi*/ 12px;
+    margin:/*hdpi*/-4px/*hdpi*/0px/*hdpi*/-4px/*hdpi*/0px;
+}
+
+PLSBackgroundMusicView #playingSlider:sub-page:horizontal {
+    border-radius: /*hdpi*/2px;
+    background-color: #effc35;
+}
+
+PLSBackgroundMusicView #playingSlider:groove:horizontal {
+    border-radius: /*hdpi*/2px;
+    height: /*hdpi*/4px;
+    background-color: #555555;
+}
+
+
+
+PLSBackgroundMusicView #loadingBtn{
+	min-height: /*hdpi*/25px;
+	max-height:/*hdpi*/ 25px;
+	min-width: /*hdpi*/25px;
+	max-width: /*hdpi*/25px;
+	margin: /*hdpi*/ 5px;
+	border-radius:none;
+	background: transparent;
+}
+
+PLSBackgroundMusicView #loadingBtn[status="1"] {
+	image:url(":/images/loading-1.svg");
+}
+
+PLSBackgroundMusicView #loadingBtn[status="2"] {
+	image:url(":/images/loading-2.svg");
+}
+
+PLSBackgroundMusicView #loadingBtn[status="3"] {
+	image:url(":/images/loading-3.svg");
+}
+
+PLSBackgroundMusicView #loadingBtn[status="4"] {
+	image:url(":/images/loading-4.svg");
+}
+
+PLSBackgroundMusicView #loadingBtn[status="5"] {
+	image:url(":/images/loading-5.svg");
+}
+
+PLSBackgroundMusicView #loadingBtn[status="6"] {
+	image:url(":/images/loading-6.svg");
+}
+
+PLSBackgroundMusicView #loadingBtn[status="7"] {
+	image:url(":/images/loading-7.svg");
+}
+
+PLSBackgroundMusicView #loadingBtn[status="8"] {
+	image:url(":/images/loading-8.svg");
+}
+
+PLSBackgroundMusicView QScrollArea{
+	border:/*hdpi*/none;
+	background-color:#1e1e1f;
+}
+
+PLSBackgroundMusicView QScrollBar:vertical {
+    background-color: #1e1e1f;
+	min-width:/*hdpi*/10px;
+	max-width:/*hdpi*/10px;
+    margin:/*hdpi*/0px;
+}
+
+PLSBackgroundMusicView #playListPage,
+PLSBackgroundMusicView #libraryPage, PLSBackgroundMusicView #noSourcePage, PLSBackgroundMusicView #noNetworkPage,
+PLSBackgroundMusicView #playListFrame, PLSBackgroundMusicView #scrollAreaWidgetContents{
+	background-color: #1e1e1f;
+}
+
+PLSBackgroundMusicView #seperatorLabel, PLSBackgroundMusicView #seperatorLabel2, PLSBackgroundMusicView #seperatorLabel3{
+	min-height: /*hdpi*/1px;
+	max-height: /*hdpi*/1px;
+	background-color:#343435;
+}
+
+PLSBackgroundMusicView #noPlayListFrame{
+	background: transparent;	
+}
+
+PLSBackgroundMusicView #noPlayListLabel{
+	color: #666666;
+	font-size:/*hdpi*/14px;
+	background-color: #1e1e1f;
+}
+
+PLSBackgroundMusicView #infoFrame{
+	min-height: /*hdpi*/105px;
+	max-height: /*hdpi*/105px;
+}
+
+PLSBackgroundMusicView #tabWidget{
+    background-color: #272727;
+	min-height:/*hdpi*/49px;
+	max-height:/*hdpi*/49px;
+}
+
+PLSBackgroundMusicView #sourceNameLabel{
+	color: #ffffff;
+	font-size: /*hdpi*/14px;
+	font-weight: bold;
+}
+
+PLSBackgroundMusicView #playListBtn[status=selected], PLSBackgroundMusicView #libraryListBtn[status=selected]{
+	color: #effc35;
+}
+
+PLSBackgroundMusicView #playListBtn[status=unselected], PLSBackgroundMusicView #libraryListBtn[status=unselected]{
+	color: #bababa;
+}
+
+PLSBackgroundMusicView #playListBtn[status=unselected]:hover, 
+PLSBackgroundMusicView #libraryListBtn[status=unselected]:hover{
+	color: #ffffff;
+}
+
+PLSBackgroundMusicView #playListBtn[status=unselected]:pressed, 
+PLSBackgroundMusicView #libraryListBtn[status=unselected]:pressed{
+	color: #1e1e1e;
+}
+
+PLSBackgroundMusicView #buttonFrame{
+	min-height:/*hdpi*/66px;
+	max-height:/*hdpi*/66px;
+	background-color: #1e1e1f;
+    border-top: 1px solid #343435;
+}
+
+PLSBackgroundMusicView #buttonFrame #addMusicBtn, PLSBackgroundMusicView #buttonFrame #addSourceBtn{
+	min-width:/*hdpi*/270px;
+	border-radius: /*hdpi*/2px;
+	font-size: /*hdpi*/14px;
+	font-weight: bold;
+	color: black;
+	background-color: #effc35;
+}
+
+PLSBackgroundMusicView #buttonFrame #addMusicBtn:hover, PLSBackgroundMusicView #buttonFrame #addSourceBtn:hover{
+	background-color: #f1fa75;
+}
+
+PLSBackgroundMusicView #buttonFrame #addMusicBtn:pressed, PLSBackgroundMusicView #buttonFrame #addSourceBtn:pressed{
+	background-color: #7A7F34;
+}
+
+PLSBackgroundMusicView #buttonFrame #addMusicBtn:disabled, PLSBackgroundMusicView #buttonFrame #addSourceBtn:disabled{
+	background-color: #444444;
+	color: #666666;
+}
+
+PLSBackgroundMusicView #playBtn, PLSBackgroundMusicView #playBtn[status=disable]{
+	image:url(":/images/bgm/btn-player-play-disable.svg");	
+	background: transparent;
+}
+
+PLSBackgroundMusicView #playBtn[state=play]{
+	image:url(":/images/bgm/btn-player-play-normal.svg");	
+}
+
+PLSBackgroundMusicView #playBtn[state=play]:hover{
+	image:url(":/images/bgm/btn-player-play-over.svg");	
+}
+
+PLSBackgroundMusicView #playBtn[state=play]:pressed{
+	image:url(":/images/bgm/btn-player-play-click.svg");	
+}
+
+PLSBackgroundMusicView #playBtn[state=play]:!enable{
+	image:url(":/images/bgm/btn-player-play-disable.svg");	
+}
+
+PLSBackgroundMusicView #playBtn[state=play][status=disable]{
+	image:url(":/images/bgm/btn-player-play-disable.svg");	
+}
+
+PLSBackgroundMusicView #playBtn[state=pause][status=disable]{
+	image:url(":/images/bgm/btn-player-play-disable.svg");	
+}
+
+PLSBackgroundMusicView #playBtn[state=pause]{
+	image:url(":/images/bgm/btn-player-stop-normal.svg");	
+}
+
+PLSBackgroundMusicView #playBtn[state=pause]:hover{
+	image:url(":/images/bgm/btn-player-stop-over.svg");	
+}
+
+PLSBackgroundMusicView #playBtn[state=pause]:pressed{
+	image:url(":/images/bgm/btn-player-stop-click.svg");	
+}
+
+PLSBackgroundMusicView #playBtn[state=pause]:!enable{
+	image:url(":/images/bgm/btn-player-stop-disable.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn:indicator{
+	width: 0px;
+	height: 0px;
+}
+
+PLSBackgroundMusicView #loopBtn, PLSBackgroundMusicView #loopBtn[pressed=false]{
+	background: transparent;
+	image:url(":/images/bgm/btn-player-repeat-off-normal.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn:hover, PLSBackgroundMusicView #loopBtn[pressed=false]:hover{
+	image:url(":/images/bgm/btn-player-repeat-off-over.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn:pressed, PLSBackgroundMusicView #loopBtn[pressed=false]:pressed{
+	image:url(":/images/bgm/btn-player-repeat-off-click.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn:!enable, PLSBackgroundMusicView #loopBtn[pressed=false]:!enable{
+	image:url(":/images/bgm/btn-player-repeat-off-disable.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn[status=disable][pressed=true]{
+	image:url(":/images/bgm/btn-player-repeat-off-normal.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn[status=disable][pressed=false]{
+	image:url(":/images/bgm/btn-player-repeat-off-normal.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn[pressed=true]{
+	background: transparent;
+	image:url(":/images/bgm/btn-player-repeat-on-normal.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn[pressed=true]:hover{
+	image:url(":/images/bgm/btn-player-repeat-on-over.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn[pressed=true]:pressed{
+	image:url(":/images/bgm/btn-player-repeat-on-click.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn[pressed=true]:!enable{
+	image:url(":/images/bgm/btn-player-repeat-on-disable.svg");	
+}
+
+
+PLSBackgroundMusicView #refreshBtn[playMode=inOrder]{
+	background: transparent;
+	image:url(":/images/bgm/btn-player-allrepeat-normal.svg");	
+}
+
+PLSBackgroundMusicView #refreshBtn[playMode=inOrder]:hover{
+	image:url(":/images/bgm/btn-player-allrepeat-over.svg");	
+}
+
+PLSBackgroundMusicView #refreshBtn[playMode=inOrder]:pressed{
+	image:url(":/images/bgm/btn-player-allrepeat-click.svg");	
+}
+
+PLSBackgroundMusicView #refreshBtn[playMode=inOrder]:!enable{
+	image:url(":/images/bgm/btn-player-allrepeat-disable.svg");	
+}
+
+PLSBackgroundMusicView #refreshBtn[playMode=inOrder][status=disable]{
+	image:url(":/images/bgm/btn-player-allrepeat-disable.svg");	
+}
+
+PLSBackgroundMusicView #refreshBtn[playMode=random]{
+	background: transparent;
+	image:url(":/images/bgm/btn-player-shuffle-normal.svg");	
+}
+
+PLSBackgroundMusicView #refreshBtn[playMode=random]:hover{
+	image:url(":/images/bgm/btn-player-shuffle-over.svg");	
+}
+
+PLSBackgroundMusicView #refreshBtn[playMode=random]:pressed{
+	image:url(":/images/bgm/btn-player-shuffle-click.svg");	
+}
+
+PLSBackgroundMusicView #refreshBtn[playMode=random][status=disable]{
+	image:url(":/images/bgm/btn-player-shuffle-disable.svg");	
+}
+
+PLSBackgroundMusicView #loopBtn, PLSBackgroundMusicView #refreshBtn{
+	min-height:/*hdpi*/18px;
+	max-height:/*hdpi*/18px;
+	min-width:/*hdpi*/23px;
+	max-width:/*hdpi*/23px;		
+}
+
+PLSBackgroundMusicView #noSongFrame{
+	min-height:/*hdpi*/255px;
+	max-height:/*hdpi*/255px;
+}
+
+PLSBackgroundMusicView #noSongFrame #noSongLabel{
+    min-height:/*hdpi*/255px;
+	max-height:/*hdpi*/255px;
+	background: transparent;
+	font-size: /*hdpi*/12px;
+	color: #666666;
+}
+
+PLSBackgroundMusicView #currentTimeLabel, PLSBackgroundMusicView #durationLabel{
+	min-height:/*hdpi*/16px;
+	max-height:/*hdpi*/16px;
+	font-size: /*hdpi*/12px;
+	color: #8d8d8d;
+}
+
+PLSBackgroundMusicView #noNetworkLabel{
+	min-width: /*hdpi*/90px;
+	max-width: /*hdpi*/90px;
+	min-height: /*hdpi*/90px;
+	max-height: /*hdpi*/90px;
+	background: transparent;
+	image:url(":/images/bgm/ic-unconnect.svg");
+}
+
+PLSBackgroundMusicView #iconLabel, PLSBackgroundMusicView #noMusicIconLabel{
+	min-width: /*hdpi*/90px;
+	max-width: /*hdpi*/90px;
+	min-height: /*hdpi*/90px;
+	max-height: /*hdpi*/90px;
+	background: transparent;
+	image:url(":/images/bgm/ic-bgm-zero.svg");
+}
+
+PLSBackgroundMusicView #retryBtn{
+	min-width: /*hdpi*/110px;
+	max-width: /*hdpi*/110px;
+	min-height: /*hdpi*/27px;
+	max-height: /*hdpi*/27px;
+	border: /*hdpi*/1px solid #3d3d3d;
+	border-radius: /*hdpi*/3px;
+	font-size: /*hdpi*/12px;
+	font-weight: normal;
+	background: transparent;
+	color: #bababa;
+}
+
+PLSBackgroundMusicView #retryBtn:disabled{
+	color:#3d3d3d;
+	border:/*hdpi*/1px solid #3d3d3d;
+}
+
+PLSBackgroundMusicView #retryBtn:hover {
+	background-color:transparent;
+	border:/*hdpi*/1px solid #ffffff;
+	color:#ffffff;
+}
+
+PLSBackgroundMusicView #retryBtn:pressed {
+	background-color:transparent;
+	border:/*hdpi*/1px solid #272727;
+	color:#272727;
+}
+
+PLSBackgroundMusicView #noticeLabel, PLSBackgroundMusicView #noNetworkTipLabel{
+	font-size: /*hdpi*/14px;
+	color: #666666;
+	background: transparent;
+}
+
+PLSBackgroundMusicView #playListWidget{
+	background-color: #1e1e1f;
+	outline: none;
+	min-height: /*hdpi*/70px;
+}
+
+PLSBackgroundMusicView #playListWidget::item{
+	background-color: #1e1e1f;
+	min-height: /*hdpi*/68px;
+	max-height: /*hdpi*/68px;
+	margin-top:/*hdpi*/ 1px;
+	margin-bottom:/*hdpi*/ 1px;
+	outline: none;
+}
+
+PLSBackgroundMusicView #playListWidget::item:hover{
+	background-color: transparent;
+}
+
+PLSBackgroundMusicView #playListWidget::item:pressed{
+	background-color: #222222;
+}
+
+PLSBackgroundMusicView #toastLabel{
+	min-height: /*hdpi*/38px;
+	max-height: /*hdpi*/38px;
+	background: #1e1e1f;
+	border: /*hdpi*/1px solid #343435;
+	border-radius: /*hdpi*/ 3px;
+	color: #bababa;
+}
+
+PLSBackgroundMusicView #toastLabel #closeToastBtn{
+	min-width: /*hdpi*/12px;
+	max-width: /*hdpi*/12px;
+	min-height: /*hdpi*/12px;
+	max-height: /*hdpi*/12px;
+	background: transparent;
+	border-image: url(":/images/btn-close-normal.svg");
+}
+
+PLSBackgroundMusicView #toastLabel #closeToastBtn:hover{
+	image: url(":/images/btn-close-over.svg");
+}
+
+PLSBackgroundMusicView #toastLabel #closeToastBtn:pressed{
+	image: url(":/images/btn-close-click.svg");
+}
+PLSBackgroundMusicView #toastLabel #closeToastBtn:!enable{
+	image: url(":/images/btn-close-disable.svg");
+}
+
+PLSBackgroundMusicView #preBtn, PLSBackgroundMusicView #playBtn, PLSBackgroundMusicView #nextBtn{
+	min-width:/*hdpi*/35px;
+	max-width:/*hdpi*/35px;		
+	min-height:/*hdpi*/35px;
+	max-height:/*hdpi*/35px;	
+}
+
+PLSBackgroundMusicView #preBtn{
+	background: transparent;
+	image:url(":/images/bgm/btn-player-prew-normal.svg");	
+}
+
+PLSBackgroundMusicView #preBtn:hover{
+	image:url(":/images/bgm/btn-player-prew-over.svg");	
+}
+
+PLSBackgroundMusicView #preBtn:pressed{
+	image:url(":/images/bgm/btn-player-prew-click.svg");	
+}
+
+PLSBackgroundMusicView #preBtn:!enable, PLSBackgroundMusicView #preBtn[status=disable]{
+	image:url(":/images/bgm/btn-player-prew-disable.svg");	
+}
+
+PLSBackgroundMusicView #nextBtn{
+	background: transparent;
+	image:url(":/images/bgm/btn-player-next-normal.svg");	
+}
+
+PLSBackgroundMusicView #nextBtn:hover{
+	image:url(":/images/bgm/btn-player-next-over.svg");	
+}
+
+PLSBackgroundMusicView #nextBtn:pressed{
+	image:url(":/images/bgm/btn-player-next-click.svg");	
+}
+
+PLSBackgroundMusicView #nextBtn:!enable, PLSBackgroundMusicView #nextBtn[status=disable]{
+	image:url(":/images/bgm/btn-player-next-disable.svg");	
+}
+
+PLSBackgroundMusicView #coverLabel{
+	min-height:/*hdpi*/ 255px;
+	max-height:/*hdpi*/ 255px;
+	min-width: /*hdpi*/298px;
+}
+
+PLSBackgroundMusicView #addMusicMenu::item{
+	min-width: /*hdpi*/ 186px;
+	max-width: /*hdpi*/ 186px;
+}
+
+PLSBgmItemCoverView #titleFrame, PLSBgmItemCoverView #producerFrame{
+	background-color: transparent;
+}
+
+PLSBgmItemCoverView{
+	background: transparent;
+	min-height:/*hdpi*/ 255px;
+	max-height:/*hdpi*/ 255px;
+	min-width: /*hdpi*/298px;
+}
+
+PLSBgmItemCoverView #imageLabel{
+	min-height: /*hdpi*/130px;
+	max-height:/*hdpi*/ 130px;
+	min-width: /*hdpi*/130px;
+	max-width:/*hdpi*/ 130px;
+	border-radius: /*hdpi*/ 3px;
+	background: transparent;
+}
+
+PLSBgmItemCoverView #playingLabel{
+	min-height: /*hdpi*/16px;
+	max-height:/*hdpi*/ 16px;
+	min-width: /*hdpi*/16px;
+	max-width: /*hdpi*/16px;
+	background: transparent;
+}
+
+PLSBgmItemCoverView #titleLabel, PLSBgmItemCoverView #titleFrame{
+	min-height:/*hdpi*/22px;
+	max-height:/*hdpi*/22px;
+	font-size: /*hdpi*/16px;
+	font-weight: bold;
+	color:#ffffff;
+	background: transparent;
+}
+
+PLSBgmItemCoverView #producerLabel, PLSBgmItemCoverView #producerFrame{
+	min-height:/*hdpi*/17px;
+	max-height:/*hdpi*/17px;
+	font-size: /*hdpi*/13px;
+	background: transparent;
+	color: #ffffff;
+}
+
+PLSBgmItemCoverView #backgroundLabel{
+	background-color: #272727;
+	border: 1px solid rgb(255,255,255,5);
+	min-height:/*hdpi*/ 255px;
+	max-height:/*hdpi*/ 255px;
+}
+
+PLSBgmItemView{
+	min-width: /*hdpi*/288px;
+	background-color:#1e1e1f;
+	font-size:/*hdpi*/11px;
+}
+
+PLSBgmItemView[open=true]{
+	min-height: /*hdpi*/124px;
+	max-height: /*hdpi*/124px;
+}
+
+PLSBgmItemView[open=false]{
+	min-height: /*hdpi*/66px;
+	max-height: /*hdpi*/66px;
+}
+
+PLSBgmItemView[status=hover]{
+	background-color: #272727;
+}
+
+PLSBgmItemView[status=normal]{
+	background-color: #1e1e1f;
+}
+
+PLSBgmItemView #frameDuration{
+	min-height: /*hdpi*/58px;
+	max-height: /*hdpi*/58px;
+	background-color:transparent;
+	border:none;
+}
+
+PLSBgmItemView #frameInfo{
+	min-height: /*hdpi*/66px;
+	max-height: /*hdpi*/66px;
+	background-color:transparent;
+	border:none;
+}
+
+PLSBgmItemView #frameContent{
+	background-color:transparent;
+	border:none;
+}
+
+PLSBgmItemView #loadingBtn{
+	min-height: /*hdpi*/18px;
+	max-height:/*hdpi*/ 18px;
+	min-width: /*hdpi*/18px;
+	max-width: /*hdpi*/18px;
+	margin: 0px;
+	border-radius:none;
+	background: transparent;
+}
+
+PLSBgmItemView #loadingBtn[status="1"] {
+	image:url(":/images/loading-1.svg");
+}
+
+PLSBgmItemView #loadingBtn[status="2"] {
+	image:url(":/images/loading-2.svg");
+}
+
+PLSBgmItemView #loadingBtn[status="3"] {
+	image:url(":/images/loading-3.svg");
+}
+
+PLSBgmItemView #loadingBtn[status="4"] {
+	image:url(":/images/loading-4.svg");
+}
+
+PLSBgmItemView #loadingBtn[status="5"] {
+	image:url(":/images/loading-5.svg");
+}
+
+PLSBgmItemView #loadingBtn[status="6"] {
+	image:url(":/images/loading-6.svg");
+}
+
+PLSBgmItemView #loadingBtn[status="7"] {
+	image:url(":/images/loading-7.svg");
+}
+
+PLSBgmItemView #loadingBtn[status="8"] {
+	image:url(":/images/loading-8.svg");
+}
+
+PLSBgmItemView #playingLabel, PLSBgmItemView #playingLabel[play=true]{
+	min-height: /*hdpi*/18px;
+	max-height:/*hdpi*/ 18px;
+	min-width: /*hdpi*/18px;
+	max-width: /*hdpi*/18px;
+	background: transparent;
+}
+
+PLSBgmItemView #playingLabel[play=false]{
+	image:url(":/images/bgm/btn-template-musiclist-play.svg");
+}
+
+
+PLSBgmItemView #listenBtn, PLSBgmItemView #listenBtn[play=false]{
+	min-height: /*hdpi*/18px;
+	max-height:/*hdpi*/ 18px;
+	min-width: /*hdpi*/18px;
+	max-width: /*hdpi*/18px;
+	border-radius:none;
+	background: transparent;
+	image:url(":/images/bgm/btn-template-musiclist-play.svg");
+}
+
+PLSBgmItemView #listenBtn[selected=true]{
+	min-height: /*hdpi*/18px;
+	max-height:/*hdpi*/ 18px;
+	min-width: /*hdpi*/18px;
+	max-width: /*hdpi*/18px;
+	border-radius:none;
+	background: transparent;
+	image:url(":/images/bgm/btn-template-musiclist-play-over.svg");
+}
+
+PLSBgmItemView #listenBtn:hover, PLSBgmItemView #listenBtn[play=false]:hover{
+	image:url(":/images/bgm/btn-template-musiclist-play-over.svg");
+}
+
+PLSBgmItemView #listenBtn:pressed, PLSBgmItemView #listenBtn[play=false]:pressed{
+	image:url(":/images/bgm/btn-template-musiclist-play-click.svg");
+}
+
+PLSBgmItemView #listenBtn:!enable, PLSBgmItemView #listenBtn[play=false]:!enable{
+	image:url(":/images/bgm/btn-template-musiclist-play-disable.svg");
+}
+
+PLSBgmItemView #listenBtn[play=true]{
+	image:url(":/images/bgm/btn-template-musiclist-stop.svg");
+}
+
+PLSBgmItemView #listenBtn[play=true]:hover{
+	image:url(":/images/bgm/btn-template-musiclist-stop-over.svg");
+}
+
+PLSBgmItemView #listenBtn[play=true]:pressed{
+	image:url(":/images/bgm/btn-template-musiclist-stop-click.svg");
+}
+
+PLSBgmItemView #listenBtn[play=true]:!enable{
+	image:url(":/images/bgm/btn-template-musiclist-stop-disable.svg");
+}
+
+PLSBgmItemView #label_name > #additionalLabel{
+	min-height:/*hdpi*/ 14px;
+	max-height: /*hdpi*/14px;
+	min-width: /*hdpi*/27px;
+	max-width: /*hdpi*/27px;
+	image:url(":/images/bgm/img-free.svg");
+	background: transparent;
+}
+
+PLSBgmItemView #label_name{
+	font-size:/*hdpi*/14px;
+	background:transparent;
+	color: white;
+}
+
+PLSBgmItemView #label_name[status=Playing], PLSBgmItemView #label_name[status=Pause],
+PLSBgmItemView #label_name[status=Loading], PLSBgmItemView #label_name[status=Selected]{
+	font-weight: bold;
+	color:#effc35;
+}
+
+PLSBgmItemView #label_name[status=Default]{
+	color:#dfdfdf;
+}
+
+PLSBgmItemView #label_name[status=Disabled]{
+	color: #666666;
+}
+
+/*producer duration*/
+PLSBgmItemView #label_producer,
+PLSBgmItemView #label_producer > #additionalLabel
+{
+	font-size:/*hdpi*/12px;
+	background: transparent;
+	color: #666666;
+}
+
+PLSBgmItemView #label_producer > #middleLabel{
+	min-height:/*hdpi*/ 3px;
+	max-height: /*hdpi*/3px;
+	min-width: /*hdpi*/3px;
+	max-width: /*hdpi*/3px;
+	margin-left: /*hdpi*/ 7px;
+	margin-right: /*hdpi*/ 7px;
+	image:url(":/images/bgm/img-music-dot.png");
+}
+
+
+PLSBgmItemView #label_producer[status=Playing], PLSBgmItemView #label_producer[status=Pause],
+PLSBgmItemView #label_producer[status=Loading], PLSBgmItemView #label_producer[status=Selected]{
+	color:#7a7f34;
+}
+
+PLSBgmItemView #label_producer[status=Default]{
+	color: #666666;
+}
+
+PLSBgmItemView #label_producer[status=Disabled]{
+	color: #666666;
+}
+
+PLSBgmItemView #label_producer > #additionalLabel[status=Playing], PLSBgmItemView #label_producer> #additionalLabel[status=Pause],
+PLSBgmItemView #label_producer> #additionalLabel[status=Loading], PLSBgmItemView #label_producer> #additionalLabel[status=Selected]{
+	color:#7a7f34;
+}
+
+PLSBgmItemView #label_producer> #additionalLabel[status=Default]{
+	color: #666666;
+}
+
+PLSBgmItemView #label_producer> #additionalLabel[status=Disabled]{
+	color: #666666;
+}
+/*producer duration end*/
+
+PLSBgmItemView #nameLabel{
+	font-size:/*hdpi*/14px;
+	background:transparent;
+	color: white;
+}
+
+PLSBgmItemView #nameLabel[status=Playing], PLSBgmItemView #nameLabel[status=Pause],
+PLSBgmItemView #nameLabel[status=Loading], PLSBgmItemView #nameLabel[status=Selected]{
+	font-weight: bold;
+	color:#effc35;
+}
+
+PLSBgmItemView #nameLabel[status=Default]{
+	color:#dfdfdf;
+}
+
+PLSBgmItemView #nameLabel[status=Disabled]{
+	color: #666666;
+}
+
+
+PLSBgmItemView #durationLabel, PLSBgmItemView #producerLabel, PLSBgmItemView #pointLabel{
+	font-size:/*hdpi*/12px;
+	background: transparent;
+	color: #666666;
+}
+
+
+PLSBgmItemView #durationLabel[status=Playing], PLSBgmItemView #durationLabel[status=Pause],
+PLSBgmItemView #durationLabel[status=Loading], PLSBgmItemView #durationLabel[status=Selected]{
+	color:#7a7f34;
+}
+
+PLSBgmItemView #durationLabel[status=Default]{
+	color: #666666;
+}
+
+PLSBgmItemView #durationLabel[status=Disabled]{
+	color: #666666;
+}
+
+PLSBgmItemView #producerLabel[status=Playing], PLSBgmItemView #producerLabel[status=Pause],
+PLSBgmItemView #producerLabel[status=Loading], PLSBgmItemView #producerLabel[status=Selected]{
+	color:#7a7f34;
+}
+
+PLSBgmItemView #producerLabel[status=Default]{
+	color: #666666;
+}
+
+PLSBgmItemView #producerLabel[status=Disabled]{
+	color: #666666;
+}
+
+PLSBgmItemView #pointLabel[status=Playing], PLSBgmItemView #pointLabel[status=Pause],
+PLSBgmItemView #pointLabel[status=Loading], PLSBgmItemView #pointLabel[status=Selected]{
+	color:#7a7f34;
+}
+
+PLSBgmItemView #pointLabel[status=Default]{
+	color: #666666;
+}
+
+PLSBgmItemView #pointLabel[status=Disabled]{
+	color: #666666;
+}
+
+PLSBgmItemView #addBtn{
+	min-height:/*hdpi*/ 22px;
+	max-height: /*hdpi*/22px;
+	min-width: /*hdpi*/22px;
+	max-width: /*hdpi*/22px;
+	background: transparent;
+	border-radius:none;
+}
+
+PLSBgmItemView #addBtn{
+	image:url(":/images/bgm/icon-addsource-default.svg");
+}
+
+PLSBgmItemView #addBtn:hover{
+	image:url(":/images/bgm/icon-addsource-over.svg");
+}
+
+PLSBgmItemView #addBtn:pressed{
+	image:url(":/images/bgm/icon-addsource-click.svg");
+}
+
+PLSBgmItemView #addBtn:!enable{
+	image:url(":/images/bgm/icon-addsource-disable.svg");
+}
+
+PLSBgmItemView #delBtn{
+	min-height: /*hdpi*/22px;
+	max-height:/*hdpi*/ 22px;
+	min-width: /*hdpi*/22px;
+	max-width: /*hdpi*/22px;
+	border-radius:none;	
+	background: transparent;
+	image:url(":/images/bgm/btn-playlist-delete-normal.svg");
+}
+
+PLSBgmItemView #delBtn:hover{
+	image:url(":/images/bgm/btn-playlist-delete-over.svg");
+}
+
+PLSBgmItemView #delBtn:pressed{
+	image:url(":/images/bgm/btn-playlist-delete-click.svg");
+}
+
+PLSBgmItemView #delBtn:!enable{
+	image:url(":/images/bgm/btn-playlist-delete-disable.svg");
+}
+
+PLSBgmItemView #checkBtn{
+	min-height: /*hdpi*/22px;
+	max-height:/*hdpi*/ 22px;
+	min-width: /*hdpi*/22px;
+	max-width: /*hdpi*/22px;
+	background: transparent;
+	border-radius:none;	
+	image:url(":/images/bgm/btn-add-playlist-done-normal.svg");
+}
+
+PLSBgmItemView #checkBtn:hover{
+	image:url(":/images/bgm/btn-add-playlist-done-over.svg");
+}
+
+PLSBgmItemView #checkBtn:pressed{
+	image:url(":/images/bgm/btn-add-playlist-done-click.svg");
+}
+
+PLSBgmItemView #checkBtn:!enable{
+	image:url(":/images/bgm/btn-add-playlist-done-disable.svg");
+}
+
+PLSBgmItemView #moreBtn, PLSBgmItemView #moreBtn[open=false]{
+	min-height: /*hdpi*/22px;
+	max-height: /*hdpi*/22px;
+	min-width: /*hdpi*/22px;
+	max-width: /*hdpi*/22px;
+	background: transparent;
+	border-radius:none;	
+	image:url(":/images/bgm/icon-more-default.svg");
+}
+
+PLSBgmItemView #moreBtn:hover, PLSBgmItemView #moreBtn[open=false]:hover{
+	image:url(":/images/bgm/icon-more-over.svg");
+}
+
+PLSBgmItemView #moreBtn:pressed, PLSBgmItemView #moreBtn[open=false]:pressed{
+	image:url(":/images/bgm/icon-more-click.svg");
+}
+
+PLSBgmItemView #moreBtn:!enable, PLSBgmItemView #moreBtn[open=false]:!enable{
+	image:url(":/images/bgm/icon-more-disable.svg");
+}
+
+PLSBgmItemView #moreBtn[open=true]{
+	image:url(":/images/bgm/icon-more-open-default.svg");
+}
+
+PLSBgmItemView #moreBtn[open=true]:hover{
+	image:url(":/images/bgm/icon-more-open-over.svg");
+}
+
+PLSBgmItemView #moreBtn[open=true]:pressed{
+	image:url(":/images/bgm/icon-more-open-click.svg");
+}
+
+PLSBgmItemView #moreBtn[open=true]:!enable{
+	image:url(":/images/bgm/icon-more-disable.svg");
+}
+
+PLSBgmItemView #fullButton, PLSBgmItemView #fifteenButton, PLSBgmItemView #sixtyButton, PLSBgmItemView #thirtyButton{
+	background:transparent;
+	min-height: /*hdpi*/32px;
+	max-height: /*hdpi*/32px;
+	min-width: /*hdpi*/32px;
+	max-width: /*hdpi*/32px;
+}
+
+PLSBgmItemView #fullButton:indicator, PLSBgmItemView #fifteenButton:indicator,
+PLSBgmItemView #sixtyButton:indicator, PLSBgmItemView #thirtyButton:indicator{
+	height:/*hdpi*/ 32px;
+	width: /*hdpi*/ 32px;
+}
+
+PLSBgmItemView #fullButton::indicator:unchecked{
+	image:url(":/images/bgm/btn-bgm-full-off-normal.svg");
+}
+
+PLSBgmItemView #fullButton::indicator:unchecked:hover{
+	image:url(":/images/bgm/btn-bgm-full-off-over.svg");
+}
+
+PLSBgmItemView #fullButton::indicator:unchecked:pressed{
+	image:url(":/images/bgm/btn-bgm-full-off-click.svg");
+}
+
+PLSBgmItemView #fullButton::indicator:checked{
+	image:url(":/images/bgm/btn-bgm-full-on-normal.svg");
+}
+
+PLSBgmItemView #fullButton::indicator:checked:hover{
+	image:url(":/images/bgm/btn-bgm-full-on-over.svg");
+}
+
+PLSBgmItemView #fullButton::indicator:checked:pressed{
+	image:url(":/images/bgm/btn-bgm-full-on-click.svg");
+}
+
+PLSBgmItemView #fifteenButton::indicator:unchecked{
+	image:url(":/images/bgm/btn-bgm-15-s-off-normal.svg");
+}
+PLSBgmItemView #fifteenButton::indicator:unchecked:hover{
+	image:url(":/images/bgm/btn-bgm-15-s-off-over.svg");
+}
+PLSBgmItemView #fifteenButton::indicator:unchecked:pressed{
+	image:url(":/images/bgm/btn-bgm-15-s-off-click.svg");
+}
+
+PLSBgmItemView #fifteenButton::indicator:checked{
+	image:url(":/images/bgm/btn-bgm-15-s-on-normal.svg");
+}
+PLSBgmItemView #fifteenButton::indicator:checked:hover{
+	image:url(":/images/bgm/btn-bgm-15-s-on-over.svg");
+}
+PLSBgmItemView #fifteenButton::indicator:checked:pressed{
+	image:url(":/images/bgm/btn-bgm-15-s-on-click.svg");
+}
+
+PLSBgmItemView #thirtyButton::indicator:unchecked{
+	image:url(":/images/bgm/btn-bgm-30-s-off-normal.svg");
+}
+PLSBgmItemView #thirtyButton::indicator:unchecked:hover{
+	image:url(":/images/bgm/btn-bgm-30-s-off-over.svg");
+}
+PLSBgmItemView #thirtyButton::indicator:unchecked:pressed{
+	image:url(":/images/bgm/btn-bgm-30-s-off-click.svg");
+}
+
+PLSBgmItemView #thirtyButton::indicator:checked{
+	image:url(":/images/bgm/btn-bgm-30-s-on-normal.svg");
+}
+PLSBgmItemView #thirtyButton::indicator:checked:hover{
+	image:url(":/images/bgm/btn-bgm-30-s-on-over.svg");
+}
+PLSBgmItemView #thirtyButton::indicator:checked:pressed{
+	image:url(":/images/bgm/btn-bgm-30-s-on-click.svg");
+}
+
+PLSBgmItemView #sixtyButton::indicator:unchecked{
+	image:url(":/images/bgm/btn-bgm-60-s-off-normal.svg");
+}
+PLSBgmItemView #sixtyButton::indicator:unchecked:hover{
+	image:url(":/images/bgm/btn-bgm-60-s-off-over.svg");
+}
+PLSBgmItemView #sixtyButton::indicator:unchecked:pressed{
+	image:url(":/images/bgm/btn-bgm-60-s-off-click.svg");
+}
+
+PLSBgmItemView #sixtyButton::indicator:checked{
+	image:url(":/images/bgm/btn-bgm-60-s-on-normal.svg");
+}
+PLSBgmItemView #sixtyButton::indicator:checked:hover{
+	image:url(":/images/bgm/btn-bgm-60-s-on-over.svg");
+}
+PLSBgmItemView #sixtyButton::indicator:checked:pressed{
+	image:url(":/images/bgm/btn-bgm-60-s-on-click.svg");
+}

@@ -1,0 +1,107 @@
+SceneSwitcher#SceneSwitcher *{
+    color: #ffffff;
+	font-size:/*hdpi*/ 14px;
+}
+SceneSwitcher #scenes{
+	min-width:/*hdpi*/160px;
+}
+SceneSwitcher #label,
+SceneSwitcher #label_2,
+SceneSwitcher #label_4
+{
+	min-width:/*hdpi*/213px;
+}
+SceneSwitcher#SceneSwitcher QLabel{
+    color: #bababa;
+	font-size:/*hdpi*/ 14px;
+}
+SceneSwitcher#SceneSwitcher QLabel[useFor="FormLabelRole"]{
+    font-weight: bold;
+}
+
+SceneSwitcher #switches {
+	background-color: #1e1e1f;
+	border: /*hdpi*/ none;
+	font-size: /*hdpi*/ 14px;
+	color: #ffffff;
+}
+SceneSwitcher #switches::item{
+        border: none;
+	padding-left:/*hdpi*/ 8px;
+	height:/*hdpi*/ 40px;
+}
+
+SceneSwitcher #switches::item:selected{
+    background-color: #444444;
+    color: #ffffff;
+}
+SceneSwitcher #switches::item:selected:!active{
+    background-color: #444444;
+    color: #ffffff;
+}
+SceneSwitcher #switches::item:hover{
+    background-color: #1e1e1f;
+    color: #ffffff;
+}
+SceneSwitcher #switches::item:selected:hover{
+    background-color: #444444;
+    color: #ffffff;
+}
+SceneSwitcher #switches:focus{
+    outline: none;
+}
+
+SceneSwitcher#SceneSwitcher #add{
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+	image:url(":/images/icon-addsource-default.svg");
+    background-color: transparent;
+}
+SceneSwitcher#SceneSwitcher #add:hover{
+	image:url(":/images/icon-addsource-over.svg");
+    background-color: transparent;
+}
+SceneSwitcher#SceneSwitcher #add:pressed{
+	image:url(":/images/icon-addsource-click.svg");
+    background-color: transparent;
+}
+SceneSwitcher#SceneSwitcher #add:disabled{
+	image:url(":/images/icon-addsource-disable.svg");
+    background-color: transparent;
+}
+SceneSwitcher#SceneSwitcher #remove{
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+	image:url(":/images/ic-delete-default.svg");
+    background-color: transparent;
+}
+SceneSwitcher#SceneSwitcher #remove:hover{
+	image:url(":/images/ic-delete-over.svg");
+    background-color: transparent;
+}
+SceneSwitcher#SceneSwitcher #remove:pressed{
+	image:url(":/images/ic-delete-click.svg");
+    background-color: transparent;
+}
+SceneSwitcher#SceneSwitcher #remove:disabled{
+	image:url(":/images/ic-delete-disable.svg");
+    background-color: transparent;
+}
+SceneSwitcher #noMatchSwitchScene {
+	qproperty-minimumSize: /*hdpi*/ 160px /*hdpi*/ 40px;
+	qproperty-maximumSize: /*hdpi*/ 160px /*hdpi*/ 40px;
+}
+SceneSwitcher #toggleStartButton {
+	min-width: /*hdpi*/ 130px;
+	max-width: /*hdpi*/ 130px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+}
+SceneSwitcher #bottomButtonArea {
+	min-height: /*hdpi*/ 79px;
+
+}

@@ -1,0 +1,85 @@
+PLSFontDialogView QFontDialog QDialogButtonBox {
+	min-height: /*hdpi*/ 78px;
+	max-height: /*hdpi*/ 78px;
+}
+
+PLSColorDialogView QFontDialog QDialogButtonBox QPushButton[useFor="Ok"],
+PLSColorDialogView QFontDialog QDialogButtonBox QPushButton[useFor="Cancel"] {
+	font-weight: bold;
+	font-size: /*hdpi*/ 14px;
+	color: #FFFFFF;
+	min-width: /*hdpi*/ 128px;
+	max-width: /*hdpi*/ 128px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+}
+
+PLSColorDialogView {
+	min-height:/*hdpi*/ 425px;
+	max-height:/*hdpi*/ 875px;
+	min-width:/*hdpi*/ 478px;
+	max-width:/*hdpi*/ 720px;
+	background-color: #111111;
+}
+
+PLSColorDialogView QLabel {
+	alignment: left;
+	height:/*hdpi*/ 40px;
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	color: #bababa;
+}
+
+PLSColorDialogView QCheckBox {
+	background-color: transparent;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	color: #e1e1e1;
+}
+
+PLSColorDialogView QListWidget,
+PLSColorDialogView QListView {
+	border:/*hdpi*/ none;
+	outline: none;
+	border-radius:/*hdpi*/ 0;
+	background-color: #1e1e1f;
+}
+
+PLSColorDialogView QListWidget::item,
+PLSColorDialogView QListView::item {
+	border:/*hdpi*/ none;
+	outline: none;
+	height:/*hdpi*/ 40px;
+	padding-right:/*hdpi*/ 12px;
+	padding-left:/*hdpi*/ 12px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	background-color: #1e1e1f;
+	color: #ffffff;
+}
+
+PLSColorDialogView QListWidget::item:selected,
+PLSColorDialogView QListView::item:selected {
+	color : #effc35;
+}
+
+PLSColorDialogView QListWidget::item:hover,
+PLSColorDialogView QListView::item:hover {
+	background-color: #373737;
+}
+
+PLSColorDialogView QLineEdit, 
+PLSColorDialogView QSpinBox, 
+PLSColorDialogView QDoubleSpinBox{
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	background-color: #1e1e1e;
+	color: #ffffff;
+	border-radius:/*hdpi*/ 2px;
+}
+
+PLSColorDialogView QGroupBox::title {
+	background-color: transparent;
+	color: #bababa;
+}

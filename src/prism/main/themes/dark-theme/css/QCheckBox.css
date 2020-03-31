@@ -1,0 +1,37 @@
+QCheckBox {
+	outline: none;
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	spacing: /*hdpi*/ 10px;
+}
+QCheckBox::indicator {
+	width: /*hdpi*/15px;
+	height:/*hdpi*/ 15px;
+
+}
+QCheckBox::indicator:checked {
+	image:url(":/images/txt-chekedbox-normal.svg");
+}
+QCheckBox::indicator:checked:hover {
+	image:url(":/images/txt-chekedbox-over.svg");
+}
+QCheckBox::indicator:checked:pressed {
+	image:url(":/images/txt-chekedbox-clicked.svg");
+}
+QCheckBox::indicator:checked:disabled {
+	image:url(":/images/txt-chekedbox-disable.svg");
+}
+
+QCheckBox::indicator:unchecked {
+	image:url(":/images/txt-unchekedbox-normal.svg");
+}
+QCheckBox::indicator:unchecked:hover {
+	image:url(":/images/txt-unchekedbox-over.svg");
+}
+QCheckBox::indicator:unchecked:pressed {
+	image:none;
+}
+
+QCheckBox::indicator:unchecked:disabled {
+	image:url(":/images/txt-unchekedbox-disable.svg");
+}

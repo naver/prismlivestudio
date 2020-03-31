@@ -1,0 +1,67 @@
+PLSNoticeView {
+	qproperty-hasHLine: true;
+	qproperty-hasMinButton: false;
+	qproperty-hasCloseButton: false;
+	qproperty-isMoveInContent: true;
+	qproperty-hasBorder: true;
+	qproperty-hasCaption: false;
+}
+
+PLSNoticeView, PLSNoticeView QWidget {
+	background-color: #111111;
+}
+
+PLSNoticeView #lineView {
+	background-color: #151515;
+	min-height: /*hdpi*/ 1px;
+	max-height: /*hdpi*/ 1px;
+}
+
+PLSNoticeView #topLabel {
+	color: #effc35;
+	font-size:/*hdpi*/ 20px;
+	font-weight: bold;
+}
+
+PLSNoticeView #confirmButton {
+	min-width: /*hdpi*/175px;
+	max-width: /*hdpi*/ 175px;
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	border-radius: /*hdpi*/ 3px;
+	padding: 0px;
+	color: white;
+	background-color: #444444;
+}
+
+PLSNoticeView #confirmButton:hover {
+	background-color: #555555;
+}
+
+PLSNoticeView #confirmButton:pressed {
+	background-color:#1e1e1f;
+}
+
+PLSNoticeView #learnMoreButton {
+	min-width: /*hdpi*/175px;
+	max-width: /*hdpi*/ 175px;
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+	border-radius: /*hdpi*/ 3px;
+	padding: 0px;
+	color: white;
+	background-color: #444444;
+}
+
+PLSNoticeView #learnMoreButton:hover {
+	background-color:#555555;
+}
+
+PLSNoticeView #learnMoreButton:pressed {
+	background-color:#1e1e1f;
+}
+
+PLSNoticeView #topWidget {
+	min-height: /*hdpi*/ 248px;
+	max-height: /*hdpi*/ 248px;
+}

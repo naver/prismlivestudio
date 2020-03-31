@@ -1,0 +1,24 @@
+PLSDock#scenesDock PLSDockTitle{
+	qproperty-marginLeft:/*hdpi*/23;
+	qproperty-marginRight:/*hdpi*/5;
+	qproperty-contentSpacing:/*hdpi*/10;
+	qproperty-captionHeight:/*hdpi*/50;
+}
+
+PLSDock#scenesDock {
+	qproperty-contentMarginLeft: /*hdpi*/ 10;
+	qproperty-contentMarginRight: /*hdpi*/ 15;
+	qproperty-contentMarginBottom: /*hdpi*/ 15;
+	background-color: #272727;
+	background-color: #272727;
+	min-width: /*hdpi*/ 186px;
+	min-height: /*hdpi*/ 218px;
+}
+
+PLSDock#scenesDock PLSPopupMenu PLSPopupMenuItem QLabel{
+	background-color: transparent;
+}
+PLSDock#scenesDock PLSPopupMenu {
+	min-width:/*hdpi*/ 180px;
+	max-width:/*hdpi*/ 180px;
+}

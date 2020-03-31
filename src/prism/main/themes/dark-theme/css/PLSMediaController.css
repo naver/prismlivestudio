@@ -1,0 +1,168 @@
+/* PLSMediaController icons */
+
+PLSMediaController #loopButton {
+	image: url(":/images/media/btn-sectionrepeat-off-normal.svg");
+	min-width: /*hdpi*/ 30px;
+	max-width: /*hdpi*/ 30px;
+	min-height: /*hdpi*/ 30px;
+	max-height: /*hdpi*/ 30px;
+	background: transparent;
+}
+
+PLSMediaController #loopButton[isLoop="false"] {
+		image: url(":/images/media/btn-sectionrepeat-off-normal.svg");
+}
+
+PLSMediaController #loopButton[isLoop="false"]:hover {
+		image: url(":/images/media/btn-sectionrepeat-off-over.svg");
+}
+
+PLSMediaController #loopButton[isLoop="false"]:pressed {
+		image: url(":/images/media/btn-sectionrepeat-off-click.svg");
+}
+
+PLSMediaController #loopButton[isLoop="true"] {
+		image: url(":/images/media/btn-sectionrepeat-on-normal.svg");
+		background: transparent;
+}
+
+PLSMediaController #loopButton[isLoop="true"]:hover {
+		image: url(":/images/media/btn-sectionrepeat-on-over.svg");
+}
+
+PLSMediaController #loopButton[isLoop="true"]:pressed {
+		image: url(":/images/media/btn-sectionrepeat-on-click.svg");
+}
+
+
+PLSMediaController #playPauseButton {
+	image: url(":/images/media/pause-btn-normal.svg");
+	min-width: /*hdpi*/ 30px;
+	max-width: /*hdpi*/ 30px;
+	min-height: /*hdpi*/ 30px;
+	max-height: /*hdpi*/ 30px;
+    margin-right: /*hdpi*/ 6px;
+	background: transparent;
+}
+
+PLSMediaController #playPauseButton[playing="false"] {
+		image: url(":/images/media/play-btn-normal.svg");
+}
+
+PLSMediaController #playPauseButton[playing="false"]:hover {
+		image: url(":/images/media/play-btn-over.svg");
+}
+
+PLSMediaController #playPauseButton[playing="false"]:pressed {
+		image: url(":/images/media/play-btn-clicked.svg");
+}
+
+PLSMediaController #playPauseButton[playing="true"] {
+		image: url(":/images/media/pause-btn-normal.svg");
+		background: transparent;
+}
+
+PLSMediaController #playPauseButton[playing="true"]:hover {
+			image: url(":/images/media/pause-btn-over.svg");
+}
+
+PLSMediaController #playPauseButton[playing="true"]:pressed {
+			image: url(":/images/media/pause-btn-clicked.svg");
+}
+
+PLSMediaController #slider[enter="false"]:handle:horizontal {
+    height: /*hdpi*/0px;
+    width: /*hdpi*/0px;
+    image: none;
+    margin-top: /*hdpi*/0px;
+    margin-left: -1px;
+    margin-bottom: /*hdpi*/0px;
+    margin-right: 1px;
+}
+
+PLSMediaController #slider::handle:horizontal[enter="true"] {
+	border-image:url(":/images/img-handle-over.svg");
+	width:/*hdpi*/ 12px;
+    margin:/*hdpi*/-4px/*hdpi*/0px/*hdpi*/-4px/*hdpi*/0px;
+}
+
+PLSMediaController #slider:sub-page:horizontal {
+    border-radius: /*hdpi*/2px;
+    background-color: #effc35;
+}
+
+PLSMediaController #slider:groove:horizontal {
+    border-radius: /*hdpi*/2px;
+    height: /*hdpi*/4px;
+    background-color: #555555;
+}
+
+PLSMediaController #durationLabel {
+	font-size: /*hdpi*/ 14px;
+	color: #bababa;
+	letter-spacing: 0;
+	background: transparent;
+}
+
+PLSMediaController #label {
+	font-size: /*hdpi*/ 14px;
+	color: #bababa;
+	letter-spacing: 0;
+	background: transparent;
+}
+
+PLSMediaController #timerLabel {
+	font-size: /*hdpi*/ 14px;
+	color: #effc35;
+	letter-spacing: 0;
+	background: transparent;
+}
+
+PLSMediaController #label_live {
+	font-size: /*hdpi*/ 14px;
+	min-width: /*hdpi*/ 29px;
+	min-height: /*hdpi*/ 18px;
+	font-weight: bold;
+	letter-spacing: 0;
+	color: #ff273b;
+	margin-left: /*hdpi*/ 11px;
+    margin-right: /*hdpi*/ 6px;
+}
+
+PLSMediaController #loadingBtn {
+    min-width: /*hdpi*/ 24px;
+	max-width: /*hdpi*/ 24px;
+	min-height: /*hdpi*/ 24px;
+	max-height: /*hdpi*/ 24px;
+	background: transparent;
+}
+
+PLSMediaController #loadingBtn[status="1"] {
+	image:url(":/images/loading-1.svg");
+}
+
+PLSMediaController #loadingBtn[status="2"] {
+	image:url(":/images/loading-2.svg");
+}
+
+PLSMediaController #loadingBtn[status="3"] {
+	image:url(":/images/loading-3.svg");
+}
+
+PLSMediaController #loadingBtn[status="4"] {
+	image:url(":/images/loading-4.svg");
+}
+
+PLSMediaController #loadingBtn[status="5"] {
+	image:url(":/images/loading-5.svg");
+}
+
+PLSMediaController #loadingBtn[status="6"] {
+	image:url(":/images/loading-6.svg");
+}
+PLSMediaController #loadingBtn[status="7"] {
+	image:url(":/images/loading-7.svg");
+}
+PLSMediaController #loadingBtn[status="8"] {
+	image:url(":/images/loading-8.svg");
+}

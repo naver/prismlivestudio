@@ -1,0 +1,126 @@
+PLSBasicSourceSelect QListWidget,
+PLSBasicSourceSelect QLineEdit,
+PLSBasicSourceSelect QCheckBox{
+	font-size:/*hdpi*/ 14px;
+    font-weight: normal;
+}
+
+PLSBasicSourceSelect QLineEdit:focus {    
+	border:/*hdpi*/ 1px solid #EFFC35;
+}
+
+PLSBasicSourceSelect QLineEdit:!focus {
+	border:/*hdpi*/ 1px solid transparent;
+}
+
+PLSBasicSourceSelect QRadioButton{ 
+	font-size:/*hdpi*/ 14px;
+    font-weight: bold;
+}
+
+PLSBasicSourceSelect{
+	min-width:/*hdpi*/ 408px;
+	max-width:/*hdpi*/ 408px;
+	min-height:/*hdpi*/ 411px;
+	max-height:/*hdpi*/ 411px;
+	background-color: #272727;
+	border:/*hdpi*/ 1px solid #111111;
+}
+
+PLSBasicSourceSelect #content{
+	background-color: #272727;
+}
+
+PLSBasicSourceSelect #close{
+	background: transparent;
+}
+
+PLSBasicSourceSelect #sourceList{
+	min-width:/*hdpi*/ 370px;
+	max-width:/*hdpi*/ 370px;
+	min-height:/*hdpi*/ 80px;
+	max-height:/*hdpi*/ 80px;
+	background-color: #1e1e1e;
+	border-radius:/*hdpi*/ 3px;
+	border:/*hdpi*/ none;
+}
+
+PLSBasicSourceSelect #sourceName{
+	background-color: #1e1e1e;
+}
+PLSBasicSourceSelect #sourceList:focus {
+    outline: none;
+}
+PLSBasicSourceSelect #sourceList::item{
+	height:/*hdpi*/ 40px;
+	padding-left:/*hdpi*/ 12px;
+	color: #ffffff;
+    background-color: #1e1e1e;
+}
+
+PLSBasicSourceSelect #sourceList::item:hover{
+    background-color: #444444;
+}
+
+PLSBasicSourceSelect #sourceList::item:selected {
+    outline: none;
+	background-color: #545454;
+    font-weight: bold;
+	color : #effc35;
+}
+
+PLSBasicSourceSelect #buttonBox{
+	background-color: #444444;
+	border-radius:/*hdpi*/ 3px;
+}
+
+PLSBasicSourceSelect #buttonBox QPushButton{
+	padding:/*hdpi*/0px;
+	min-width:/*hdpi*/ 140px;
+	max-width:/*hdpi*/ 140px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	margin-left:/*hdpi*/ 5px;
+}
+
+PLSBasicSourceSelect #createNew{
+	min-height:/*hdpi*/ 18px;
+	max-height:/*hdpi*/ 18px;
+	spacing: 10px;
+	color: #bababa;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	background: transparent;
+}
+
+PLSBasicSourceSelect #selectExisting{
+	min-height:/*hdpi*/ 18px;
+	max-height:/*hdpi*/ 18px;
+	spacing: 10px;
+	color: #bababa;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	background: transparent;
+}
+
+PLSBasicSourceSelect #sourceVisible{
+	min-height:/*hdpi*/ 18px;
+	max-height:/*hdpi*/ 18px;
+	spacing: 10px;
+	color: #e1e1e1;
+	font-size:/*hdpi*/ 14px;
+	background: transparent;
+}
+
+PLSBasicSourceSelect #close{
+	qproperty-minimumSize:/*hdpi*/22px;
+	qproperty-maximumSize:/*hdpi*/22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+}
+PLSBasicSourceSelect #buttonBox {
+	min-height:/*hdpi*/ 0;
+	max-height:/*hdpi*/ 99999px;
+}

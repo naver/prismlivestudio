@@ -1,0 +1,461 @@
+PLSBgmLibraryView{
+	min-width:/*hdpi*/570px;
+	min-height: /*hdpi*/ 360px;
+}
+
+PLSBgmLibraryView #preFrame, PLSBgmLibraryView #nextFrame{
+	min-width:/*hdpi*/35px;
+	max-width:/*hdpi*/35px;	
+	background: transparent;	
+}
+
+PLSBgmLibraryView #groupFrame{
+	min-height:/*hdpi*/65px;
+	max-height:/*hdpi*/65px;
+}
+
+PLSBgmLibraryView #frame_bottom{
+	min-height:/*hdpi*/79px;
+	max-height:/*hdpi*/79px;
+	border-top: 1px solid #151515;
+}
+
+PLSBgmLibraryView #frame_top{
+	min-height:/*hdpi*/60px;
+	max-height:/*hdpi*/60px;
+	background-color: #272727;
+	border-bottom: /*hdpi*/1px solid #343435;
+}
+
+PLSBgmLibraryView #okBtn,
+PLSBgmLibraryView #cancelBtn{
+	min-width: /*hdpi*/128px;
+	max-width: /*hdpi*/128px;
+	min-height: /*hdpi*/40px;
+	max-height: /*hdpi*/40px;
+}
+
+PLSBgmLibraryView #countLabel{
+	font-size: /*hdpi*/14px;
+	font-weight: bold;
+}
+
+PLSBgmLibraryView #groupFrame CategoryButton {
+	border-radius: /*hdpi*/17px;
+	min-height: /*hdpi*/ 35px;
+	max-height: /*hdpi*/ 35px;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: /*hdpi*/12px;
+	background-color: transparent;
+}
+
+PLSBgmLibraryView #groupFrame CategoryButton:hover{
+	background-color: #444444;
+}
+
+PLSBgmLibraryView #groupFrame CategoryButton[status=selected]{
+	color:#effc35;
+	background-color: #444444;
+}
+
+PLSBgmLibraryView #groupFrame CategoryButton[status=unselected]{
+	color:#ffffff;
+}
+
+PLSBgmLibraryView #groupFrame, PLSBgmLibraryView #widgetContent{
+	min-height: /*hdpi*/60px;
+	max-height: /*hdpi*/60px;	
+	background-color: #272727;
+}
+
+
+PLSBgmLibraryView #preGroupBtn, PLSBgmLibraryView #nextGroupBtn{
+	min-height:/*hdpi*/15px;
+	max-height:/*hdpi*/15px;
+	min-width:/*hdpi*/8px;
+	max-width:/*hdpi*/8px;	
+	background: transparent;	
+}
+
+PLSBgmLibraryView #preGroupBtn{
+	image:url(":/images/bgm/ic-ch-pre-normal.svg");
+}
+
+PLSBgmLibraryView #preGroupBtn:hover{
+	image:url(":/images/bgm/ic-ch-pre-over.svg");
+}
+
+PLSBgmLibraryView #preGroupBtn:pressed{
+	image:url(":/images/bgm/ic-ch-pre-click.svg");
+}
+
+PLSBgmLibraryView #preGroupBtn:disabled{
+	image:url(":/images/bgm/ic-ch-pre-disable.svg");
+}
+
+PLSBgmLibraryView #nextGroupBtn{
+	image:url(":/images/bgm/ic-ch-next-normal.svg");
+}
+
+PLSBgmLibraryView #nextGroupBtn:hover{
+	image:url(":/images/bgm/ic-ch-next-over.svg");
+}
+
+PLSBgmLibraryView #nextGroupBtn:pressed{
+	image:url(":/images/bgm/ic-ch-next-click.svg");
+}
+
+PLSBgmLibraryView #nextGroupBtn:disabled{
+	image:url(":/images/bgm/ic-ch-next-disable.svg");
+}
+
+PLSBgmLibraryView #musicLibraryList > #flatScrollBar{
+	background-color: transparent;
+	min-width: /*hdpi*/ 10px;
+	max-width: /*hdpi*/ 10px;
+	margin: 0px;
+}
+
+PLSBgmLibraryView #musicLibraryList{
+	border: none;
+	background-color: #1e1e1f;
+}
+
+PLSBgmLibraryItem{
+	min-width: /*hdpi*/288px;
+	background-color:#1e1e1f;
+	font-size:/*hdpi*/11px;
+	min-height: /*hdpi*/70px;
+	max-height: /*hdpi*/70px;
+}
+
+PLSBgmLibraryItem[open=true]{
+	min-height: /*hdpi*/124px;
+	max-height: /*hdpi*/124px;
+}
+
+PLSBgmLibraryItem[open=false]{
+	min-height: /*hdpi*/66px;
+	max-height: /*hdpi*/66px;
+}
+
+PLSBgmLibraryItem[status=hover]{
+	background-color: #272727;
+}
+
+PLSBgmLibraryItem[status=normal]{
+	background-color: #1e1e1f;
+}
+
+PLSBgmLibraryItem #frameDuration{
+	min-height: /*hdpi*/58px;
+	max-height: /*hdpi*/58px;
+	background-color:transparent;
+	border:none;
+}
+
+PLSBgmLibraryItem #frameInfo{
+	min-height: /*hdpi*/66px;
+	max-height: /*hdpi*/66px;
+	background-color:transparent;
+	border:none;
+}
+
+PLSBgmLibraryItem #frameContent{
+	background-color:transparent;
+	border:none;
+}
+
+PLSBgmLibraryItem #loadingBtn{
+	min-height: /*hdpi*/20px;
+	max-height:/*hdpi*/ 20px;
+	min-width: /*hdpi*/20px;
+	max-width: /*hdpi*/20px;
+	border-radius:none;
+	background: transparent;
+	margin: 0px;
+}
+
+PLSBgmLibraryItem #loadingBtn[status="1"] {
+	image:url(":/images/loading-1.svg");
+}
+
+PLSBgmLibraryItem #loadingBtn[status="2"] {
+	image:url(":/images/loading-2.svg");
+}
+
+PLSBgmLibraryItem #loadingBtn[status="3"] {
+	image:url(":/images/loading-3.svg");
+}
+
+PLSBgmLibraryItem #loadingBtn[status="4"] {
+	image:url(":/images/loading-4.svg");
+}
+
+PLSBgmLibraryItem #loadingBtn[status="5"] {
+	image:url(":/images/loading-5.svg");
+}
+
+PLSBgmLibraryItem #loadingBtn[status="6"] {
+	image:url(":/images/loading-6.svg");
+}
+
+PLSBgmLibraryItem #loadingBtn[status="7"] {
+	image:url(":/images/loading-7.svg");
+}
+
+PLSBgmLibraryItem #loadingBtn[status="8"] {
+	image:url(":/images/loading-8.svg");
+}
+
+PLSBgmLibraryItem #playingLabel{
+	min-height: /*hdpi*/20px;
+	max-height:/*hdpi*/ 20px;
+	min-width: /*hdpi*/20px;
+	max-width: /*hdpi*/20px;
+	background: transparent;
+}
+
+PLSBgmLibraryItem #listenBtn, PLSBgmLibraryItem #listenBtn[play=false]{
+	min-height: /*hdpi*/20px;
+	max-height:/*hdpi*/ 20px;
+	min-width: /*hdpi*/20px;
+	max-width: /*hdpi*/20px;
+	border-radius:none;
+	background: transparent;
+	image:url(":/images/bgm/btn-listening-music-normal.svg");
+}
+
+PLSBgmLibraryItem #listenBtn[play=true]{
+	min-height: /*hdpi*/20px;
+	max-height:/*hdpi*/ 20px;
+	min-width: /*hdpi*/20px;
+	max-width: /*hdpi*/20px;
+	border-radius:none;
+	background: transparent;
+	image:url(":/images/bgm/btn-listening-music-stop-normal.svg");
+}
+
+PLSBgmLibraryItem #listenBtn:hover, PLSBgmLibraryItem #listenBtn[play=false]:hover{
+	image:url(":/images/bgm/btn-listening-music-over.svg");
+}
+
+PLSBgmLibraryItem #listenBtn:pressed, PLSBgmLibraryItem #listenBtn[play=false]:pressed{
+	image:url(":/images/bgm/btn-listening-music-click.svg");
+}
+
+PLSBgmLibraryItem #listenBtn:disabled, PLSBgmLibraryItem #listenBtn[play=false]:disabled{
+	image:url(":/images/bgm/btn-listening-music-disable.svg");
+}
+
+PLSBgmLibraryItem #listenBtn[play=true]{
+	image:url(":/images/bgm/btn-listening-music-stop-normal.svg");
+}
+
+PLSBgmLibraryItem #listenBtn[play=true]:hover{
+	image:url(":/images/bgm/btn-listening-music-stop-over.svg");
+}
+
+PLSBgmLibraryItem #listenBtn[play=true]:pressed{
+	image:url(":/images/bgm/btn-listening-music-stop-click.svg");
+}
+
+PLSBgmLibraryItem #listenBtn[play=true]:disabled{
+	image:url(":/images/bgm/btn-listening-music-stop-disable.svg");
+}
+
+PLSBgmLibraryItem #nameLabel{
+	font-size:/*hdpi*/14px;
+	background:transparent;
+	font-weight: normal;
+}
+
+PLSBgmLibraryItem #nameLabel[selected=true]{
+	color:#effc35;
+	font-weight: bold;
+}
+
+PLSBgmLibraryItem #nameLabel[selected=false]{
+	color:white;
+	font-weight: normal;
+}
+
+PLSBgmLibraryItem #itemDurationLabel, PLSBgmLibraryItem #itemProducerLabel, PLSBgmLibraryItem #itemPointLabel{
+	font-size:/*hdpi*/12px;
+	background: transparent;
+	color: #666666;
+}
+
+PLSBgmLibraryItem #itemDurationLabel[selected=true], 
+PLSBgmLibraryItem #itemProducerLabel[selected=true], 
+PLSBgmLibraryItem #itemPointLabel[selected=true]{
+	color: #7a7f34;
+}
+
+PLSBgmLibraryItem #itemDurationLabel[selected=false], 
+PLSBgmLibraryItem #itemProducerLabel[selected=false], 
+PLSBgmLibraryItem #itemPointLabel[selected=false]{
+	color: #666666;
+}
+
+PLSBgmLibraryItem #addBtn{
+	min-height:/*hdpi*/ 22px;
+	max-height: /*hdpi*/22px;
+	min-width: /*hdpi*/22px;
+	max-width: /*hdpi*/22px;
+	background: transparent;
+	border-radius:none;
+}
+
+PLSBgmLibraryItem #addBtn{
+	image:url(":/images/bgm/icon-addmusic-default.svg");
+}
+
+PLSBgmLibraryItem #addBtn:hover{
+	image:url(":/images/bgm/icon-addmusic-over.svg");
+}
+
+PLSBgmLibraryItem #addBtn:pressed{
+	image:url(":/images/bgm/icon-addmusic-click.svg");
+}
+
+PLSBgmLibraryItem #addBtn:disabled{
+	image:url(":/images/bgm/icon-addmusic-disable.svg");
+}
+
+PLSBgmLibraryItem #checkBtn{
+	min-height: /*hdpi*/22px;
+	max-height:/*hdpi*/ 22px;
+	min-width: /*hdpi*/22px;
+	max-width: /*hdpi*/22px;
+	background: transparent;
+	border-radius:none;	
+	image:url(":/images/bgm/btn-add-playlist-done-normal.svg");
+}
+
+PLSBgmLibraryItem #checkBtn:hover{
+	image:url(":/images/bgm/btn-add-playlist-done-over.svg");
+}
+
+PLSBgmLibraryItem #checkBtn:pressed{
+	image:url(":/images/bgm/btn-add-playlist-done-click.svg");
+}
+
+PLSBgmLibraryItem #checkBtn:disabled{
+	image:url(":/images/bgm/btn-add-playlist-done-disable.svg");
+}
+
+PLSBgmLibraryItem #fullButton, PLSBgmLibraryItem #fifteenButton, PLSBgmLibraryItem #sixtyButton, PLSBgmLibraryItem #thirtyButton{
+	background:transparent;
+	min-height: /*hdpi*/32px;
+	max-height: /*hdpi*/32px;
+	min-width: /*hdpi*/32px;
+	max-width: /*hdpi*/32px;
+}
+
+PLSBgmLibraryItem #fullButton, PLSBgmLibraryItem #fifteenButton,
+PLSBgmLibraryItem #sixtyButton, PLSBgmLibraryItem #thirtyButton{
+	height:/*hdpi*/ 32px;
+	width: /*hdpi*/ 32px;
+	background: transparent;
+	border: none;
+}
+
+PLSBgmLibraryItem #fullButton{
+	image:url(":/images/bgm/btn-bgm-full-off-normal.svg");
+}
+
+PLSBgmLibraryItem #fullButton:hover{
+	image:url(":/images/bgm/btn-bgm-full-off-over.svg");
+}
+
+PLSBgmLibraryItem #fullButton:pressed{
+	image:url(":/images/bgm/btn-bgm-full-off-click.svg");
+}
+
+PLSBgmLibraryItem #fullButton:checked{
+	image:url(":/images/bgm/btn-bgm-full-on-normal.svg");
+}
+
+PLSBgmLibraryItem #fullButton:checked:hover{
+	image:url(":/images/bgm/btn-bgm-full-on-over.svg");
+}
+
+PLSBgmLibraryItem #fullButton:checked:pressed{
+	image:url(":/images/bgm/btn-bgm-full-on-click.svg");
+}
+
+PLSBgmLibraryItem #fullButton:!checked[selected=true]{
+	image:url(":/images/bgm/btn-bgm-full-off-over.svg");
+}
+
+PLSBgmLibraryItem #fifteenButton{
+	image:url(":/images/bgm/btn-bgm-15-s-off-normal.svg");
+}
+PLSBgmLibraryItem #fifteenButton:hover{
+	image:url(":/images/bgm/btn-bgm-15-s-off-over.svg");
+}
+PLSBgmLibraryItem #fifteenButton:pressed{
+	image:url(":/images/bgm/btn-bgm-15-s-off-click.svg");
+}
+
+PLSBgmLibraryItem #fifteenButton:checked{
+	image:url(":/images/bgm/btn-bgm-15-s-on-normal.svg");
+}
+PLSBgmLibraryItem #fifteenButton:checked:hover{
+	image:url(":/images/bgm/btn-bgm-15-s-on-over.svg");
+}
+PLSBgmLibraryItem #fifteenButton:checked:pressed{
+	image:url(":/images/bgm/btn-bgm-15-s-on-click.svg");
+}
+
+PLSBgmLibraryItem #fifteenButton:!checked[selected=true]{
+	image:url(":/images/bgm/btn-bgm-15-s-off-over.svg");
+}
+
+PLSBgmLibraryItem #thirtyButton{
+	image:url(":/images/bgm/btn-bgm-30-s-off-normal.svg");
+}
+PLSBgmLibraryItem #thirtyButton:hover{
+	image:url(":/images/bgm/btn-bgm-30-s-off-over.svg");
+}
+PLSBgmLibraryItem #thirtyButton:pressed{
+	image:url(":/images/bgm/btn-bgm-30-s-off-click.svg");
+}
+
+PLSBgmLibraryItem #thirtyButton:checked{
+	image:url(":/images/bgm/btn-bgm-30-s-on-normal.svg");
+}
+PLSBgmLibraryItem #thirtyButton:checked:hover{
+	image:url(":/images/bgm/btn-bgm-30-s-on-over.svg");
+}
+PLSBgmLibraryItem #thirtyButton:checked:pressed{
+	image:url(":/images/bgm/btn-bgm-30-s-on-click.svg");
+}
+PLSBgmLibraryItem #thirtyButton:!checked[selected=true]{
+	image:url(":/images/bgm/btn-bgm-30-s-off-over.svg");
+}
+
+PLSBgmLibraryItem #sixtyButton{
+	image:url(":/images/bgm/btn-bgm-60-s-off-normal.svg");
+}
+PLSBgmLibraryItem #sixtyButton:hover{
+	image:url(":/images/bgm/btn-bgm-60-s-off-over.svg");
+}
+PLSBgmLibraryItem #sixtyButton:pressed{
+	image:url(":/images/bgm/btn-bgm-60-s-off-click.svg");
+}
+
+PLSBgmLibraryItem #sixtyButton:checked{
+	image:url(":/images/bgm/btn-bgm-60-s-on-normal.svg");
+}
+PLSBgmLibraryItem #sixtyButton:checked:hover{
+	image:url(":/images/bgm/btn-bgm-60-s-on-over.svg");
+}
+PLSBgmLibraryItem #sixtyButton:checked:pressed{
+	image:url(":/images/bgm/btn-bgm-60-s-on-click.svg");
+}
+PLSBgmLibraryItem #sixtyButton:!checked[selected=true]{
+	image:url(":/images/bgm/btn-bgm-60-s-off-over.svg");
+}

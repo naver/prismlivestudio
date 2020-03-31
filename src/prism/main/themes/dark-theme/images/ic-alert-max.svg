@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="20" viewBox="0 0 27 20">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="27" height="20" fill="#C34151" rx="10"/>
+        <text fill="#FFF" font-family="MalgunGothicBold, Malgun Gothic" font-size="11" font-weight="bold">
+            <tspan x="6" y="14">9+</tspan>
+        </text>
+    </g>
+</svg>

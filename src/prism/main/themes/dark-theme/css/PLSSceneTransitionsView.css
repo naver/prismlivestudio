@@ -1,0 +1,126 @@
+PLSSceneTransitionsView{
+    qproperty-maximumSize:/*hdpi*/410px/*hdpi*/280px;
+    qproperty-minimumSize:/*hdpi*/410px/*hdpi*/280px;
+	border:/*hdpi*/ 1px solid #111111;
+	background-color: #272727;
+}
+
+PLSSceneTransitionsView QLineEdit {
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSSceneTransitionsView #transitionDurationLabel{
+	min-height:/*hdpi*/ 22px;
+	min-width:/*hdpi*/ 76px;
+	max-height:/*hdpi*/ 22px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+PLSSceneTransitionsView #transitionDuration{
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}
+
+PLSSceneTransitionsView #transitions{
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}
+
+PLSSceneTransitionsView #sceneNameLabel{
+	font-size:/*hdpi*/ 14px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+PLSSceneTransitionsView #transitions QListView::item{
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}
+
+PLSSceneTransitionsView #transitions QListView::item:selected{
+    color: #effc35;
+}
+
+PLSSceneTransitionsView #transitionAdd{
+    qproperty-maximumSize:/*hdpi*/22px/*hdpi*/22px;
+    qproperty-minimumSize:/*hdpi*/22px/*hdpi*/22px;
+	border-style: none;
+	background:transparent;
+	image:url(":/images/icon-addsource-default.svg");
+}
+
+PLSSceneTransitionsView #transitionAdd:hover{
+	image:url(":/images/icon-addsource-over.svg");
+}
+
+PLSSceneTransitionsView #transitionAdd:pressed{
+	image:url(":/images/icon-addsource-click.svg");
+}
+
+PLSSceneTransitionsView #transitionAdd:!enabled{
+	image:url(":/images/icon-addsource-disable.svg");
+}
+
+PLSSceneTransitionsView #transitionRemove{
+    qproperty-maximumSize:/*hdpi*/22px/*hdpi*/22px;
+    qproperty-minimumSize:/*hdpi*/22px/*hdpi*/22px;
+    border-style: none;
+	background:transparent;	image:url(":/images/ic-delete-default.svg");
+}
+
+PLSSceneTransitionsView #transitionRemove:hover{
+	image:url(":/images/ic-delete-over.svg");
+}
+
+PLSSceneTransitionsView #transitionRemove:pressed{
+	image:url(":/images/ic-delete-click.svg");
+}
+
+PLSSceneTransitionsView #transitionRemove:!enabled{
+	image:url(":/images/ic-delete-disable.svg");
+}
+
+PLSSceneTransitionsView #transitionProps{
+    qproperty-maximumSize:/*hdpi*/22px/*hdpi*/22px;
+    qproperty-minimumSize:/*hdpi*/22px/*hdpi*/22px;
+    border-style: none;
+	background:transparent;
+
+	image:url(":/images/icon-more-default.svg");
+}
+
+PLSSceneTransitionsView #transitionProps:hover{
+
+	image:url(":/images/icon-more-over.svg");
+}
+
+PLSSceneTransitionsView #transitionProps:pressed{
+	image:url(":/images/icon-more-click.svg");
+}
+
+PLSSceneTransitionsView #transitionProps:!enabled{
+	image:url(":/images/icon-more-disable.svg");
+}
+
+PLSSceneTransitionsView #okBtn{
+	 qproperty-maximumSize:/*hdpi*/140px/*hdpi*/40px;
+	 qproperty-minimumSize:/*hdpi*/140px/*hdpi*/40px;
+	 background-color: #444444;
+	 border-radius:/*hdpi*/ 3px;
+	 font-size:/*hdpi*/14px;
+	 font-weight:bold;
+}
+
+PLSSceneTransitionsView #okBtn:hover {
+	background-color: #555555;
+}
+
+PLSSceneTransitionsView #okBtn:pressed {
+	background-color: #2d2d2d;
+}
+PLSSceneTransitionsView > #widget {
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}

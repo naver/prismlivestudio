@@ -1,0 +1,100 @@
+
+PLSDialogView {
+	qproperty-captionHeight: /*hdpi*/ 40;
+	qproperty-captionButtonSize: /*hdpi*/ 22;
+	qproperty-textMarginLeft: /*hdpi*/ 17;
+	qproperty-closeButtonMarginRight: /*hdpi*/ 8;
+	qproperty-captionButtonMargin: /*hdpi*/ 9;
+	background-color: #272727;
+}
+PLSDialogView > #hline {
+	background-color: #111111;
+	min-height: /*hdpi*/ 1px;
+	max-height: /*hdpi*/ 1px;
+}
+PLSDialogView > #titleBar {
+	border: /*hdpi*/ 1px solid #111111;
+	border-bottom:/*hdpi*/ none;
+}
+PLSDialogView > #titleBar > #titleLabel, PLSDialogView > #titleBar > #min, PLSDialogView > #titleBar > #maxres, PLSDialogView > #titleBar > #close {
+	background-color: #272727;
+	border: none;
+}
+PLSDialogView > #titleBar > #titleLabel {
+	font-size: /*hdpi*/ 12px;
+	color: #ffffff;
+}
+PLSDialogView > #titleBar > #min {
+	image:url(":/images/btn-min-normal.svg");
+}
+PLSDialogView > #titleBar > #min:hover {
+	image:url(":/images/btn-min-over.svg");
+}
+PLSDialogView > #titleBar > #min:pressed {
+	image:url(":/images/btn-min-click.svg");
+}
+PLSDialogView > #titleBar > #min:disabled {
+	image:url(":/images/btn-min-disable.svg");
+}
+
+PLSDialogView[maxState="false"] > #titleBar > #maxres {
+	image:url(":/images/btn-max-normal.svg");
+}
+PLSDialogView[maxState="false"] > #titleBar > #maxres:hover {
+	image:url(":/images/btn-max-over.svg");
+}
+PLSDialogView[maxState="false"] > #titleBar > #maxres:pressed {
+	image:url(":/images/btn-max-click.svg");
+}
+PLSDialogView[maxState="false"] > #titleBar > #maxres:disabled {
+	image:url(":/images/btn-max-disable.svg");
+}
+
+PLSDialogView[maxState="true"] > #titleBar > #maxres {
+	image:url(":/images/btn-maxres-normal.svg");
+}
+PLSDialogView[maxState="true"] > #titleBar > #maxres:hover {
+	image:url(":/images/btn-maxres-over.svg");
+}
+PLSDialogView[maxState="true"] > #titleBar > #maxres:pressed {
+	image:url(":/images/btn-maxres-click.svg");
+}
+PLSDialogView[maxState="true"] > #titleBar > #maxres:disabled {
+	image:url(":/images/btn-maxres-disable.svg");
+}
+
+PLSDialogView > #titleBar > #close {
+	image:url(":/images/btn-close-normal.svg");
+}
+PLSDialogView > #titleBar > #close:hover {
+	image:url(":/images/btn-close-over.svg");
+}
+PLSDialogView > #titleBar > #close:pressed {
+	image:url(":/images/btn-close-click.svg");
+}
+PLSDialogView > #titleBar > #close:disabled {
+	image:url(":/images/btn-close-disable.svg");
+}
+
+PLSDialogView .QWidget,
+PLSDialogView .QLabel,
+PLSDialogView .QFrame,
+PLSDialogView .QCheckBox,
+PLSDialogView .QRadioButton,
+PLSDialogView .QToolButton,
+PLSDialogView .QTableView,
+PLSDialogView .QHeaderView,
+PLSDialogView .QScrollArea,
+PLSDialogView QPushButton[useFor="QToolButton"] {
+	background-color: #272727;
+}
+PLSDialogView QLineEdit {
+	background-color: #222222;
+}
+PLSDialogView PLSSpinBox, PLSDialogView PLSDoubleSpinBox {
+	background-color: #222222;
+}
+PLSDialogView #contentBorder {
+	border: /*hdpi*/ 1px solid #111111;
+	border-top:/*hdpi*/ none;
+}

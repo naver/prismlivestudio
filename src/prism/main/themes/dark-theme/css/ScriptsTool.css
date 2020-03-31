@@ -1,0 +1,178 @@
+
+ScriptsTool#ScriptsTool #reloadScripts {
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+	image:url(":/images/ic-reroad-large-normal.svg");
+    background-color: transparent;
+}
+ScriptsTool#ScriptsTool #reloadScripts:hover {
+	image:url(":/images/ic-reroad-large-over.svg");
+    background-color: transparent;
+}
+ScriptsTool#ScriptsTool #reloadScripts:pressed {
+	image:url(":/images/ic-reroad-large-click.svg");
+    background-color: transparent;
+}
+ScriptsTool#ScriptsTool #reloadScripts:disabled {
+	image:url(":/images/ic-reroad-large-disable.svg");
+    background-color: transparent;
+}
+
+ScriptsTool#ScriptsTool #tabButtons {
+    min-height:/*hdpi*/31px;
+}
+ScriptsTool#ScriptsTool #tabButtons #tabButtonsHLine {
+    background-color: #111111;
+    min-height:/*hdpi*/1px;
+    max-height:/*hdpi*/1px;
+}
+ScriptsTool#ScriptsTool #tabButtons QPushButton {
+	min-width:/*hdpi*/ 100px;
+	min-height:/*hdpi*/ 0px;
+	max-height:/*hdpi*/ 10000px;
+    background-color: transparent;
+    color: #666666;
+	border:/*hdpi*/ none;
+	border-radius:/*hdpi*/ 0;
+	border-bottom:/*hdpi*/ 3px solid transparent;
+    font-weight: normal;
+}
+ScriptsTool#ScriptsTool #tabButtons QPushButton[selected="false"] {
+    color: #666666;
+}
+ScriptsTool#ScriptsTool #tabButtons QPushButton[selected="false"]:hover {
+    color: #ffffff;
+}
+ScriptsTool#ScriptsTool #tabButtons QPushButton[selected="false"]:pressed {
+    color: #444444;
+}
+ScriptsTool#ScriptsTool #tabButtons QPushButton[selected="true"] {
+    color: #effc35;
+	border-bottom:/*hdpi*/ 3px solid #effc35;
+    font-weight: bold;
+}
+ScriptsTool#ScriptsTool #tabButtons QPushButton[selected="true"]:hover {
+    color: #f1fa75;
+	border-bottom:/*hdpi*/ 3px solid #f1fa75;
+    font-weight: bold;
+}
+ScriptsTool#ScriptsTool #tabButtons QPushButton[selected="true"]:pressed {
+    color: #7a7f34;
+	border-bottom:/*hdpi*/ 3px solid #7a7f34;
+    font-weight: bold;
+}
+ScriptsTool#ScriptsTool #description {
+	font-size:/*hdpi*/ 14px;
+    color: #ffffff;
+}
+ScriptsTool#ScriptsTool PLSPropertiesView #noPropertiesLabel {
+    color: #ffffff;
+	font-size:/*hdpi*/ 14px;
+}
+ScriptsTool#ScriptsTool PLSPropertiesView #button,
+ScriptsTool#ScriptsTool PLSPropertiesView #spinBox,
+ScriptsTool#ScriptsTool PLSPropertiesView #combobox,
+ScriptsTool#ScriptsTool PLSPropertiesView #lineedit {
+	max-width:/*hdpi*/ 10000px;
+	min-width:/*hdpi*/ 0;
+}
+ScriptsTool#ScriptsTool PLSPropertiesView #button {
+    font-weight: bold;
+}
+ScriptsTool#ScriptsTool #pythonPathBrowse {
+    padding:/*hdpi*/0px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	min-width:/*hdpi*/ 136px;
+	max-width:/*hdpi*/ 136px;
+}
+ScriptsTool#ScriptsTool #label_2, ScriptsTool#ScriptsTool #label_3 {
+	font-size:/*hdpi*/ 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+ScriptsTool#ScriptsTool #pythonPathLabel {
+	font-size:/*hdpi*/ 14px;
+    font-weight: bold;
+    color: #bababa;
+}
+ScriptsTool#ScriptsTool #scripts {
+    background-color: #1e1e1f;
+	border:/*hdpi*/ none;
+	font-size:/*hdpi*/ 14px;
+    color: #ffffff;
+}
+ScriptsTool#ScriptsTool #scripts::item {
+	height:/*hdpi*/ 40px;
+	padding-left:/*hdpi*/ 8px;
+        border: none;
+}
+ScriptsTool#ScriptsTool #scripts::item:selected {
+    background-color: #444444;
+    color: #ffffff;
+}
+ScriptsTool#ScriptsTool #scripts::item:selected:!active {
+    background-color: #444444;
+    color: #ffffff;
+}
+ScriptsTool#ScriptsTool #scripts::item:hover {
+    background-color: #1e1e1f;
+    color: #ffffff;
+}
+ScriptsTool#ScriptsTool #scripts::item:selected:hover {
+    background-color: #444444;
+    color: #ffffff;
+}
+ScriptsTool#ScriptsTool #scripts:focus {
+    outline: none;
+}
+ScriptsTool#ScriptsTool #scripts {
+	min-width:/*hdpi*/ 330px;
+	max-width:/*hdpi*/ 330px;
+}
+ScriptsTool#ScriptsTool #addScripts {
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+	image:url(":/images/icon-addsource-default.svg");
+	background-color: transparent;
+}
+ScriptsTool#ScriptsTool #addScripts:hover {
+	image:url(":/images/icon-addsource-over.svg");
+	background-color: transparent;
+}
+ScriptsTool#ScriptsTool #addScripts:pressed {
+	image:url(":/images/icon-addsource-click.svg");
+	background-color: transparent;
+}
+ScriptsTool#ScriptsTool #addScripts:disabled {
+	image:url(":/images/icon-addsource-disable.svg");
+	background-color: transparent;
+}
+ScriptsTool#ScriptsTool #removeScripts {
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+	image:url(":/images/ic-delete-default.svg");
+    background-color: transparent;
+}
+ScriptsTool#ScriptsTool #removeScripts:hover {
+	image:url(":/images/ic-delete-over.svg");
+    background-color: transparent;
+}
+ScriptsTool#ScriptsTool #removeScripts:pressed {
+	image:url(":/images/ic-delete-click.svg");
+    background-color: transparent;
+}
+ScriptsTool#ScriptsTool #removeScripts:disabled {
+	image:url(":/images/ic-delete-disable.svg");
+    background-color: transparent;
+}
+ScriptsTool #frame
+{
+	min-height:/*hdpi*/ 79px;
+}

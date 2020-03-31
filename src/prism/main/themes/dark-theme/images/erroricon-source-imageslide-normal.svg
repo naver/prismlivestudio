@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <path id="prefix__a" d="M0 0.237L11.531 0.237 11.531 13.15 0 13.15z"/>
+        <path id="prefix__c" d="M0.898 0.911L14.62 0.911 14.62 17 0.898 17z"/>
+        <path id="prefix__e" d="M0.851 0.128L15.15 0.128 15.15 13.428 0.851 13.428z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(7 6.7) translate(0 1.09)">
+            <mask id="prefix__b" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <path fill="#FFF" d="M3.683 6.232c-.206-.23-.564-.25-.796-.047L1.17 7.683V1.398h9.39l.97-1.161H1.17C.525.237 0 .757 0 1.397v10.678c0 .49.308.905.742 1.075l4.416-5.285-1.475-1.633z" mask="url(#prefix__b)"/>
+        </g>
+        <g transform="translate(7 6.7) translate(0 .09)">
+            <mask id="prefix__d" fill="#fff">
+                <use xlink:href="#prefix__c"/>
+            </mask>
+            <path fill="#FFF" d="M12.828 12.721l-3.79-4.2 3.791-4.52v8.72zm-3.449-.053l-.218.194c-.119.107-.306.097-.413-.022L7.02 10.926l.568-.677 1.814 2.01c.107.118.097.303-.023.41zM14.365 1.07c-.299-.246-.74-.202-.986.096L1.057 15.856c-.246.298-.203.74.096.984.16.131.36.18.548.152.166-.025.323-.108.438-.248l2.105-2.508h8.585c.645 0 1.171-.52 1.171-1.16V2.605l.461-.55c.245-.3.202-.74-.096-.986z" mask="url(#prefix__d)"/>
+        </g>
+        <g transform="translate(7 6.7) translate(1 3.09)">
+            <mask id="prefix__f" fill="#fff">
+                <use xlink:href="#prefix__e"/>
+            </mask>
+            <path fill="#FFF" d="M13.88 11.823c0 .185-.15.335-.335.335H.851v1.27h12.694c.886 0 1.605-.72 1.605-1.605V.127h-1.27v11.697z" mask="url(#prefix__f)"/>
+        </g>
+    </g>
+</svg>

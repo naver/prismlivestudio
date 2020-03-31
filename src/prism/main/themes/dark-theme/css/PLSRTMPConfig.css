@@ -1,0 +1,20 @@
+PLSRTMPConfig #ConfigBtn {
+	border-radius:/*hdpi*/ 25px;
+	background-color: dimgrey;
+	border-image: none;
+	min-height:/*hdpi*/ 50px;
+	max-height:/*hdpi*/ 50px;
+	min-width:/*hdpi*/ 50px;
+	max-width:/*hdpi*/ 50px;
+	padding:/*hdpi*/2px;
+	margin-left:/*hdpi*/ 5px;
+	margin-right:/*hdpi*/ 5px;
+	color: transparent;
+	image:url(":/images/icon-addsource.svg");
+}
+
+	PLSRTMPConfig #ConfigBtn:hover, PLSRTMPConfig #ConfigBtn:pressed {
+	image:url(":/images/icon-addsource-over.svg");
+		background-color: gray;
+	border:/*hdpi*/ 1px solid gray;
+	}

@@ -1,0 +1,38 @@
+#PLSCropImage {
+	min-width:/*hdpi*/ 510px;
+	max-width:/*hdpi*/ 510px;
+	min-height:/*hdpi*/ 478px;
+	max-height:/*hdpi*/ 478px;
+}
+
+#PLSCropImage #smallButton {
+	background-color: #272727;
+	image:url(":/images/crop-small-icon.svg");
+	min-width:/*hdpi*/ 19px;
+	max-width:/*hdpi*/ 19px;
+	min-height:/*hdpi*/ 19px;
+	max-height:/*hdpi*/ 19px;
+}
+#PLSCropImage #largeButton {
+	background-color: #272727;
+	image:url(":/images/crop-large-icon.svg");
+	min-width:/*hdpi*/ 25px;
+	max-width:/*hdpi*/ 25px;
+	min-height:/*hdpi*/ 25px;
+	max-height:/*hdpi*/ 25px;
+}
+#PLSCropImage #slider {
+	min-width:/*hdpi*/ 182px;
+	max-width:/*hdpi*/ 182px;
+}
+#PLSCropImage #lineWidget {
+	min-height:/*hdpi*/ 1px;
+	max-height:/*hdpi*/ 1px;
+	background-color: #151515;
+}
+#PLSCropImage #backButton, #PLSCropImage #okButton, #PLSCropImage #cancelButton {
+	min-width:/*hdpi*/ 140px;
+	max-width:/*hdpi*/ 140px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}

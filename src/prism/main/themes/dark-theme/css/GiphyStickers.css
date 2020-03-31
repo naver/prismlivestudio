@@ -1,0 +1,503 @@
+/*giphy sticker start*/
+PLSGipyStickerView {
+	min-width: /*hdpi*/ 300px;
+	max-width: /*hdpi*/ 1472px;
+	min-height: /*hdpi*/ 455px;
+	max-height: /*hdpi*/ 1076px;
+}
+
+#PLSGipyStickerView > #contentBorder > #content {
+	background-color: #1e1e1f;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu {
+	background-color: #272727;
+	border: /*hdpi*/ 1px solid #444444;
+	max-height: /*hdpi*/ 346px;
+	border-radius: /*hdpi*/ 3px;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu #label_space {
+	min-height: /*hdpi*/ 1px;
+	max-height: /*hdpi*/ 1px;
+	background-color: #444444;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu RecommendSearchList #recommendListTitle {
+	color: #effc35;
+	font-size: /*hdpi*/ 14px;
+	font-weight: bold;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu RecommendSearchList #recommendWordLabel {
+	min-height: /*hdpi*/ 0px;
+	min-width: /*hdpi*/ 0px;
+	background-color: transparent;
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	color: #bababa;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu RecommendSearchList #recommendWordLabel:hover {
+	color: #ffffff;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu RecommendSearchList #recommendWordLabel:pressed {
+	color: #1e1e1e;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu RecommendSearchList #recommendWordLabel:disabled {
+	color: #666666;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList {
+	min-height: /*hdpi*/ 0px;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList #labelContent {
+	min-height: 0px;
+	min-width: 0px;
+	text-align: left;
+	background-color: transparent;
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	color: #bababa;
+	border: none;
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList #labelContent:hover {
+	color: #ffffff;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList #labelContent:pressed {
+	color: #1e1e1e;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList #labelContent:disabled {
+	color: #666666;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList HistorySearchItem {
+	background-color: #272727;
+	border: none;
+	min-height: /*hdpi*/ 25px;
+	max-height: /*hdpi*/ 25px;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu #recommendList, PLSGipyStickerView PLSSearchPopupMenu #historyList {
+	background-color: #272727;
+	border: none;
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList #buttonDelete {
+	min-width: /*hdpi*/ 16px;
+	max-width: /*hdpi*/ 16px;
+	min-height: /*hdpi*/ 16px;
+	max-height: /*hdpi*/ 16px;
+	background-color: transparent;
+	image: url(":/images/giphy/ic-scene-delete-normal.svg");
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList #buttonDelete:hover {
+	image: url(":/images/giphy/ic-scene-delete-over.svg");
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList #buttonDelete:pressed {
+	image: url(":/images/giphy/ic-scene-delete-click.svg");
+}
+
+PLSGipyStickerView PLSSearchPopupMenu HistorySearchList #buttonDelete:disabled {
+	image: url(":/images/giphy/ic-scene-delete-disable.svg");
+}
+
+PLSGipyStickerView #frame_head {
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	border-style: solid;
+	border-color: #343435;
+	border-bottom-width: /*hdpi*/ 1px;
+}
+
+PLSGipyStickerView #toolBtnSearch {
+	min-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	background: transparent;
+}
+
+PLSGipyStickerView #toolBtnSearch[searchOn=true] {
+	image: url(:/images/giphy/btn-search-on-normal.svg);
+}
+
+PLSGipyStickerView #toolBtnSearch[searchOn=false] {
+	image: url(:/images/giphy/btn-search-normal.svg);
+}
+
+PLSGipyStickerView #widget_search > #lineEdit_search {
+	padding-right: /*hdpi*/ 35px;
+	padding-top: /*hdpi*/ 0px;
+	padding-bottom: /*hdpi*/ 0px;
+	padding-left: /*hdpi*/ 10px;
+	border: none;
+	border-radius: /*hdpi*/ 3px;
+	min-height: /*hdpi*/ 38px;
+	max-height: /*hdpi*/ 38px;
+	background-color: #1e1e1e;
+	font-size: /*hdpi*/ 14px;
+}
+
+PLSGipyStickerView #widget_search > #lineEdit_search:focus {
+	border: /*hdpi*/ 1px solid #EFFC35;
+}
+
+PLSGipyStickerView #widget_search > #lineEdit_search:!focus {
+	border: /*hdpi*/ 1px solid transparent;
+}
+
+PLSGipyStickerView #widget_search > #btn_cancel {
+	background: transparent;
+	color: #ffffff;
+	font: normal /*hdpi*/ 14px;
+}
+
+PLSGipyStickerView #label_giphy_logo {
+	min-width: /*hdpi*/ 76px;
+	max-width: /*hdpi*/ 76px;
+	min-height: /*hdpi*/ 34px;
+	max-height: /*hdpi*/ 34px;
+	image: url(:/images/giphy/img-effect-layer-giphylogo.svg);
+}
+
+PLSGipyStickerView #frame_head > #btn_recent {
+	border-radius: 0;
+	min-height: /*hdpi*/ 38px;
+	max-height: /*hdpi*/ 38px;
+	background-color: transparent;
+	border: none;
+	border-bottom: /*hdpi*/ 3px solid transparent;
+	color: #bababa;
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	padding-top: /*hdpi*/ -2px;
+	padding-bottom: /*hdpi*/ 2px;
+}
+
+PLSGipyStickerView #frame_head > #btn_trending {
+	border-radius: 0;
+	min-width: /*hdpi*/ 79px;
+	max-width: /*hdpi*/ 79px;
+	min-height: /*hdpi*/ 38px;
+	max-height: /*hdpi*/ 38px;
+	background-color: transparent;
+	border: none;
+	border-bottom: /*hdpi*/ 3px solid transparent;
+	color: #bababa;
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	padding-bottom: /*hdpi*/ 2px;
+	padding-top: /*hdpi*/ -2px;
+}
+
+PLSGipyStickerView #frame_head > #btn_recent:checked, PLSGipyStickerView #frame_head > #btn_trending:checked {
+	border: none;
+	border-style: solid;
+	border-color: #effc35;
+	border-bottom-width: /*hdpi*/ 3px;
+	color: #effc35;
+	font-weight: bold;
+}
+
+PLSGipyStickerView #trendingListContainer, PLSGipyStickerView #recentListContainer, PLSGipyStickerView #widget_container {
+	background: transparent;
+	border: none;
+}
+
+PLSGipyStickerView #searchResultList {
+	border-top: /*hdpi*/ 1px solid #343435;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	min-height: /*hdpi*/ 133px;
+	background-color: #1e1e1f;
+}
+
+PLSGipyStickerView #searchResultContent {
+	background-color: #1e1e1f;
+	border: none;
+}
+
+/*nodata page start*/
+PLSGipyStickerView #trendingScrollList #noDataPageBottomSpace{
+	min-height: /*hdpi*/ 94px;
+	max-height: /*hdpi*/ 94px;
+	background: transparent;
+}
+
+PLSGipyStickerView #recentScrollList #noDataPageBottomSpace{
+	min-height: /*hdpi*/ 94px;
+	max-height: /*hdpi*/ 94px;
+	background: transparent;
+}
+
+PLSGipyStickerView #searchResultList #noDataPageBottomSpace{
+	min-height: /*hdpi*/ 0px;
+	max-height: /*hdpi*/ 0px;
+	background: transparent;
+}
+
+PLSGipyStickerView NoDataPage{
+	background: #1e1e1f;
+}
+
+PLSGipyStickerView NoDataPage #iconNoData{
+	min-width: /*hdpi*/ 90px;
+	max-width: /*hdpi*/ 90px;
+	min-height: /*hdpi*/ 90px;
+	max-height: /*hdpi*/ 90px;
+	background: transparent;
+}
+
+PLSGipyStickerView NoDataPage #textNoData {
+	color: #666666;
+	font-size: /*hdpi*/ 14px;
+	font-weight: normal;
+	background: transparent;
+}
+
+PLSGipyStickerView NoDataPage #networkErrorRetryBtn {
+	min-width: /*hdpi*/ 110px;
+	max-width: /*hdpi*/ 110px;
+	min-height: /*hdpi*/ 27px;
+	max-height: /*hdpi*/ 27px;
+	background: transparent;
+	border-radius: /*hdpi*/ 3px;
+	border: /*hdpi*/ 1px solid #3d3d3d;
+	font-size: /*hdpi*/ 12px;
+	font-weight: normal;
+	color: #bababa;
+}
+
+PLSGipyStickerView NoDataPage #networkErrorRetryBtn:disabled{
+	color:#3d3d3d;
+	border:/*hdpi*/1px solid #3d3d3d;
+}
+
+PLSGipyStickerView NoDataPage #networkErrorRetryBtn:hover {
+	background-color:transparent;
+	border:/*hdpi*/1px solid #ffffff;
+	color:#ffffff;
+}
+
+PLSGipyStickerView NoDataPage #networkErrorRetryBtn:pressed {
+	background-color:transparent;
+	border:/*hdpi*/1px solid #272727;
+	color:#272727;
+}
+
+PLSGipyStickerView #searchResultList > #pageNoData,
+PLSGipyStickerView #recentScrollList > #pageNoData, 
+PLSGipyStickerView #trendingScrollList > #pageNoData {
+	background-color: #1e1e1f;
+}
+
+PLSGipyStickerView #recentScrollList > #pageNoData > #iconNoData {
+	image: url(:/images/giphy/ic-giphy.svg);
+}
+
+PLSGipyStickerView #recentScrollList > #pageNoData > #iconNoData[pageType="0"] {
+	image: url(:/images/giphy/ic-giphy.svg);
+}
+
+PLSGipyStickerView #recentScrollList > #pageNoData > #iconNoData[pageType="1"] {
+	image: url(:/images/giphy/ic-unconnect.svg);
+}
+
+PLSGipyStickerView #trendingScrollList > #pageNoData > #iconNoData {
+	image: url(:/images/giphy/ic-giphy.svg);
+}
+
+PLSGipyStickerView #trendingScrollList > #pageNoData > #iconNoData[pageType="0"] {
+	image: url(:/images/giphy/ic-giphy.svg);
+}
+
+PLSGipyStickerView #trendingScrollList > #pageNoData > #iconNoData[pageType="1"] {
+	image: url(:/images/giphy/ic-unconnect.svg);
+}
+
+PLSGipyStickerView #searchResultList > #pageNoData > #iconNoData {
+	image: url(:/images/giphy/ic-search.svg);
+}
+
+PLSGipyStickerView #searchResultList > #pageNoData > #iconNoData[pageType="0"] {
+	image: url(:/images/giphy/ic-search.svg);
+}
+
+PLSGipyStickerView #searchResultList > #pageNoData > #iconNoData[pageType="1"] {
+	image: url(:/images/giphy/ic-unconnect.svg);
+}
+
+/*nodata page end*/
+PLSGipyStickerView MovieLabel {
+	min-width: /*hdpi*/ 78px;
+	max-width: /*hdpi*/ 78px;
+	min-height: /*hdpi*/ 78px;
+	max-height: /*hdpi*/ 78px;
+	border-radius: /*hdpi*/ 3px;
+	background: transparent;
+	border: /*hdpi*/ 2px solid transparent;
+}
+
+PLSGipyStickerView MovieLabel[clicked=true] {
+	border: /*hdpi*/ 2px solid #effc35;
+}
+
+PLSGipyStickerView MovieLabel[clicked=false] {
+	border: /*hdpi*/ 2px solid transparent;
+}
+
+PLSGipyStickerView MovieLabel[useDefaultIcon=true] {
+	image: url(:/images/giphy/thumb-loading.svg);
+}
+
+PLSGipyStickerView MovieLabel[useDefaultIcon=false] {
+	border-image: none;
+}
+
+PLSGipyStickerView MovieLabel #labelIconLoading {
+	min-width: /*hdpi*/ 24px;
+	max-width: /*hdpi*/ 24px;
+	min-height: /*hdpi*/ 24px;
+	max-height: /*hdpi*/ 24px;
+	background: transparent;
+}
+
+PLSGipyStickerView MovieLabel #labelIconLoading[status="1"] {
+	image:url(":/images/loading-1.svg");
+}
+
+PLSGipyStickerView MovieLabel #labelIconLoading[status="2"] {
+	image:url(":/images/loading-2.svg");
+}
+
+PLSGipyStickerView MovieLabel #labelIconLoading[status="3"] {
+	image:url(":/images/loading-3.svg");
+}
+
+PLSGipyStickerView MovieLabel #labelIconLoading[status="4"] {
+	image:url(":/images/loading-4.svg");
+}
+
+PLSGipyStickerView MovieLabel #labelIconLoading[status="5"] {
+	image:url(":/images/loading-5.svg");
+}
+
+PLSGipyStickerView MovieLabel #labelIconLoading[status="6"] {
+	image:url(":/images/loading-6.svg");
+}
+
+PLSGipyStickerView MovieLabel #labelIconLoading[status="7"] {
+	image:url(":/images/loading-7.svg");
+}
+
+PLSGipyStickerView MovieLabel #labelIconLoading[status="8"] {
+	image:url(":/images/loading-8.svg");
+}
+
+/*QSlider start*/
+PLSGipyStickerView #recentScrollList, PLSGipyStickerView #trendingScrollList {
+	border: none;
+	min-height: /*hdpi*/ 133px;
+	background-color: #1e1e1f;
+}
+
+PLSGipyStickerView QScrollBar:vertical {
+	background-color: transparent;
+	min-width: /*hdpi*/ 10px;
+	max-width: /*hdpi*/ 10px;
+	margin: 0px;
+}
+
+PLSGipyStickerView QSlider::groove:horizontal {
+	border-radius: /*hdpi*/ 2px;
+	height: /*hdpi*/ 4px;
+	background-color: #404040;
+	margin: /*hdpi*/ 2px 0;
+}
+
+PLSGipyStickerView QSlider::sub-page:horizontal {
+	border-radius: /*hdpi*/ 2px;
+	background-color: #effc35;
+	margin: /*hdpi*/ 2px 0;
+}
+
+PLSGipyStickerView QSlider::sub-page:horizontal:disabled {
+	border-radius: /*hdpi*/ 2px;
+	background-color: #404040;
+	margin: /*hdpi*/ 2px 0;
+}
+
+PLSGipyStickerView QSlider::handle:horizontal[enter="false"], QSlider::handle:horizontal[enter="false"][handle="true"] {
+	height: 0px;
+	width: /*hdpi*/ 4px;
+	border-image: none;
+	margin: /*hdpi*/ -4px 0px /*hdpi*/ -4px 0px;
+}
+
+PLSGipyStickerView QSlider::handle:horizontal[enter="true"] {
+	image: url(:/images/img-handle-over.png);
+	width: /*hdpi*/ 12px;
+	margin: /*hdpi*/ -4px 0px /*hdpi*/ -4px 0px;
+}
+
+/*QSlider end*/
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingIcon{
+	min-width: /*hdpi*/ 24px;
+	max-width: /*hdpi*/ 24px;
+	min-height: /*hdpi*/ 24px;
+	max-height: /*hdpi*/ 24px;
+	background-color: transparent;
+}
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingIcon[status="1"] {
+	image:url(":/images/loading-1.svg");
+}
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingIcon[status="2"] {
+	image:url(":/images/loading-2.svg");
+}
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingIcon[status="3"] {
+	image:url(":/images/loading-3.svg");
+}
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingIcon[status="4"] {
+	image:url(":/images/loading-4.svg");
+}
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingIcon[status="5"] {
+	image:url(":/images/loading-5.svg");
+}
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingIcon[status="6"] {
+	image:url(":/images/loading-6.svg");
+}
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingIcon[status="7"] {
+	image:url(":/images/loading-7.svg");
+}
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingIcon[status="8"] {
+	image:url(":/images/loading-8.svg");
+}
+
+ScrollAreaWithNoDataTip #scrollAreaLoadingLayer{
+	background-color:rgba(30, 30, 31, 204);
+	border: none;
+}
+
+/*giphy sticker end*/

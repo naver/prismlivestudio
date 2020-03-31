@@ -1,0 +1,73 @@
+QSpinBox, QDoubleSpinBox {
+    background-color: #222222;
+	border:/*hdpi*/ none;
+	border-radius:/*hdpi*/ 3px;
+	padding-left:/*hdpi*/ 12px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	font-size:/*hdpi*/ 14px;
+    color: #ffffff;
+}
+QSpinBox:disabled, QDoubleSpinBox:disabled {
+
+	color: #666666;
+}
+QSpinBox::up-button, QDoubleSpinBox::up-button {
+    subcontrol-origin: margin;
+    subcontrol-position: top right;
+
+    background-color: #444444;
+	width:/*hdpi*/ 25px;
+	border-top-right-radius:/*hdpi*/ 3px;
+}
+QSpinBox::up-arrow, QDoubleSpinBox::up-arrow {
+	image:url(":/images/txt-dropbox-close-normal.svg");
+	width:/*hdpi*/ 11px;
+	height:/*hdpi*/ 6px;
+}
+QSpinBox::up-button:hover, QDoubleSpinBox::up-button:hover {
+    background-color: #555555;
+}
+QSpinBox::up-arrow:hover, QDoubleSpinBox::up-arrow:hover {
+	image:url(":/images/txt-dropbox-close-over.svg");
+	width:/*hdpi*/ 11px;
+	height:/*hdpi*/ 6px;
+}
+QSpinBox::up-button:pressed, QDoubleSpinBox::up-button:pressed {
+    background-color: #2d2d2d;
+}
+QSpinBox::up-arrow:pressed, QDoubleSpinBox::up-arrow:pressed {
+	image:url(":/images/txt-dropbox-close-click.svg");
+}
+QSpinBox::up-arrow:disabled, QDoubleSpinBox::up-arrow:disabled {
+	image:url(":/images/txt-dropbox-close-disable.svg");
+}
+QSpinBox::down-button, QDoubleSpinBox::down-button {
+    subcontrol-origin: margin;
+    subcontrol-position: bottom right;
+    background-color: #444444;
+	width:/*hdpi*/ 25px;
+	border-bottom-right-radius:/*hdpi*/ 3px;
+}
+QSpinBox::down-arrow, QDoubleSpinBox::down-arrow {
+	image:url(":/images/txt-dropbox-open-normal.svg");
+	width:/*hdpi*/ 11px;
+	height:/*hdpi*/ 6px;
+}
+QSpinBox::down-button:hover, QDoubleSpinBox::down-button:hover {
+    background-color: #555555;
+}
+QSpinBox::down-arrow:hover, QDoubleSpinBox::down-arrow:hover {
+	image:url(":/images/txt-dropbox-open-over.svg");
+	width:/*hdpi*/ 11px;
+	height:/*hdpi*/ 6px;
+}
+QSpinBox::down-button:pressed, QDoubleSpinBox::down-button:pressed {
+    background-color: #2d2d2d;
+}
+QSpinBox::down-arrow:pressed, QDoubleSpinBox::down-arrow:pressed {
+	image:url(":/images/txt-dropbox-open-click.svg");
+}
+QSpinBox::down-arrow:disabled, QDoubleSpinBox::down-arrow:disabled {
+	image:url(":/images/txt-dropbox-open-disable.svg");
+}

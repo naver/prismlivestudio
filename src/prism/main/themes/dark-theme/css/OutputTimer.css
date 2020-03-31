@@ -1,0 +1,75 @@
+OutputTimer#OutputTimer *{
+    color: #ffffff;
+	font-size:/*hdpi*/ 14px;
+}
+
+OutputTimer#OutputTimer QLabel{
+    color: #bababa;
+	font-size:/*hdpi*/ 14px;
+}
+
+OutputTimer#OutputTimer QLabel[useFor="FormLabelRole"] {
+    font-weight: bold;
+}
+OutputTimer#OutputTimer[language="en-US"] #streamingLabel, OutputTimer#OutputTimer[language="en-US"] #recordingLabel {
+	min-width:/*hdpi*/ 143px;
+	max-width:/*hdpi*/ 143px;
+}
+OutputTimer#OutputTimer[language="en-US"] #hoursLabel,
+OutputTimer#OutputTimer[language="en-US"] #hoursLabel_2,
+OutputTimer#OutputTimer[language="en-US"] #minutesLabel,
+OutputTimer#OutputTimer[language="en-US"] #minutesLabel_2,
+OutputTimer#OutputTimer[language="en-US"] #secondsLabel,
+OutputTimer#OutputTimer[language="en-US"] #secondsLabel_2 {
+	margin-left:/*hdpi*/ 9px;
+	margin-right:/*hdpi*/ 20px;
+}
+OutputTimer#OutputTimer[language="en-US"] #outputTimerStream,
+OutputTimer#OutputTimer[language="en-US"] #outputTimerRecord {
+	min-width:/*hdpi*/ 118px;
+	max-width:/*hdpi*/ 118px;
+}
+OutputTimer#OutputTimer[language="ko-KR"] #streamingLabel,
+OutputTimer#OutputTimer[language="ko-KR"] #recordingLabel {
+	min-width:/*hdpi*/ 145px;
+	max-width:/*hdpi*/ 145px;
+}
+OutputTimer#OutputTimer[language="ko-KR"] #hoursLabel,
+OutputTimer#OutputTimer[language="ko-KR"] #hoursLabel_2,
+OutputTimer#OutputTimer[language="ko-KR"] #minutesLabel,
+OutputTimer#OutputTimer[language="ko-KR"] #minutesLabel_2,
+OutputTimer#OutputTimer[language="ko-KR"] #secondsLabel,
+OutputTimer#OutputTimer[language="ko-KR"] #secondsLabel_2 {
+	margin-left:/*hdpi*/ 9px;
+	margin-right:/*hdpi*/ 15px;
+}
+OutputTimer#OutputTimer[language="ko-KR"] #outputTimerStream,
+OutputTimer#OutputTimer[language="ko-KR"] #outputTimerRecord {
+	min-width:/*hdpi*/ 109px;
+	max-width:/*hdpi*/ 109px;
+}
+OutputTimer#OutputTimer #streamingTimerHours,
+OutputTimer#OutputTimer #streamingTimerMinutes,
+OutputTimer#OutputTimer #streamingTimerSeconds,
+OutputTimer#OutputTimer #recordingTimerHours,
+OutputTimer#OutputTimer #recordingTimerMinutes,
+OutputTimer#OutputTimer #recordingTimerSeconds {
+	font-size:/*hdpi*/ 14px;
+    color: #ffffff;
+	width:/*hdpi*/84px;
+
+}
+OutputTimer#OutputTimer #autoStartStreamTimer,
+OutputTimer#OutputTimer #streamStoppingIn,
+OutputTimer#OutputTimer #streamTime,
+OutputTimer#OutputTimer #autoStartRecordTimer,
+OutputTimer#OutputTimer #pauseRecordTimer,
+OutputTimer#OutputTimer #recordStoppingIn,
+OutputTimer#OutputTimer #recordTime {
+	font-size:/*hdpi*/ 14px;
+    color: #e1e1e1;
+}
+
+OutputTimer#OutputTimer #frame {
+	min-height: /*hdpi*/ 79px;
+}

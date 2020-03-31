@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>57D866D5-5EAA-40B8-B269-37E28BAECC33</title>
+    <defs>
+        <path d="M17,34 C26.3888407,34 34,26.3888407 34,17 C34,7.61115925 26.3888407,0 17,0 C7.61115925,0 0,7.61115925 0,17 C0,26.3888407 7.61115925,34 17,34 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0525_Release-_Image-Resource" transform="translate(-194.000000, -162.000000)">
+            <g id="img_twich_profile" transform="translate(194.000000, 162.000000)">
+                <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="34" height="34"></rect>
+                <g id="Group">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#9148FF" xlink:href="#path-1"></use>
+                    <g id="Group-5" mask="url(#mask-2)">
+                        <g transform="translate(8.000000, 7.000000)">
+                            <polygon id="Fill-1" fill="#FFFFFF" points="17.4166667 10.2916667 14.25 13.4583333 11.0833333 13.4583333 8.3125 16.2291667 8.3125 13.4583333 4.75 13.4583333 4.75 1.58333333 17.4166667 1.58333333"></polygon>
+                            <path d="M3.9583365,1.58333333e-06 L3.16666667e-06,3.95833492 L3.16666667e-06,18.208327 L4.75000317,18.208327 L4.75000317,22.1666683 L8.70832858,18.208327 L11.8750032,18.208327 L19.0000032,11.083327 L19.0000032,1.58333333e-06 L3.9583365,1.58333333e-06 Z M4.75000317,1.58333492 L17.4166619,1.58333492 L17.4166619,10.2916682 L14.2500032,13.4583349 L11.0833365,13.4583349 L8.31250317,16.2291682 L8.31250317,13.4583349 L4.75000317,13.4583349 L4.75000317,1.58333492 Z" id="Fill-2" fill="#000000"></path>
+                            <polygon id="Fill-3" fill="#000000" points="13.4583333 9.10416667 15.0416667 9.10416667 15.0416667 4.35416667 13.4583333 4.35416667"></polygon>
+                            <polygon id="Fill-4" fill="#000000" points="9.10416667 9.10416667 10.6875 9.10416667 10.6875 4.35416667 9.10416667 4.35416667"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

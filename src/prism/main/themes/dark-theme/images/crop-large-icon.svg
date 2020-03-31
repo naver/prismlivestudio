@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>94F43BBC-7F0F-4E5E-BC42-935269975DF7</title>
+    <defs>
+        <polygon id="path-1" points="1.37171327e-20 0.262955466 1.37171327e-20 11.6394737 19.6743927 11.6394737 19.6743927 0.262955466 0 0.262955466"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0525_Release-_Image-Resource" transform="translate(-979.000000, -723.000000)">
+            <g id="Crop_large_icon" transform="translate(979.000000, 723.000000)">
+                <rect id="Rectangle-90" fill="#D8D8D8" opacity="0" x="0" y="0" width="25" height="25"></rect>
+                <path d="M0,22.3684211 L19.7368421,22.3684211 L19.7368421,3.94736842 L0,3.94736842 L0,22.3684211 Z M1.48026316,20.9868076 L18.2565789,20.9868076 L18.2565789,5.32898191 L1.48026316,5.32898191 L1.48026316,20.9868076 Z" id="Fill-1" fill="#FFFFFF"></path>
+                <g id="Group-7" transform="translate(0.000000, 6.578947)">
+                    <path d="M15.645749,1.49362348 C15.645749,2.19200405 15.0804656,2.75678138 14.3825911,2.75678138 C13.6852227,2.75678138 13.1194332,2.19200405 13.1194332,1.49362348 C13.1194332,0.796761134 13.6852227,0.229959514 14.3825911,0.229959514 C15.0804656,0.229959514 15.645749,0.796761134 15.645749,1.49362348" id="Fill-2" fill="#FFFFFF"></path>
+                    <g id="Group-6" transform="translate(0.000000, 3.947368)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <polygon id="Fill-4" fill="#FFFFFF" mask="url(#mask-2)" points="15.8322874 2.07975709 12.2462551 5.66578947 6.8444332 0.262955466 0.678947368 6.42945344 0.454757085 6.44109312 -0.000202429151 7.46032389 -0.000202429151 11.6394737 19.6743927 11.6394737 19.6743927 5.92135628"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

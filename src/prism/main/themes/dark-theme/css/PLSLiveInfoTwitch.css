@@ -1,0 +1,23 @@
+
+PLSLiveInfoTwitch #lineEditTitle {
+	qproperty-maximumSize: /*hdpi*/ 555px /*hdpi*/ 40px;
+	qproperty-minimumSize: /*hdpi*/ 555px /*hdpi*/ 40px;
+}
+
+PLSLiveInfoTwitch #labelTitle {
+	qproperty-maximumSize: /*hdpi*/ 114px /*hdpi*/ 40px;
+	qproperty-minimumSize: /*hdpi*/ 114px /*hdpi*/ 40px;
+}
+
+PLSLiveInfoTwitch > #titleBar {
+	qproperty-focusPolicy: StrongFocus;
+}
+PLSLiveInfoTwitch #categoryIconLabel {
+	qproperty-maximumSize: /*hdpi*/ 38px /*hdpi*/ 52px;
+	qproperty-minimumSize: /*hdpi*/ 38px /*hdpi*/ 52px;
+}
+PLSLiveInfoTwitch #widgetBlackLine {
+	min-height: /*hdpi*/ 1px;
+	max-height: /*hdpi*/ 1px;
+	background-color:#111111;
+}

@@ -1,0 +1,107 @@
+QPushButton:focus {
+	outline:none;
+}
+QPushButton {
+	background-color: #444444;
+	border-radius:/*hdpi*/ 3px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding:/*hdpi*/0;
+}
+QPushButton:hover {
+	background-color: #555555;
+}
+QPushButton:pressed {
+	background-color: #2d2d2d;
+}
+QPushButton:disabled {
+	background-color: #444444;
+	color: #777777;
+}
+QPushButton[highlight="true"] {
+	background-color: #effc35;
+	border-radius:/*hdpi*/ 3px;
+	min-height:/*hdpi*/ 48px;
+	max-height:/*hdpi*/ 48px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	color: black;
+	padding:/*hdpi*/0/*hdpi*/50px;
+}
+QPushButton[highlight="true"]:hover {
+	background-color: #f1fa75;
+}
+QPushButton[highlight="true"]:pressed {
+	background-color: #7a7f34;
+}
+QPushButton[highlight="true"]:disabled {
+	background-color: #444444;
+	color: #666666;
+}
+
+QPushButton[useFor="QToolButton"] {
+	border:/*hdpi*/ none;
+	border-image: none;
+	background-color: #2c2c2c;
+	min-width:/*hdpi*/ 30px;
+	max-width:/*hdpi*/ 30px;
+	min-height:/*hdpi*/ 30px;
+	max-height:/*hdpi*/ 30px;
+	margin:/*hdpi*/0;
+	padding:/*hdpi*/0;
+}
+QPushButton[useFor="QToolButton"]:hover {
+	border-image: none;
+	background-color: #363636;
+}
+QPushButton[useFor="QToolButton"]:pressed {
+	border-image: none;
+	background-color: #111111;
+}
+
+QPushButton[For="SelectPath"] {
+	background-color: #333333;
+	border-image:url(":/images/browser-normal.svg");
+	min-width:/*hdpi*/ 32px;
+	max-width:/*hdpi*/ 32px;
+	min-height:/*hdpi*/ 32px;
+	max-height:/*hdpi*/ 32px;
+	padding:/*hdpi*/0;
+}
+QPushButton[For="SelectPath"]:hover {
+	border-image:url(":/images/browser-over.svg");
+}
+QPushButton[For="SelectPath"]:pressed {
+	border-image:url(":/images/browser-clicked.svg");
+}
+QPushButton[For="SelectPath"]:disabled {
+	border-image:url(":/images/browser-disable.svg");
+}
+
+QPushButton[useFor="Ok"],
+QPushButton[useFor="Save"],
+QPushButton[useFor="SaveAll"],
+QPushButton[useFor="Open"],
+QPushButton[useFor="Yes"],
+QPushButton[useFor="YesToAll"],
+QPushButton[useFor="No"],
+QPushButton[useFor="NoToAll"],
+QPushButton[useFor="Abort"],
+QPushButton[useFor="Retry"],
+QPushButton[useFor="Ignore"],
+QPushButton[useFor="Close"],
+QPushButton[useFor="Cancel"],
+QPushButton[useFor="Discard"],
+QPushButton[useFor="Help"],
+QPushButton[useFor="Apply"],
+QPushButton[useFor="Reset"],
+QPushButton[useFor="RestoreDefaults"],
+QPushButton[useFor="Rehearsal"] {
+	min-width:/*hdpi*/ 128px;
+	max-width:/*hdpi*/ 128px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}

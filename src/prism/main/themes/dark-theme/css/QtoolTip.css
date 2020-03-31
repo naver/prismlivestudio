@@ -1,0 +1,7 @@
+QToolTip {
+	background-color: #111111;
+	border:/*hdpi*/ none;
+	padding:/*hdpi*/5px;
+	font-size:/*hdpi*/ 11px;
+	color: #bababa;
+}

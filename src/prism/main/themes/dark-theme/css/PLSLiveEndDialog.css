@@ -1,0 +1,178 @@
+
+PLSLiveEndDialog * {
+	margin:/*hdpi*/0px;
+	padding:/*hdpi*/0px;
+	border-radius:/*hdpi*/ 0px;
+	border:/*hdpi*/ none;
+}
+
+PLSLiveEndDialog QToolTip{
+	padding:/*hdpi*/5px;
+}
+
+PLSLiveEndDialog .QScrollArea{
+	border:/*hdpi*/ none;
+}
+
+PLSLiveEndDialog{
+	border-radius:/*hdpi*/ 6px;
+/*	qproperty-contentBkgColor: #272727;*/
+}
+
+PLSLiveEndDialog #topWidget {
+	max-height:/*hdpi*/ 58px;
+	min-height:/*hdpi*/ 58px;
+	background: transparent;
+}
+
+PLSLiveEndDialog #titleLabel {
+	font-size:/*hdpi*/ 20px;
+	font-weight: bold;
+	color: #f1fd56;
+	background: transparent;
+}
+
+PLSLiveEndDialog #channelScroll {
+	border-radius:/*hdpi*/ 3px;
+	margin:/*hdpi*/0px/*hdpi*/0px/*hdpi*/0px/*hdpi*/0px;
+	padding-right:/*hdpi*/ 15px;
+	background-color: transparent;
+}
+
+PLSLiveEndDialog #bottomViewWidget {
+	min-height:/*hdpi*/ 142px;
+
+	background-color: transparent;
+}
+PLSLiveEndDialog #placehoderLabel {
+	background: transparent;
+}
+PLSLiveEndDialog #saveWidget {
+	min-height:/*hdpi*/ 22;
+	max-height:/*hdpi*/ 22;
+	margin:/*hdpi*/4px/*hdpi*/0px/*hdpi*/0px/*hdpi*/0px;
+	background: transparent;
+}
+
+PLSLiveEndDialog #saveInLabel{
+	margin:/*hdpi*/0px/*hdpi*/0px/*hdpi*/0px/*hdpi*/0px;
+	background-color: transparent;
+	border-style:none;
+	color: #cccccc;
+	font-size:/*hdpi*/ 12px;
+	font-weight: normal;
+}
+
+PLSLiveEndDialog #savePushButton{
+	min-width:/*hdpi*/ 18px;
+	min-height:/*hdpi*/ 20px;
+	max-height:/*hdpi*/ 20px;
+	margin:/*hdpi*/0px/*hdpi*/0px/*hdpi*/0px/*hdpi*/4px;
+	border-style:none;
+	padding:/*hdpi*/0px;
+	background-color: transparent;
+	border-image: none;
+	font-size:/*hdpi*/ 12px;
+	font-weight: normal;
+	text-align: left;
+	color: #cccccc;
+	image:url(":/images/folder-icon-normal.svg");
+	image-position: right;
+}
+
+PLSLiveEndDialog #savePushButton:hover {
+	color: #effc35;
+	image:url(":/images/folder-icon-over.svg");
+}
+
+PLSLiveEndDialog #savePushButton:pressed {
+	color: #788023;
+	image:url(":/images/folder-icon-clicked.svg");
+}
+
+
+PLSLiveEndDialog #lineView {
+	min-height:/*hdpi*/ 1px;
+	max-height:/*hdpi*/ 1px;
+	background-color: #151515;
+	margin:/*hdpi*/0px/*hdpi*/0px/*hdpi*/18px/*hdpi*/0px;
+}
+
+PLSLiveEndDialog #okButton {
+	min-width:/*hdpi*/128px;
+	max-width:/*hdpi*/128px;
+	min-height:/*hdpi*/40px;
+	max-height:/*hdpi*/40px;
+	margin-bottom:/*hdpi*/ 20px;
+}
+
+PLSLiveEndItem * {
+	margin:/*hdpi*/0px;
+	padding:/*hdpi*/0px;
+	border-radius:/*hdpi*/ 0px;
+	border:/*hdpi*/ none;
+}
+
+PLSLiveEndItem .QLabel,
+PLSLiveEndItem .QWidget {
+	background-color: transparent;
+}
+
+PLSLiveEndItem {
+	border-radius:/*hdpi*/ 3px;
+	background-color: #363636;
+	min-height:/*hdpi*/70px;
+	max-height:/*hdpi*/70px;
+	min-width:/*hdpi*/660px;
+	max-width:/*hdpi*/660px;
+	margin:/*hdpi*/0px/*hdpi*/15px/*hdpi*/0px/*hdpi*/29px;
+}
+
+PLSLiveEndItem #channelIcon {
+	min-width:/*hdpi*/ 34px;
+	max-width:/*hdpi*/ 34px;
+	max-height:/*hdpi*/ 34px;
+	min-height:/*hdpi*/ 34px;
+	margin-left:/*hdpi*/ 14px;
+	margin-right:/*hdpi*/ 13px;
+}
+
+PLSLiveEndItem #channelLabel {
+	font-size:/*hdpi*/ 12px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+PLSLiveEndItem #dotLabel {
+	min-width:/*hdpi*/  3px;
+	max-width:/*hdpi*/  3px;
+	max-height:/*hdpi*/ 3px;
+	min-height:/*hdpi*/ 3px;
+	image:url(":/images/img-bullet.svg");
+	margin:/*hdpi*/1px/*hdpi*/5px/*hdpi*/0px/*hdpi*/5px;
+}
+
+PLSLiveEndItem #liveTitleLabel {
+	padding-right:/*hdpi*/ 6px;
+	font-size:/*hdpi*/ 12px;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+PLSLiveEndItem #statusWidget {
+	margin-left:/*hdpi*/ 3px;
+	margin-top:/*hdpi*/ 6px;
+}
+
+PLSLiveEndItem #statusImage1, #statusImage2, #statusImage3 {
+	min-width:/*hdpi*/ 15px;
+	max-width:/*hdpi*/ 15px;
+	max-height:/*hdpi*/ 15px;
+	min-height:/*hdpi*/ 15px;
+}
+
+PLSLiveEndItem #statusLabel1, #statusLabel2, #statusLabel3 {
+	margin-right:/*hdpi*/ 4px;
+	font-size:/*hdpi*/ 12px;
+	color: #999999;
+}

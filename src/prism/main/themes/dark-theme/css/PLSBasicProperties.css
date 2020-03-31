@@ -1,0 +1,140 @@
+
+PLSBasicProperties {
+	min-height: /*hdpi*/ 435px;
+	max-height: /*hdpi*/ 875px;
+	min-width: /*hdpi*/ 478px;
+	max-width: /*hdpi*/ 720px;
+	background-color: #272727;
+}
+
+PLSBasicProperties[sourceId="prism_chat_source"], PLSBasicProperties[sourceId="prism_text_motion_source"] {
+	min-width: /*hdpi*/ 720px;
+	max-width: /*hdpi*/ 720px;
+}
+
+
+PLSBasicProperties #propertyWindowSplitter::handle:vertical {
+	height: /*hdpi*/ 15px;
+	background-color: #272727;
+}
+PLSBasicProperties #propertyViewContainer{
+	background: transparent;
+	border: none;
+}
+
+PLSBasicProperties #previewBtn{
+	padding: /*hdpi*/ 0px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	min-width: /*hdpi*/ 128px;
+	max-width: /*hdpi*/ 128px;
+	border-radius: /*hdpi*/ 3px;
+	background-color: #444444;
+}
+
+	PLSBasicProperties #propertyPreview {
+		min-height: /*hdpi*/ 150px;
+		max-height: /*hdpi*/ 368px;
+		background-color: #000000;
+	}
+
+	PLSBasicProperties #previewBtn {
+		padding: /*hdpi*/ 0px;
+		min-height: /*hdpi*/ 40px;
+		max-height: /*hdpi*/ 40px;
+		min-width: /*hdpi*/ 128px;
+		max-width: /*hdpi*/ 128px;
+		border-radius: /*hdpi*/ 3px;
+		background-color: #444444;
+	}
+
+	PLSBasicProperties #addStickerBtn {
+		padding: /*hdpi*/ 0px;
+		min-height: /*hdpi*/ 40px;
+		max-height: /*hdpi*/ 40px;
+		min-width: /*hdpi*/ 128px;
+		border-radius: /*hdpi*/ 3px;
+		font-size: /*hdpi*/ 14px;
+		color: white;
+		font-weight: bold;
+		background-color: #444444;
+	}
+
+		PLSBasicProperties #previewBtn:hover,
+		PLSBasicProperties #addStickerBtn:hover {
+			background-color: #555555;
+		}
+
+		PLSBasicProperties #previewBtn:pressed,
+		PLSBasicProperties #addStickerBtn:pressed {
+			background-color: #2d2d2d;
+		}
+
+
+	PLSBasicProperties #seperatorLabel {
+		background-color: #151515;
+		min-height: /*hdpi*/ 1px;
+		max-height: /*hdpi*/ 1px;
+	}
+
+	PLSBasicProperties > #close {
+		background: transparent;
+	}
+
+	PLSBasicProperties QRadioButton {
+		font-size: /*hdpi*/ 14px;
+		font-weight: normal;
+	}
+
+	PLSBasicProperties QLineEdit {
+		padding-top: /*hdpi*/ 0px;
+		padding-bottom: /*hdpi*/ 0px;
+		padding-right: /*hdpi*/ 0;
+		padding-left: /*hdpi*/ 2px;
+		border: /*hdpi*/ none;
+		border-radius: /*hdpi*/ none;
+		min-height: /*hdpi*/ 20px;
+		max-height: /*hdpi*/ 20px;
+		background-color: #1e1e1e;
+		font-size: /*hdpi*/ 14px;
+	}
+
+		PLSBasicProperties QLineEdit:focus {
+			border: /*hdpi*/ 1px solid #EFFC35;
+		}
+
+		PLSBasicProperties QLineEdit:!focus {
+			border: /*hdpi*/ 1px solid transparent;
+		}
+
+	PLSBasicProperties QDialogButtonBox[owner="PLSBasicProperties"] {
+		min-height: /*hdpi*/ 68px;
+		max-height: /*hdpi*/ 68px;
+	}
+
+		PLSBasicProperties QDialogButtonBox[owner="PLSBasicProperties"] QPushButton[useFor="Ok"] {
+			margin-left: /*hdpi*/ 10px;
+			padding: 0;
+			min-width: /*hdpi*/ 128px;
+			max-width: /*hdpi*/ 128px;
+			min-height: /*hdpi*/ 40px;
+			max-height: /*hdpi*/ 40px;
+		}
+
+		PLSBasicProperties QDialogButtonBox[owner="PLSBasicProperties"] QPushButton[useFor="Cancel"] {
+			margin-left: /*hdpi*/ 5px;
+			padding: 0;
+			min-width: /*hdpi*/ 128px;
+			max-width: /*hdpi*/ 128px;
+			min-height: /*hdpi*/ 40px;
+			max-height: /*hdpi*/ 40px;
+		}
+
+		PLSBasicProperties QDialogButtonBox[owner="PLSBasicProperties"] QPushButton[useFor="RestoreDefaults"] {
+			padding: 0;
+			margin-right: /*hdpi*/ 10px;
+			min-width: /*hdpi*/ 142px;
+			max-width: /*hdpi*/ 142px;
+			min-height: /*hdpi*/ 40px;
+			max-height: /*hdpi*/ 40px;
+		}

@@ -1,0 +1,612 @@
+
+
+PLSMainView #sourcesDock{
+	min-width:/*hdpi*/ 186px;
+	min-height:/*hdpi*/ 218px;
+	qproperty-contentMarginLeft:/*hdpi*/1;
+	qproperty-contentMarginRight:/*hdpi*/1;
+    qproperty-contentMarginBottom:/*hdpi*/1;
+	background-color: #272727;
+}
+
+
+SourceTree QLineEdit {
+	padding-top:/*hdpi*/ 0px;
+	padding-bottom:/*hdpi*/ 0px;
+	padding-right:/*hdpi*/ 0;
+	padding-left:/*hdpi*/ 2px;
+	border:/*hdpi*/ none;
+	border-radius:/*hdpi*/ none;
+	min-height:/*hdpi*/ 20px;
+	max-height:/*hdpi*/ 20px;
+	background-color: #1e1e1e;
+	font-size:/*hdpi*/ 14px;
+}
+
+SourceTree{
+	outline: none;
+}
+
+SourceTree:focus {
+    outline: none;
+}
+
+SourceTree::item{
+	height:/*hdpi*/ 40px;
+	outline: none;
+	border:/*hdpi*/none;
+}
+
+SourceTree #noSourceTipsLabel {
+	font-size:/*hdpi*/ 12px;
+	font-weight: normal;
+	background-color: transparent;
+}
+
+SourceTreeItem,SourceTreeItem[status="normal"] {
+	background-color: #272727;
+}
+
+SourceTreeItem[status="hover"] {
+	background-color: #444444;
+}
+
+SourceTreeItem[status="pressed"] {
+	background-color: #2d2d2d;
+}
+QLabel#sourceIconLabel{
+	min-height:/*hdpi*/ 30px;
+	max-height:/*hdpi*/ 30px;
+	min-width:/*hdpi*/ 30px;
+	max-width:/*hdpi*/ 30px;
+	background: none;
+}
+
+QLabel#sourceIconLabel[type="visible.unselect.scene"] {
+	image:url(":/images/icon-source-scene-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.unselect.group"] {
+	image:url(":/images/icon-source-group-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.select.scene"] {
+	image:url(":/images/icon-source-scene-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.select.group"] {
+	image:url(":/images/icon-source-group-select-normal.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.select.bgm"] {
+	image:url(":/images/bgm/icon-source-bgm-select.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.unselect.bgm"] {
+	image:url(":/images/bgm/icon-source-bgm-normal.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.valid.unselect.image"] {
+	image:url(":/images/icon-source-image.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.ndi"] {
+	image:url(":/images/icon-source-ndi-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.color"] {
+	image:url(":/images/icon-source-color-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.slideshow"] {
+	image:url(":/images/icon-source-imageslide-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.audioinput"] {
+	image:url(":/images/icon-source-audio.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.audiooutput"] {
+	image:url(":/images/icon-source-audio-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.monitor"] {
+	image:url(":/images/icon-source-display.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.window"] {
+	image:url(":/images/icon-source-window.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.game"] {
+	image:url(":/images/icon-source-game.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.camera"] {
+	image:url(":/images/icon-source-camera.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.text"] {
+	image:url(":/images/icon-source-text.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.media"] {
+	image:url(":/images/icon-source-media.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.browser"] {
+	image:url(":/images/icon-source-url.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.bgm"] {
+	image:url(":/images/bgm/icon-source-bgm-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.unselect.chat"] {
+	image: url(":/images/icon-source-chat-normal.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.valid.select.image"] {
+	image:url(":/images/icon-source-image-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.ndi"] {
+	image:url(":/images/icon-source-ndi-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.color"] {
+	image:url(":/images/icon-source-color-select-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.slideshow"] {
+	image:url(":/images/icon-source-imageslide-select-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.audioinput"] {
+	image:url(":/images/icon-source-audio-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.audiooutput"] {
+	image:url(":/images/icon-source-audio-select-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.monitor"] {
+	image:url(":/images/icon-source-display-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.window"] {
+	image:url(":/images/icon-source-window-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.game"] {
+	image:url(":/images/icon-source-game-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.camera"] {
+	image:url(":/images/icon-source-camera-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.text"] {
+	image:url(":/images/icon-source-text-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.media"] {
+	image:url(":/images/icon-source-media-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.browser"] {
+	image:url(":/images/icon-source-url-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.bgm"] {
+	image:url(":/images/bgm/icon-source-bgm-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.valid.select.chat"] {
+	image: url(":/images/icon-source-chat-select.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.invalid.unselect.image"] {
+	image:url(":/images/erroricon-source-image.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.ndi"] {
+	image:url(":/images/erroricon-source-ndi-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.slideshow"] {
+	image:url(":/images/erroricon-source-imageslide-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.audioinput"] {
+	image:url(":/images/erroricon-source-audio.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.audiooutput"] {
+	image:url(":/images/erroricon-source-audio-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.window"] {
+	image:url(":/images/erroricon-source-window.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.game"] {
+	image:url(":/images/erroricon-source-game.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.camera"] {
+	image:url(":/images/erroricon-source-camera.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.monitor"] {
+	image:url(":/images/erroricon-source-display.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.media"] {
+	image:url(":/images/erroricon-source-media.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.bgm"] {
+	image:url(":/images/bgm/erroricon-source-bgm-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.unselect.chat"] {
+	image: url(":/images/erroricon-source-chat-normal.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.invalid.select.image"] {
+	image:url(":/images/erroricon-source-image-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.ndi"] {
+	image:url(":/images/erroricon-source-ndi-select-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.slideshow"] {
+	image:url(":/images/erroricon-source-imageslide-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.audioinput"] {
+	image:url(":/images/erroricon-source-audio-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.audiooutput"] {
+	image:url(":/images/erroricon-source-audio-select-normal.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.window"] {
+	image:url(":/images/erroricon-source-window-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.game"] {
+	image:url(":/images/erroricon-source-game-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.monitor"] {
+	image:url(":/images/erroricon-source-display-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.camera"] {
+	image:url(":/images/erroricon-source-camera-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.media"] {
+	image:url(":/images/erroricon-source-media-select.svg");
+}
+QLabel#sourceIconLabel[type="visible.invalid.select.chat"] {
+	image: url(":/images/erroricon-source-chat-select-normal.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.invalid.select.bgm"] {
+	image:url(":/images/bgm/erroricon-source-bgm-select-normal.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.unselect.scene"] {
+	image:url(":/images/icon-source-scene-normal-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.unselect.group"] {
+	image:url(":/images/icon-source-group-normal-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.select.scene"] {
+	image:url(":/images/icon-source-scene-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.select.group"] {
+	image:url(":/images/icon-source-group-select--disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.select.bgm"] {
+	image:url(":/images/bgm/icon-source-bgm-select-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.unselect.bgm"] {
+	image:url(":/images/bgm/icon-source-bgm-disable.svg");
+}
+
+
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.image"] {
+	image:url(":/images/erroricon-source-image-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.ndi"] {
+	image:url(":/images/erroricon-source-ndi-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.slideshow"] {
+	image:url(":/images/erroricon-source-imageslide-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.audioinput"] {
+	image:url(":/images/erroricon-source-audio-input-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.audiooutput"] {
+	image:url(":/images/erroricon-source-audio-output-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.window"] {
+	image:url(":/images/erroricon-source-window-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.game"] {
+	image:url(":/images/erroricon-source-game-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.camera"] {
+	image:url(":/images/erroricon-source-camera-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.monitor"] {
+	image:url(":/images/erroricon-source-display-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.media"] {
+	image:url(":/images/erroricon-source-media-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.bgm"] {
+	image:url(":/images/bgm/erroricon-source-bgm-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.chat"] {
+	image: url(":/images/erroricon-source-chat-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.invalid.select.image"] {
+	image:url(":/images/erroricon-source-image-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.ndi"] {
+	image:url(":/images/erroricon-source-ndi-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.slideshow"] {
+	image:url(":/images/erroricon-source-imageslide-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.audioinput"] {
+	image:url(":/images/erroricon-source-audio-input-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.audiooutput"] {
+	image:url(":/images/erroricon-source-audio-output-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.window"] {
+	image:url(":/images/erroricon-source-window-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.game"] {
+	image:url(":/images/erroricon-source-game-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.monitor"] {
+	image:url(":/images/erroricon-source-display-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.camera"] {
+	image:url(":/images/erroricon-source-camera-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.media"] {
+	image:url(":/images/erroricon-source-media-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.invalid.select.chat"] {
+	image: url(":/images/erroricon-source-chat-select-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.invalid.select.bgm"] {
+	image:url(":/images/bgm/erroricon-source-bgm-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.image"] {
+	image:url(":/images/icon-source-image-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.ndi"] {
+	image:url(":/images/icon-source-ndi-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.color"] {
+	image:url(":/images/icon-source-color-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.slideshow"] {
+	image:url(":/images/icon-source-imageslide-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.audioinput"] {
+	image:url(":/images/icon-source-audio-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.audiooutput"] {
+	image:url(":/images/icon-source-audio-out-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.monitor"] {
+	image:url(":/images/icon-source-display-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.window"] {
+	image:url(":/images/icon-source-window-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.game"] {
+	image:url(":/images/icon-source-game-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.camera"] {
+	image:url(":/images/icon-source-camera-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.text"] {
+	image:url(":/images/icon-source-text-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.media"] {
+	image:url(":/images/icon-source-media-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.browser"] {
+	image:url(":/images/icon-source-url-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.bgm"] {
+	image:url(":/images/bgm/icon-source-bgm-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.select.chat"] {
+	image: url(":/images/icon-source-chat-select-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.image"] {
+	image:url(":/images/icon-source-image-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.ndi"] {
+	image:url(":/images/icon-source-ndi-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.color"] {
+	image:url(":/images/icon-source-color-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.slideshow"] {
+	image:url(":/images/icon-source-imageslide-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.audioinput"] {
+	image:url(":/images/icon-source-audio-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.audiooutput"] {
+	image:url(":/images/icon-source-audio-out-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.monitor"] {
+	image:url(":/images/icon-source-display-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.window"] {
+	image:url(":/images/icon-source-window-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.game"] {
+	image:url(":/images/icon-source-game-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.camera"] {
+	image:url(":/images/icon-source-camera-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.text"] {
+	image:url(":/images/icon-source-text-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.media"] {
+	image:url(":/images/icon-source-media-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.browser"] {
+	image:url(":/images/icon-source-url-disabled.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.bgm"] {
+	image:url(":/images/bgm/icon-source-bgm-disable.svg");
+}
+QLabel#sourceIconLabel[type="invisible.valid.unselect.chat"] {
+	image: url(":/images/icon-source-chat-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.valid.unselect.giphy"] {
+	image:url(":/images/giphy/icon-source-giphy.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.valid.select.giphy"] {
+	image:url(":/images/giphy/icon-source-select-giphy.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.invalid.unselect.giphy"] {
+	image:url(":/images/giphy/erroricon-source-giphy.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.invalid.select.giphy"] {
+	image:url(":/images/giphy/erroricon-source-giphy-select.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.giphy"] {
+	image:url(":/images/giphy/erroricon-source-giphy-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.invalid.select.giphy"] {
+	image:url(":/images/giphy/erroricon-source-giphy-select-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.valid.select.giphy"] {
+	image:url(":/images/giphy/icon-source-giphy-select-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.valid.unselect.giphy"] {
+	image:url(":/images/giphy/icon-source-giphy-disable.svg");
+}
+
+
+QLabel#sourceIconLabel[type="visible.valid.unselect.textmotion"] {
+	image:url(":/images/text-template/icon-source-texttemplate-normal.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.valid.select.textmotion"] {
+	image:url(":/images/text-template/icon-source-texttemplate-select.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.invalid.unselect.textmotion"] {
+	image:url(":/images/text-template/erroricon-source-texttemplate-normal.svg");
+}
+
+QLabel#sourceIconLabel[type="visible.invalid.select.textmotion"] {
+	image:url(":/images/text-template/erroricon-source-texttemplate-select-normal.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.invalid.unselect.textmotion"] {
+	image:url(":/images/text-template/erroricon-source-texttemplate-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.invalid.select.textmotion"] {
+	image:url(":/images/text-template/erroricon-source-texttemplate-select-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.valid.select.textmotion"] {
+	image:url(":/images/text-template/icon-source-texttemplate-select-disable.svg");
+}
+
+QLabel#sourceIconLabel[type="invisible.valid.unselect.textmotion"] {
+	image: url(":/images/text-template/icon-source-texttemplate-disable.svg");
+}
+
+
+SourceTreeItem #sourceRenameEditor {
+	padding-left:/*hdpi*/ 5px;
+	min-height:/*hdpi*/ 24px;
+	max-height:/*hdpi*/ 24px;
+}
+SourceTreeItem #sourceNameLabel {
+	min-width: /*hdpi*/ 40px;
+	min-height: /*hdpi*/ 38px;
+	font-size: /*hdpi*/ 14px;
+	color: #ffffff;
+	padding-left: /*hdpi*/ 5px;
+	font-weight: normal;
+}
+
+SourceTreeItem #sourceNameLabel[status="visible.unselect"]{
+	color: #ffffff;
+    font-weight: normal;
+}
+
+SourceTreeItem #sourceNameLabel[status="visible.select"]{
+	color: #effc35;
+    font-weight: bold;
+}
+
+SourceTreeItem #sourceNameLabel[status="invisible.unselect"]{
+	color: #666666;
+    font-weight: normal;
+}
+
+SourceTreeItem #sourceNameLabel[status="invisible.select"]{
+	color: #7a7f34;
+    font-weight: bold;
+}
+
+
+SourceTreeSubItemCheckBox {
+	background: transparent;
+	outline: none;
+	min-width: /*hdpi*/ 14px;
+	max-width: /*hdpi*/ 14px;
+	min-height: /*hdpi*/ 14px;
+	max-height: /*hdpi*/ 14px;
+}
+
+	SourceTreeSubItemCheckBox::indicator {
+		min-width: /*hdpi*/ 11px;
+		max-width: /*hdpi*/ 11px;
+		min-height: /*hdpi*/ 13px;
+		max-height: /*hdpi*/ 13px;
+	}
+
+SourceTreeSubItemCheckBox::indicator:checked,
+SourceTreeSubItemCheckBox::indicator:checked:hover {
+	image:url(":/images/ic-group-normal.svg");
+}
+
+SourceTreeSubItemCheckBox::indicator:unchecked,
+SourceTreeSubItemCheckBox::indicator:unchecked:hover {
+	image:url(":/images/ic-group-open-normal.svg");
+}
+
+SourceTreeItem #sourceIconViewCheckbox::indicator, SourceTreeItem #sourceLockCheckbox::indicator{
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+}
+
+
+LockedCheckBox {
+    outline: none;
+    background: transparent;
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+}
+
+LockedCheckBox::indicator:unchecked
+{
+	image:url(":/images/ic-source-unlock-normal.svg");
+}
+
+LockedCheckBox::indicator:unchecked:hover
+{
+	image:url(":/images/ic-source-unlock-over.svg");
+}
+
+LockedCheckBox::indicator:unchecked:pressed
+{
+	image:url(":/images/ic-source-unlock-click.svg");
+}
+
+LockedCheckBox::indicator:checked
+{
+	image:url(":/images/ic-source-lock-normal.svg");
+}
+
+LockedCheckBox::indicator:checked:hover
+{
+	image:url(":/images/ic-source-lock-over.svg");
+}
+
+LockedCheckBox::indicator:checked:pressed
+{
+	image:url(":/images/ic-source-lock-click.svg");
+}

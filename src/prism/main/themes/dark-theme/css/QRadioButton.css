@@ -1,0 +1,20 @@
+QRadioButton {
+	outline: none;
+	spacing: /*hdpi*/ 5px;
+}
+QRadioButton::indicator {
+	width: /*hdpi*/ 15px;
+	height: /*hdpi*/ 15px;
+}
+QRadioButton::indicator:checked {
+	image:url(":/images/radio-button-checked.svg");
+}
+QRadioButton::indicator:checked:disabled {
+	image:url(":/images/radio-button-checked-disable.svg");
+}
+QRadioButton::indicator:unchecked {
+	image:url(":/images/radio-button-unchecked.svg");
+}
+QRadioButton::indicator:unchecked:disabled {
+	image:url(":/images/radio-button-unchecked-disable.svg");
+}

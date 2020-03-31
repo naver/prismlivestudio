@@ -1,0 +1,74 @@
+NameDialog {
+    qproperty-minimumSize:/*hdpi*/410px/*hdpi*/243px;
+    qproperty-maximumSize:/*hdpi*/410px/*hdpi*/243px;
+}
+NameDialog #Ok{
+    qproperty-minimumSize:/*hdpi*/140px/*hdpi*/40px;
+    qproperty-maximumSize:/*hdpi*/140px/*hdpi*/40px;
+	padding: /*hdpi*/0px;
+	
+}
+NameDialog #Cancel{
+    qproperty-minimumSize:/*hdpi*/150px/*hdpi*/40px;
+    qproperty-maximumSize:/*hdpi*/150px/*hdpi*/40px;
+	padding: /*hdpi*/0px;margin: /*hdpi*/0 /*hdpi*/5px;
+}
+NameDialog #content{
+	min-height:/*hdpi*/ 203px;
+	max-height:/*hdpi*/ 203px;
+}
+
+NameDialog #titleLabel{
+	background: transparent;
+	min-height:/*hdpi*/ 20px;
+	max-height:/*hdpi*/ 20px;
+	font-size:/*hdpi*/ 14px;
+	color: #ffffff;
+}
+
+NameDialog QToolButton{
+    qproperty-minimumSize:/*hdpi*/22px/*hdpi*/22px;
+    qproperty-maximumSize:/*hdpi*/22px/*hdpi*/22px;
+}
+
+NameDialog #buttonBox{
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+}
+
+NameDialog #buttonBox QPushButton{
+    qproperty-minimumSize:/*hdpi*/140px/*hdpi*/40px;
+    qproperty-maximumSize:/*hdpi*/140px/*hdpi*/40px;
+	border-radius:/*hdpi*/ 3px;
+	background-color: #444444;
+	padding:/*hdpi*/0px;
+}
+
+NameDialog #userText{
+	background-color: #1e1e1f;
+	border-radius:/*hdpi*/ 3px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	font-size:/*hdpi*/ 14px;
+	color: #ffffff;
+}
+
+NameDialog #userText[status=editing]{
+	border:/*hdpi*/ 1px solid #effc35;
+}
+
+NameDialog #userText[status=editingFinish]{
+	border:/*hdpi*/ none;
+}
+
+NameDialog #buttonBox QPushButton:hover {
+    background-color: #555555;
+}
+
+NameDialog #buttonBox QPushButton:pressed {
+    background-color: #2d2d2d;
+}
+NameDialog #buttonBox QPushButton:disabled {
+    background-color: #444444;
+    color: #777777;
+}

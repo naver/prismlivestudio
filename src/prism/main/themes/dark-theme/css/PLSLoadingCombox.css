@@ -1,0 +1,34 @@
+
+PLSLoadingCombox #titleLabel {
+     font-size:/*hdpi*/ 14px;
+	 font-weight: normal;
+	 color: #ffffff;
+	 background-color: transparent;
+}
+
+PLSLoadingCombox #arrowLabel {
+	background-color: transparent;
+	min-width:/*hdpi*/ 11px;
+	max-width:/*hdpi*/ 11px;
+	min-height:/*hdpi*/ 6px;
+	max-height:/*hdpi*/ 6px;
+	padding-right:/*hdpi*/ 12px;
+	image:url(":/images/txt-dropbox-open-normal.svg");
+}
+
+PLSLoadingCombox {
+	background-color: #444444;
+	border-radius:/*hdpi*/ 3px;
+}
+
+PLSLoadingCombox:hover{
+	background-color: #555555;
+}
+
+PLSLoadingCombox:checked{
+	background-color: #222222;
+}
+
+PLSLoadingCombox:disabled {
+	background-color: #373737;
+}

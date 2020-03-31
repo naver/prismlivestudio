@@ -1,0 +1,34 @@
+PLSToastMsgFrame{
+	min-height: /*hdpi*/ 38px;
+	border-radius: /*hdpi*/ 3px;
+	border: /*hdpi*/ 1px solid #343435;
+	background-color: #1e1e1f;
+}
+
+PLSToastMsgFrame #toastMsgLabel{
+	color: #bababa;
+	font-size: /*hdpi*/ 12px;
+	font-weight: normal;
+	background:transparent;
+}
+
+PLSToastMsgFrame #toastMsgCloseBtn{
+	min-width: /*hdpi*/ 12px;
+	max-width: /*hdpi*/ 12px;
+	min-height: /*hdpi*/ 12px;
+	max-height: /*hdpi*/ 12px;
+	border-image: url(":/images/close-btn-s-normal@3x.png");
+	background: transparent;
+}
+
+PLSToastMsgFrame #toastMsgEdit{
+	border: none;
+	background:transparent;
+	color: #bababa;
+	font-size: /*hdpi*/ 12px;
+	font-weight: normal;
+	padding-top: /*hdpi*/5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}

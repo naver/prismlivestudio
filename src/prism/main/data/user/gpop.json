@@ -1,0 +1,89 @@
+{
+	"initialData": {
+		"rtmpDestination": [
+			{
+				"id": "twitch",
+				"streamName": "Twitch",
+				"rtmpUrl": "rtmp://live-sel.twitch.tv/app/",
+				"exposure": true,
+				"order": 1,
+				"hasResolutionLimit": false
+			},
+			{
+				"id": "youtube",
+				"streamName": "YouTube",
+				"rtmpUrl": "rtmp://a.rtmp.youtube.com/live2",
+				"exposure": true,
+				"order": 2,
+				"hasResolutionLimit": false
+			},
+			{
+				"id": "facebook",
+				"streamName": "Facebook",
+				"rtmpUrl": "rtmps://live-api-s.facebook.com:443/rtmp/",
+				"exposure": true,
+				"order": 3,
+				"hasResolutionLimit": false
+			},
+			{
+				"id": "navertv",
+				"streamName": "NAVER TV",
+				"rtmpUrl": "rtmp://stg-global-rtmp.livecloud.naver.com:8080/relay/",
+				"exposure": true,
+				"order": 4,
+				"hasResolutionLimit": true
+
+			},
+			{
+				"id": "band",
+				"streamName": "BAND",
+				"rtmpUrl": "rtmp://global-rtmp.lip2.navercorp.com:8080/relay",
+				"exposure": true,
+				"order": 5,
+				"hasResolutionLimit": true
+
+			},
+			{
+				"id": "now",
+				"streamName": "NOW",
+				"rtmpUrl": "rtmp://global-rtmp.lip2.navercorp.com:8080/relay/",
+				"exposure": true,
+				"order": 6,
+				"hasResolutionLimit": true
+			},
+			{
+				"id": "afreecatv",
+				"streamName": "afreecaTV",
+				"rtmpUrl": "rtmp://rtmpmanager-freecat.afreeca.tv/app/",
+				"exposure": true,
+				"order": 7,
+				"hasResolutionLimit": true
+			},
+			{
+				"id": "kakaotv",
+				"streamName": "kakaoTV",
+				"rtmpUrl": "rtmp://rtmp.play.kakao.com/kakaotv/",
+				"exposure": true,
+				"order": 8,
+				"hasResolutionLimit": false
+			},
+			{
+				"id": "vlive",
+				"streamName": "VLIVE",
+				"rtmpUrl": "rtmp://stg-global.rtmp.lip2.navercorp.com:8080/",
+				"exposure": false,
+				"order": 9,
+				"hasResolutionLimit": true
+				
+			},
+			{
+				"id": "periscope",
+				"streamName": "Periscope",
+				"rtmpUrl": "rtmp://kr.pscp.tv:80/x",
+				"exposure": false,
+				"order": 10,
+				"hasResolutionLimit": false
+			}
+		]
+	}
+}

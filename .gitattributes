@@ -1,0 +1,8 @@
+src/obs/deps/cef/win32/Debug/cef_sandbox.lib filter=lfs diff=lfs merge=lfs -text
+src/obs/deps/cef/win64/Debug/cef_sandbox.lib filter=lfs diff=lfs merge=lfs -text
+src/obs/deps/cef/win64/Release/cef_sandbox.lib filter=lfs diff=lfs merge=lfs -text
+src/obs/deps/cef/win32/Release/cef_sandbox.lib filter=lfs diff=lfs merge=lfs -text
+src/obs/deps/cef/win32/Release/libcef.dll filter=lfs diff=lfs merge=lfs -text
+src/obs/deps/cef/win64/Release/libcef.dll filter=lfs diff=lfs merge=lfs -text
+src/obs/deps/cef/win64/Debug/libcef.dll filter=lfs diff=lfs merge=lfs -text
+src/obs/deps/cef/win32/Debug/libcef.dll filter=lfs diff=lfs merge=lfs -text

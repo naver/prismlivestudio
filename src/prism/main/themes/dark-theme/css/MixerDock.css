@@ -1,0 +1,119 @@
+PLSDock#mixerDock {
+	min-width: /*hdpi*/ 186px;
+	min-height: /*hdpi*/ 218px;
+	qproperty-contentMarginLeft: /*hdpi*/ 1;
+	qproperty-contentMarginRight: /*hdpi*/ 1;
+	qproperty-contentMarginBottom: /*hdpi*/ 1;
+	background-color: #272727;
+}
+
+PLSDock#mixerDock PLSDockTitle{
+	qproperty-marginLeft:/*hdpi*/18;
+	qproperty-marginRight:/*hdpi*/8;
+	qproperty-contentSpacing:/*hdpi*/10;
+	qproperty-captionHeight:/*hdpi*/50;
+}
+
+PLSDock#mixerDock #content #dockWidgetContents_7,
+PLSDock#mixerDock #content #dockWidgetContents_7 #stackedMixerArea,
+PLSDock#mixerDock #content #dockWidgetContents_7 #stackedMixerArea #hMixerScrollArea {
+	border-bottom-left-radius:/*hdpi*/ 3px;
+	border-bottom-right-radius:/*hdpi*/ 3px;
+}
+
+PLSDock#mixerDock HScrollArea, PLSDock#mixerDock VScrollArea, PLSDock#mixerDock VolControl {
+	background-color: #272727;
+}
+PLSDock#mixerDock VolControl QToolButton {
+	border:/*hdpi*/ none;
+	border-image: none;
+	background-color: #272727;
+	min-width:/*hdpi*/ 22px;
+	max-width:/*hdpi*/ 22px;
+	min-height:/*hdpi*/ 22px;
+	max-height:/*hdpi*/ 22px;
+}
+PLSDock#mixerDock VolControl QToolButton:hover {
+	border-image: none;
+	background-color: #363636;
+}
+PLSDock#mixerDock VolControl QToolButton:pressed {
+	border-image: none;
+	background-color: #111111;
+}
+PLSDock#mixerDock PLSPopupMenu PLSPopupMenuItem QLabel {
+	background-color: transparent;
+}
+PLSDock#mixerDock PLSPopupMenu {
+	min-width:/*hdpi*/ 180px;
+	max-width:/*hdpi*/ 180px;
+}
+
+PLSDock#mixerDock PLSDockTitle #audioAdvanced {
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	background: transparent;
+	image: url(":/images/ic-setting-s-normal.svg");
+}
+PLSDock#mixerDock PLSDockTitle #audioAdvanced:hover {
+	background: transparent;
+	image: url(":/images/ic-setting-s-over.svg");
+}
+PLSDock#mixerDock PLSDockTitle #audioAdvanced:pressed
+{
+    	background:transparent;
+
+	image:url(":/images/ic-setting-s-click.svg");
+}
+PLSDock#mixerDock #audioAdvanced:disabled
+{
+	image:url(":/images/ic-setting-s-disable.svg");
+}
+
+/*audio master control start*/
+PLSDock#mixerDock #audioMasterControl[muteAllAudio=false] {
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	border-style: none;
+	image: url(":/images/icon-source-audio-normal-unmute.svg");
+}
+
+PLSDock#mixerDock #audioMasterControl:hover[muteAllAudio=false] {
+	background-color: #272727;
+	image: url(":/images/icon-source-audio-over-unmute.svg");
+}
+
+PLSDock#mixerDock #audioMasterControl:pressed[muteAllAudio=false] {
+	image: url(":/images/icon-source-audio-pressed-unmute.svg");
+}
+
+PLSDock#mixerDock #audioMasterControl:disabled[muteAllAudio=false] {
+	image: url(":/images/icon-source-audio-disable-unmute.svg");
+}
+
+PLSDock#mixerDock #audioMasterControl[muteAllAudio=true] {
+	min-width: /*hdpi*/ 22px;
+	max-width: /*hdpi*/ 22px;
+	min-height: /*hdpi*/ 22px;
+	max-height: /*hdpi*/ 22px;
+	border-style: none;
+	image: url(":/images/icon-source-audio-normal-mute.svg");
+}
+
+PLSDock#mixerDock #audioMasterControl:hover[muteAllAudio=true] {
+	background-color: #272727;
+	image: url(":/images/icon-source-audio-over-mute.svg");
+}
+
+PLSDock#mixerDock #audioMasterControl:pressed[muteAllAudio=true] {
+	image: url(":/images/icon-source-audio-pressed-mute.svg");
+}
+
+PLSDock#mixerDock #audioMasterControl:disabled[muteAllAudio=true] {
+	image: url(":/images/icon-source-audio-disable-mute.svg");
+}
+/*audio master control end*/

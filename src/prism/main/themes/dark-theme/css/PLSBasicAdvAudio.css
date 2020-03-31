@@ -1,0 +1,37 @@
+
+PLSBasicAdvAudio > #titleBar, PLSBasicAdvAudio > #titleBar > #titleLabel, PLSBasicAdvAudio > #titleBar > #maxres, PLSBasicAdvAudio > #titleBar > #close {
+    background-color: #2c2c2c;
+}
+
+PLSBasicAdvAudio PLSComboBox #advMonitoringType  QListView {
+	margin:/*hdpi*/0px;
+}
+
+PLSBasicAdvAudio #sourceNameLabel{
+	min-width:/*hdpi*/ 40px;
+	font-size:/*hdpi*/ 14px;
+	color: #ffffff;
+	padding-left:/*hdpi*/ 5px;
+    font-weight: normal;
+}
+
+PLSBasicAdvAudio QLabel#advLeftBalanceLabel,QLabel#advRightBalanceLabel {
+    color:#666666;
+	font-size:/*hdpi*/12px;
+    font-weight:bold;
+	min-width:/*hdpi*/7px;
+	max-width:/*hdpi*/7px;
+	min-height:/*hdpi*/16px;
+	max-height:/*hdpi*/16px;
+    background-color:transparent;
+}
+
+PLSBasicAdvAudio QLabel#advRightBalanceLabel {
+	min-width:/*hdpi*/8px;
+	max-width:/*hdpi*/8px;
+}
+
+PLSBasicAdvAudio QScrollArea#advScrollArea::handle {
+    subcontrol-origin: margin;
+    subcontrol-position: right top;
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="29" viewBox="0 0 29 29">
+    <defs>
+        <circle id="prefix__a" cx="12.5" cy="12.5" r="12.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(2 2)">
+        <mask id="prefix__b" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <circle cx="12.5" cy="12.5" r="13.5" stroke="#2C2C2C" stroke-width="2"/>
+        <text fill="#FFF" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" mask="url(#prefix__b)">
+            <tspan x="5" y="16">+</tspan>
+        </text>
+        <text fill="#FFF" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" mask="url(#prefix__b)">
+            <tspan x="12" y="17">4</tspan>
+        </text>
+    </g>
+</svg>

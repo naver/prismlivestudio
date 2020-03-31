@@ -1,0 +1,76 @@
+
+#PLSLivingMsgView
+{
+	min-width:/*hdpi*/300px;
+	min-height:/*hdpi*/400px;
+    qproperty-hasHLine:/*hdpi*/true;
+    qproperty-hasMinButton:/*hdpi*/false;
+}
+#PLSLivingMsgView > #label, #PLSLivingMsgView > #min, #PLSLivingMsgView > #close, #PLSLivingMsgView > #maxres {
+    background-color: #272727;
+}
+#PLSLivingMsgView > #contentBorder > #content {
+    background-color: #1e1e1f;
+}
+#PLSLivingMsgView QScrollArea
+{
+	border:/*hdpi*/none;
+}
+#PLSLivingMsgView #stackedWidget QWidget
+{
+	background-color: #1e1e1f;
+}
+#PLSLivingMsgView #labelNoMsgIcon
+{
+	min-width:/*hdpi*/90px;
+	max-width:/*hdpi*/90px;
+	min-height:/*hdpi*/90px;
+	max-height:/*hdpi*/90px;
+	image:url(":/images/ic-alert.svg");
+}
+#PLSLivingMsgView #label_NoMsgInfo
+{
+	min-width:/*hdpi*/139px;
+	max-width:/*hdpi*/139px;
+	min-height:/*hdpi*/18px;
+	max-height:/*hdpi*/18px;
+	font-size:/*hdpi*/ 14px;
+	font-weight: normal;
+	color: #666666;
+}
+
+PLSLivingMsgItem #label_icon
+{
+	margin-top:/*hdpi*/4px;
+	qproperty-minimumSize:/*hdpi*/15px/*hdpi*/19px;
+	qproperty-maximumSize:/*hdpi*/15px/*hdpi*/19px;
+	background-color:transparent;
+}
+
+PLSLivingMsgItem #label_icon[type="1"]
+{
+	image:url(":/images/icon-error-3.svg");
+}
+PLSLivingMsgItem #label_icon[type="2"]
+{
+	image:url(":/images/icon-replaybuffer.svg");
+}
+PLSLivingMsgItem #label_icon[type="3"]
+{
+	image:url(":/images/icon-noti.svg");
+}
+
+
+PLSLivingMsgItem #label_msg
+{
+	font-size:/*hdpi*/14px;
+	color:#ffffff;
+}
+PLSLivingMsgItem #label_time
+{
+	min-height:/*hdpi*/15px;
+	max-height:/*hdpi*/15px;
+	font-size:/*hdpi*/ 11px;
+  font-weight: normal;
+  color: #666666;
+}

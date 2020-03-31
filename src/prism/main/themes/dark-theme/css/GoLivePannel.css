@@ -1,0 +1,103 @@
+GoLivePannel {
+	background-color: transparent;
+	margin:/*hdpi*/15px/*hdpi*/12px/*hdpi*/16px/*hdpi*/12px;
+}
+
+GoLivePannel #GoLiveShift {
+	margin:/*hdpi*/0;
+	padding:/*hdpi*/0px;
+	border:/*hdpi*/ none;
+	border-image: none;
+	background-color: #effc35;
+	min-width:/*hdpi*/ 130px;
+	max-width:/*hdpi*/ 130px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	border-radius:/*hdpi*/ 3px;
+	font-family: "Segoe UI";
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	color: var(--black);
+	qproperty-maximumSize:/*hdpi*/130px/*hdpi*/40px;
+	qproperty-minimumSize:/*hdpi*/130px/*hdpi*/40px;
+}
+
+GoLivePannel #GoLiveShift:hover {
+	background-color: #f1fa75;
+}
+
+GoLivePannel #GoLiveShift:pressed {
+	background-color: #7a7f34;
+}
+
+GoLivePannel #GoLiveShift:disabled {
+	background-color: #444444;
+	color: #666666;
+}
+
+
+GoLivePannel #Record {
+	margin:/*hdpi*/0;
+	padding:/*hdpi*/0px;
+	border:/*hdpi*/ none;
+	border-image: none;
+	background-color: #444444;
+	min-width:/*hdpi*/ 60px;
+	max-width:/*hdpi*/ 60px;
+	min-height:/*hdpi*/ 40px;
+	max-height:/*hdpi*/ 40px;
+	border-radius:/*hdpi*/ 3px;
+	font-family: "Segoe UI";
+	font-size:/*hdpi*/ 14px;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	color: #ee2d45;
+}
+
+GoLivePannel #Record:hover {
+	background-color: #555555;
+}
+
+GoLivePannel #Record:pressed {
+	background-color: #2d2d2d;
+}
+
+GoLivePannel #Record:disabled {
+	background-color: #444444;
+	color: #666666;
+}
+
+GoLivePannel #Record:checked {
+	background-color: #c34151;
+	color: #ffffff;
+}
+
+GoLivePannel #Record:checked:hover {
+	background-color: #df5466;
+}
+
+GoLivePannel #Record:checked:pressed {
+	background-color: #a43442;
+}
+
+GoLivePannel #Record:checked:disabled {
+	background-color: #641d25;
+	color: #915f65;
+}
+
+GoLivePannel #GoLiveShift PLSAddingFrame {
+	padding: /*hdpi*/ 0px;
+	margin: /*hdpi*/ 0px;
+	min-width: /*hdpi*/ 130px;
+	max-width: /*hdpi*/ 130px;
+	min-height: /*hdpi*/ 40px;
+	max-height: /*hdpi*/ 40px;
+	border-radius: /*hdpi*/ 3px;
+	border: /*hdpi*/ none;
+	background-color: #effc35;
+	qproperty-maximumSize:/*hdpi*/130px/*hdpi*/40px;
+	qproperty-minimumSize:/*hdpi*/130px/*hdpi*/40px;
+}

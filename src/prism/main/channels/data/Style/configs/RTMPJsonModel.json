@@ -1,0 +1,11 @@
+{
+	"streamName":	"%1",
+	"rtmpUrl":	"%2",
+	"streamKey":	"%3",
+	"username":	"%4",
+	"description":	"%5",
+	"resolution":	"%6",
+	"bitrate":	%7,
+	"framerate":	%8,
+	"interval":	%9
+}
