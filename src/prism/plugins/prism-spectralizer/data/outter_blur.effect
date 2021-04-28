@@ -1,0 +1,89 @@
+uniform float4x4 ViewProj;
+uniform texture2d image;
+
+uniform float2 inv_size;
+uniform float blur_size;
+
+sampler_state textureSampler
+{
+	Filter = Linear;
+	AddressU = Clamp;
+	AddressV = Clamp;
+};
+
+struct VertDataIn {
+	float4 pos : POSITION;
+	float2 uv : TEXCOORD0;
+};
+
+struct VertDataOut {
+	float4 pos : POSITION;
+	float2 uv : TEXCOORD0;
+};
+
+VertDataOut VSOttorGlow(VertDataIn v_in)
+{
+	VertDataOut vert_out;
+	vert_out.pos = mul(float4(v_in.pos.xyz, 1.0), ViewProj);
+	vert_out.uv = v_in.uv;
+	return vert_out;
+}
+
+float GetColorAlpha(float angle, float dist, float2 uv)
+{
+	float radian = radians(angle);
+	float2 pos = uv + float2(dist * cos(radian) * inv_size.x, dist * sin(radian) * inv_size.y);
+	float4 color = image.Sample(textureSampler, pos);
+	return color.a;
+}
+
+float GetAverageAlpha(float dist, float2 uv)
+{
+	float totalAlpha = 0.0;
+	totalAlpha += GetColorAlpha(0.0, dist, uv);
+	totalAlpha += GetColorAlpha(30.0, dist, uv);
+	totalAlpha += GetColorAlpha(60.0, dist, uv);
+	totalAlpha += GetColorAlpha(90.0, dist, uv);
+	totalAlpha += GetColorAlpha(120.0, dist, uv);
+	totalAlpha += GetColorAlpha(150.0, dist, uv);
+	totalAlpha += GetColorAlpha(180.0, dist, uv);
+	totalAlpha += GetColorAlpha(210.0, dist, uv);
+	totalAlpha += GetColorAlpha(240.0, dist, uv);
+	totalAlpha += GetColorAlpha(270.0, dist, uv);
+	totalAlpha += GetColorAlpha(300.0, dist, uv);
+	totalAlpha += GetColorAlpha(330.0, dist, uv);
+	return totalAlpha * 0.0833;
+}
+
+float GetGlowAlpha(float2 uv)
+{
+	float glow_size = blur_size;
+	float totalAlpha = 0.0;
+	totalAlpha += GetAverageAlpha(glow_size * 0.1, uv);
+	totalAlpha += GetAverageAlpha(glow_size * 0.2, uv);
+	totalAlpha += GetAverageAlpha(glow_size * 0.3, uv);
+	totalAlpha += GetAverageAlpha(glow_size * 0.4, uv);
+	totalAlpha += GetAverageAlpha(glow_size * 0.5, uv);
+	totalAlpha += GetAverageAlpha(glow_size * 0.6, uv);
+	totalAlpha += GetAverageAlpha(glow_size * 0.7, uv);
+	totalAlpha += GetAverageAlpha(glow_size * 0.8, uv);
+	totalAlpha += GetAverageAlpha(glow_size * 0.9, uv);
+	totalAlpha += GetAverageAlpha(glow_size * 1.0, uv);
+	return totalAlpha * 0.1;
+}
+
+float4 PSOttorGlow(VertDataOut v_in) : TARGET
+{
+	float4 color = image.Sample(textureSampler, v_in.uv);
+	color.a = GetGlowAlpha(v_in.uv) * 0.6;
+	return color;
+}
+
+technique Draw
+{
+	pass
+	{
+		vertex_shader = VSOttorGlow(v_in);
+		pixel_shader = PSOttorGlow(v_in);
+	}
+}

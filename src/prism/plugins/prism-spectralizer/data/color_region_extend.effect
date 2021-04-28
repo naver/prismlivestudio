@@ -1,0 +1,85 @@
+uniform float4x4 ViewProj;
+uniform texture2d image;
+
+uniform float2 inv_size;
+uniform float blur_size;
+
+sampler_state textureSampler
+{
+	Filter = Linear;
+	AddressU = Clamp;
+	AddressV = Clamp;
+};
+
+struct VertDataIn {
+	float4 pos : POSITION;
+	float2 uv : TEXCOORD0;
+};
+
+struct VertDataOut {
+	float4 pos : POSITION;
+	float2 uv : TEXCOORD0;
+};
+
+VertDataOut VSExtend(VertDataIn v_in)
+{
+	VertDataOut vert_out;
+	vert_out.pos = mul(float4(v_in.pos.xyz, 1.0), ViewProj);
+	vert_out.uv = v_in.uv;
+	return vert_out;
+}
+
+float GetColorAlpha(float angle, float dist, float2 uv)
+{
+	float radian = radians(angle);
+	float2 pos = uv + float2(dist * cos(radian) * inv_size.x, dist * sin(radian) * inv_size.y);
+	float4 color = image.Sample(textureSampler, pos);
+	return color.a;
+}
+
+float GetAverageAlpha(float dist, float2 uv)
+{
+	float totalAlpha = 0.0;
+	for(int i = 0; i < 36; i++){
+		totalAlpha += GetColorAlpha(10.0 * i, dist, uv);
+		if(totalAlpha > 0.1){
+			return totalAlpha;
+		}
+	}
+	return totalAlpha;
+}
+
+float GetGlowAlpha(float2 uv)
+{
+	float totalAlpha = GetAverageAlpha(blur_size, uv);
+	return totalAlpha;
+}
+
+bool IsNeedToBeExtended(float2 uv)
+{
+	float alpha = GetGlowAlpha(uv);
+	if (alpha > 0) {
+		return true;
+	}
+	return false;
+}
+
+float4 PSExtend(VertDataOut v_in) : TARGET
+{
+	float4 org_color = image.Sample(textureSampler, v_in.uv);
+	bool blured = IsNeedToBeExtended(v_in.uv);
+	if (!blured) {
+		return org_color;
+	}
+	org_color.a = 1.0;
+	return org_color;
+}
+
+technique Draw
+{
+	pass
+	{
+		vertex_shader = VSExtend(v_in);
+		pixel_shader  = PSExtend(v_in);
+	}
+}

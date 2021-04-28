@@ -1,0 +1,106 @@
+uniform float4x4 ViewProj;
+uniform texture2d image;
+
+uniform float2 inv_size;
+uniform float blur_size;
+
+sampler_state textureSampler
+{
+	Filter = Linear;
+	AddressU = Clamp;
+	AddressV = Clamp;
+};
+
+struct VertDataIn {
+	float4 pos : POSITION;
+	float2 uv : TEXCOORD0;
+};
+
+struct VertDataOut {
+	float4 pos : POSITION;
+	float2 uv : TEXCOORD0;
+	float4 offs1 : TEXCOORD1;
+	float4 offs2 : TEXCOORD2;
+	float4 offs3 : TEXCOORD3;
+};
+
+VertDataOut VSGaussH(VertDataIn v_in)
+{
+	VertDataOut vert_out;
+	vert_out.pos = mul(float4(v_in.pos.xyz, 1.0), ViewProj);
+	vert_out.uv = v_in.uv;
+
+	float2 netFilterWidth = inv_size.xy * float2(1.0, 0.0) * blur_size;
+	float4 filter_width = float4(netFilterWidth.x, netFilterWidth.y, netFilterWidth.x, netFilterWidth.y);
+	float4 coords = -filter_width * 3.0;
+
+	float4 uv_data = float4(v_in.uv.x, v_in.uv.y, v_in.uv.x, v_in.uv.y);
+	float4 coordOffs = {1.0, 1.0, -1.0, -1.0};
+	vert_out.offs1 = uv_data + coords * coordOffs;
+	coords += filter_width;
+	vert_out.offs2 = uv_data + coords * coordOffs;
+	coords += filter_width;
+	vert_out.offs3 = uv_data + coords * coordOffs;
+
+	return vert_out;
+}
+
+VertDataOut VSGaussV(VertDataIn v_in)
+{
+	VertDataOut vert_out;
+	vert_out.pos = mul(float4(v_in.pos.xyz, 1.0), ViewProj);
+	vert_out.uv = v_in.uv;
+
+	float2 netFilterWidth = inv_size.xy * float2(0.0, 1.0) * blur_size * 0.5;
+	float4 filter_width = float4(netFilterWidth.x, netFilterWidth.y, netFilterWidth.x, netFilterWidth.y);
+	float4 coords = -filter_width * 3.0;
+
+	float4 uv_data = float4(v_in.uv.x, v_in.uv.y, v_in.uv.x, v_in.uv.y);
+	float4 coordOffs = {1.0, 1.0, -1.0, -1.0};
+	vert_out.offs1 = uv_data + coords * coordOffs;
+	coords += filter_width;
+	vert_out.offs2 = uv_data + coords * coordOffs;
+	coords += filter_width;
+	vert_out.offs3 = uv_data + coords * coordOffs;
+
+	return vert_out;
+}
+
+float4 PSGauss(VertDataOut v_in) : TARGET
+{
+	//float weight[4] = {0.0205, 0.0855, 0.232, 0.324};
+	float weight[4] = {0.02, 0.08, 0.1, 0.8};
+	float2 uv = v_in.uv;
+
+	float4 org_color = image.Sample(textureSampler, uv);
+
+	float4 color = org_color * weight[3];
+
+	float4 color_a = image.Sample(textureSampler, v_in.offs1.xy);
+	float4 color_b = image.Sample(textureSampler, v_in.offs1.zw);
+	color += (color_a + color_b) * weight[0];
+
+	color_a = image.Sample(textureSampler, v_in.offs2.xy);
+	color_b = image.Sample(textureSampler, v_in.offs2.zw);
+	color += (color_a + color_b) * weight[1];
+
+	color_a = image.Sample(textureSampler, v_in.offs3.xy);
+	color_b = image.Sample(textureSampler, v_in.offs3.zw);
+	color += (color_a + color_b) * weight[2];
+
+	return color;
+}
+
+technique Draw
+{
+	pass 0
+	{
+		vertex_shader = VSGaussH(v_in);
+		pixel_shader = PSGauss(v_in);
+	}
+	pass 1
+	{
+		vertex_shader = VSGaussV(v_in);
+		pixel_shader = PSGauss(v_in);
+	}
+}
